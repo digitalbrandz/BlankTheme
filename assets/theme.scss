@@ -2430,7 +2430,7 @@ select {
           appearance: none;
   background-position: right center;
   background: {
-    image: url(//cdn.shopify.com/s/files/1/0526/5883/1518/t/2/assets/ico-select.svg);
+    image: url(//cdn.shopify.com/s/files/1/0498/0932/6245/t/3/assets/ico-select.svg);
     repeat: no-repeat;
     position: right 10px center;
     color: transparent;
@@ -6483,13 +6483,13 @@ $color-blankstate-background: #e1e1e1;
   background-color: transparent;
   border: none;
   width: auto;
-  background-image: url(//cdn.shopify.com/s/files/1/0526/5883/1518/t/2/assets/ico-select.svg);
+  background-image: url(//cdn.shopify.com/s/files/1/0498/0932/6245/t/3/assets/ico-select.svg);
   background-size: 12px;
   font-style: normal;
 
   .toolbar__item & {
     color: $colorNavText;
-    background-image: url(//cdn.shopify.com/s/files/1/0526/5883/1518/t/2/assets/ico-select-menu.svg);
+    background-image: url(//cdn.shopify.com/s/files/1/0498/0932/6245/t/3/assets/ico-select-menu.svg);
 
     @include media-query($medium-up) {
       @include baseSmallFontStack;
@@ -6498,7 +6498,7 @@ $color-blankstate-background: #e1e1e1;
 
   .is-light & {
     color: $colorStickyNavLinks;
-    background-image: url(//cdn.shopify.com/s/files/1/0526/5883/1518/t/2/assets/ico-select-white.svg);
+    background-image: url(//cdn.shopify.com/s/files/1/0498/0932/6245/t/3/assets/ico-select-white.svg);
   }
 
   &:hover,
@@ -6508,18 +6508,18 @@ $color-blankstate-background: #e1e1e1;
 
   .header-item & {
     color: $colorNavText;
-    background-image: url(//cdn.shopify.com/s/files/1/0526/5883/1518/t/2/assets/ico-select-menu.svg);
+    background-image: url(//cdn.shopify.com/s/files/1/0498/0932/6245/t/3/assets/ico-select-menu.svg);
   }
 
   .is-light .header-item & {
     color: $colorStickyNavLinks;
-    background-image: url(//cdn.shopify.com/s/files/1/0526/5883/1518/t/2/assets/ico-select-white.svg);
+    background-image: url(//cdn.shopify.com/s/files/1/0498/0932/6245/t/3/assets/ico-select-white.svg);
   }
 
   .currency-picker--drawer & {
     padding-top: 5px;
     padding-bottom: 5px;
-    background-image: url(//cdn.shopify.com/s/files/1/0526/5883/1518/t/2/assets/ico-select-drawer.svg);
+    background-image: url(//cdn.shopify.com/s/files/1/0498/0932/6245/t/3/assets/ico-select-drawer.svg);
     border: 1px solid $colorDrawerBorder;
   }
 }
@@ -9070,7 +9070,7 @@ $collectionHeroSmall: 250px;
 
 .grid--collection.unload {
   min-height: 180px;
-  background: transparent url(//cdn.shopify.com/s/files/1/0526/5883/1518/t/2/assets/ajax-loader.gif) center 150px no-repeat;
+  background: transparent url(//cdn.shopify.com/s/files/1/0498/0932/6245/t/3/assets/ajax-loader.gif) center 150px no-repeat;
 
   .grid__item {
     opacity: 0;
