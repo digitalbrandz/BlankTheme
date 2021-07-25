@@ -55,7 +55,7 @@
         href="/"
         itemprop="url"
         class="site-header__logo-link{% if block.settings.logo-inverted %} logo--has-inverted{% endif %}">
-        {% unless block.settings.logo-svg == nil %}
+        {% unless block.settings.logo-svg == null %}
           {{ block.settings.logo-svg }}
         {% else %}
         <img
