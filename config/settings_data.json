@@ -618,22 +618,77 @@
           "css": ""
         }
       },
-      "1626743735a70af065": {
-        "type": "featured-collection",
+      "1627178775216d0f68": {
+        "type": "featured-collections",
+        "blocks": {
+          "1627178775216d0f68-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "title": "",
+              "focal_point": "center center"
+            }
+          },
+          "1627178775216d0f68-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "title": "",
+              "focal_point": "center center"
+            }
+          },
+          "1627178775216d0f68-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "title": "",
+              "focal_point": "center center"
+            }
+          },
+          "1627178775216d0f68-3": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "title": "",
+              "focal_point": "center center"
+            }
+          },
+          "1627178775216d0f68-4": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "title": "",
+              "focal_point": "center center"
+            }
+          },
+          "1627178775216d0f68-5": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "title": "",
+              "focal_point": "center center"
+            }
+          }
+        },
+        "block_order": [
+          "1627178775216d0f68-0",
+          "1627178775216d0f68-1",
+          "1627178775216d0f68-2",
+          "1627178775216d0f68-3",
+          "1627178775216d0f68-4",
+          "1627178775216d0f68-5"
+        ],
         "settings": {
           "title": "",
-          "home_featured_products": "",
+          "divider": false,
           "per_row": 3,
-          "rows": 2,
-          "mobile_scrollable": true,
-          "view_all": true,
-          "divider": false
+          "enable_gutter": true
         }
       }
     },
     "content_for_index": [
       "16104564252dfa4d65",
-      "1626743735a70af065"
+      "1627178775216d0f68"
     ]
   },
   "presets": {
