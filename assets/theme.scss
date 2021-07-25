@@ -7902,6 +7902,14 @@ $shareButtonHeight: 18px;
   }
 }
 
+
+.image-with-content .image-wrap > * {
+ display:inline-block;
+}
+
+
+
+
 @include media-query($medium-up) {
   .feature-row__text--left {
     padding-left: $gutter * 2;
