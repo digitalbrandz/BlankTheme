@@ -145,12 +145,6 @@
               "link": ""
             }
           },
-          "6cbc61f3-7c65-4997-a7ac-152b64093089": {
-            "type": "css",
-            "settings": {
-              "css": ""
-            }
-          },
           "2fc235b8-07e9-402f-9b2e-adc3aa5f197c": {
             "type": "announcement",
             "settings": {
@@ -158,13 +152,19 @@
               "link_text": "",
               "link": ""
             }
+          },
+          "6cbc61f3-7c65-4997-a7ac-152b64093089": {
+            "type": "css",
+            "settings": {
+              "css": "header .site-nav__item {\ntext-transform:uppercase;\n}"
+            }
           }
         },
         "block_order": [
           "1524770014057",
           "1581783095451",
-          "6cbc61f3-7c65-4997-a7ac-152b64093089",
-          "2fc235b8-07e9-402f-9b2e-adc3aa5f197c"
+          "2fc235b8-07e9-402f-9b2e-adc3aa5f197c",
+          "6cbc61f3-7c65-4997-a7ac-152b64093089"
         ],
         "settings": {
           "main_menu_link_list": "main-menu",
