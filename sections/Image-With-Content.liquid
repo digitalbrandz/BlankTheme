@@ -105,6 +105,10 @@
          <div id="block-{{ block.id }}">
             <a class="btn" href="{{ block.settings.link }}" >{{ block.settings.label }}</a>
          </div>  
+        {% when 'Text' %}  
+         <div id="block-{{ block.id }}">
+           <div>{{ block.settings.text }}</div>
+         </div>        
       
         {% endcase %}
       {% endfor %} 
