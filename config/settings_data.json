@@ -735,6 +735,7 @@
           "width": 41,
           "layout": "right",
           "layout_mobile": "bottom",
+          "background": "shopify:\/\/shop_images\/model_bg.jpg",
           "css": ""
         }
       },
