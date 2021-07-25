@@ -5,9 +5,11 @@
         #block-{{ block.id }} {
          margin-top:{{ block.settings.topposition }}px;
          margin-bottom:{{ block.settings.bottomposition }}px;
+         text-align:{{ block.settings.layout }};
         }
         #block-{{ block.id }} img {
          width:{{ block.settings.width }}%;
+         display: inline-block;
        }
     {% endcase %}
 {% endfor %} 
