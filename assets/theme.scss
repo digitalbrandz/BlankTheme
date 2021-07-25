@@ -7909,7 +7909,9 @@ $shareButtonHeight: 18px;
 .image-with-content .feature-row__item .image-wrap {
 background:none;
 }
-
+image-with-content .feature-row__item {
+min-width:0;
+}
 
 
 @include media-query($medium-up) {
