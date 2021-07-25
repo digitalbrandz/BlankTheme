@@ -713,6 +713,16 @@
               "bottomposition": 15
             }
           },
+          "02200c3d-a9b7-468c-95fb-c4db3920674b": {
+            "type": "Text",
+            "settings": {
+              "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>",
+              "color": "#000000",
+              "layout": "center",
+              "topposition": 15,
+              "bottomposition": 15
+            }
+          },
           "ddcaee9b-7d61-49be-bf20-977477032e1a": {
             "type": "Button",
             "settings": {
@@ -728,6 +738,7 @@
         },
         "block_order": [
           "78518949-fbc2-42f7-b31e-30aca7467e1e",
+          "02200c3d-a9b7-468c-95fb-c4db3920674b",
           "ddcaee9b-7d61-49be-bf20-977477032e1a"
         ],
         "settings": {
