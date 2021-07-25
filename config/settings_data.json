@@ -701,10 +701,26 @@
       },
       "16272279876ee01b15": {
         "type": "Image-With-Content",
+        "blocks": {
+          "78518949-fbc2-42f7-b31e-30aca7467e1e": {
+            "type": "Image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/model_text.png",
+              "url": "",
+              "image_width": 100,
+              "layout": "center",
+              "topposition": 15,
+              "bottomposition": 15
+            }
+          }
+        },
+        "block_order": [
+          "78518949-fbc2-42f7-b31e-30aca7467e1e"
+        ],
         "settings": {
           "image": "shopify:\/\/shop_images\/model.png",
           "width": 41,
-          "alignment": "left",
+          "layout": "left",
           "css": ""
         }
       },
