@@ -707,13 +707,27 @@
           "alignment": "left",
           "css": ""
         }
+      },
+      "1627227995e9b13669": {
+        "type": "text-and-image",
+        "settings": {
+          "image_width": 500,
+          "subtitle": "Improved",
+          "title": "Image with text",
+          "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+          "button_label": "Optional button",
+          "button_link": "",
+          "layout": "left",
+          "divider": false
+        }
       }
     },
     "content_for_index": [
       "16104564252dfa4d65",
       "1627178775216d0f68",
       "1627225792f544f839",
-      "16272279876ee01b15"
+      "16272279876ee01b15",
+      "1627227995e9b13669"
     ]
   },
   "presets": {
