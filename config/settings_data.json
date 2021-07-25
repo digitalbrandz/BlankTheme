@@ -131,9 +131,10 @@
             "type": "logo",
             "settings": {
               "logo": "shopify:\/\/shop_images\/after_12_logo_ff8ea544-4d60-44cd-a55f-baa238dcecb6.jpg",
+              "logo-inverted": "shopify:\/\/shop_images\/after_12_logo_ff8ea544-4d60-44cd-a55f-baa238dcecb6.jpg",
               "logo-svg": "",
-              "desktop_logo_width": 60,
-              "mobile_logo_width": 40
+              "desktop_logo_width": 150,
+              "mobile_logo_width": 100
             }
           },
           "1581783095451": {
@@ -167,7 +168,7 @@
         ],
         "settings": {
           "main_menu_link_list": "main-menu",
-          "main_menu_alignment": "left-center",
+          "main_menu_alignment": "center",
           "header_style": "sticky-hide",
           "sticky_index": false,
           "above_announcement": true,
