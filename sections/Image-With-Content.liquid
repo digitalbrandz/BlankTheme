@@ -7,9 +7,8 @@
          margin-bottom:{{ block.settings.bottomposition }}px;
          text-align:{{ block.settings.layout }};
         }
-        #block-{{ block.id }} img {
+        #block-{{ block.id }} > * {
          width:{{ block.settings.width }}%;
-         display: inline-block;
        }
     {% endcase %}
 {% endfor %} 
