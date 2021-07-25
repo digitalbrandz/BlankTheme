@@ -82,8 +82,8 @@
         {% endif %}
       
         {% when 'Button' %} 
-         <div id="block-{{ block.id }}" class="btn">
-            <a href="{{ block.settings.link }}" >{{ block.settings.label }}</a>
+         <div id="block-{{ block.id }}">
+            <a class="btn" href="{{ block.settings.link }}" >{{ block.settings.label }}</a>
          </div>  
       
         {% endcase %}
