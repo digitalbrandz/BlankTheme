@@ -71,6 +71,11 @@
           </div>
         {% endif %}
       
+        {% when 'Button' %} 
+         <div id="block-{{ block.id }}" class="btn">
+            <a href="{{ block.settings.link }}" >{{ block.settings.label }}</a>
+         </div>  
+      
         {% endcase %}
       {% endfor %} 
       
