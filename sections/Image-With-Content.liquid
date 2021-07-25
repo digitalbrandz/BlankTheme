@@ -2,7 +2,7 @@
 {% if section.settings.divider %}<div class="section--divider">{% endif %}
 
 <div class="page-width">
-  {% capture image_layout %}test
+  {% capture image_layout %}
     <div class="feature-row__item">
       <div style="margin: 0 auto; max-width: {{ section.settings.image_width }}px;">
         {% if section.settings.image != blank %}
@@ -83,7 +83,7 @@
      }, 
 {
    "type":      "radio",
-   "id":        "alignment",
+   "id":        "layout",
    "label":     "Alignment",
    "options": [
      { "value": "left", "label": "Left" },
