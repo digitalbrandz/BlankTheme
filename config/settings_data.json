@@ -706,7 +706,8 @@
             "type": "Image",
             "settings": {
               "image": "shopify:\/\/shop_images\/model_text.png",
-              "image_width": 100,
+              "link": "",
+              "width": 46,
               "layout": "left",
               "topposition": 15,
               "bottomposition": 15
