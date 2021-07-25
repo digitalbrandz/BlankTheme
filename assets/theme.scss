@@ -7912,6 +7912,9 @@ background:none;
 .image-with-content .feature-row__item {
 min-width:0;
 }
+.image-with-content .feature-row {
+    justify-content: center;
+}
 
 
 @include media-query($medium-up) {
