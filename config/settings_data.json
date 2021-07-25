@@ -707,8 +707,8 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/model_text.png",
               "link": "",
-              "width": 46,
-              "layout": "left",
+              "width": 100,
+              "layout": "center",
               "topposition": 15,
               "bottomposition": 15
             }
