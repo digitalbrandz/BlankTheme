@@ -684,11 +684,24 @@
           "per_row": 3,
           "enable_gutter": true
         }
+      },
+      "1627225792f544f839": {
+        "type": "featured-collection",
+        "settings": {
+          "title": "NEW ARRIVALS",
+          "home_featured_products": "new-arrivals",
+          "per_row": 4,
+          "rows": 2,
+          "mobile_scrollable": true,
+          "view_all": true,
+          "divider": false
+        }
       }
     },
     "content_for_index": [
       "16104564252dfa4d65",
-      "1627178775216d0f68"
+      "1627178775216d0f68",
+      "1627225792f544f839"
     ]
   },
   "presets": {
