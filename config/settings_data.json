@@ -682,7 +682,8 @@
           "title": "",
           "divider": false,
           "per_row": 3,
-          "enable_gutter": true
+          "enable_gutter": true,
+          "css": "#shopify-section-1627178775216d0f68 {\n    margin: 0px 0;\n    padding:75px 0px;\nbackground: rgb(211,205,212);\nbackground: linear-gradient(180deg, rgba(211,205,212,1) 0%, rgba(255,255,255,1) 100%);\n}"
         }
       },
       "1627225792f544f839": {
