@@ -130,7 +130,62 @@
         "type": "html",
         "label": "Custom CSS"
 }],"blocks": [
-
+    {
+     "type": "Image",
+     "name": "Image",
+     "settings" : [
+{
+       "id": "image",
+       "type": "image_picker",
+       "label": "Model Image PNG! (Optional)"
+},
+{
+        "id": "url",
+        "type": "url",
+        "label": "Link to"
+},
+  {
+    "type":   "range",
+    "id":     "image_width",
+    "min":       10,
+    "max":       100,
+    "step":     1,
+    "unit":      "%",
+    "label":     "Width",
+    "default":   100
+     },
+{
+   "type":      "radio",
+   "id":        "layout",
+   "label":     "Alignment",
+   "options": [
+     { "value": "center", "label": "Center" },
+     { "value": "left", "label": "Left" },
+     { "value": "right", "label": "Right" }
+   ],
+   "default":   "center"
+},
+      {
+    "type":   "range",
+    "id":     "topposition",
+    "min":       0,
+    "max":       60,
+    "step":     1,
+    "unit":      "px",
+    "label":     "Position from Top",
+    "default":   15
+     },
+     {
+    "type":   "range",
+    "id":     "bottomposition",
+    "min":       0,
+    "max":       60,
+    "step":     1,
+    "unit":      "px",
+    "label":     "Position from Bottom",
+    "default":   15
+     }]
+}
 ],
   "presets": [
     {
