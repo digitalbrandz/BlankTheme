@@ -7906,7 +7906,9 @@ $shareButtonHeight: 18px;
 .image-with-content .feature-row__item .image-wrap > * {
  display:inline-block;
 }
-
+.image-with-content .feature-row__item .image-wrap {
+background:none;
+}
 
 
 
