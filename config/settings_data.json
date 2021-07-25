@@ -130,23 +130,16 @@
           "1524770014057": {
             "type": "logo",
             "settings": {
+              "logo": "shopify:\/\/shop_images\/after_12_logo_ff8ea544-4d60-44cd-a55f-baa238dcecb6.jpg",
               "logo-svg": "",
               "desktop_logo_width": 60,
               "mobile_logo_width": 40
             }
           },
-          "1581783054725": {
-            "type": "announcement",
-            "settings": {
-              "text": "FREE SHIPPING OVER $150",
-              "link_text": "USE CODE \"FREESHIP\"",
-              "link": ""
-            }
-          },
           "1581783095451": {
             "type": "announcement",
             "settings": {
-              "text": "YOU MAY EXPERIENCE SHIPPING DELAYS DUE TO COVID-19",
+              "text": "Download APP today to save 20% on your order",
               "link_text": "",
               "link": ""
             }
@@ -156,13 +149,21 @@
             "settings": {
               "css": ""
             }
+          },
+          "2fc235b8-07e9-402f-9b2e-adc3aa5f197c": {
+            "type": "announcement",
+            "settings": {
+              "text": "Try our BUY NOW & PAY LATER @ Checkout",
+              "link_text": "",
+              "link": ""
+            }
           }
         },
         "block_order": [
           "1524770014057",
-          "1581783054725",
           "1581783095451",
-          "6cbc61f3-7c65-4997-a7ac-152b64093089"
+          "6cbc61f3-7c65-4997-a7ac-152b64093089",
+          "2fc235b8-07e9-402f-9b2e-adc3aa5f197c"
         ],
         "settings": {
           "main_menu_link_list": "main-menu",
