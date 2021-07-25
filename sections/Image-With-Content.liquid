@@ -22,25 +22,26 @@
   {% for block in section.blocks %}
   {% case block.type %}
     {% when 'Image' %}
-        #block-{{ block.id }} {
-         margin-top:{{ block.settings.topposition }}px;
-         margin-bottom:{{ block.settings.bottomposition }}px;
-         text-align:{{ block.settings.layout }};
-        }
         #block-{{ block.id }} > * {
          width:{{ block.settings.width }}%;
        }
     {% when 'Button' %} 
+       #block-{{ block.id }} > * {
+         background-color:{{ block.settings.background }};
+         color:{{ block.settings.color }};
+       }
+ {% when 'Text' %} 
+      #block-{{ block.id }} {
+
+
+      }
+
+    {% endcase %}
        #block-{{ block.id }} {
          margin-top:{{ block.settings.topposition }}px;
          margin-bottom:{{ block.settings.bottomposition }}px;
          text-align:{{ block.settings.layout }};
         }
-       #block-{{ block.id }} > * {
-         background-color:{{ block.settings.background }};
-         color:{{ block.settings.color }};
-       }
-    {% endcase %}
 {% endfor %} 
 {% endstyle %}
 
