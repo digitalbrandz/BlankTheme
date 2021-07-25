@@ -716,11 +716,10 @@
           "ddcaee9b-7d61-49be-bf20-977477032e1a": {
             "type": "Button",
             "settings": {
-              "label": "Click Here",
-              "link": "",
+              "label": "Shop Accessories",
+              "link": "shopify:\/\/collections\/accessories",
               "color": "#ffffff",
               "background": "#000000",
-              "fontsize": 20,
               "layout": "center",
               "topposition": 15,
               "bottomposition": 15
@@ -734,7 +733,8 @@
         "settings": {
           "image": "shopify:\/\/shop_images\/model.png",
           "width": 41,
-          "layout": "left",
+          "layout": "right",
+          "layout_mobile": "bottom",
           "css": ""
         }
       },
