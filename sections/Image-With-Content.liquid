@@ -1,5 +1,8 @@
 {% style %}
   
+   #shopify-section-{{ section.id }} .feature-row .feature-row__item  {
+    flex: 0 1 {{ section.settings.width }}%;
+   }
    {% if section.settings.background != blank %}
      #shopify-section-{{ section.id }} {
      overflow: hidden; 
@@ -45,7 +48,7 @@
 
 <div class="page-width">
   {% capture image_layout %}
-    <div class="feature-row__item">
+    <div class="feature-row__item main">
       <div style="margin: 0 auto; max-width: {{ section.settings.image_width }}px;">
         {% if section.settings.image != blank %}
           {% if section.settings.button_label != blank and section.settings.button_link != blank %}<a href="{{ section.settings.button_link }}">{% endif %}
