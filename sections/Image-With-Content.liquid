@@ -32,10 +32,8 @@
        }
  {% when 'Text' %} 
       #block-{{ block.id }} {
-
-
+        color:{{ block.settings.color }};
       }
-
     {% endcase %}
        #block-{{ block.id }} {
          margin-top:{{ block.settings.topposition }}px;
