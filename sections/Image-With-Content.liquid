@@ -4,8 +4,8 @@
     {% when 'Image' %}
         #block-{{ block.id }} {
          width:{{ block.settings.width }}%;
-         margin-top:{{ block.settings.topposition }}%;
-         margin-bottom:{{ block.settings.bottomposition }}%;
+         margin-top:{{ block.settings.topposition }}px;
+         margin-bottom:{{ block.settings.bottomposition }}px;
         }
     {% endcase %}
 {% endfor %} 
