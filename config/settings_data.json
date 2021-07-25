@@ -710,6 +710,7 @@
       },
       "1627227995e9b13669": {
         "type": "text-and-image",
+        "disabled": true,
         "settings": {
           "image_width": 500,
           "subtitle": "Improved",
