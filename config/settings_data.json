@@ -732,7 +732,7 @@
         ],
         "settings": {
           "image": "shopify:\/\/shop_images\/model.png",
-          "width": 54,
+          "width": 56,
           "layout": "left",
           "layout_mobile": "bottom",
           "background": "shopify:\/\/shop_images\/model_bg.jpg",
