@@ -3,10 +3,12 @@
   {% case block.type %}
     {% when 'Image' %}
         #block-{{ block.id }} {
-         width:{{ block.settings.width }}%;
          margin-top:{{ block.settings.topposition }}px;
          margin-bottom:{{ block.settings.bottomposition }}px;
         }
+        #block-{{ block.id }} img {
+         width:{{ block.settings.width }}%;
+       }
     {% endcase %}
 {% endfor %} 
 {% endstyle %}
