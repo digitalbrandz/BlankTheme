@@ -1,3 +1,15 @@
+{% style %}
+  {% for block in section.blocks %}
+  {% case block.type %}
+    {% when 'Image' %}
+        #{{ block.id }} {
+         width:{{ block.settings.width }}%;
+         margin-top:{{ block.settings.topposition }}%;
+         margin-bottom:{{ block.settings.bottomposition }}%;
+        }
+    {% endcase %}
+{% endfor %} 
+{% endstyle %}
 
 {% if section.settings.divider %}<div class="section--divider">{% endif %}
 
