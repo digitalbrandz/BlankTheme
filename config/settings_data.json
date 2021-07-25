@@ -695,14 +695,25 @@
           "rows": 2,
           "mobile_scrollable": true,
           "view_all": true,
-          "divider": false
+          "divider": false,
+          "css": ""
+        }
+      },
+      "16272279876ee01b15": {
+        "type": "Image-With-Content",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/model.png",
+          "width": 41,
+          "alignment": "left",
+          "css": ""
         }
       }
     },
     "content_for_index": [
       "16104564252dfa4d65",
       "1627178775216d0f68",
-      "1627225792f544f839"
+      "1627225792f544f839",
+      "16272279876ee01b15"
     ]
   },
   "presets": {
