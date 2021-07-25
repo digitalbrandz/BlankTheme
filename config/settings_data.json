@@ -712,10 +712,24 @@
               "topposition": 15,
               "bottomposition": 15
             }
+          },
+          "ddcaee9b-7d61-49be-bf20-977477032e1a": {
+            "type": "Button",
+            "settings": {
+              "label": "Click Here",
+              "link": "",
+              "color": "#ffffff",
+              "background": "#000000",
+              "fontsize": 20,
+              "layout": "center",
+              "topposition": 15,
+              "bottomposition": 15
+            }
           }
         },
         "block_order": [
-          "78518949-fbc2-42f7-b31e-30aca7467e1e"
+          "78518949-fbc2-42f7-b31e-30aca7467e1e",
+          "ddcaee9b-7d61-49be-bf20-977477032e1a"
         ],
         "settings": {
           "image": "shopify:\/\/shop_images\/model.png",

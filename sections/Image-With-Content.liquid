@@ -10,6 +10,16 @@
         #block-{{ block.id }} > * {
          width:{{ block.settings.width }}%;
        }
+    {% when 'Button' %} 
+       #block-{{ block.id }} {
+         margin-top:{{ block.settings.topposition }}px;
+         margin-bottom:{{ block.settings.bottomposition }}px;
+         text-align:{{ block.settings.layout }};
+        }
+       #block-{{ block.id }} > * {
+         background-color:{{ block.settings.background }};
+         color:{{ block.settings.color }};
+       }
     {% endcase %}
 {% endfor %} 
 {% endstyle %}
