@@ -34,6 +34,10 @@
       #block-{{ block.id }} {
         color:{{ block.settings.color }};
       }
+
+     #block-{{ block.id }} .featured-row__subtext {
+      text-align:{{ block.settings.layout }};
+     }
     {% endcase %}
        #block-{{ block.id }} {
          margin-top:{{ block.settings.topposition }}px;
