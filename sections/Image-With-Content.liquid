@@ -1,11 +1,36 @@
 {% schema %}
+
   {
     "name": "Image With Content",
     "settings": [
 {
+ "type": "header",
+ "content": "Image Settings"
+},
+{
        "id": "image",
        "type": "image_picker",
        "label": "Image"
+},
+ {
+    "type":   "range",
+    "id":     "width",
+    "min":       10,
+    "max":       100,
+    "step":     1,
+    "unit":      "%",
+    "label":     "Width",
+    "default":   50
+     }, 
+{
+   "type":      "radio",
+   "id":        "alignment",
+   "label":     "Alignment",
+   "options": [
+     { "value": "left", "label": "Left" },
+     { "value": "right", "label": "Right" }
+   ],
+   "default":   "left"
 },
 {
  "type": "header",
