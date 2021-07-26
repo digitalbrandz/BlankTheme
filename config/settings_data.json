@@ -761,7 +761,7 @@
           "f34ca9d1-960e-4dba-8d07-e00b8d1ed95b": {
             "type": "HTML",
             "settings": {
-              "html": "<span>GUARANTEED YOU WILL <span class=\"test_title\">L<\/span><span class=\"ove\">OVE<\/span><\/span>",
+              "html": "<div>\n<span>GUARANTEED YOU WILL <span class=\"test_title\">L<\/span><span class=\"ove\">OVE<\/span><\/span>\n<\/div>",
               "topposition": 15,
               "bottomposition": 15
             }
