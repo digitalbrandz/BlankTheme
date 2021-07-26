@@ -51,6 +51,7 @@
 
 <div class="page-width">
   {% capture image_layout %}
+   {% if section.settings.mp4 == 'left' %}
     <div class="feature-row__item main" data-aos-delay="700"  {% if section.settings.layout == 'right' %} data-aos="fade-left" {% else %}data-aos="fade-right" {% endif %} data-aos-duration="700"
     data-aos-easing="ease-out-cubic">
       <div style="margin: 0 auto; max-width: {{ section.settings.image_width }}px;">
@@ -73,6 +74,7 @@
         {% endif %}
       </div>
     </div>
+   {% endif %}
   {% endcapture %}
 
   <div class="feature-row" data-aos>
@@ -153,9 +155,8 @@
        "type": "image_picker",
        "label": "Image"
 },
-
 {
-       "id": "mp4_url",
+       "id": "mp4",
        "type": "url",
        "label": "mp4 preview (Optional)"
 },
