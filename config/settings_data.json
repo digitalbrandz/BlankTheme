@@ -766,6 +766,16 @@
               "bottomposition": 15
             }
           },
+          "9bc3cd35-5256-4fea-934a-fca346be7c45": {
+            "type": "Text",
+            "settings": {
+              "text": "<p>Checkout the LOOKBOOK videos of upcoking styles<\/p>",
+              "color": "#000000",
+              "layout": "center",
+              "topposition": 15,
+              "bottomposition": 15
+            }
+          },
           "2a4ab68a-06cf-4ecb-a831-8bbe8c30e0bf": {
             "type": "Button",
             "settings": {
@@ -781,6 +791,7 @@
         },
         "block_order": [
           "f34ca9d1-960e-4dba-8d07-e00b8d1ed95b",
+          "9bc3cd35-5256-4fea-934a-fca346be7c45",
           "2a4ab68a-06cf-4ecb-a831-8bbe8c30e0bf"
         ],
         "settings": {
