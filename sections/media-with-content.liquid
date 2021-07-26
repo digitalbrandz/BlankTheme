@@ -1,12 +1,408 @@
+{% style %}
+  
+   #shopify-section-{{ section.id }} .feature-row .feature-row__item.main  {
+    flex: 0 1 {{ section.settings.width }}%;
+   }
+   {% if section.settings.background != blank %}
+     #shopify-section-{{ section.id }} {
+     overflow: hidden; 
+     background-size: cover;
+     background-position: center;
+      background-image:url({{ section.settings.background | img_url: '1024x1024' }});
+     }
+   {% endif %}
+
+   {% if section.settings.layout_mobile == 'bottom' %}
+   @media (max-width:960px) {
+     #shopify-section-{{ section.id }} .feature-row {
+           flex-flow: column-reverse;
+     }
+  }
+ {% endif %}
+  {% for block in section.blocks %}
+  {% case block.type %}
+    {% when 'Image' %}
+        #block-{{ block.id }} > * {
+         width:{{ block.settings.width }}%;
+       }
+    {% when 'Button' %} 
+       #block-{{ block.id }} > * {
+         background-color:{{ block.settings.background }};
+         color:{{ block.settings.color }};
+       }
+ {% when 'Text' %} 
+      #block-{{ block.id }} {
+        color:{{ block.settings.color }};
+      }
+
+     #block-{{ block.id }} .featured-row__subtext {
+      text-align:{{ block.settings.layout }};
+     }
+    {% endcase %}
+       #block-{{ block.id }} {
+         margin-top:{{ block.settings.topposition }}px;
+         margin-bottom:{{ block.settings.bottomposition }}px;
+         text-align:{{ block.settings.layout }};
+        }
+{% endfor %} 
+{% endstyle %}
+
+{% if section.settings.divider %}<div class="section--divider">{% endif %}
+
+<div class="page-width">
+  {% capture image_layout %}
+    <div class="feature-row__item main" data-aos-delay="700"  {% if section.settings.layout == 'right' %} data-aos="fade-left" {% else %}data-aos="fade-right" {% endif %} data-aos-duration="700"
+    data-aos-easing="ease-out-cubic">
+      <div style="margin: 0 auto; max-width: {{ section.settings.image_width }}px;">
+        {% if section.settings.image != blank %}
+          {% if section.settings.button_label != blank and section.settings.button_link != blank %}<a href="{{ section.settings.button_link }}">{% endif %}
+          <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: section.settings.image.aspect_ratio }}%;">
+            {%- assign img_url = section.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+            <img class="feature-row__image lazyload"
+                data-src="{{ img_url }}"
+                data-widths="[180, 360, 540, 720, 900, 1080]"
+                data-aspectratio="{{ section.settings.image.aspect_ratio }}"
+                data-sizes="auto"
+                alt="{{ section.settings.image.alt }}">
+          </div>
+          {% if section.settings.button_label != blank and section.settings.button_link != blank %}</a>{% endif %}
+        {% else %}
+          <div class="image-wrap">
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  {% endcapture %}
+
+  <div class="feature-row" data-aos>
+    {% if section.settings.layout == 'left' %}
+      {{ image_layout }}
+    {% endif %}
+
+    <div class="feature-row__item feature-row__text feature-row__text--{{ section.settings.layout }}">
+      {% assign delay = 800 %}
+      {% for block in section.blocks %}
+       {% case block.type %}
+        {% when 'Image' %}
+      
+      
+        {% if block.settings.image != blank %}
+          {% if block.settings.link != blank %}<a href="{{ block.settings.link }}">{% endif %}
+          <div data-aos-delay="{{ delay }}" {% if section.settings.layout == 'right' %} data-aos="fade-right"  {% else %}data-aos="fade-left" {% endif %} data-aos-duration="700"
+    data-aos-easing="ease-out-cubic" id="block-{{ block.id }}" class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.image.aspect_ratio }}%;">
+            {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+            <img class="feature-row__image lazyload"
+                data-src="{{ img_url }}"
+                data-widths="[180, 360, 540, 720, 900, 1080]"
+                data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+                data-sizes="auto"
+                alt="{{ block.settings.image.alt }}">
+          </div>
+          {% if block.settings.link != blank %}</a>{% endif %}
+        {% else %}
+          <div data-aos-delay="{{ delay }}" {% if section.settings.layout == 'right' %} data-aos="fade-right"  {% else %}data-aos="fade-left" {% endif %} data-aos-duration="700"
+    data-aos-easing="ease-out-cubic"  class="image-wrap">
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+          </div>
+        {% endif %}
+      
+        {% when 'Button' %} 
+         <div data-aos-delay="{{ delay }}" {% if section.settings.layout == 'right' %} data-aos="fade-right"  {% else %}data-aos="fade-left" {% endif %} data-aos-duration="700"
+    data-aos-easing="ease-out-cubic"  id="block-{{ block.id }}">
+            <a class="btn" href="{{ block.settings.link }}" >{{ block.settings.label }}</a>
+         </div>  
+        {% when 'Text' %}  
+         <div data-aos-delay="{{ delay }}" {% if section.settings.layout == 'right' %} data-aos="fade-right"  {% else %}data-aos="fade-left" {% endif %} data-aos-duration="700"
+    data-aos-easing="ease-out-cubic"  id="block-{{ block.id }}">
+          <div class="rte featured-row__subtext">{{ block.settings.text }}</div>
+         </div>        
+        {% when 'HTML' %}  
+        <div data-aos-delay="{{ delay }}" {% if section.settings.layout == 'right' %} data-aos="fade-right"  {% else %}data-aos="fade-left" {% endif %} data-aos-duration="700"
+    data-aos-easing="ease-out-cubic"  id="block-{{ block.id }}">
+          {{ block.settings.html }}
+        </div>  
+      
+        {% endcase %}
+        {% assign delay = delay | plus: 200 %}
+      {% endfor %} 
+      
+    </div>
+
+    {% if section.settings.layout == 'right' %}
+      {{ image_layout }}
+    {% endif %}
+  </div>
+</div>
+
+{% if section.settings.divider %}</div>{% endif %}
+
+
 {% schema %}
+
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Media With Content",
+    "class": "media-with-content",
+    "settings": [
+{
+ "type": "header",
+ "content": "Image Settings"
+},
+{
+       "id": "image",
+       "type": "image_picker",
+       "label": "Image"
+},
+ {
+    "type":   "range",
+    "id":     "width",
+    "min":       10,
+    "max":       100,
+    "step":     1,
+    "unit":      "%",
+    "label":     "Width",
+    "default":   50
+     }, 
+{
+   "type":      "radio",
+   "id":        "layout",
+   "label":     "Alignment",
+   "options": [
+     { "value": "left", "label": "Left" },
+     { "value": "right", "label": "Right" }
+   ],
+   "default":   "left"
+},
+{
+   "type":      "radio",
+   "id":        "layout_mobile",
+   "label":     "Mobile Alignment",
+   "options": [
+     { "value": "top", "label": "Top" },
+     { "value": "bottom", "label": "Bottom" }
+   ],
+   "default":   "top"
+},
+{
+       "id": "background",
+       "type": "image_picker",
+       "label": "Background Image"
+},
+{
+ "type": "header",
+ "content": "Additional Custom CSS"
+},
+{
+        "id": "css",
+        "type": "html",
+        "label": "Custom CSS"
+}],"blocks": [
+    {
+     "type": "Image",
+     "name": "Image",
+     "settings" : [
+{
+       "id": "image",
+       "type": "image_picker",
+       "label": "Image"
+},
+{
+        "id": "link",
+        "type": "url",
+        "label": "Link"
+},
+  {
+    "type":   "range",
+    "id":     "width",
+    "min":       10,
+    "max":       100,
+    "step":     1,
+    "unit":      "%",
+    "label":     "Width",
+    "default":   100
+     },
+{
+   "type":      "radio",
+   "id":        "layout",
+   "label":     "Alignment",
+   "options": [
+     { "value": "center", "label": "Center" },
+     { "value": "left", "label": "Left" },
+     { "value": "right", "label": "Right" }
+   ],
+   "default":   "center"
+},
+      {
+    "type":   "range",
+    "id":     "topposition",
+    "min":       0,
+    "max":       60,
+    "step":     1,
+    "unit":      "px",
+    "label":     "Position from Top",
+    "default":   15
+     },
+     {
+    "type":   "range",
+    "id":     "bottomposition",
+    "min":       0,
+    "max":       60,
+    "step":     1,
+    "unit":      "px",
+    "label":     "Position from Bottom",
+    "default":   15
+     }]
+},
+ {
+     "type": "Button",
+     "name": "Button",
+     "settings" : [
+{
+       "id": "link",
+       "type": "url",
+       "label": "Link"
+},
+{
+       "id": "label",
+       "type": "text",
+       "label": "Label",
+       "default": "Click Here"
+},
+{
+       "id": "color",
+       "type": "color",
+       "label": "Color",
+       "default": "#ffffff"
+},
+{
+       "id": "background",
+       "type": "color",
+       "label": "Background Color",
+       "default": "#000000"
+},
+{
+   "type":      "radio",
+   "id":        "layout",
+   "label":     "Alignment",
+   "options": [
+     { "value": "center", "label": "Center" },
+     { "value": "left", "label": "Left" },
+     { "value": "right", "label": "Right" }
+   ],
+   "default":   "center"
+},
+      {
+    "type":   "range",
+    "id":     "topposition",
+    "min":       0,
+    "max":       60,
+    "step":     1,
+    "unit":      "px",
+    "label":     "Position from Top",
+    "default":   15
+     },
+     {
+    "type":   "range",
+    "id":     "bottomposition",
+    "min":       0,
+    "max":       60,
+    "step":     1,
+    "unit":      "px",
+    "label":     "Position from Bottom",
+    "default":   15
+     }]
+},
+ {
+     "type": "Text",
+     "name": "Text",
+     "settings" : [
+{
+       "id": "text",
+       "type": "richtext",
+       "label": "Text"
+},
+{
+       "id": "color",
+       "type": "color",
+       "label": "Color",
+       "default": "#000000"
+},
+{
+   "type":      "radio",
+   "id":        "layout",
+   "label":     "Alignment",
+   "options": [
+     { "value": "center", "label": "Center" },
+     { "value": "left", "label": "Left" },
+     { "value": "right", "label": "Right" }
+   ],
+   "default":   "center"
+},
+      {
+    "type":   "range",
+    "id":     "topposition",
+    "min":       0,
+    "max":       60,
+    "step":     1,
+    "unit":      "px",
+    "label":     "Position from Top",
+    "default":   15
+     },
+     {
+    "type":   "range",
+    "id":     "bottomposition",
+    "min":       0,
+    "max":       60,
+    "step":     1,
+    "unit":      "px",
+    "label":     "Position from Bottom",
+    "default":   15
+     }]
+},
+ {
+     "type": "HTML",
+     "name": "HTML (Advanced)",
+     "settings" : [
+{
+       "id": "html",
+       "type": "html",
+       "label": "HTML"
+},
+      {
+    "type":   "range",
+    "id":     "topposition",
+    "min":       0,
+    "max":       60,
+    "step":     1,
+    "unit":      "px",
+    "label":     "Position from Top",
+    "default":   15
+     },
+     {
+    "type":   "range",
+    "id":     "bottomposition",
+    "min":       0,
+    "max":       60,
+    "step":     1,
+    "unit":      "px",
+    "label":     "Position from Bottom",
+    "default":   15
+     }]
+}
+],
+  "presets": [
+    {
+      "name": "Image With Content",
+      "category": "z Designer"
+    }
+  ]
   }
 {% endschema %}
 
-{% stylesheet %}
+{% stylesheet 'scss' %}
+
 {% endstylesheet %}
 
 {% javascript %}
-{% endjavascript %}
+
+{% endjavascript %}                                                  
