@@ -101,21 +101,25 @@
           </div>
           {% if block.settings.link != blank %}</a>{% endif %}
         {% else %}
-          <div class="image-wrap">
+          <div data-aos-delay="{{ delay }}" {% if section.settings.layout == 'right' %} data-aos="fade-right"  {% else %}data-aos="fade-left" {% endif %} data-aos-duration="700"
+    data-aos-easing="ease-out-cubic"  class="image-wrap">
             {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
           </div>
         {% endif %}
       
         {% when 'Button' %} 
-         <div id="block-{{ block.id }}">
+         <div data-aos-delay="{{ delay }}" {% if section.settings.layout == 'right' %} data-aos="fade-right"  {% else %}data-aos="fade-left" {% endif %} data-aos-duration="700"
+    data-aos-easing="ease-out-cubic"  id="block-{{ block.id }}">
             <a class="btn" href="{{ block.settings.link }}" >{{ block.settings.label }}</a>
          </div>  
         {% when 'Text' %}  
-         <div id="block-{{ block.id }}">
+         <div data-aos-delay="{{ delay }}" {% if section.settings.layout == 'right' %} data-aos="fade-right"  {% else %}data-aos="fade-left" {% endif %} data-aos-duration="700"
+    data-aos-easing="ease-out-cubic"  id="block-{{ block.id }}">
           <div class="rte featured-row__subtext">{{ block.settings.text }}</div>
          </div>        
         {% when 'HTML' %}  
-        <div id="block-{{ block.id }}">
+        <div data-aos-delay="{{ delay }}" {% if section.settings.layout == 'right' %} data-aos="fade-right"  {% else %}data-aos="fade-left" {% endif %} data-aos-duration="700"
+    data-aos-easing="ease-out-cubic"  id="block-{{ block.id }}">
           {{ block.settings.html }}
         </div>  
       
