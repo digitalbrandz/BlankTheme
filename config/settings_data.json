@@ -765,10 +765,23 @@
               "topposition": 15,
               "bottomposition": 15
             }
+          },
+          "2a4ab68a-06cf-4ecb-a831-8bbe8c30e0bf": {
+            "type": "Button",
+            "settings": {
+              "link": "shopify:\/\/pages\/lookbook",
+              "label": "See Lookbook",
+              "color": "#ffffff",
+              "background": "#000000",
+              "layout": "center",
+              "topposition": 15,
+              "bottomposition": 15
+            }
           }
         },
         "block_order": [
-          "f34ca9d1-960e-4dba-8d07-e00b8d1ed95b"
+          "f34ca9d1-960e-4dba-8d07-e00b8d1ed95b",
+          "2a4ab68a-06cf-4ecb-a831-8bbe8c30e0bf"
         ],
         "settings": {
           "mp4": "https:\/\/cdn.shopify.com\/s\/files\/1\/0498\/0932\/6245\/files\/After12vid.mp4?v=1611792059",
