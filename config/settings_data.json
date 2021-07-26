@@ -222,6 +222,42 @@
           "css": ".footer__logo img {\nmax-width:100%;\nwidth:auto;\nheight:auto;\n}"
         }
       },
+      "Video-Lookbook": {
+        "type": "Video-Lookbook",
+        "blocks": {
+          "1602432192569": {
+            "type": "Video",
+            "settings": {
+              "title": "The Butterfly Effect",
+              "video": "https:\/\/youtu.be\/GZ-Uxz5wm9Q",
+              "image": ""
+            }
+          },
+          "1602432836394": {
+            "type": "Video",
+            "settings": {
+              "title": "Race Car Themed Styles",
+              "video": "https:\/\/youtu.be\/KPBRBtJd9Xo",
+              "image": "shopify:\/\/shop_images\/PLATES_FRONT_TIE_TOP_AND_PANTS_SET_IVY.jpeg"
+            }
+          },
+          "1602912079943": {
+            "type": "Video",
+            "settings": {
+              "title": "Polka Dot Collection",
+              "video": "https:\/\/youtu.be\/MUCgA_a3nn4",
+              "image": ""
+            }
+          }
+        },
+        "block_order": [
+          "1602432192569",
+          "1602432836394",
+          "1602912079943"
+        ],
+        "settings": {
+        }
+      },
       "collection-template": {
         "type": "collection-template",
         "settings": {
