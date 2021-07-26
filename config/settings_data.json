@@ -754,6 +754,29 @@
           "background": "shopify:\/\/shop_images\/model_bg.jpg",
           "css": ""
         }
+      },
+      "162726179905a85bf1": {
+        "type": "media-with-content",
+        "blocks": {
+          "f34ca9d1-960e-4dba-8d07-e00b8d1ed95b": {
+            "type": "HTML",
+            "settings": {
+              "html": "<span>GUARANTEED YOU WILL <span class=\"test_title\">L<\/span><span class=\"ove\">OVE<\/span><\/span>",
+              "topposition": 15,
+              "bottomposition": 15
+            }
+          }
+        },
+        "block_order": [
+          "f34ca9d1-960e-4dba-8d07-e00b8d1ed95b"
+        ],
+        "settings": {
+          "mp4": "",
+          "width": 50,
+          "layout": "left",
+          "layout_mobile": "top",
+          "css": ""
+        }
       }
     },
     "content_for_index": [
@@ -761,6 +784,7 @@
       "1627178775216d0f68",
       "1627225792f544f839",
       "1627227995e9b13669",
+      "162726179905a85bf1",
       "162726070141cca103"
     ]
   },
