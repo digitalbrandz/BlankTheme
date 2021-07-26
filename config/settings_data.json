@@ -196,7 +196,7 @@
             "type": "newsletter",
             "settings": {
               "show_footer_title": true,
-              "title": "JOIN SPERGO",
+              "title": "JOIN AFTER12",
               "text": "<p>Become part of the of the movement. Stay up to date with exclusive deals and product releases.<\/p>",
               "container_width": 46
             }
@@ -226,7 +226,7 @@
         "settings": {
           "show_payment_icons": true,
           "show_copyright": true,
-          "copyright_text": "© COPYRIGHT 2019 SPERGO ALL RIGHTS RESERVED."
+          "copyright_text": "© COPYRIGHT 2019 After12 Fashions ALL RIGHTS RESERVED."
         }
       },
       "collection-template": {
