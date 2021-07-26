@@ -801,7 +801,7 @@
           "layout": "right",
           "layout_mobile": "top",
           "background": "shopify:\/\/shop_images\/testi_bg.jpg",
-          "css": ""
+          "css": "#block-f34ca9d1-960e-4dba-8d07-e00b8d1ed95b {\ntext-align:center;\n    font-family: 'texgyreadventorbold';\n}"
         }
       }
     },
