@@ -750,7 +750,7 @@
           "youtube_url": "",
           "width": 50,
           "layout": "left",
-          "layout_mobile": "top",
+          "layout_mobile": "bottom",
           "background": "shopify:\/\/shop_images\/model_bg.jpg",
           "css": ""
         }
