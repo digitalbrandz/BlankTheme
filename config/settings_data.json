@@ -746,7 +746,7 @@
         ],
         "settings": {
           "image": "shopify:\/\/shop_images\/model.png",
-          "mp4_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0498\/0932\/6245\/files\/After12vid.mp4?v=1611792059",
+          "mp4": "https:\/\/cdn.shopify.com\/s\/files\/1\/0498\/0932\/6245\/files\/After12vid.mp4?v=1611792059",
           "youtube_url": "https:\/\/youtu.be\/KPBRBtJd9Xo",
           "width": 50,
           "layout": "left",
