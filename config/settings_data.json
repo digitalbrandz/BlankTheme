@@ -769,7 +769,7 @@
           "9bc3cd35-5256-4fea-934a-fca346be7c45": {
             "type": "Text",
             "settings": {
-              "text": "<p>Checkout the LOOKBOOK videos of upcoking styles<\/p>",
+              "text": "<p>Checkout the LOOKBOOK videos of upcoming styles<\/p>",
               "color": "#000000",
               "layout": "center",
               "topposition": 15,
@@ -801,7 +801,7 @@
           "layout": "right",
           "layout_mobile": "top",
           "background": "shopify:\/\/shop_images\/testi_bg.jpg",
-          "css": "#block-f34ca9d1-960e-4dba-8d07-e00b8d1ed95b {\ntext-align:center;\n    font-family: 'texgyreadventorbold';\n    -webkit-background-clip: text!important;\n    -webkit-text-fill-color: transparent;\n    background: -webkit-linear-gradient(to right, #999999, #f5f4f4, #999999, #edebe7, #999999);\n    background: linear-gradient(to right,#999999, #f5f4f4, #999999, #edebe7, #999999);\n    filter: drop-shadow(2px 2px 0px #00000057);\n}\n#block-f34ca9d1-960e-4dba-8d07-e00b8d1ed95b .test_title {\n    font-family: 'keshyaregular';\n}\n#block-f34ca9d1-960e-4dba-8d07-e00b8d1ed95b .ove {\n    font-family: 'texgyreadventorbold';\n}"
+          "css": "#block-f34ca9d1-960e-4dba-8d07-e00b8d1ed95b {\n    font-size: 65px;\ntext-align:center;\n    font-family: 'texgyreadventorbold';\n    -webkit-background-clip: text!important;\n    -webkit-text-fill-color: transparent;\n    background: -webkit-linear-gradient(to right, #999999, #f5f4f4, #999999, #edebe7, #999999);\n    background: linear-gradient(to right,#999999, #f5f4f4, #999999, #edebe7, #999999);\n    filter: drop-shadow(2px 2px 0px #00000057);\n}\n#block-f34ca9d1-960e-4dba-8d07-e00b8d1ed95b .test_title {\n    font-family: 'keshyaregular';\n}\n#block-f34ca9d1-960e-4dba-8d07-e00b8d1ed95b .ove {\n    font-family: 'texgyreadventorbold';\n}"
         }
       }
     },
