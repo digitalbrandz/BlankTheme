@@ -773,8 +773,9 @@
         "settings": {
           "mp4": "",
           "width": 50,
-          "layout": "left",
+          "layout": "right",
           "layout_mobile": "top",
+          "background": "shopify:\/\/shop_images\/testi_bg.jpg",
           "css": ""
         }
       }
