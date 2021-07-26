@@ -43,7 +43,7 @@
          margin-top:{{ block.settings.topposition }}px;
          margin-bottom:{{ block.settings.bottomposition }}px;
       {% unless block.type == 'HTML' %}
-         text-align:{{ block.settings.layout }};
+         text-align:{{ block.settings.layout }}{{ block.type }};
       {% endunless %}
         }
 {% endfor %} 
