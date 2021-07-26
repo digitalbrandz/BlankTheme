@@ -205,7 +205,7 @@
             "type": "logo_social",
             "settings": {
               "logo": "shopify:\/\/shop_images\/after_12_logo_white.png",
-              "desktop_logo_height": 48,
+              "desktop_logo_height": 120,
               "container_width": 15
             }
           }
