@@ -1,3 +1,10 @@
+{% style %}
+{% if section.settings.css != nil %}
+{% assign css = section.settings.css | replace: '&gt;','>' %}
+{{ css }}
+{% endif %}
+{% endstyle %}
+
 <footer class="site-footer">
   <div class="page-width">
 
