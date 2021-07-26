@@ -47,6 +47,11 @@
       {% endunless %}
         }
 {% endfor %} 
+
+{% if section.settings.css != nil %}
+{% assign css = section.settings.css | replace: '&gt;','>' %}
+{{ css }}
+{% endif %}
 {% endstyle %}
 
 {% if section.settings.divider %}<div class="section--divider">{% endif %}
