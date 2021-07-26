@@ -63,7 +63,7 @@
     "swatch_style": "round",
     "product_video_width": "960",
     "product_video_height": "1280",
-    "product_video_style": "muted",
+    "product_video_style": "unmuted",
     "product_content_1": "",
     "product_content_collapse_1": true,
     "product_content_2": "",
