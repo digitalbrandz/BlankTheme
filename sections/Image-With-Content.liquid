@@ -89,7 +89,7 @@
       
         {% if block.settings.image != blank %}
           {% if block.settings.link != blank %}<a href="{{ block.settings.link }}">{% endif %}
-          <div data-aos-delay="800"  {% if section.settings.layout == 'right' %} data-aos="fade-left" {% else %}data-aos="fade-right" {% endif %} data-aos-duration="700"
+          <div data-aos-delay="800"  {% if section.settings.layout == 'right' %} data-aos="fade-right"  {% else %}data-aos="fade-left" {% endif %} data-aos-duration="700"
     data-aos-easing="ease-out-cubic" id="block-{{ block.id }}" class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.image.aspect_ratio }}%;">
             {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
             <img class="feature-row__image lazyload"
