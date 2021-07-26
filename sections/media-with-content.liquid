@@ -42,7 +42,9 @@
        #block-{{ block.id }} {
          margin-top:{{ block.settings.topposition }}px;
          margin-bottom:{{ block.settings.bottomposition }}px;
+      {% unless block.type == 'Html' %}
          text-align:{{ block.settings.layout }};
+      {% endunless %}
         }
 {% endfor %} 
 {% endstyle %}
