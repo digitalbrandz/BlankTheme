@@ -60,7 +60,7 @@
 <div class="page-width">
   {% capture image_layout %}
    {% unless section.settings.mp4 != blank %}
-    <div class="feature-row__item main" data-aos-delay="700"  {% if section.settings.layout == 'right' %} data-aos="fade-left" {% else %}data-aos="fade-right" {% endif %} data-aos-duration="700"
+    <div class="feature-row__item main"   {% if section.settings.layout == 'right' %} data-aos="fade-left" {% else %}data-aos="fade-right" {% endif %} data-aos-duration="700"
     data-aos-easing="ease-out-cubic">
       <div style="margin: 0 auto; max-width: {{ section.settings.image_width }}px;">
         {% if section.settings.image != blank %}
@@ -84,7 +84,7 @@
     </div>
    {% else %}
     <div style="margin: 0 auto;">
-    <div class="feature-row__item main" data-aos-delay="700"  {% if section.settings.layout == 'right' %} data-aos="fade-left" {% else %}data-aos="fade-right" {% endif %} data-aos-duration="700"
+    <div class="feature-row__item main"   {% if section.settings.layout == 'right' %} data-aos="fade-left" {% else %}data-aos="fade-right" {% endif %} data-aos-duration="700"
     data-aos-easing="ease-out-cubic">  
          <video playsinline="" autoplay="" preload="auto" loop="loop" muted="muted" onclick="event.preventDefault();">
             <source src="{{ section.settings.mp4 }}" type="video/mp4">
@@ -100,7 +100,7 @@
     {% endif %}
 
     <div class="feature-row__item feature-row__text feature-row__text--{{ section.settings.layout }}">
-      {% assign delay = 800 %}
+      {% assign delay = 400 %}
       {% for block in section.blocks %}
        {% case block.type %}
         {% when 'Image' %}
