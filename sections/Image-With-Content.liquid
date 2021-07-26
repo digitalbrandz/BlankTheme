@@ -112,6 +112,7 @@
          <div id="block-{{ block.id }}">
           <div class="rte featured-row__subtext">{{ block.settings.text }}</div>
          </div>        
+        {% when 'HTML' %}  
       
         {% endcase %}
       {% endfor %} 
