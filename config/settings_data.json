@@ -204,7 +204,7 @@
           "de1b44a9-1bf2-4885-9b59-0df5275b6625": {
             "type": "logo_social",
             "settings": {
-              "logo": "shopify:\/\/shop_images\/after_12_logo_ff8ea544-4d60-44cd-a55f-baa238dcecb6.jpg",
+              "logo": "shopify:\/\/shop_images\/after_12_logo_white.png",
               "desktop_logo_height": 48,
               "container_width": 15
             }
@@ -218,7 +218,8 @@
         "settings": {
           "show_payment_icons": true,
           "show_copyright": true,
-          "copyright_text": "© COPYRIGHT 2019 After12 Fashions ALL RIGHTS RESERVED."
+          "copyright_text": "© COPYRIGHT 2019 After12 Fashions ALL RIGHTS RESERVED.",
+          "css": ""
         }
       },
       "collection-template": {
