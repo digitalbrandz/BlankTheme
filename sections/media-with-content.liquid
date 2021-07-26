@@ -146,12 +146,29 @@
     "settings": [
 {
  "type": "header",
- "content": "Image Settings"
+ "content": "Choose Media Type"
 },
 {
        "id": "image",
        "type": "image_picker",
        "label": "Image"
+},
+
+{
+       "id": "mp4_url",
+       "type": "url",
+       "label": "mp4 preview (Optional)"
+},
+{
+"id": "youtube_url",
+"type": "video_url",
+"accept": ["youtube"],
+"label": "Youtube URL",
+"info": "If left empty mute button will be shown instead for on page playback with sound"
+},
+{
+ "type": "header",
+ "content": "Media Settings"
 },
  {
     "type":   "range",
