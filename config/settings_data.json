@@ -189,7 +189,7 @@
             "settings": {
               "show_footer_title": false,
               "menu": "footer",
-              "container_width": 28
+              "container_width": 25
             }
           },
           "1494292487693": {
@@ -198,30 +198,22 @@
               "show_footer_title": true,
               "title": "JOIN AFTER12",
               "text": "<p>Become part of the of the movement. Stay up to date with exclusive deals and product releases.<\/p>",
-              "container_width": 46
+              "container_width": 58
             }
           },
-          "1572493089821": {
-            "type": "menu",
-            "settings": {
-              "show_footer_title": false,
-              "menu": "",
-              "container_width": 25
-            }
-          },
-          "1494301487048": {
+          "de1b44a9-1bf2-4885-9b59-0df5275b6625": {
             "type": "logo_social",
             "settings": {
-              "desktop_logo_height": 59,
-              "container_width": 95
+              "logo": "shopify:\/\/shop_images\/after_12_logo_ff8ea544-4d60-44cd-a55f-baa238dcecb6.jpg",
+              "desktop_logo_height": 48,
+              "container_width": 15
             }
           }
         },
         "block_order": [
           "1494301487049",
           "1494292487693",
-          "1572493089821",
-          "1494301487048"
+          "de1b44a9-1bf2-4885-9b59-0df5275b6625"
         ],
         "settings": {
           "show_payment_icons": true,
