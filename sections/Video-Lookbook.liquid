@@ -3,7 +3,7 @@
      {% case block.type %}
       {% when 'Video' %}
 
-   <div class="video large-4 medium-4 small-12 {% if forloop.first %}first{% endif %} ">
+   <div class="video grid__item small--one-half medium-up--one-third {% if forloop.first %}first{% endif %} ">
    {% case block.settings.video.type %}
       {% when 'youtube' %}
           <div class="inner">
