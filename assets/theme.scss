@@ -8801,7 +8801,6 @@ height: 0;
     border-radius: 5px;
    & img {
     width: 100%;
-    @include transition(transform, 0.3s);
    }
    .duration {
     position: absolute;
