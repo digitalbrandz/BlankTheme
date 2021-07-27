@@ -8718,6 +8718,159 @@ $z-index-hero-text: 4;
   }
 }
 
+
+/*================ Video Lookbook section ================*/
+
+
+#shopify-section-Video-Lookbook {
+margin-left: auto;
+margin-right: auto;
+position: relative;
+display: block;
+width: 100%;
+z-index: 0;
+padding: 30px 32px;
+
+@media (min-width: 1348px) {
+    padding-left: calc((100% - 1284px)/2);
+    padding-right: calc((100% - 1284px)/2);
+}
+@media (max-width: 1022px) {
+    padding:20px 15px;
+}
+ h2 {
+   font-weight:700;
+   font-family: 'Open Sans', sans-serif;
+font-size: 3rem;
+    letter-spacing: -.12rem;
+    padding: 0px 15px;
+@media (max-width: 1022px) {
+    font-size: 2rem;
+}
+ }
+ h3 {
+font-size: 16px;
+    padding: 0px 15px;
+    font-weight: normal;
+    line-height: 2;
+@media (max-width: 1022px) {
+font-size: 13px;
+}
+}
+
+
+.flex-video {
+height: 0;
+    margin-bottom: 0.88889rem;
+    overflow: hidden;
+    padding-bottom: 93.5%;
+    padding-top: 1.38889rem;
+    position: relative;
+}
+.flex-video iframe, .flex-video object, .flex-video embed, .flex-video video {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+.videos {
+    margin: 30px 0 0 0;
+@include bp(phablet) {
+    margin: 15px 0 0 0;
+}
+> * {
+    padding-right: .9375rem;
+    padding-left: .9375rem;
+}
+.video {
+&:hover {
+ img {
+   transform: scale(1.1);
+ }
+}
+.inner {
+    padding: 15px;
+.image {
+    position: relative;
+    height: 0;
+    padding-bottom: 56.7%;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    display:block;
+    border-radius: 5px;
+   & img {
+    width: 100%;
+    @include transition(transform, 0.3s);
+   }
+   .duration {
+    position: absolute;
+    z-index: 1;
+    bottom: 0px;
+    right: 0px;
+    color: #fff;
+    padding: 10px 20px;
+   }
+   .play {
+    bottom: 12px;
+    left: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    background-color: #fff;
+    border: 1px solid rgba(14,19,24,.07);
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    z-index:1;
+    span {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: text-bottom;
+    box-sizing: border-box;
+    }
+   }
+&:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+background: linear-gradient(0deg,rgba(14,19,24,.3) 0,transparent 50%);
+left: 0;
+    z-index: 0;
+}
+}
+.details {
+ h2 {
+font-size: 1rem;
+letter-spacing: 0rem;
+padding: 0px 0px;
+a {
+color:#000 ;
+}
+}
+}
+}
+
+
+&:not(.first) {
+ @include bp(phablet) {
+
+}
+}
+
+
+
+}
+}
+}
+
+
+
 /*================ Collection callout section ================*/
 
 .callout-images {
