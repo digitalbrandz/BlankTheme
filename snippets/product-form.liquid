@@ -46,12 +46,7 @@
     {% endif %}
   </div>
 
-{% if settings.quadpay %}    
-{% comment %} <!-- Insert QuadPay Widget --> {% endcomment %}
-<div style="margin: 0 0 10px 0; min-height: 20px;">
-  <quadpay-widget amount={{ variant.price | divided_by: 100.00 }}   breakpointAlignment="1022 center"></quadpay-widget>
-</div>       
-{% endif %}       
+
 
 
   {%- assign enable_dynamic_buttons = false -%}
