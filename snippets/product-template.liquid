@@ -120,6 +120,13 @@
                 {{ 'products.general.save_html' | t: saved_amount: saved_amount }}
               </span>
             {% endif %}
+            
+            {% if settings.quadpay %}    
+{% comment %} <!-- Insert QuadPay Widget --> {% endcomment %}
+<div style="margin: 0 0 10px 0; min-height: 20px;">
+  <quadpay-widget amount={{ variant.price | divided_by: 100.00 }}   breakpointAlignment="1022 center"></quadpay-widget>
+</div>       
+{% endif %}       
 
             {% if settings.inventory_enable %}
               <script>
