@@ -145,4 +145,19 @@
   {% if template contains 'product' or template contains 'cart' %}
     {% include 'recently-viewed-product-template' %}
   {% endif %}
+  
+  
+  {% if settings.quadpay %}  
+<!-- {% comment %} QuadPay: Older Browsers {% endcomment %} -->
+<script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.2.4/webcomponents-loader.js" type="application/javascript"></script>
+<script defer nomodule src="https://widgets.quadpay.com/es5/quadpay-widget-2.2.5.js" type="application/javascript"></script>
+<!-- {% comment %} QuadPay: Modern Browsers {% endcomment %} -->
+<script async src="https://widgets.quadpay.com/quadpay-widget-2.2.5.js" type="application/javascript"></script>  
+{% endif %}
+  
+  
+{% if settings.sezzlemerchantid != blank %}
+<script src="https://widget.sezzle.com/v1/javascript/price-widget?uuid={{ settings.sezzlemerchantid }}"></script>
+{% endif %}
+  
 </body> 
