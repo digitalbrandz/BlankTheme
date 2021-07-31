@@ -86,6 +86,11 @@
     <div style="margin: 0 auto;">
     <div class="feature-row__item main"   {% if section.settings.layout == 'right' %} data-aos="fade-left" {% else %}data-aos="fade-right" {% endif %} data-aos-duration="700"
     data-aos-easing="ease-out-cubic">  
+         {% if section.settings.youtube_url != blank %}
+      <a data-fancybox href="{{ section.settings.youtube_url }}"></a>
+         {% else %}
+      
+         {% endif %}
          <video playsinline="" autoplay="" preload="auto" loop="loop" muted="muted" onclick="event.preventDefault();">
             <source src="{{ section.settings.mp4 }}" type="video/mp4">
          </video>
