@@ -45,6 +45,13 @@
 
     <div class="feature-row__item feature-row__text feature-row__text--{{ block.settings.layout }}">
 
+
+        {% if block.settings.title != blank %}
+         <div id="block-{{ block.id }}">
+          <div class="rte featured-row__subtext">{{ block.settings.title }}</div>
+         </div>   
+         {% endif %}
+      
          {% if block.settings.content != blank %}
          <div id="block-{{ block.id }}">
           <div class="rte featured-row__subtext">{{ block.settings.content }}</div>
