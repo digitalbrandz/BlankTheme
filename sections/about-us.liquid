@@ -1,8 +1,30 @@
 {% style %}
 
+
+
 {% for block in section.blocks %}
   {% case block.type %}
      {% when 'Section' %}
+
+
+{% assign loadedfonts = '' %}    
+{% assign familyandweight = block.settings.font.family | append: block.settings.font.weight %}
+{% if loadedfonts contains familyandweight %}
+{% else %}
+  {{ block.settings.font | font_face }}  
+{% endif %}   
+{% assign loadedfonts = loadedfonts | append: block.settings.font.family | append: block.settings.font.weight | append: block.settings.font.style | append: '|' %}
+  
+#block-{{ block.id }} .featured-row__title {
+    font-family: {{ block.settings.font.family }}; 
+    font-weight:{{ block.settings.font.weight }}; 
+    font-style:{{ block.settings.font.style }};    
+    font-size:{{ block.settings.fontsize }}px;   
+}  
+  
+
+
+
 
  #block-{{ block.id }} .feature-row .feature-row__item.main  {
     flex: 0 1 {{ block.settings.width }}%;
