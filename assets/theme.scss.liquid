@@ -7999,8 +7999,15 @@ max-width: 1119px;
 }
 .shopify-section.featured-video {
 padding:75px 0;
-margin:0 auto;
+margin:0 auto;  
+@include media-query($medium-down) {  
+padding: 25.5px 0;
+  }
 }
+
+
+
+
 /*================ About Us ================*/
 #shopify-section-about-us {
   @include media-query($medium-up) {  
