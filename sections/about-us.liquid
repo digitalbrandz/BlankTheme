@@ -54,9 +54,9 @@ background:{{ block.settings.button_background }};
      {% unless block.settings.backgroundimage != blank %}
       #block-{{ block.id }} {
          {% if block.settings.layout_mobile == 'bottom' %}
-     background: linear-gradient(0deg, {{ block.settings.background1 }} 0%, {{ block.settings.background2 }} 100%);
-         {% else %}
      background: linear-gradient(180deg, {{ block.settings.background1 }} 0%, {{ block.settings.background2 }} 100%);
+         {% else %}
+     background: linear-gradient(0deg, {{ block.settings.background1 }} 0%, {{ block.settings.background2 }} 100%);
          {% endif %}
       }
      {% endunless %}
