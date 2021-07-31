@@ -637,6 +637,7 @@
         "type": "Loader",
         "settings": {
           "activate": true,
+          "brand_logo": "shopify:\/\/shop_images\/logo.png",
           "brand_logo_svg": "",
           "logo_width": 43,
           "mobile_logo_width": 49,
