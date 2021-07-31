@@ -836,7 +836,7 @@
           "layout": "right",
           "layout_mobile": "top",
           "background": "shopify:\/\/shop_images\/keratin.jpg",
-          "css": "#shopify-section-1627715001cc1fb0d5 .feature-row .feature-row__item.main {\nvisibility:hidden;\n}\n#shopify-section-1627715001cc1fb0d5 {\nbackground:none;\npadding: 0px 45px;\n}\n#shopify-section-1627715001cc1fb0d5 .page-width {\n    overflow: hidden;\n    background-size: 100% auto;\n    background-position: left 27%;\n    background-repeat: no-repeat;\n    background-image: url(\/\/cdn.shopify.com\/s\/files\/1\/0586\/4760\/9552\/files\/keratin_1024x1024.jpg?v=1627715247);\n}"
+          "css": "#shopify-section-1627715001cc1fb0d5 .feature-row .feature-row__item.main {\nvisibility:hidden;\n}\n#shopify-section-1627715001cc1fb0d5 {\nbackground:none;\npadding: 0px 45px;\n}\n#shopify-section-1627715001cc1fb0d5 .page-width {\n    overflow: hidden;\n    background-size: 100% auto;\n    background-position: left 27%;\n    background-repeat: no-repeat;\n    background-image: url(\/\/cdn.shopify.com\/s\/files\/1\/0586\/4760\/9552\/files\/keratin_1024x1024.jpg?v=1627715247);\n}\n@media (max-width:800px) {\n#shopify-section-1627715001cc1fb0d5 {\n    padding: 0px 0px;\n}\n#shopify-section-1627715001cc1fb0d5 .page-width {\nbackground-position:63% 0;\nbackground-size: cover;\n}\n}"
         }
       }
     },
