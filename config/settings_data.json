@@ -749,13 +749,64 @@
         "settings": {
           "css": ""
         }
+      },
+      "1627714217d686f9ae": {
+        "type": "media-with-content",
+        "blocks": {
+          "dfeccf78-4d5c-4746-baab-18cc5f5bf607": {
+            "type": "Image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/img_text.png",
+              "link": "",
+              "width": 100,
+              "layout": "center",
+              "topposition": 15,
+              "bottomposition": 0
+            }
+          },
+          "c01aa5d8-7348-499e-aee0-7a9adae8fd09": {
+            "type": "Text",
+            "settings": {
+              "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud j<\/p>",
+              "color": "#ffffff",
+              "layout": "center",
+              "topposition": 8,
+              "bottomposition": 15
+            }
+          },
+          "55760aa0-8058-4dec-ad03-bc69ca9920a7": {
+            "type": "Image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/wholesale-button.png",
+              "link": "",
+              "width": 51,
+              "layout": "center",
+              "topposition": 19,
+              "bottomposition": 15
+            }
+          }
+        },
+        "block_order": [
+          "dfeccf78-4d5c-4746-baab-18cc5f5bf607",
+          "c01aa5d8-7348-499e-aee0-7a9adae8fd09",
+          "55760aa0-8058-4dec-ad03-bc69ca9920a7"
+        ],
+        "settings": {
+          "mp4": "",
+          "width": 50,
+          "layout": "left",
+          "layout_mobile": "top",
+          "background": "shopify:\/\/shop_images\/img_back.jpg",
+          "css": ""
+        }
       }
     },
     "content_for_index": [
       "16104564252dfa4d65",
       "1627178775216d0f68",
       "1627225792f544f839",
-      "1627227995e9b13669"
+      "1627227995e9b13669",
+      "1627714217d686f9ae"
     ]
   },
   "presets": {
