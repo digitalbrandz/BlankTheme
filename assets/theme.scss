@@ -466,13 +466,13 @@ $z-index-loader: 4;
 
 // Font-face header styles
 
-$type_header_family: "Trade Gothic Next";
+$type_header_family: Cabin;
 
 $type_header_fallback: sans-serif;
 
 $type_header_stack: #{"'" + $type_header_family + "', " + $type_header_fallback};
 
-$type_header_weight: 400;
+$type_header_weight: 600;
 
 // Non font-face header styles
 
