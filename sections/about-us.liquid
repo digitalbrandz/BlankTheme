@@ -4,13 +4,13 @@
   {% case block.type %}
      {% when 'Section' %}
 
- #shopify-section-{{ section.id }} .feature-row .feature-row__item.main  {
+ #block-{{ block.id }} .feature-row .feature-row__item.main  {
     flex: 0 1 {{ block.settings.width }}%;
     line-height: 0;
    }
 
    {% if block.settings.background != blank %}
-     #shopify-section-{{ section.id }} {
+    #block-{{ block.id }} {
      overflow: hidden; 
      background-size: cover;
      background-position: center;
@@ -20,7 +20,7 @@
 
    {% if block.settings.layout_mobile == 'bottom' %}
    @media (max-width:960px) {
-     #shopify-section-{{ section.id }} .feature-row {
+     #block-{{ block.id }} .feature-row {
            flex-flow: column-reverse;
      }
   }
