@@ -695,8 +695,8 @@
         "settings": {
           "title": "NEW ARRIVALS",
           "home_featured_products": "new-arrivals",
-          "per_row": 4,
-          "rows": 2,
+          "per_row": 3,
+          "rows": 1,
           "mobile_scrollable": true,
           "view_all": true,
           "divider": false,
