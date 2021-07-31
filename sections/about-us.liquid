@@ -10,7 +10,7 @@
     data-aos-easing="ease-out-cubic">
       <div style="margin: 0 auto; max-width: {{ block.settings.image_width }}px;">
         {% if block.settings.image != blank %}
-          {% if block.settings.button_label != blank and block.settings.button_link != blank %}<a href="{{ block.settings.button_link }}">{% endif %}
+        
           <div class="image-wrap"  style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.image.aspect_ratio }}%;">
             {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
             <img class="feature-row__image lazyload"
@@ -20,7 +20,6 @@
                 data-sizes="auto"
                 alt="{{ block.settings.image.alt }}">
           </div>
-          {% if block.settings.button_label != blank and block.settings.button_link != blank %}</a>{% endif %}
         {% else %}
           <div class="image-wrap">
             {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
