@@ -63,6 +63,8 @@
          </a>
          {% endif %}
     
+<div data-aos="fade-up" data-aos-duration="700"
+    data-aos-easing="ease-out-cubic">
         <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: section.settings.image.aspect_ratio }}%;">
             {%- assign img_url = section.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
             <img class="feature-row__image lazyload"
@@ -72,7 +74,7 @@
                 data-sizes="auto"
                 alt="{{ section.settings.image.alt }}">
           </div>
-
+</div>
 
 
 
