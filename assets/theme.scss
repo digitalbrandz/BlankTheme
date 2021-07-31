@@ -7924,8 +7924,14 @@ min-width:0;
     height: 100%;
     position: absolute;
     z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
+.media-with-content .main a svg {
+  max-width:30%;
+  height:auto;
+}
 
 @include media-query($medium-up) {
   .feature-row__text--left {
