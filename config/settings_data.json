@@ -854,6 +854,7 @@
           "label": "Click Here",
           "button_color": "#ffffff",
           "button_background": "#000000",
+          "background": "shopify:\/\/shop_images\/video-background.jpg",
           "css": ""
         }
       }
