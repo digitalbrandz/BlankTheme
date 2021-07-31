@@ -685,7 +685,7 @@
         "settings": {
           "title": "Our Collection",
           "divider": false,
-          "per_row": 4,
+          "per_row": 2,
           "enable_gutter": true,
           "css": "#shopify-section-1627178775216d0f68 .section-header__title {  \nfont-family: 'beautiful_heartregular';\nfont-size: 45px;\n}\n@media (max-width:700px) {\n#shopify-section-1627178775216d0f68 .section-header__title {\n    font-size: 30px;\n}\n}"
         }
