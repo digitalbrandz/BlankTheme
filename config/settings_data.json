@@ -832,9 +832,10 @@
         ],
         "settings": {
           "mp4": "",
-          "width": 50,
-          "layout": "left",
+          "width": 51,
+          "layout": "right",
           "layout_mobile": "top",
+          "background": "shopify:\/\/shop_images\/keratin.jpg",
           "css": ""
         }
       }
