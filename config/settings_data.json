@@ -818,7 +818,7 @@
             "type": "Image",
             "settings": {
               "image": "shopify:\/\/shop_images\/shop-now.png",
-              "link": "",
+              "link": "shopify:\/\/collections\/kse-botanical-hair-care",
               "width": 37,
               "layout": "center",
               "topposition": 15,
