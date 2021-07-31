@@ -685,7 +685,7 @@
         "type": "featured-collection",
         "settings": {
           "title": "NEW ARRIVALS",
-          "home_featured_products": "new-arrivals",
+          "home_featured_products": "frontpage",
           "per_row": 3,
           "rows": 1,
           "mobile_scrollable": true,
