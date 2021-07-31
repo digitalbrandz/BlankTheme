@@ -40,50 +40,16 @@
     {% endif %}
 
     <div class="feature-row__item feature-row__text feature-row__text--{{ block.settings.layout }}">
-      {% assign delay = 400 %}
-      {% for block in section.blocks %}
-       {% case block.type %}
-        {% when 'Image' %}
+
+         <div id="block-{{ block.id }}">
+          <div class="rte featured-row__subtext">{{ block.settings.text }}</div>
+         </div>      
       
-      
-        {% if block.settings.image != blank %}
-          {% if block.settings.link != blank %}<a href="{{ block.settings.link }}">{% endif %}
-          <div data-aos-delay="{{ delay }}" {% if block.settings.layout == 'right' %} data-aos="fade-right"  {% else %}data-aos="fade-left" {% endif %} data-aos-duration="700"
-    data-aos-easing="ease-out-cubic" id="block-{{ block.id }}" class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.image.aspect_ratio }}%;">
-            {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-            <img class="feature-row__image lazyload"
-                data-src="{{ img_url }}"
-                data-widths="[180, 360, 540, 720, 900, 1080]"
-                data-aspectratio="{{ block.settings.image.aspect_ratio }}"
-                data-sizes="auto"
-                alt="{{ block.settings.image.alt }}">
-          </div>
-          {% if block.settings.link != blank %}</a>{% endif %}
-        {% else %}
-          <div data-aos-delay="{{ delay }}" {% if block.settings.layout == 'right' %} data-aos="fade-right"  {% else %}data-aos="fade-left" {% endif %} data-aos-duration="700"
-    data-aos-easing="ease-out-cubic"  class="image-wrap">
-            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-          </div>
-        {% endif %}
-      
-      
-      
-        {% when 'Button' %} 
-         <div data-aos-delay="{{ delay }}" {% if block.settings.layout == 'right' %} data-aos="fade-right"  {% else %}data-aos="fade-left" {% endif %} data-aos-duration="700"
-    data-aos-easing="ease-out-cubic"  id="block-{{ block.id }}">
+           <div id="block-{{ block.id }}">
             <a class="btn" href="{{ block.settings.link }}" >{{ block.settings.label }}</a>
          </div>  
       
-      
-        {% when 'Text' %}  
-         <div data-aos-delay="{{ delay }}" {% if block.settings.layout == 'right' %} data-aos="fade-right"  {% else %}data-aos="fade-left" {% endif %} data-aos-duration="700"
-    data-aos-easing="ease-out-cubic"  id="block-{{ block.id }}">
-          <div class="rte featured-row__subtext">{{ block.settings.text }}</div>
-         </div>        
-      
-        {% endcase %}
-        {% assign delay = delay | plus: 200 %}
-      {% endfor %} 
+   
       
     </div>
 
