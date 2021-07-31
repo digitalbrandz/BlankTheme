@@ -846,7 +846,7 @@
         "type": "media-with-content",
         "settings": {
           "mp4": "https:\/\/commondatastorage.googleapis.com\/gtv-videos-bucket\/sample\/BigBuckBunny.mp4",
-          "youtube_url": "https:\/\/www.youtube.com\/watch?v=HPHbeSGVKJo",
+          "youtube_url": "",
           "width": 50,
           "layout": "left",
           "layout_mobile": "top",
