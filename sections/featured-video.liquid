@@ -2,7 +2,6 @@
 
    {% if section.settings.background != blank %}
      #shopify-section-{{ section.id }} {
-     overflow: hidden; 
      background-size: cover;
      background-position: center;
       background-image:url({{ section.settings.background | img_url: '1024x1024' }});
