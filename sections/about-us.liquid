@@ -37,15 +37,19 @@ background:{{ block.settings.button_background }};
     line-height: 0;
    }
 
-   {% if block.settings.backgroundimage != blank %}
+ 
     #block-{{ block.id }} {
      overflow: hidden; 
      background-size: cover;
-     background-position: center;
+     background-position: center; 
+     {% if block.settings.backgroundimage != blank %}
      background-color:{{ block.settings.background1 }};
-      background-image:url({{ block.settings.backgroundimage | img_url: '1024x1024' }});
+     background-image:url({{ block.settings.backgroundimage | img_url: '1024x1024' }}); 
+     {% else %}
+     background: linear-gradient(90deg, {{ block.settings.background1 }} 0%, {{ block.settings.background2 }} 100%);
+     {% endif %}
      }
-   {% endif %}
+ 
 
    {% if block.settings.layout_mobile == 'bottom' %}
    @media (max-width:960px) {
