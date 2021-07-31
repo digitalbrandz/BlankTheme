@@ -183,7 +183,7 @@
             "settings": {
               "show_footer_title": false,
               "menu": "footer",
-              "container_width": 25
+              "container_width": 36
             }
           },
           "1494292487693": {
@@ -192,14 +192,15 @@
               "show_footer_title": true,
               "title": "Get Special offers",
               "text": "<p>Sign up to get newsletter of our new arrivals, sales, events, etc. <\/p>",
-              "container_width": 58
+              "container_width": 41
             }
           },
           "de1b44a9-1bf2-4885-9b59-0df5275b6625": {
             "type": "logo_social",
             "settings": {
+              "logo": "shopify:\/\/shop_images\/black_logo.jpg",
               "desktop_logo_height": 120,
-              "container_width": 15
+              "container_width": 17
             }
           }
         },
