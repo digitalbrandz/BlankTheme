@@ -717,93 +717,6 @@
           "divider": false
         }
       },
-      "162726070141cca103": {
-        "type": "media-with-content",
-        "blocks": {
-          "04882b52-f3d3-4efa-bbaa-78cdab567411": {
-            "type": "Image",
-            "settings": {
-              "link": "",
-              "width": 100,
-              "layout": "center",
-              "topposition": 15,
-              "bottomposition": 15
-            }
-          },
-          "5182ce7d-5a65-40b7-9d25-04e0b94472b9": {
-            "type": "Button",
-            "settings": {
-              "link": "shopify:\/\/collections\/accessories",
-              "label": "SHOP ACCESSORIES",
-              "color": "#ffffff",
-              "background": "#000000",
-              "layout": "center",
-              "topposition": 15,
-              "bottomposition": 15
-            }
-          }
-        },
-        "block_order": [
-          "04882b52-f3d3-4efa-bbaa-78cdab567411",
-          "5182ce7d-5a65-40b7-9d25-04e0b94472b9"
-        ],
-        "settings": {
-          "mp4": "",
-          "youtube_url": "",
-          "width": 50,
-          "layout": "left",
-          "layout_mobile": "bottom",
-          "css": ""
-        }
-      },
-      "162726179905a85bf1": {
-        "type": "media-with-content",
-        "blocks": {
-          "f34ca9d1-960e-4dba-8d07-e00b8d1ed95b": {
-            "type": "HTML",
-            "settings": {
-              "html": "<div>\n<span>GUARANTEED YOU WILL <span class=\"test_title\">L<\/span><span class=\"ove\">OVE<\/span><\/span>\n<\/div>",
-              "topposition": 15,
-              "bottomposition": 15
-            }
-          },
-          "9bc3cd35-5256-4fea-934a-fca346be7c45": {
-            "type": "Text",
-            "settings": {
-              "text": "<p>Checkout the LOOKBOOK videos of upcoming styles<\/p>",
-              "color": "#000000",
-              "layout": "center",
-              "topposition": 15,
-              "bottomposition": 15
-            }
-          },
-          "2a4ab68a-06cf-4ecb-a831-8bbe8c30e0bf": {
-            "type": "Button",
-            "settings": {
-              "link": "shopify:\/\/pages\/lookbook",
-              "label": "See Lookbook",
-              "color": "#ffffff",
-              "background": "#000000",
-              "layout": "center",
-              "topposition": 15,
-              "bottomposition": 15
-            }
-          }
-        },
-        "block_order": [
-          "f34ca9d1-960e-4dba-8d07-e00b8d1ed95b",
-          "9bc3cd35-5256-4fea-934a-fca346be7c45",
-          "2a4ab68a-06cf-4ecb-a831-8bbe8c30e0bf"
-        ],
-        "settings": {
-          "mp4": "https:\/\/cdn.shopify.com\/s\/files\/1\/0498\/0932\/6245\/files\/After12vid.mp4?v=1611792059",
-          "youtube_url": "https:\/\/youtu.be\/KPBRBtJd9Xo",
-          "width": 50,
-          "layout": "right",
-          "layout_mobile": "top",
-          "css": "#block-f34ca9d1-960e-4dba-8d07-e00b8d1ed95b {\n    font-size: 65px;\ntext-align:center;\n    font-family: 'texgyreadventorbold';\n    -webkit-background-clip: text!important;\n    -webkit-text-fill-color: transparent;\n    background: -webkit-linear-gradient(to right, #999999, #f5f4f4, #999999, #edebe7, #999999);\n    background: linear-gradient(to right,#999999, #f5f4f4, #999999, #edebe7, #999999);\n    filter: drop-shadow(2px 2px 0px #00000057);\n}\n@media (max-width:960px) {\n#block-f34ca9d1-960e-4dba-8d07-e00b8d1ed95b {\nfont-size:40px;\n}\n}\n#block-f34ca9d1-960e-4dba-8d07-e00b8d1ed95b .test_title {\n    font-family: 'keshyaregular';\n}\n#block-f34ca9d1-960e-4dba-8d07-e00b8d1ed95b .ove {\n    font-family: 'texgyreadventorbold';\n}\n#shopify-section-162726179905a85bf1 video {\n    transform: scale(0.8);\n}"
-        }
-      },
       "about-us": {
         "type": "about-us",
         "blocks": {
@@ -842,9 +755,7 @@
       "16104564252dfa4d65",
       "1627178775216d0f68",
       "1627225792f544f839",
-      "1627227995e9b13669",
-      "162726179905a85bf1",
-      "162726070141cca103"
+      "1627227995e9b13669"
     ]
   },
   "presets": {
