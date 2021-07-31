@@ -652,62 +652,17 @@
       "1627178775216d0f68": {
         "type": "featured-collections",
         "blocks": {
-          "1627178775216d0f68-0": {
+          "a2190853-f206-4c0e-8fd1-fca35bb65b90": {
             "type": "collection",
             "settings": {
-              "collection": "jumpsuits-rompers",
-              "title": "",
-              "focal_point": "center center"
-            }
-          },
-          "1627178775216d0f68-1": {
-            "type": "collection",
-            "settings": {
-              "collection": "dresses",
-              "title": "",
-              "focal_point": "center center"
-            }
-          },
-          "1627178775216d0f68-2": {
-            "type": "collection",
-            "settings": {
-              "collection": "swimwear",
-              "title": "",
-              "focal_point": "center center"
-            }
-          },
-          "1627178775216d0f68-3": {
-            "type": "collection",
-            "settings": {
-              "collection": "accessories",
-              "title": "",
-              "focal_point": "center center"
-            }
-          },
-          "1627178775216d0f68-4": {
-            "type": "collection",
-            "settings": {
-              "collection": "sets",
-              "title": "",
-              "focal_point": "center center"
-            }
-          },
-          "1627178775216d0f68-5": {
-            "type": "collection",
-            "settings": {
-              "collection": "curvy-plus",
+              "collection": "frontpage",
               "title": "",
               "focal_point": "center center"
             }
           }
         },
         "block_order": [
-          "1627178775216d0f68-0",
-          "1627178775216d0f68-1",
-          "1627178775216d0f68-2",
-          "1627178775216d0f68-3",
-          "1627178775216d0f68-4",
-          "1627178775216d0f68-5"
+          "a2190853-f206-4c0e-8fd1-fca35bb65b90"
         ],
         "settings": {
           "title": "",
