@@ -7939,7 +7939,9 @@ min-width:0;
 
 /*================ About Us ================*/
 #shopify-section-about-us {
+  @include media-query($medium-up) {  
 margin-bottom:0px;
+  }
 }
 #shopify-section-about-us .feature-row__text {
   padding-right:20px;
