@@ -1,4 +1,96 @@
+  {% capture image_layout %}
+   {% unless block.settings.mp4 != blank %}
+    <div class="feature-row__item main"   {% if block.settings.layout == 'right' %} data-aos="fade-left" {% else %}data-aos="fade-right" {% endif %} data-aos-duration="700"
+    data-aos-easing="ease-out-cubic">
+      <div style="margin: 0 auto; max-width: {{ block.settings.image_width }}px;">
+        {% if block.settings.image != blank %}
+          {% if block.settings.button_label != blank and block.settings.button_link != blank %}<a href="{{ block.settings.button_link }}">{% endif %}
+          <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: section.settings.image.aspect_ratio }}%;">
+            {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+            <img class="feature-row__image lazyload"
+                data-src="{{ img_url }}"
+                data-widths="[180, 360, 540, 720, 900, 1080]"
+                data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+                data-sizes="auto"
+                alt="{{ block.settings.image.alt }}">
+          </div>
+          {% if block.settings.button_label != blank and block.settings.button_link != blank %}</a>{% endif %}
+        {% else %}
+          <div class="image-wrap">
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+   {% else %}
+    <div style="margin: 0 auto;">
+    <div class="feature-row__item main"   {% if block.settings.layout == 'right' %} data-aos="fade-left" {% else %}data-aos="fade-right" {% endif %} data-aos-duration="700"
+    data-aos-easing="ease-out-cubic">  
+         <video playsinline="" autoplay="" preload="auto" loop="loop" muted="muted" onclick="event.preventDefault();">
+            <source src="{{ block.settings.mp4 }}" type="video/mp4">
+         </video>
+    </div>
+  </div>
+   {% endunless %}
+  {% endcapture %}
 
+  <div class="feature-row" data-aos>
+    {% if block.settings.layout == 'left' %}
+      {{ image_layout }}
+    {% endif %}
+
+    <div class="feature-row__item feature-row__text feature-row__text--{{ block.settings.layout }}">
+      {% assign delay = 400 %}
+      {% for block in section.blocks %}
+       {% case block.type %}
+        {% when 'Image' %}
+      
+      
+        {% if block.settings.image != blank %}
+          {% if block.settings.link != blank %}<a href="{{ block.settings.link }}">{% endif %}
+          <div data-aos-delay="{{ delay }}" {% if block.settings.layout == 'right' %} data-aos="fade-right"  {% else %}data-aos="fade-left" {% endif %} data-aos-duration="700"
+    data-aos-easing="ease-out-cubic" id="block-{{ block.id }}" class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.image.aspect_ratio }}%;">
+            {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+            <img class="feature-row__image lazyload"
+                data-src="{{ img_url }}"
+                data-widths="[180, 360, 540, 720, 900, 1080]"
+                data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+                data-sizes="auto"
+                alt="{{ block.settings.image.alt }}">
+          </div>
+          {% if block.settings.link != blank %}</a>{% endif %}
+        {% else %}
+          <div data-aos-delay="{{ delay }}" {% if block.settings.layout == 'right' %} data-aos="fade-right"  {% else %}data-aos="fade-left" {% endif %} data-aos-duration="700"
+    data-aos-easing="ease-out-cubic"  class="image-wrap">
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+          </div>
+        {% endif %}
+      
+      
+      
+        {% when 'Button' %} 
+         <div data-aos-delay="{{ delay }}" {% if block.settings.layout == 'right' %} data-aos="fade-right"  {% else %}data-aos="fade-left" {% endif %} data-aos-duration="700"
+    data-aos-easing="ease-out-cubic"  id="block-{{ block.id }}">
+            <a class="btn" href="{{ block.settings.link }}" >{{ block.settings.label }}</a>
+         </div>  
+      
+      
+        {% when 'Text' %}  
+         <div data-aos-delay="{{ delay }}" {% if block.settings.layout == 'right' %} data-aos="fade-right"  {% else %}data-aos="fade-left" {% endif %} data-aos-duration="700"
+    data-aos-easing="ease-out-cubic"  id="block-{{ block.id }}">
+          <div class="rte featured-row__subtext">{{ block.settings.text }}</div>
+         </div>        
+      
+        {% endcase %}
+        {% assign delay = delay | plus: 200 %}
+      {% endfor %} 
+      
+    </div>
+
+    {% if block.settings.layout == 'right' %}
+      {{ image_layout }}
+    {% endif %}
+  </div>
 
 
 
@@ -11,122 +103,6 @@
      "type": "Section",
      "name": "Section",
      "settings" : [
-{
-   "type": "radio",
-   "id": "layout",
-   "options": [
-      { "value": "Left", "label": "Left"},
-      { "value": "Right", "label": "Right"}
-   ],
-   "default": "Left",
-   "label": "Alignment"
-},
-{ "type": "header",
- "content": "Headline"
-},
-      {
-        "id": "headline",
-        "type": "text",
-        "label": "title"
-      },
- {
-     "type": "font_picker",
-     "id": "headline_font",
-     "label": "Font",
-     "default": "work_sans_n6"
-   },
-  {
-    "type":   "range",
-    "id":     "headline_fontsize",
-    "min":       70,
-    "max":       120,
-    "step":     1,
-    "unit":      "%",
-    "label":     "Font Size",
-    "default":   100
-     },
-{ "type": "header",
- "content": "Paragraph"
-},
-      {
-        "id": "details",
-        "type": "textarea",
-        "label": "Content"
-      },
-{ "type": "header",
- "content": "Button"
-},
-      {
-        "id": "cta",
-        "type": "url",
-        "label": "Link"
-      },
-      {
-        "id": "button_text",
-        "type": "text",
-        "label": "Button Text",
-        "default": "Learn More"
-      },
-{ "type": "header",
- "content": "Image"
-},
-{
-       "id": "image",
-       "type": "image_picker",
-       "label": "Model Image PNG! (Optional)"
-},
-  {
-    "type":   "range",
-    "id":     "image_width",
-    "min":       10,
-    "max":       100,
-    "step":     1,
-    "unit":      "%",
-    "label":     "Image Width",
-    "default":   50
-     }, 
-      {
-        "type": "header",
-        "content": "Font Color & Buttons"
-      },
-      {
-        "type": "color",
-        "id": "text_color",
-        "label": "Text Color",
-        "default": "#FFFFFF"
-      },
-      {
-        "type": "color",
-        "id": "button_text_color",
-        "label": "Button Text Color",
-        "default": "#FFF"
-      },
-      {
-        "type": "color",
-        "id": "button_background_color",
-        "label": "Button Background Color",
-        "default": "#000"
-      },
-      {
-        "type": "header",
-        "content": "Background Style & Color"
-      },
-{
-       "id": "background_color",
-       "type": "color",
-       "label": "Background Color",
-       "default": "#242427"
-},{
-       "id": "background_color_2",
-       "type": "color",
-       "label": "Background Color #2 (Optional Gradient)",
-       "default": "transparent"
-},
-{
-       "id": "background_image",
-       "type": "image_picker",
-       "label": "Background Image (Optional)"
-}
       ]
     }
    ]
