@@ -73,7 +73,10 @@ background:{{ block.settings.button_background }};
 
   {% endcase %}
 {% endfor %} 
-
+{% if section.settings.css != nil %}
+{% assign css = section.settings.css | replace: '&gt;','>' %}
+{{ css }}
+{% endif %}
 {% endstyle %}
 
 
