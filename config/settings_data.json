@@ -140,18 +140,10 @@
               "mobile_logo_width": 100
             }
           },
-          "1581783095451": {
-            "type": "announcement",
-            "settings": {
-              "text": "Download APP today to save 20% on your order",
-              "link_text": "",
-              "link": ""
-            }
-          },
           "2fc235b8-07e9-402f-9b2e-adc3aa5f197c": {
             "type": "announcement",
             "settings": {
-              "text": "Try our BUY NOW & PAY LATER @ Checkout",
+              "text": "Free Shipping On All Orders $75+",
               "link_text": "",
               "link": ""
             }
@@ -165,7 +157,6 @@
         },
         "block_order": [
           "1524770014057",
-          "1581783095451",
           "2fc235b8-07e9-402f-9b2e-adc3aa5f197c",
           "6cbc61f3-7c65-4997-a7ac-152b64093089"
         ],
