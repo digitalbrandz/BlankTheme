@@ -45,13 +45,17 @@
 
     <div class="feature-row__item feature-row__text feature-row__text--{{ block.settings.layout }}">
 
+         {% if block.settings.content != blank %}
          <div id="block-{{ block.id }}">
           <div class="rte featured-row__subtext">{{ block.settings.content }}</div>
-         </div>      
+         </div>   
+         {% endif %}
       
-           <div id="block-{{ block.id }}">
+        {% if block.settings.button_label != blank and block.settings.button_link != blank %}
+         <div id="block-{{ block.id }}">
             <a class="btn" href="{{  block.settings.button_linkl }}" >{{  block.settings.button_label }}</a>
-         </div>  
+         </div> 
+       {% endif %}
       
    
       
