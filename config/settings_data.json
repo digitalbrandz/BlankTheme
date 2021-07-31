@@ -666,12 +666,21 @@
               "title": "",
               "focal_point": "top center"
             }
+          },
+          "88b62897-a6e1-4417-aac9-1b0a0682e66f": {
+            "type": "collection",
+            "settings": {
+              "collection": "kse-botanical-hair-care",
+              "title": "KSE Botanical",
+              "focal_point": "center center"
+            }
           }
         },
         "block_order": [
           "a2190853-f206-4c0e-8fd1-fca35bb65b90",
           "3c0b44e4-84e8-49de-8a6e-27ef09b6e710",
-          "509df597-e733-4fca-a2f8-6094b123a045"
+          "509df597-e733-4fca-a2f8-6094b123a045",
+          "88b62897-a6e1-4417-aac9-1b0a0682e66f"
         ],
         "settings": {
           "title": "Our Collection",
