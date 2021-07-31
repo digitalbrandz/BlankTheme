@@ -162,7 +162,7 @@
         ],
         "settings": {
           "main_menu_link_list": "main-menu",
-          "main_menu_alignment": "center",
+          "main_menu_alignment": "left-center",
           "header_style": "sticky-hide",
           "sticky_index": false,
           "above_announcement": true,
@@ -794,6 +794,7 @@
         ],
         "settings": {
           "mp4": "",
+          "youtube_url": "",
           "width": 50,
           "layout": "left",
           "layout_mobile": "top",
@@ -833,6 +834,7 @@
         ],
         "settings": {
           "mp4": "",
+          "youtube_url": "",
           "width": 47,
           "layout": "right",
           "layout_mobile": "top",
