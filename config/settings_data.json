@@ -836,7 +836,7 @@
           "layout": "right",
           "layout_mobile": "top",
           "background": "shopify:\/\/shop_images\/keratin.jpg",
-          "css": "#shopify-section-1627715001cc1fb0d5 .feature-row .feature-row__item.main {\nvisibility:hidden;\n}"
+          "css": "#shopify-section-1627715001cc1fb0d5 .feature-row .feature-row__item.main {\nvisibility:hidden;\n}\n#shopify-section-1627715001cc1fb0d5 {\nbackground:none;\n}\n#shopify-section-1627715001cc1fb0d5 .page-width {\n    overflow: hidden;\n    background-size: cover;\n    background-position: top left;\n    background-image: url(\/\/cdn.shopify.com\/s\/files\/1\/0586\/4760\/9552\/files\/keratin_1024x1024.jpg?v=1627715247);\n}"
         }
       }
     },
