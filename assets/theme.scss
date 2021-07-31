@@ -7956,6 +7956,18 @@ height:auto;
     -moz-transition: opacity .3s ease;
     transition: opacity .3s ease;
 }
+.mute span {
+    background: #0000007d;
+    border-radius: 20px;
+    padding: 6px 17px;
+}
+.mute svg {
+    height: auto;
+    width: 20px;
+    margin-left: 5px;
+    display: inline;
+    vertical-align: middle;
+}
 
 @include media-query($medium-up) {
   .feature-row__text--left {
