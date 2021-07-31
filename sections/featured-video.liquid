@@ -6,7 +6,7 @@
       <h2>{{ section.settings.title }}</h2>
     </div>
   {% endif %}
-  <div class=" {% if section.settings.video_url == blank and section.settings.image == blank %} video-wrapper {% endif %} main">
+  <div class=" {% if section.settings.video_url == blank and section.settings.image == blank %} video-wrapper{% else %}  main{% endif %}">
   {% if section.settings.video_url == blank %}
     <iframe src="//www.youtube.com/embed/_9VUPq3SxOc?rel=0&showinfo=0&vq=720" width="850" height="480" frameborder="0" allowfullscreen></iframe>
   {% else %}
