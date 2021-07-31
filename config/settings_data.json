@@ -666,12 +666,21 @@
               "title": "",
               "focal_point": "top center"
             }
+          },
+          "0a7cf179-4160-448e-a5ad-5d2bb98fd54a": {
+            "type": "collection",
+            "settings": {
+              "collection": "frontpage",
+              "title": "",
+              "focal_point": "center center"
+            }
           }
         },
         "block_order": [
           "a2190853-f206-4c0e-8fd1-fca35bb65b90",
           "3c0b44e4-84e8-49de-8a6e-27ef09b6e710",
-          "509df597-e733-4fca-a2f8-6094b123a045"
+          "509df597-e733-4fca-a2f8-6094b123a045",
+          "0a7cf179-4160-448e-a5ad-5d2bb98fd54a"
         ],
         "settings": {
           "title": "Our Collection",
