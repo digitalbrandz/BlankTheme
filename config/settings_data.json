@@ -797,7 +797,7 @@
           "layout": "left",
           "layout_mobile": "top",
           "background": "shopify:\/\/shop_images\/img_back.jpg",
-          "css": "#shopify-section-1627714217d686f9ae .feature-row__item.main {\nvisibility:hidden;\n}"
+          "css": "#shopify-section-1627714217d686f9ae .feature-row__item.main {\nvisibility:hidden;\n}\n@media (max-width:800px) {\n#shopify-section-1627714217d686f9ae {\n    background-position: 16% top;\n}\n}"
         }
       }
     },
