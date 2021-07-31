@@ -701,7 +701,7 @@
           "mobile_scrollable": true,
           "view_all": true,
           "divider": false,
-          "css": ""
+          "css": "#shopify-section-1627225792f544f839 {    margin: 75px 0 0px;\n}"
         }
       },
       "1627227995e9b13669": {
