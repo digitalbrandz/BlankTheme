@@ -678,7 +678,7 @@
           "divider": false,
           "per_row": 3,
           "enable_gutter": true,
-          "css": "#shopify-section-1627178775216d0f68 .section-header__title {  \nfont-family: 'beautiful_heartregular';\n}"
+          "css": "#shopify-section-1627178775216d0f68 .section-header__title {  \nfont-family: 'beautiful_heartregular';\nfont-size: 45px;\n}"
         }
       },
       "1627225792f544f839": {
