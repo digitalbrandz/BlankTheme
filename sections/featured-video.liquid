@@ -1,3 +1,22 @@
+{% style %}
+
+   {% if section.settings.background != blank %}
+     #shopify-section-{{ section.id }} {
+     overflow: hidden; 
+     background-size: cover;
+     background-position: center;
+      background-image:url({{ section.settings.background | img_url: '1024x1024' }});
+     }
+   {% endif %}
+
+
+
+{% if section.settings.css != nil %}
+{% assign css = section.settings.css | replace: '&gt;','>' %}
+{{ css }}
+{% endif %}
+{% endstyle %}
+
 {% if section.settings.divider %}<div class="section--divider">{% endif %}
 
 <div class="page-width">
