@@ -120,11 +120,11 @@ rs-sbg-px { pointer-events: none }
 .rtl {	direction: rtl;}
 @font-face {
   font-family: 'revicons';
-  src: url('//cdn.shopify.com/s/files/1/0498/0932/6245/t/6/assets/revicons.eot?2715');
-  src: url('//cdn.shopify.com/s/files/1/0498/0932/6245/t/6/assets/revicons.eot?2715#iefix') format('embedded-opentype'),
-       url('//cdn.shopify.com/s/files/1/0498/0932/6245/t/6/assets/revicons.woff?2715') format('woff'),
-       url('//cdn.shopify.com/s/files/1/0498/0932/6245/t/6/assets/revicons.ttf?2715') format('truetype'),
-       url('//cdn.shopify.com/s/files/1/0498/0932/6245/t/6/assets/revicons.svg?2715') format('svg');
+  src: url('//cdn.shopify.com/s/files/1/0586/4760/9552/t/3/assets/revicons.eot?378');
+  src: url('//cdn.shopify.com/s/files/1/0586/4760/9552/t/3/assets/revicons.eot?378#iefix') format('embedded-opentype'),
+       url('//cdn.shopify.com/s/files/1/0586/4760/9552/t/3/assets/revicons.woff?378') format('woff'),
+       url('//cdn.shopify.com/s/files/1/0586/4760/9552/t/3/assets/revicons.ttf?378') format('truetype'),
+       url('//cdn.shopify.com/s/files/1/0586/4760/9552/t/3/assets/revicons.svg?378') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -416,10 +416,10 @@ rs-alyer *:not(.rs-wtbindex),
 	
 /* CAROUSEL FUNCTIONS */
 rs-carousel-wrap {
-	cursor:url(//cdn.shopify.com/s/files/1/0498/0932/6245/t/6/assets/openhand.cur?v=9830639202115715657), move;
+	cursor:url(//cdn.shopify.com/s/files/1/0586/4760/9552/t/3/assets/openhand.cur?v=9830639202115715657), move;
 }
 rs-carousel-wrap.dragged {
-  cursor:url(//cdn.shopify.com/s/files/1/0498/0932/6245/t/6/assets/closedhand.cur?v=16000245337487723990), move;
+  cursor:url(//cdn.shopify.com/s/files/1/0586/4760/9552/t/3/assets/closedhand.cur?v=16000245337487723990), move;
 }
 
 rs-carousel-wrap.noswipe {
