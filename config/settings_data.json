@@ -841,6 +841,14 @@
           "background": "shopify:\/\/shop_images\/keratin.jpg",
           "css": "#shopify-section-1627715001cc1fb0d5 .feature-row .feature-row__item.main {\nvisibility:hidden;\n}\n#shopify-section-1627715001cc1fb0d5 {\nbackground:none;\npadding: 0px 45px;\n}\n#shopify-section-1627715001cc1fb0d5 .page-width {\n    max-width: 1600px;\n    overflow: hidden;\n    background-size: 100% auto;\n    background-position: left 27%;\n    background-repeat: no-repeat;\n    background-image: url(\/\/cdn.shopify.com\/s\/files\/1\/0586\/4760\/9552\/files\/keratin_1024x1024.jpg?v=1627715247);\n}\n@media (max-width:800px) {\n#shopify-section-1627715001cc1fb0d5 {\n    padding: 0px 0px;\n}\n#shopify-section-1627715001cc1fb0d5 .page-width {\nbackground-position:63% 0;\nbackground-size: cover;\n}\n}"
         }
+      },
+      "16277246135d9d88c9": {
+        "type": "featured-video",
+        "settings": {
+          "title": "Hands on Training",
+          "video_url": "https:\/\/www.youtube.com\/watch?v=HPHbeSGVKJo",
+          "divider": false
+        }
       }
     },
     "content_for_index": [
@@ -849,7 +857,8 @@
       "1627225792f544f839",
       "1627227995e9b13669",
       "1627715001cc1fb0d5",
-      "1627714217d686f9ae"
+      "1627714217d686f9ae",
+      "16277246135d9d88c9"
     ]
   },
   "presets": {
