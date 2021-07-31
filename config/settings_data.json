@@ -819,7 +819,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/shop-now.png",
               "link": "",
-              "width": 47,
+              "width": 37,
               "layout": "center",
               "topposition": 15,
               "bottomposition": 15
