@@ -6,7 +6,7 @@
       <h2>{{ section.settings.title }}</h2>
     </div>
   {% endif %}
-  <div class="video-wrapper">
+  <div class="video-wrapper main">
   {% if section.settings.video_url == blank %}
     <iframe src="//www.youtube.com/embed/_9VUPq3SxOc?rel=0&showinfo=0&vq=720" width="850" height="480" frameborder="0" allowfullscreen></iframe>
   {% else %}
@@ -61,7 +61,7 @@
 {% schema %}
   {
     "name": "Video",
-    "class": "index-section",
+    "class": "index-section media-with-content",
     "settings": [
       {
         "type": "text",
