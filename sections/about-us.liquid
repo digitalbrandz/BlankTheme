@@ -87,18 +87,18 @@
 
         {% if block.settings.title != blank %}
          <div>
-          <div class="rte featured-row__subtext">{{ block.settings.title }}</div>
+          <div class="rte featured-row__title">{{ block.settings.title }}</div>
          </div>   
          {% endif %}
       
          {% if block.settings.content != blank %}
          <div>
-          <div class="rte featured-row__subtext">{{ block.settings.content }}</div>
+          <div class="rte featured-row__content">{{ block.settings.content }}</div>
          </div>   
          {% endif %}
       
         {% if block.settings.button_label != blank and block.settings.button_link != blank %}
-         <div>
+         <div class="rte featured-row__button">
             <a class="btn" href="{{  block.settings.button_linkl }}" >{{  block.settings.button_label }}</a>
          </div> 
        {% endif %}
