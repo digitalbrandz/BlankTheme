@@ -1,9 +1,48 @@
-      {% for block in section.blocks %}
+{% style %}
+
+{% for block in section.blocks %}
+  {% case block.type %}
+     {% when 'Section' %}
+
+ #shopify-section-{{ section.id }} .feature-row .feature-row__item.main  {
+    flex: 0 1 {{ block.settings.width }}%;
+    line-height: 0;
+   }
+
+   {% if block.settings.background != blank %}
+     #shopify-section-{{ section.id }} {
+     overflow: hidden; 
+     background-size: cover;
+     background-position: center;
+      background-image:url({{ section.settings.background | img_url: '1024x1024' }});
+     }
+   {% endif %}
+
+   {% if block.settings.layout_mobile == 'bottom' %}
+   @media (max-width:960px) {
+     #shopify-section-{{ section.id }} .feature-row {
+           flex-flow: column-reverse;
+     }
+  }
+ {% endif %}
+
+  {% endcase %}
+{% endfor %} 
+
+{% endstyle %}
+
+
+
+
+
+
+
+{% for block in section.blocks %}
        {% case block.type %}
         {% when 'Section' %}
 
 
-<div class="section-wrap">
+<div id="block-{{ block.id }}" class="section-wrap">
 {% capture image_layout %}
    {% unless block.settings.mp4 != blank %}
     <div class="feature-row__item main"   {% if block.settings.layout == 'right' %} data-aos="fade-left" {% else %}data-aos="fade-right" {% endif %} data-aos-duration="700"
@@ -47,19 +86,19 @@
 
 
         {% if block.settings.title != blank %}
-         <div id="block-{{ block.id }}">
+         <div>
           <div class="rte featured-row__subtext">{{ block.settings.title }}</div>
          </div>   
          {% endif %}
       
          {% if block.settings.content != blank %}
-         <div id="block-{{ block.id }}">
+         <div>
           <div class="rte featured-row__subtext">{{ block.settings.content }}</div>
          </div>   
          {% endif %}
       
         {% if block.settings.button_label != blank and block.settings.button_link != blank %}
-         <div id="block-{{ block.id }}">
+         <div>
             <a class="btn" href="{{  block.settings.button_linkl }}" >{{  block.settings.button_label }}</a>
          </div> 
        {% endif %}
