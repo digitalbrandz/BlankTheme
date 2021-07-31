@@ -97,12 +97,137 @@
 {% schema %}
   {
     "name": "About Us",
-    "settings": []
+    "settings": [{
+ "type": "header",
+ "content": "Additional Custom CSS"
+},
+{
+        "id": "css",
+        "type": "html",
+        "label": "Custom CSS"
+}]
 ,"blocks": [
     {
      "type": "Section",
      "name": "Section",
-     "settings" : [
+     "settings" : [{
+ "type": "header",
+ "content": "Choose Media Type"
+},
+{
+       "id": "image",
+       "type": "image_picker",
+       "label": "Image"
+},
+{
+       "id": "mp4",
+       "type": "url",
+       "label": "mp4"
+},
+{
+"id": "youtube_url",
+"type": "video_url",
+"accept": ["youtube"],
+"label": "Youtube URL",
+"info": "If left empty mute button will be shown instead for on page playback with sound"
+},
+{
+ "type": "header",
+ "content": "Media Settings"
+},
+ {
+    "type":   "range",
+    "id":     "width",
+    "min":       10,
+    "max":       100,
+    "step":     1,
+    "unit":      "%",
+    "label":     "Width",
+    "default":   50
+     }, 
+{
+   "type":      "radio",
+   "id":        "layout",
+   "label":     "Alignment",
+   "options": [
+     { "value": "left", "label": "Left" },
+     { "value": "right", "label": "Right" }
+   ],
+   "default":   "left"
+},
+{
+   "type":      "radio",
+   "id":        "layout_mobile",
+   "label":     "Mobile Alignment",
+   "options": [
+     { "value": "top", "label": "Top" },
+     { "value": "bottom", "label": "Bottom" }
+   ],
+   "default":   "top"
+},
+{
+ "type": "header",
+ "content": "Title Settings"
+},
+ {
+     "type": "font_picker",
+     "id": "font",
+     "label": "Font",
+     "default": "work_sans_n6"
+   },
+  {
+    "type":   "range",
+    "id":     "fontsize",
+    "min":       30,
+    "max":       75,
+    "step":     1,
+    "unit":      "px",
+    "label":     "Title Font Size",
+    "default":   40
+     },
+{
+       "id": "title_color",
+       "type": "color",
+       "label": "Title Color 1",
+       "default": "#000000"
+},
+{
+ "type": "header",
+ "content": "Background Settings"
+},
+{
+       "id": "backgroundimage",
+       "type": "image_picker",
+       "label": "Background Image"
+},
+{
+ "type": "header",
+ "content": "Button Settings"
+},
+{
+       "id": "link",
+       "type": "url",
+       "label": "Link"
+},
+{
+       "id": "label",
+       "type": "text",
+       "label": "Label",
+       "default": "Click Here"
+},
+{
+       "id": "color",
+       "type": "color",
+       "label": "Color",
+       "default": "#ffffff"
+},
+{
+       "id": "backgroundbutton",
+       "type": "color",
+       "label": "Background Color",
+       "default": "#000000"
+}
+
       ]
     }
    ]
