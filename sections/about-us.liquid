@@ -1,9 +1,9 @@
       {% for block in section.blocks %}
        {% case block.type %}
-        {% when 'Image' %}
+        {% when 'Section' %}
 
 
-
+<div>
 {% capture image_layout %}
    {% unless block.settings.mp4 != blank %}
     <div class="feature-row__item main"   {% if block.settings.layout == 'right' %} data-aos="fade-left" {% else %}data-aos="fade-right" {% endif %} data-aos-duration="700"
@@ -63,6 +63,7 @@
       {{ image_layout }}
     {% endif %}
   </div>
+</div>
 
         {% endcase %}
       {% endfor %} 
