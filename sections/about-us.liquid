@@ -3,11 +3,11 @@
         {% when 'Section' %}
 
 
-<div>
+<div {% if block.settings.layout == 'right' %} data-aos="fade-left" {% else %}data-aos="fade-right" {% endif %} data-aos-duration="700"
+    data-aos-easing="ease-out-cubic">
 {% capture image_layout %}
    {% unless block.settings.mp4 != blank %}
-    <div class="feature-row__item main"   {% if block.settings.layout == 'right' %} data-aos="fade-left" {% else %}data-aos="fade-right" {% endif %} data-aos-duration="700"
-    data-aos-easing="ease-out-cubic">
+    <div class="feature-row__item main">
       <div style="margin: 0 auto; max-width: {{ block.settings.image_width }}px;">
         {% if block.settings.image != blank %}
           {% if block.settings.button_label != blank and block.settings.button_link != blank %}<a href="{{ block.settings.button_link }}">{% endif %}
