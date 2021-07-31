@@ -108,7 +108,7 @@
     "share_twitter": true,
     "share_pinterest": true,
     "homepage_social_image": "shopify:\/\/shop_images\/AFTER_12_BANNER.jpg",
-    "favicon": "shopify:\/\/shop_images\/output-onlinepngtools_10.png",
+    "favicon": "shopify:\/\/shop_images\/favicon_50b77461-4b40-4768-93f7-681a73de08aa.png",
     "show_breadcrumbs": false,
     "search_results": "products",
     "html": "<style>\n@font-face {\nfont-family: 'beautiful_heartregular';\nsrc:url('https:\/\/cdn.shopify.com\/s\/files\/1\/0586\/4760\/9552\/files\/beautiful_heart-webfont.woff2?v=1626770224') format('woff2'),        url('https:\/\/cdn.shopify.com\/s\/files\/1\/0586\/4760\/9552\/files\/beautiful_heart-webfont.woff?v=1626770224') format('woff');\n    font-weight: normal;\n    font-style: normal;\n}\n.section-header__title {  \nfont-family: 'beautiful_heartregular';\nfont-size: 45px;\ntext-transform: capitalize;\n}\n@media (max-width:700px) {\n.section-header__title {\n    font-size: 30px;\n}\n}\n<\/style>",
