@@ -678,7 +678,7 @@
           "divider": false,
           "per_row": 3,
           "enable_gutter": true,
-          "css": "#shopify-section-1627178775216d0f68 .section-header__title {  \nfont-family: 'beautiful_heartregular';\nfont-size: 45px;\n}\n#shopify-section-1627178775216d0f68 \n.collection-item__title {\nfont-family: 'beautiful_heartregular';\n    text-shadow: 2px 2px 5px #7bb6c9, 0 0 25px #7bb6c9, 0 0 25px #7bb6c9, 0 0 25px #7bb6c9, 0 0 25px #7bb6c9;\n}\n\n@media (max-width:700px) {\n#shopify-section-1627178775216d0f68 .section-header__title {\n    font-size: 30px;\n}\n}"
+          "css": "#shopify-section-1627178775216d0f68 .section-header__title {  \nfont-family: 'beautiful_heartregular';\nfont-size: 45px;\n}\n#shopify-section-1627178775216d0f68 \n.collection-item__title {\nfont-family: 'beautiful_heartregular';\n    text-shadow: 2px 2px 5px #7bb6c9, 0 0 25px #7bb6c9, 0 0 25px #7bb6c9, 0 0 25px #7bb6c9, 0 0 25px #7bb6c9;\ntop:auto;\nbottom: -22px;\n}\n#shopify-section-1627178775216d0f68 .collection-item {\noverflow:visible;\n}\n\n@media (max-width:700px) {\n#shopify-section-1627178775216d0f68 .section-header__title {\n    font-size: 30px;\n}\n}"
         }
       },
       "1627225792f544f839": {
