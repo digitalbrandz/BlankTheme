@@ -1,7 +1,194 @@
 {% schema %}
   {
-    "name": "Section name",
+    "name": "About Us",
     "settings": []
+,"blocks": [
+    {
+     "type": "Section",
+     "name": "Section",
+     "settings" : [
+{
+   "type": "radio",
+   "id": "align",
+   "options": [
+      { "value": "Left", "label": "Left"},
+      { "value": "Right", "label": "Right"}
+   ],
+   "default": "Left",
+   "label": "Alignment"
+},
+{ "type": "header",
+ "content": "Headline"
+},
+      {
+        "id": "headline",
+        "type": "text",
+        "label": "title"
+      },
+ {
+     "type": "font_picker",
+     "id": "headline_font",
+     "label": "Font",
+     "default": "work_sans_n6"
+   },
+  {
+    "type":   "range",
+    "id":     "headline_fontsize",
+    "min":       70,
+    "max":       120,
+    "step":     1,
+    "unit":      "%",
+    "label":     "Font Size",
+    "default":   100
+     },
+{ "type": "header",
+ "content": "Paragraph"
+},
+      {
+        "id": "details",
+        "type": "textarea",
+        "label": "Content"
+      },
+{ "type": "header",
+ "content": "Button"
+},
+      {
+        "id": "cta",
+        "type": "url",
+        "label": "Link"
+      },
+      {
+        "id": "button_text",
+        "type": "text",
+        "label": "Button Text",
+        "default": "Learn More"
+      },
+{ "type": "header",
+ "content": "Image"
+},
+{
+       "id": "image",
+       "type": "image_picker",
+       "label": "Model Image PNG! (Optional)"
+},
+  {
+    "type":   "range",
+    "id":     "image_width",
+    "min":       10,
+    "max":       100,
+    "step":     1,
+    "unit":      "%",
+    "label":     "Image Width",
+    "default":   50
+     }, 
+      {
+        "type": "header",
+        "content": "Font Color & Buttons"
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text Color",
+        "default": "#FFFFFF"
+      },
+      {
+        "type": "color",
+        "id": "button_text_color",
+        "label": "Button Text Color",
+        "default": "#FFF"
+      },
+      {
+        "type": "color",
+        "id": "button_background_color",
+        "label": "Button Background Color",
+        "default": "#000"
+      },
+      {
+        "type": "header",
+        "content": "Background Style & Color"
+      },
+{
+       "id": "background_color",
+       "type": "color",
+       "label": "Background Color",
+       "default": "#242427"
+},{
+       "id": "background_color_2",
+       "type": "color",
+       "label": "Background Color #2 (Optional Gradient)",
+       "default": "transparent"
+},
+{
+       "id": "background_image",
+       "type": "image_picker",
+       "label": "Background Image (Optional)"
+}
+      ]
+    },
+ {
+     "type": "Video",
+     "name": "Video",
+     "settings" : [
+   { "type": "header",
+ "content": "Headline"
+},
+      {
+        "id": "headline",
+        "type": "text",
+        "label": "title"
+      },
+ {
+     "type": "font_picker",
+     "id": "headline_font",
+     "label": "Font",
+     "default": "work_sans_n6"
+   },
+  {
+    "type":   "range",
+    "id":     "headline_fontsize",
+    "min":       70,
+    "max":       120,
+    "step":     1,
+    "unit":      "%",
+    "label":     "Font Size",
+    "default":   100
+     },
+{
+   "id": "video_url",
+   "type": "video_url",
+   "label": "Youtube or Vimeo URL",
+   "accept": ["youtube","vimeo"]
+}, 
+      {
+        "id": "cta",
+        "type": "url",
+        "label": "Link"
+      },
+      {
+        "id": "button_text",
+        "type": "text",
+        "label": "Button Text",
+        "default": "Learn More"
+      },
+      {
+        "type": "header",
+        "content": "Font Color & Buttons"
+      },
+      {
+        "type": "color",
+        "id": "button_text_color",
+        "label": "Button Text Color",
+        "default": "#FFF"
+      },
+      {
+        "type": "color",
+        "id": "button_background_color",
+        "label": "Button Background Color",
+        "default": "#000"
+      }
+      ]
+    }
+   ]
   }
 {% endschema %}
 
