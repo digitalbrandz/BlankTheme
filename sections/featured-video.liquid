@@ -118,7 +118,8 @@
   </div>
 
 {% if section.settings.link != blank %}
-  <div>
+  <div data-aos="fade-up" data-aos-duration="900"
+    data-aos-easing="ease-out-cubic">
       <a class="btn" href="{{ section.settings.link }}" >{{ section.settings.label }}</a>
  </div>  
 {% endif %}
