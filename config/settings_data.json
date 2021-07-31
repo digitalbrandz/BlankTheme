@@ -672,7 +672,7 @@
             "type": "collection",
             "settings": {
               "collection": "naturally-curly",
-              "title": "Our Collection",
+              "title": "",
               "focal_point": "top center"
             }
           }
