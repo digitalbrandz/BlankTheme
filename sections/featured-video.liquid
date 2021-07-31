@@ -115,7 +115,14 @@
       <iframe src="//player.vimeo.com/video/{{ section.settings.video_url.id }}?color={{ settings.color_button | remove: "#" }}&byline=0&portrait=0&badge=0" width="850" height="480" frameborder="0" allowfullscreen></iframe>
     {% endif %}
   {% endif %}
-  </div>yo
+  </div>
+
+{% unless section.settings.button_link != blank %}
+  <div>
+      <a class="btn" href="{{ block.settings.link }}" >{{ block.settings.label }}</a>
+ </div>  
+{% endunless %}
+
 </div>
 
 {% if section.settings.divider %}</div>{% endif %}
