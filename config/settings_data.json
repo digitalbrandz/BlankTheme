@@ -672,8 +672,8 @@
             "type": "collection",
             "settings": {
               "collection": "naturally-curly",
-              "title": "",
-              "focal_point": "center center"
+              "title": "Our Collection",
+              "focal_point": "top center"
             }
           }
         },
