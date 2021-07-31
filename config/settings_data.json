@@ -666,26 +666,17 @@
               "title": "",
               "focal_point": "top center"
             }
-          },
-          "0a7cf179-4160-448e-a5ad-5d2bb98fd54a": {
-            "type": "collection",
-            "settings": {
-              "collection": "kse-botanical-hair-care",
-              "title": "",
-              "focal_point": "center center"
-            }
           }
         },
         "block_order": [
           "a2190853-f206-4c0e-8fd1-fca35bb65b90",
           "3c0b44e4-84e8-49de-8a6e-27ef09b6e710",
-          "509df597-e733-4fca-a2f8-6094b123a045",
-          "0a7cf179-4160-448e-a5ad-5d2bb98fd54a"
+          "509df597-e733-4fca-a2f8-6094b123a045"
         ],
         "settings": {
           "title": "Our Collection",
           "divider": false,
-          "per_row": 2,
+          "per_row": 3,
           "enable_gutter": true,
           "css": "#shopify-section-1627178775216d0f68 .section-header__title {  \nfont-family: 'beautiful_heartregular';\nfont-size: 45px;\n}\n@media (max-width:700px) {\n#shopify-section-1627178775216d0f68 .section-header__title {\n    font-size: 30px;\n}\n}"
         }
