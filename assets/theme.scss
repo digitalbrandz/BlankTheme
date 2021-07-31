@@ -7997,6 +7997,9 @@ height:auto;
 text-align:center;
 max-width: 1119px;
 }
+.shopify-section.featured-video {
+padding:75px 0;
+}
 /*================ About Us ================*/
 #shopify-section-about-us {
   @include media-query($medium-up) {  
