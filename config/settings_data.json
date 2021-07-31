@@ -778,7 +778,7 @@
             "type": "Image",
             "settings": {
               "image": "shopify:\/\/shop_images\/wholesale-button.png",
-              "link": "",
+              "link": "shopify:\/\/pages\/wholesale",
               "width": 51,
               "layout": "center",
               "topposition": 19,
