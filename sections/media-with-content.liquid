@@ -108,7 +108,7 @@
 
 </div>
          {% endif %}
-         <video playsinline="" autoplay="" preload="auto" loop="loop" muted="muted" onclick="event.preventDefault();">
+         <video playsinline="" autoplay="" preload="auto" loop="loop" muted="muted" onclick="event.preventDefault(); event.currentTarget.muted = false;">
             <source src="{{ section.settings.mp4 }}" type="video/mp4">
          </video>
     </div>
