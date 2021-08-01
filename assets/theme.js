@@ -914,6 +914,7 @@ lazySizesConfig.expFactor = 4;
         },
 
         addItemFromForm: function(data) {
+            console.log(data);
             return this._updateCart({
                 type: 'POST',
                 url: '/cart/add.js',
@@ -1305,10 +1306,8 @@ lazySizesConfig.expFactor = 4;
                 status.loading = true;
 
                 var data = this.$form.serialize();
-                 console.log(data);
                 theme.cart.addItemFromForm(data)
-                    .then(function(product) {
-                        console.log(product);
+                    .then(function(product) {      
                         this.success(product);
                     }.bind(this))
                     .catch(function(XMLHttpRequest) {
