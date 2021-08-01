@@ -917,18 +917,7 @@ lazySizesConfig.expFactor = 4;
             return this._updateCart({
                 type: 'POST',
                 url: '/cart/add.js',
-                data: {
-  "items": [
-    {
-      "id": '39984143139024',
-      "quantity": 1,
-      // ...
-      "properties" : {
-        "First name": "Caroline"
-      }
-    }
-  ]
-},
+                data: data,
                 dataType: 'json'
             });
         },
@@ -1317,8 +1306,8 @@ lazySizesConfig.expFactor = 4;
 
               if(this.$form[0].querySelector('.multiselect_wrap')) {
                 
-             //  var data = {line_items: Array.from(this.$form[0].querySelectorAll('.multiselect_wrap [name="id"]:checked')).map(x => ({variant_id:x.value, quantity: x.getAttribute('quantity')})) };
-                
+              var data = {line_items: Array.from(this.$form[0].querySelectorAll('.multiselect_wrap [name="id"]:checked')).map(x => ({id:x.value, quantity: x.getAttribute('quantity')})) };
+              console.log(data);
                 
               }else{
                 var data = this.$form.serialize();
