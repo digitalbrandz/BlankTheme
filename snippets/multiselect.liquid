@@ -79,19 +79,19 @@
          {% endif %}   
          {% if option_index == lastoption %} 
          <input id="multi-swatch-{{ option_index }}-{{ value | handle }}" data-value="{{ value | handle }}" type="checkbox" name="id" value="{{ variant.id }}" inventory="{{ stock }}" quantity="1" variant-price="{{ variant.price }}"  {% unless variant.available %}disabled{% endunless %}>
-        {% if block.settings.quantity %}
+
          <div class="quantity">
             <span>0</span>
          </div>
          <label for="multi-swatch-{{ option_index }}-{{ value | handle }}"><span class="multiselect-title">{{ variant.title }}</span> <span class="multiselect_price">{{ variant.price | money }}</span></label>
-         {% endif %}
+
  
          
          {% else %}
          <input id="multi-swatch-{{ option_index }}-{{ value | handle }}" data-value="{{ value | handle }}" type="radio" name="id-{{ option_index }}" value="{{ variant.id }}" inventory="{{ stock }}" quantity="1" {% if forloop.first %} checked{% endif %} {% unless variant.available %}{% if option_index == lastoption %}disabled{% endif %}{% endunless %}>
          <label class="{% if is_color  %}color{% endif %}" for="multi-swatch-{{ option_index }}-{{ value | handle }}">
            {% if is_color  %} 
-           <span class="image" {% unless block.settings.color-image %}style="background-color:{{ variant.option1 | handle }};"{% endunless %}>
+           <span class="image" style="background-color:{{ variant.option1 | handle }};">
              <span>
               {% if block.settings.color-image %}<img src="{{ value | handle | append: '.jpg' |  file_img_url: 'medium' }}" />{% endif %}
              </span>
@@ -116,12 +116,12 @@
        
       {% endunless %}
       {% endfor %} 
-      {% if block.settings.quantity and option_index == lastoption %}
+      {% if option_index == lastoption %}
       <div class="Multiselect-clear">
          <a href="#">Clear</a>
       </div>
       {% endif %} 
-      {% if block.settings.quantity %}
+ 
       <script> 
          quantitycheckboxes  = form.querySelectorAll('.multi-swatch[data-option-index="0"] input');
          if (quantitycheckboxes) {
@@ -149,13 +149,9 @@
                          var sibs = siblings2(swatchelement);
                          sibs.forEach(element => element.classList.remove('active')); 
                        }
-                     }else{
-                     {% if block.settings.quantity == false %}  
-                     swatchelement.classList.remove('active');
-                     {% endif %}  
-                     }
+
                 if(this.type == "checkbox") {
-                {% if block.settings.quantity %}
+            
                      var quantitywrap = this.nextElementSibling;
                      var quantityspan = quantitywrap.getElementsByTagName('span')[0];
                      var currentquantity = Number(quantityspan.innerHTML);
@@ -197,7 +193,7 @@
                  this.checked = true; 
                  e.preventDefault(); 
                 }
-                {% endif %}
+           
                 }
               });
               
@@ -220,7 +216,7 @@
          });
          {% endif %}   
       </script>
-      {% endif %}
+    
    </div>
   </div>
    {% endif %}
@@ -254,14 +250,14 @@
          <div id="element-{{ product.handle }}-{{ value | handle }}-{{ value1 | handle }}" data-value="{{ value | handle }}-{{ value1 | handle }}" class="multi-swatch-element {% if is_color %}color image{% endif %} value-{{ value | handle }}-{{ value1 | handle }} {% if variant1.available %}available{% else %}{% if option_index == lastoption %}soldout{% endif %}{% endif %} {% if optionloop == 0 %}{% unless option_index == lastoption %}active{% endunless %}{% endif %}">
             {% if option_index == lastoption %} 
             <input id="multi-swatch-{{ product.handle }}-{{ value | handle }}-{{ value1 | handle }}" data-value="{{ value | handle }}-{{ value1 | handle }}" type="checkbox" name="id" value="{{ variant1.id }}" inventory="{{ stock }}" quantity="1" variant-price="{{ variant1.price }}"  {% unless variant1.available %}disabled{% endunless %}>
-           {% if block.settings.quantity %}
+           
             <div class="quantity">
                <span>0</span>
             </div>
-           {% endif %}
+    
          <label class="{% if is_color  %}color{% endif %}"  for="multi-swatch-{{ product.handle }}-{{ value | handle }}-{{ value1 | handle }}">
            {% if is_color  %} 
-           <span class="image" {% unless block.settings.color-image %}style="background-color:{{ variant1.option2 | handle }};"{% endunless %}>
+           <span class="image"style="background-color:{{ variant1.option2 | handle }};">
              <span>
               {% if block.settings.color-image %}<img src="{{ value1 | handle | append: '.jpg'  |  file_img_url: 'medium' }}" />{% endif %}
              </span>
@@ -277,7 +273,7 @@
             <input id="multi-swatch-{{ product.handle }}-{{ value | handle }}-{{ value1 | handle }}" data-value="{{ value | handle }}-{{ value1 | handle }}" type="radio" name="id-{{ option_index }}-{{ value | handle }}" value="{{ variant1.id }}" inventory="{{ stock }}" quantity="1" {% if optionloop == 0 %} checked{% endif %} >
             <label class="{% if is_color  %}color{% endif %}" for="multi-swatch-{{ product.handle }}-{{ value | handle }}-{{ value1 | handle }}">
            {% if is_color  %} 
-           <span class="image" {% unless block.settings.color-image %}style="background-color:{{ variant1.option2 | handle }};"{% endunless %}>
+           <span class="image" style="background-color:{{ variant1.option2 | handle }};">
              <span>
                {% if block.settings.color-image %}<img src="{{ value1 | handle | append: '.jpg'  |  file_img_url: 'medium' }}" />{% endif %}
              </span>
@@ -308,7 +304,7 @@
          {% assign values = values | join: ',' %}
          {% assign values = values | append: ',' | append: value %} 
          {% assign values = values | split: ',' %}
-         {% if block.settings.quantity and option_index == lastoption %}
+         {% if option_index == lastoption %}
          <div class="Multiselect-clear">
             <a href="#">Clear</a>
          </div>
@@ -370,13 +366,9 @@
                          var sibs = siblings2(swatchelement);
                          sibs.forEach(element => element.classList.remove('active')); 
                        }
-                     }else{
-                     {% if block.settings.quantity == false %}  
-                     swatchelement.classList.remove('active');
-                     {% endif %}  
                      }
                 if(this.type == "checkbox") {
-                {% if block.settings.quantity %}
+         
                      var quantitywrap = this.nextElementSibling;
                      var quantityspan = quantitywrap.getElementsByTagName('span')[0];
                      var currentquantity = Number(quantityspan.innerHTML);
@@ -415,7 +407,7 @@
                  this.checked = true; 
                  e.preventDefault(); 
                 }
-                {% endif %}
+           
                 }
               });
          });  
@@ -479,14 +471,14 @@
    <div id="element-{{ product.handle }}-{{ value2 | handle }}-{{ value3 | handle }}-{{ value4 | handle }}" class="multi-swatch-element {% if is_color %}color image {% endif %} value-{{ value | handle }}-{{ value1 | handle }} {% if variant1.available %}available{% else %}soldout{% endif %}">
 
       <input id="multi-swatch-{{ product.handle }}-{{ value2 | handle }}-{{ value3 | handle }}-{{ value4 | handle }}" data-value="{{ value2 | handle }}-{{ value3 | handle }}-{{ value4 | handle }}" type="checkbox" name="id" value="{{ variant4.id }}" inventory="{{ stock }}" quantity="1" variant-price="{{ variant4.price }}"  {% unless variant4.available %}disabled{% endunless %}>
-     {% if block.settings.quantity %}
+
       <div class="quantity">
          <span>0</span>
       </div>
-      {% endif %} 
+ 
            <label class="{% if is_color  %}color{% endif %}" for="multi-swatch-{{ product.handle }}-{{ value2 | handle }}-{{ value3 | handle }}-{{ value4 | handle }}">
           {% if is_color  %} 
-           <span class="image" {% unless block.settings.color-image %}style="background:{{ variant4.option3 | handle }};{% endunless %}">
+           <span class="image" style="background:{{ variant4.option3 | handle }};">
              <span>
               {% if block.settings.color-image %}<img src="{{ value4 | handle | append: '.jpg'  |  file_img_url: 'medium' }}" />{% endif %}
              </span>
@@ -515,7 +507,7 @@
    {% endif %}    
    {% endunless %}
    {% endfor %}
-   {% if block.settings.quantity and option_index == lastoption %}
+   {% if option_index == lastoption %}
    <div class="Multiselect-clear">
       <a href="#">Clear</a>
    </div>
@@ -566,11 +558,9 @@
       var eltop = document.querySelector('#option-{{ product.handle }}-{{ product.id }}-{{ option_index }}-' + checkbox1.getAttribute('data-value')); 
       eltop.style.display = "flex";
       var brothers_n_sisters = siblings(eltop);
-    {% if block.settings.quantity %}
+
       brothers_n_sisters.forEach(element => [element.style.display = "none", element.querySelectorAll('input[type="checkbox"]').forEach(element2 => [element2.checked = false, element2.setAttribute('quantity', 1), element2.parentElement.querySelector('.quantity').getElementsByTagName('span')[0].innerHTML = 0,element2.parentElement.classList.remove('active')] ) ]);
-     {% else %}
-       brothers_n_sisters.forEach(element => [element.style.display = "none", element.querySelectorAll('input[type="checkbox"]').forEach(element2 => [element2.checked = false, element2.setAttribute('quantity', 1),element2.parentElement.classList.remove('active')] ) ]);      
-     {% endif %}
+
        
       
         // 3rd level deep
@@ -621,13 +611,9 @@
                          var sibs = siblings2(swatchelement);
                          sibs.forEach(element => element.classList.remove('active')); 
                        }
-                     }else{
-                     {% if block.settings.quantity == false %}  
-                     swatchelement.classList.remove('active');
-                     {% endif %}  
                      }
                 if(this.type == "checkbox") {
-                     {% if block.settings.quantity %}
+         
                      var quantitywrap = this.nextElementSibling;
                      var quantityspan = quantitywrap.getElementsByTagName('span')[0];
                      var currentquantity = Number(quantityspan.innerHTML);
@@ -664,13 +650,13 @@
                  this.checked = true; 
                  e.preventDefault(); 
                 }
-                {% endif %}
+     
                 }
               });
          });  
          }
         // add clear function
-        {% if block.settings.quantity and option_index == lastoption %} 
+        {% if option_index == lastoption %} 
         var clears = form.querySelectorAll('.multi-swatch[data-option-index="2"] .Multiselect-clear');
         clears.forEach(function(clear) {  
         clear.addEventListener( 'click', function(e) {
