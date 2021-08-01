@@ -1742,7 +1742,7 @@
                             return a.a.wrap(function(t) {
                                 for (;;) switch (t.prev = t.next) {
                                     case 0:
-                                        return t.next = 2, this.props.checkoutProcessor.fetchBeginOptions(this.instrument), console.log('yo');
+                                        return t.next = 2, console.log('yo'), this.props.checkoutProcessor.fetchBeginOptions(this.instrument);
                                     case 2:
                                         e = t.sent, this.setState({
                                             estimatedPrice: e.estimatedPrice,
