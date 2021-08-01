@@ -2033,7 +2033,7 @@
                                       
                                         return r = {}, t.next = 6, this.fetchVariantDetails();
                                     case 6:
-                                        console.log(this);
+                                        console.log(this.fetchVariantDetails());
                                         if (o = t.sent, r.requiresShipping = o.data.node.requiresShipping, o.data.shop.paymentSettings.currencyCode !== this.currency) {
                                             t.next = 11;
                                             break
