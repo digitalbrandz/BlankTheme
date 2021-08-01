@@ -22,9 +22,9 @@
       priceEl.innerHTML = priceSymbol + '0.00'; 
       var totalSelect = document.createElement("SPAN");
       totalSelect.classList.add('total-select');
-      totalSelect.innerHTML = 'Selected Total'; 
+      totalSelect.innerHTML = 'Selected Total '; 
       pricewrapEl.prepend(totalSelect);
-       
+      pricewrapEl.append(priceEl); 
       var comparePrice = pricewrapEl.querySelector('.product-compare-price');
        if(comparePrice) {
          comparePrice.innerHTML = '';
