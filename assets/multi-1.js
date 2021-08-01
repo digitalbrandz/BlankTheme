@@ -2028,13 +2028,13 @@
                                             t.next = 3;
                                             break
                                         }
-                                        return n = {}, t.abrupt("return", n);
+                                        return n = {}, t.abrupt("return", n, console.log(n));
                                     case 3:
                                       
                                         return r = {}, t.next = 6, this.fetchVariantDetails();
                                     case 6:
                                       
-                                        if (o = t.sent,console.log(o), r.requiresShipping = o.data.node.requiresShipping, o.data.shop.paymentSettings.currencyCode !== this.currency) {
+                                        if (o = t.sent, r.requiresShipping = o.data.node.requiresShipping, o.data.shop.paymentSettings.currencyCode !== this.currency) {
                                             t.next = 11;
                                             break
                                         }
