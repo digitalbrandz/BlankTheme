@@ -30,11 +30,11 @@
     {% endfor %}
   </select>
 
-  {% comment %}
+
    {% if template == 'product.multiselect' %}
      {% include 'multiselect' %}
    {% endif %}
-{% endcomment %}
+
 
   {% if settings.quantity_enable %}
     <div class="product__quantity product__quantity--{{ settings.variant_type }}">
