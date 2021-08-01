@@ -2035,7 +2035,6 @@
                                     case 6:
                                         
                                         if (o = t.sent, r.requiresShipping = o.data.node.requiresShipping, o.data.shop.paymentSettings.currencyCode !== this.currency) {
-                                          console.log(t);
                                             t.next = 11;
                                             break
                                         }
@@ -2129,6 +2128,7 @@
                             return a.a.wrap(function(t) {
                                 for (;;) switch (t.prev = t.next) {
                                     case 0:
+                                        console.log(this.fetchCheckout());
                                         return t.next = 2, this.fetchCheckout();
                                     case 2:
                                         return e = t.sent, n = e.line_items, t.abrupt("return", {
