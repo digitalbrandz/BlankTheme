@@ -1150,7 +1150,11 @@ lazySizesConfig.expFactor = 4;
                             discounts: product.discounts,
                             discountsApplied: product.price === (product.price - product.total_discount) ? false : true,
                             vendor: product.vendor
-                        };
+                        };  
+                      
+                       if(product.product_type == 'OPTIONS_HIDDEN_PRODUCT') {
+                          item['bold'] = true;
+                        }
 
                         items.push(item);
                     });
