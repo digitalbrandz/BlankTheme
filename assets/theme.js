@@ -1304,7 +1304,7 @@ lazySizesConfig.expFactor = 4;
 
                 status.loading = true;
 
-              console.log(this.form[0]);
+              console.log(this.$form[0]);
                 var data = this.$form.serialize();
               
                 theme.cart.addItemFromForm(data)
