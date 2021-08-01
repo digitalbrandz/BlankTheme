@@ -160,6 +160,7 @@
                     
                     var totalSelectEl =  form.parentElement.querySelector('#ProductPrice-{{ product.id }}');                                
                     var totalSelect = parseFloat(totalSelectEl.textContent.substring(1));
+                    console.log(totalSelect);
                     var newTotal = (Number(msprice) + Number(totalSelect)).toFixed(2);
                     totalSelectEl.innerHTML = priceSymbol + newTotal;
          
