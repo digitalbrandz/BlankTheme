@@ -12,6 +12,23 @@
        var siblings = n => [...n.parentElement.children].filter(c=> c!=n && c.classList.contains('option-wrap'))
        var siblings2 = n => [...n.parentElement.children].filter(c=> c!=n && c.classList.contains('multi-swatch-element'))
        
+      setTimeout(function() {
+      // add selected to total...and zero it out
+     var pricewrapEl = form.querySelector('#ProductPrice-{{ product.id }}');
+      console.log(pricewrapEl);                                   
+      var priceEl = form.querySelector('.product-price');
+      var priceSymbol = priceEl.textContent.charAt(0);
+      priceEl.innerHTML = priceSymbol + '0.00'; 
+      var totalSelect = document.createElement("SPAN");
+      totalSelect.classList.add('total-select');
+      totalSelect.innerHTML = 'Selected Total'; 
+      pricewrapEl.prepend(totalSelect);
+       
+      var comparePrice = pricewrapEl.querySelector('.product-compare-price');
+       if(comparePrice) {
+         comparePrice.innerHTML = '';
+       }      
+     },4);
       
    </script>
    {% endif %}
@@ -22,23 +39,7 @@
    {% if option %}
    {% assign found_option = true %}
    {% assign option_index = forloop.index0 %}  
-   <script>
-    
-    var selectoroption =  document.querySelectorAll('.selector-wrapper');
-     if(selectoroption) {
-       selectoroption.forEach(function(element) {
-         element.style.display = "none"; 
-       });
-     }
-      window.onload = function(e){ 
-       var selectoroption = document.querySelectorAll('.selector-wrapper'); 
-     if(selectoroption) {
-       selectoroption.forEach(function(element) {
-         element.style.display = "none"; 
-       });
-     }  
-      }
-   </script>
+
    {% assign downcased_option = option | downcase %}
    {% if downcased_option contains 'color' or downcased_option contains 'colour' %}
    {% assign is_color = true %}
