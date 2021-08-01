@@ -16,7 +16,7 @@
       // add selected to total...and zero it out
      var pricewrapEl = form.parentElement.querySelector('#ProductPrice-{{ product.id }}');
       console.log(pricewrapEl);                                   
-      var priceEl = form.querySelector('.product-price');
+      var priceEl = pricewrapEl;
       var priceSymbol = priceEl.textContent.charAt(0);
       priceEl.innerHTML = priceSymbol + '0.00'; 
       var totalSelect = document.createElement("SPAN");
