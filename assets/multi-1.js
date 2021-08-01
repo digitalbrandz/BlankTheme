@@ -2033,17 +2033,12 @@
                                       
                                         return r = {}, t.next = 6, this.fetchVariantDetails();
                                     case 6:
+                                      
                                         if (o = t.sent, r.requiresShipping = o.data.node.requiresShipping, o.data.shop.paymentSettings.currencyCode !== this.currency) {
                                             t.next = 11;
                                             break
                                         }
-                                    if(this.checkoutForm.querySelector('.multiselect_wrap')) {
-                                       var itemPrices = Array.from(this.checkoutForm.querySelectorAll('.multiselect_wrap [name="id"]:checked')).map(x => ({variant_id:x.value, quantity: x.getAttribute('quantity')}));
-                                       console.log(itemPrices);
-                                       return r.estimatedPrice = o.data.node.price, t.abrupt("return", r);
-                                    }else{                                       
                                         return r.estimatedPrice = o.data.node.price, t.abrupt("return", r);
-                                    }
                                     case 11:
                                         return (i = o.data.node.presentmentPrices.edges.find(function(t) {
                                             return t.node.price.currencyCode === c.currency
@@ -2170,7 +2165,7 @@
                             return a.a.wrap(function(t) {
                                 for (;;) switch (t.prev = t.next) {
                                     case 0:
-                                   
+                                        console.log('load');
                                         return n = {}, t.next = 3, this.fetchCheckout();
                                     case 3:
                                         return r = t.sent, n.requiresShipping = r.requires_shipping, "GooglePay" === e.id && (n.estimatedPrice = r.subtotal_price), t.abrupt("return", n);
