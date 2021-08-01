@@ -30,6 +30,10 @@
     {% endfor %}
   </select>
 
+  
+   {% if template == 'product.multiselect' %}
+     {% include 'multiselect' %}
+   {% endif %}
 
 
   {% if settings.quantity_enable %}
