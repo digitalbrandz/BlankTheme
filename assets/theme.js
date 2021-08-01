@@ -914,6 +914,7 @@ lazySizesConfig.expFactor = 4;
         },
 
         addItemFromForm: function(data) {
+            console.log('add');
             return this._updateCart({
                 type: 'POST',
                 url: '/cart/add.js',
