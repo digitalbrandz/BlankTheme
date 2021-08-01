@@ -17,7 +17,6 @@
      var pricewrapEl = form.parentElement.querySelector('#ProductPrice-{{ product.id }}');
       var priceEl = document.createElement("SPAN");
       priceEl.classList.add('product-price');                     
-      var priceEl = pricewrapEl;
       var priceSymbol = priceEl.textContent.charAt(0);
       priceEl.innerHTML = priceSymbol + '0.00'; 
       var totalSelect = document.createElement("SPAN");
