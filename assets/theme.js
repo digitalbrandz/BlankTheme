@@ -1304,11 +1304,8 @@ lazySizesConfig.expFactor = 4;
 
                 status.loading = true;
 
-              if(this.$form[0].querySelector('.multiselect_wrap')) {
-                
-              var data = {items: Array.from(this.$form[0].querySelectorAll('.multiselect_wrap [name="id"]:checked')).map(x => ({id:x.value, quantity: x.getAttribute('quantity')})) };
-              console.log(data);
-                
+              if(this.$form[0].querySelector('.multiselect_wrap')) {               
+              var data = {items: Array.from(this.$form[0].querySelectorAll('.multiselect_wrap [name="id"]:checked')).map(x => ({id:x.value, quantity: x.getAttribute('quantity')})) };                
               }else{
                 var data = this.$form.serialize();
               }
