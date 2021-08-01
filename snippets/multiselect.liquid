@@ -14,7 +14,9 @@
        
       setTimeout(function() {
       // add selected to total...and zero it out
-     var pricewrapEl = form.parentElement.querySelector('#ProductPrice-{{ product.id }}');                                
+     var pricewrapEl = form.parentElement.querySelector('#ProductPrice-{{ product.id }}');
+      var priceEl = document.createElement("SPAN");
+      priceEl.classList.add('product-price');                     
       var priceEl = pricewrapEl;
       var priceSymbol = priceEl.textContent.charAt(0);
       priceEl.innerHTML = priceSymbol + '0.00'; 
@@ -158,10 +160,8 @@
                     
                     var priceSymbol = mspriceEl.textContent.charAt(0);
                     
-                    var totalSelectEl =  form.parentElement.querySelector('#ProductPrice-{{ product.id }}');  
-                             console.log(totalSelectEl);                                              
+                    var totalSelectEl = form.querySelector('.product-price');
                     var totalSelect = parseFloat(totalSelectEl.textContent.substring(1));
-                    console.log(totalSelect);
                     var newTotal = (Number(msprice) + Number(totalSelect)).toFixed(2);
                     totalSelectEl.innerHTML = priceSymbol + newTotal;
          
