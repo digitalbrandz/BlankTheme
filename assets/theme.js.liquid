@@ -905,7 +905,6 @@ lazySizesConfig.expFactor = 4;
         },
 
         changeItem: function(key, qty) {
-           console.log('add');
             return this._updateCart({
                 type: 'POST',
                 url: '/cart/change.js',
@@ -915,7 +914,6 @@ lazySizesConfig.expFactor = 4;
         },
 
         addItemFromForm: function(data) {
-           console.log('add');
             return this._updateCart({
                 type: 'POST',
                 url: '/cart/add.js',
@@ -925,7 +923,6 @@ lazySizesConfig.expFactor = 4;
         },
 
         _updateCart: function(params) {
-           console.log('add');
             return $.ajax(params)
                 .then(function(cart) {
                     return cart;
@@ -1311,6 +1308,7 @@ lazySizesConfig.expFactor = 4;
 
                 theme.cart.addItemFromForm(data)
                     .then(function(product) {
+                   console.log('add');
                         this.success(product);
                     }.bind(this))
                     .catch(function(XMLHttpRequest) {
