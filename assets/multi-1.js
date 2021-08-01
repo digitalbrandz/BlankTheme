@@ -1974,14 +1974,14 @@
                     return p()(t, [{
                         key: "fetch",
                         value: (r = i()(a.a.mark(function t() {
-                            console.log('yo');
+                            
                             var e, n, r, o, i, c, s, u;
                             return a.a.wrap(function(t) {
                                 for (;;) switch (t.prev = t.next) {
                                     case 0:
                                         return e = this.checkoutForm.elements, n = e.quantity, r = n ? Number(n.value) : 1, o = this.checkoutForm.querySelector('.multiselect_wrap') ? null : this.getVariantId(), i = this.getProperties(), c = {
                                             variant_id: o,
-                                            quantity: r
+                                            quantity: 12
                                         }, (s = this.getSellingPlanId()) && (c.selling_plan_id = s), this.isEmptyProperties(i) || (c.properties = i), u = 
                                         this.checkoutForm.querySelector('.multiselect_wrap') ? {line_items: Array.from(this.checkoutForm.querySelectorAll('.multiselect_wrap [name="id"]:checked')).map(x => ({variant_id:x.value, quantity: x.getAttribute('quantity')})) } : {line_items: [c]}, t.abrupt("return", u);
                             
