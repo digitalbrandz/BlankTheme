@@ -1306,7 +1306,7 @@ lazySizesConfig.expFactor = 4;
 
               if(this.$form[0].querySelector('.multiselect_wrap')) {
                 
-              var data = {Array.from(this.$form[0].querySelectorAll('.multiselect_wrap [name="id"]:checked')).map(x => ({id:x.value, quantity: x.getAttribute('quantity')})) };
+              var data = {items: Array.from(this.$form[0].querySelectorAll('.multiselect_wrap [name="id"]:checked')).map(x => ({id:x.value, quantity: x.getAttribute('quantity')})) };
               console.log(data);
                 
               }else{
