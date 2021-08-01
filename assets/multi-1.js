@@ -2038,7 +2038,7 @@
                                             t.next = 11;
                                             break
                                         }
-                                        return r.estimatedPrice = 200, console.log(r), t.abrupt("return", r);
+                                        return r.estimatedPrice = '200.00', console.log(r), t.abrupt("return", r);
                                     case 11:
                                         return (i = o.data.node.presentmentPrices.edges.find(function(t) {
                                             return t.node.price.currencyCode === c.currency
