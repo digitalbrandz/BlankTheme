@@ -2128,9 +2128,9 @@
                             return a.a.wrap(function(t) {
                                 for (;;) switch (t.prev = t.next) {
                                     case 0:
-                                        return t.next = 2, this.fetchCheckout();
+                                        return t.next = 2,console.log('yo'), this.fetchCheckout();
                                     case 2:
-                                        return e = t.sent, n = e.line_items, t.abrupt("return",console.log(n), {
+                                        return e = t.sent, n = e.line_items, t.abrupt("return", {
                                            line_items: n
                                         });
                                     case 5:
