@@ -309,7 +309,6 @@
                                     }
                                     return r.requiresShipping = n.attributes.requires_shipping, "GooglePay" === e.id && (r.estimatedPrice = n.attributes.subtotal_price), t.abrupt("return", r);
                                 case 6:
-                                    console.log(this.props.dataSource.fetchBeginOptions(e));
                                     return t.next = 8, this.props.dataSource.fetchBeginOptions(e);
                                 case 8:
                                     return a = t.sent, t.abrupt("return", a);
@@ -1926,7 +1925,7 @@
                                     case 2:
                                         return n = t.sent, t.next = 5, n.json();
                                     case 5:
-                                        return r = t.sent, (o = {}).requiresShipping = r.requires_shipping, "GooglePay" === e.id && (o.estimatedPrice = (r.total_price / 100).toFixed(2)), t.abrupt("return", o);
+                                        return r = t.sent, (o = {}).requiresShipping = r.requires_shipping, "GooglePay" === e.id && (o.estimatedPrice = (r.total_price / 100).toFixed(2)),(console.log(o)) t.abrupt("return", o);
                                     case 10:
                                     case "end":
                                         return t.stop()
