@@ -2005,7 +2005,7 @@
                                             },
                                             body: f(n)
                                         });
-                                       console.log(e);
+                                       console.log(btoa("gid://shopify/ProductVariant/".concat(e)));
                                     case 4:
                                         return r = t.sent, t.next = 7, r.json();
                                     case 7:
