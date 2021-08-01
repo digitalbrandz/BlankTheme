@@ -2008,7 +2008,7 @@
                                     case 4: 
                                        
                                          r = t.sent, t.next = 7, r.json(); 
-                                         console.log(r.json());
+                                         console.log(r);
                                     case 7:
                                         return o = t.sent, t.abrupt("return", o);
                                     case 9:
