@@ -14,8 +14,8 @@
        
       setTimeout(function() {
       // add selected to total...and zero it out
-     var pricewrapEl = form.querySelector('#ProductPrice-{{ product.id }}');
-      console.log(form);                                   
+     var pricewrapEl = form.parentElement.querySelector('#ProductPrice-{{ product.id }}');
+      console.log(pricewrapEl);                                   
       var priceEl = form.querySelector('.product-price');
       var priceSymbol = priceEl.textContent.charAt(0);
       priceEl.innerHTML = priceSymbol + '0.00'; 
