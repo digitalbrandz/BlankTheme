@@ -203,7 +203,7 @@
              quantitycheckbox.parentElement.classList.remove('active');
           }); 
           // clear current total
-          var totalSelectEl = form.querySelector('.product-price'); 
+         var totalSelectEl = form.parentElement.querySelector('.product-price');
           var totalSymbol = totalSelectEl.textContent.charAt(0);
           totalSelectEl.innerHTML = totalSymbol + '0.00';  
          });
