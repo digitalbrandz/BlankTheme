@@ -1,6 +1,6 @@
 {{ 'multi-7.js' | asset_url | script_tag }}
 {{ 'multi-1.js' | asset_url | script_tag }}
-{{ 'multiselect.scss' | asset_url | style_tag }}
+{{ 'multiselect.scss' | asset_url | stylesheet_tag }}
 {% if product.variants.size >= 1 %}
 <div id="Multiselect_{{ product.id }}" class="multiselect_wrap">
    {% for option in product.options %}
