@@ -41,7 +41,14 @@
          {% endif %}   
          {% if option_index == lastoption %} 
          <input id="multi-swatch-{{ option_index }}-{{ value | handle }}" data-value="{{ value | handle }}" type="checkbox" name="id" value="{{ variant.id }}" inventory="{{ stock }}" quantity="1" variant-price="{{ variant.price }}"  {% unless variant.available %}disabled{% endunless %}>
-         yo
+
+         <div class="quantity">
+            <span>0</span>
+         </div>
+         <label for="multi-swatch-{{ option_index }}-{{ value | handle }}"><span class="multiselect-title">{{ variant.title }}</span> <span class="multiselect_price">{{ variant.price | money }}</span></label>
+
+ 
+         
          {% else %}
          <input id="multi-swatch-{{ option_index }}-{{ value | handle }}" data-value="{{ value | handle }}" type="radio" name="id-{{ option_index }}" value="{{ variant.id }}" inventory="{{ stock }}" quantity="1" {% if forloop.first %} checked{% endif %} {% unless variant.available %}{% if option_index == lastoption %}disabled{% endif %}{% endunless %}>
          <label class="{% if is_color  %}color{% endif %}" for="multi-swatch-{{ option_index }}-{{ value | handle }}">
