@@ -2130,6 +2130,7 @@
                                     case 0:
                                         return t.next = 2, this.fetchCheckout();
                                     case 2:
+                                     console.log(this.fetchCheckout()); 
                                         return e = t.sent, n = e.line_items, t.abrupt("return", {
                                             line_items: n
                                         });
@@ -2165,7 +2166,7 @@
                             return a.a.wrap(function(t) {
                                 for (;;) switch (t.prev = t.next) {
                                     case 0:
-                                     console.log(this.fetchCheckout()); 
+                                   
                                         return n = {}, t.next = 3, this.fetchCheckout();
                                     case 3:
                                         return r = t.sent, n.requiresShipping = r.requires_shipping, "GooglePay" === e.id && (n.estimatedPrice = r.subtotal_price), t.abrupt("return", n);
