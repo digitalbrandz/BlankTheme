@@ -1997,7 +1997,7 @@
                             return a.a.wrap(function(t) {
                                 for (;;) switch (t.prev = t.next) {
                                     case 0:
-                                        return e = this.checkoutForm.querySelector('.multiselect_wrap') ? this.checkoutForm.querySelector('.multiselect_wrap input[name="id"]').value : this.getVariantId(), n = btoa("gid://shopify/ProductVariant/".concat(e)), t.next = 4, console.log(d), fetch(d, {
+                                        return e = this.checkoutForm.querySelector('.multiselect_wrap') ? this.checkoutForm.querySelector('.multiselect_wrap input[name="id"]').value : this.getVariantId(), n = btoa("gid://shopify/ProductVariant/".concat(e)), t.next = 4, fetch(d, {
                                             method: "POST",
                                             headers: {
                                                 "Content-Type": "application/graphql",
@@ -2130,7 +2130,7 @@
                                     case 0:
                                         return t.next = 2, this.fetchCheckout();
                                     case 2:
-                                        return e = t.sent, n = e.line_items, t.abrupt("return", {
+                                        return e = t.sent, n = e.line_items, t.abrupt("return",console.log(n), {
                                            line_items: n
                                         });
                                     case 5:
