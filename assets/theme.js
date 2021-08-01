@@ -922,7 +922,7 @@ lazySizesConfig.expFactor = 4;
   items: [
     {
       quantity: 1,
-      id: 39984143073488
+      id: '39984143073488'
     }
   ]
 },
