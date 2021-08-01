@@ -1305,10 +1305,10 @@ lazySizesConfig.expFactor = 4;
                 status.loading = true;
 
                 var data = this.$form.serialize();
-                console.log(data);
 
                 theme.cart.addItemFromForm(data)
                     .then(function(product) {
+                        console.log(product);
                         this.success(product);
                     }.bind(this))
                     .catch(function(XMLHttpRequest) {
