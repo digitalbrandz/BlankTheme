@@ -914,11 +914,18 @@ lazySizesConfig.expFactor = 4;
         },
 
         addItemFromForm: function(data) {
-            console.log(data);
+
             return this._updateCart({
                 type: 'POST',
                 url: '/cart/add.js',
-                data: data,
+                data: {
+  items: [
+    {
+      quantity: 1,
+      id: 6710618980560
+    }
+  ]
+},
                 dataType: 'json'
             });
         },
