@@ -2147,7 +2147,7 @@
                             return a.a.wrap(function(t) {
                                 for (;;) switch (t.prev = t.next) {
                                     case 0:
-                                        return t.next = 2, this.apiClient.getCheckout(this.checkoutToken), console.log('yo');
+                                        return t.next = 2, this.apiClient.getCheckout(this.checkoutToken);
                                     case 2:
                                         return t.abrupt("return", t.sent);
                                     case 3:
@@ -2184,7 +2184,7 @@
                             return a.a.wrap(function(t) {
                                 for (;;) switch (t.prev = t.next) {
                                     case 0:
-                                        return t.next = 2, this.fetchCheckout();
+                                        return t.next = 2, this.fetchCheckout(), console.log('yo');
                                     case 2:
                                         return e = t.sent, t.abrupt("return", e.subtotal_price);
                                     case 4:
