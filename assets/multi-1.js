@@ -1882,12 +1882,10 @@
                             return a.a.wrap(function(t) {
                                 for (;;) switch (t.prev = t.next) {
                                     case 0:
-                                       
                                         return t.abrupt("return", {
                                             cart_token: this.cartToken,
                                             secret: !1
                                         });
-                                        
                                     case 1:
                                     case "end":
                                         return t.stop()
@@ -1974,18 +1972,17 @@
                     return p()(t, [{
                         key: "fetch",
                         value: (r = i()(a.a.mark(function t() {
-                            
                             var e, n, r, o, i, c, s, u;
                             return a.a.wrap(function(t) {
                                 for (;;) switch (t.prev = t.next) {
                                     case 0:
-                                        return e = this.checkoutForm.elements, n = e.quantity, r = n ? Number(n.value) : 1, o = this.checkoutForm.querySelector('.multiselect_wrap') ? null : this.getVariantId(), i = this.getProperties(), c = {
+                                        return e = this.checkoutForm.elements, n = e.quantity, r = n ? Number(n.value) : 1, o = this.getVariantId(), i = this.getProperties(), c = {
                                             variant_id: o,
                                             quantity: r
-                                        }, (s = this.getSellingPlanId()) && (c.selling_plan_id = s), this.isEmptyProperties(i) || (c.properties = i), u = 
-                                        this.checkoutForm.querySelector('.multiselect_wrap') ? {line_items: Array.from(this.checkoutForm.querySelectorAll('.multiselect_wrap [name="id"]:checked')).map(x => ({variant_id:x.value, quantity: x.getAttribute('quantity')})) } : {line_items: [c]}, t.abrupt("return", u);
-                            
-                                    case 11: 
+                                        }, (s = this.getSellingPlanId()) && (c.selling_plan_id = s), this.isEmptyProperties(i) || (c.properties = i), u = {
+                                            line_items: [c]
+                                        }, t.abrupt("return", u);
+                                    case 11:
                                     case "end":
                                         return t.stop()
                                 }
@@ -2000,7 +1997,7 @@
                             return a.a.wrap(function(t) {
                                 for (;;) switch (t.prev = t.next) {
                                     case 0:
-                                        return e = this.checkoutForm.querySelector('.multiselect_wrap') ? this.checkoutForm.querySelector('.multiselect_wrap input[name="id"]').value : this.getVariantId(), n = btoa("gid://shopify/ProductVariant/".concat(e)), t.next = 4, fetch(d, {
+                                        return e = this.getVariantId(), n = btoa("gid://shopify/ProductVariant/".concat(e)), t.next = 4, fetch(d, {
                                             method: "POST",
                                             headers: {
                                                 "Content-Type": "application/graphql",
@@ -2011,7 +2008,7 @@
                                     case 4:
                                         return r = t.sent, t.next = 7, r.json();
                                     case 7:
-                                        return o = t.sent, t.abrupt("return", o), console.log(o);
+                                        return o = t.sent, t.abrupt("return", o);
                                     case 9:
                                     case "end":
                                         return t.stop()
@@ -2033,10 +2030,8 @@
                                         }
                                         return n = {}, t.abrupt("return", n);
                                     case 3:
-                                      
                                         return r = {}, t.next = 6, this.fetchVariantDetails();
                                     case 6:
-                                      
                                         if (o = t.sent, r.requiresShipping = o.data.node.requiresShipping, o.data.shop.paymentSettings.currencyCode !== this.currency) {
                                             t.next = 11;
                                             break
@@ -2134,7 +2129,7 @@
                                         return t.next = 2, this.fetchCheckout();
                                     case 2:
                                         return e = t.sent, n = e.line_items, t.abrupt("return", {
-                                           line_items: n
+                                            line_items: n
                                         });
                                     case 5:
                                     case "end":
@@ -2168,7 +2163,6 @@
                             return a.a.wrap(function(t) {
                                 for (;;) switch (t.prev = t.next) {
                                     case 0:
-                               
                                         return n = {}, t.next = 3, this.fetchCheckout();
                                     case 3:
                                         return r = t.sent, n.requiresShipping = r.requires_shipping, "GooglePay" === e.id && (n.estimatedPrice = r.subtotal_price), t.abrupt("return", n);
