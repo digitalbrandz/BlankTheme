@@ -914,22 +914,10 @@ lazySizesConfig.expFactor = 4;
         },
 
         addItemFromForm: function(data) {
-
             return this._updateCart({
                 type: 'POST',
                 url: '/cart/add.js',
-                data: {
-  items: [
-    {
-      quantity: 1,
-      id: '39984143073488'
-    },
-      {
-      quantity: 1,
-      id: '39984143007952'
-    }
-  ]
-},
+                data: data,
                 dataType: 'json'
             });
         },
@@ -1316,7 +1304,9 @@ lazySizesConfig.expFactor = 4;
 
                 status.loading = true;
 
+              console.log('{{ template }}');
                 var data = this.$form.serialize();
+              
                 theme.cart.addItemFromForm(data)
                     .then(function(product) {      
                         this.success(product);
