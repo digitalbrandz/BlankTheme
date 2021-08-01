@@ -2031,11 +2031,11 @@
                                         return n = {}, t.abrupt("return", n);
                                     case 3:
                                         
-                                        r = {}, t.next = 6, this.fetchVariantDetails();
-                                        console.log(r);
+                                        return r = {}, t.next = 6, this.fetchVariantDetails();
                                     case 6:
                                         
                                         if (o = t.sent, r.requiresShipping = o.data.node.requiresShipping, o.data.shop.paymentSettings.currencyCode !== this.currency) {
+                                          console.log(t);
                                             t.next = 11;
                                             break
                                         }
