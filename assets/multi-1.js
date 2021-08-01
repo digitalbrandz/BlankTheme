@@ -1882,7 +1882,7 @@
                             return a.a.wrap(function(t) {
                                 for (;;) switch (t.prev = t.next) {
                                     case 0:
-                                        console.log('yo');
+                                       
                                         return t.abrupt("return", {
                                             cart_token: this.cartToken,
                                             secret: !1
@@ -1923,7 +1923,7 @@
                             return a.a.wrap(function(t) {
                                 for (;;) switch (t.prev = t.next) {
                                     case 0:
-                                        return t.next = 2, fetch("/cart.js");
+                                        return t.next = 2, console.log('yo'), fetch("/cart.js");
                                     case 2:
                                         return n = t.sent, t.next = 5, n.json();
                                     case 5:
