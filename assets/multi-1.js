@@ -309,7 +309,7 @@
                                     }
                                     return r.requiresShipping = n.attributes.requires_shipping, "GooglePay" === e.id && (r.estimatedPrice = n.attributes.subtotal_price), t.abrupt("return", r);
                                 case 6:
-                                    return t.next = 8, this.props.dataSource.fetchBeginOptions(e);
+                                  //  return t.next = 8, this.props.dataSource.fetchBeginOptions(e);
                                 case 8:
                                     return a = t.sent, t.abrupt("return", a);
                                 case 10:
@@ -2131,7 +2131,7 @@
                                         return t.next = 2, this.fetchCheckout();
                                     case 2:
                                         return e = t.sent, n = e.line_items, t.abrupt("return", {
-                                          //  line_items: n
+                                           line_items: n
                                         });
                                     case 5:
                                     case "end":
