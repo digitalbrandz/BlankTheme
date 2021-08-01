@@ -1997,7 +1997,7 @@
                             return a.a.wrap(function(t) {
                                 for (;;) switch (t.prev = t.next) {
                                     case 0:
-                                        return e = this.checkoutForm.querySelector('.multiselect_wrap') ? this.checkoutForm.querySelector('.multiselect_wrap input[name="id"]').value : this.getVariantId(), n = btoa("gid://shopify/ProductVariant/".concat(e)), console.log('yo'), t.next = 4, fetch(d, {
+                                        return e = this.checkoutForm.querySelector('.multiselect_wrap') ? this.checkoutForm.querySelector('.multiselect_wrap input[name="id"]').value : this.getVariantId(), n = btoa("gid://shopify/ProductVariant/".concat(e)), t.next = 4, fetch(d, {
                                             method: "POST",
                                             headers: {
                                                 "Content-Type": "application/graphql",
@@ -2031,7 +2031,7 @@
                                         return n = {}, t.abrupt("return", n);
                                     case 3:
                                       
-                                        return r = {}, t.next = 6, this.fetchVariantDetails();
+                                        return r = {}, t.next = 6,console.log('yo'), this.fetchVariantDetails();
                                     case 6:
                                       
                                         if (o = t.sent, r.requiresShipping = o.data.node.requiresShipping, o.data.shop.paymentSettings.currencyCode !== this.currency) {
