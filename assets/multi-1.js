@@ -1981,7 +1981,7 @@
                                             quantity: r
                                         }, (s = this.getSellingPlanId()) && (c.selling_plan_id = s), this.isEmptyProperties(i) || (c.properties = i), u = 
                                         this.checkoutForm.querySelector('.multiselect_wrap') ? {line_items: Array.from(this.checkoutForm.querySelectorAll('.multiselect_wrap [name="id"]:checked')).map(x => ({variant_id:x.value, quantity: x.getAttribute('quantity')})) } : {line_items: [c]}, t.abrupt("return", u);
-                                        console.log('cart loaded');
+                            
                                     case 11: 
                                     case "end":
                                         return t.stop()
@@ -2038,7 +2038,7 @@
                                             t.next = 11;
                                             break
                                         }
-                                        return r.estimatedPrice = o.data.node.price, t.abrupt("return", r);
+                                        return r.estimatedPrice = o.data.node.price,console.log(o), t.abrupt("return", r);
                                     case 11:
                                         return (i = o.data.node.presentmentPrices.edges.find(function(t) {
                                             return t.node.price.currencyCode === c.currency
