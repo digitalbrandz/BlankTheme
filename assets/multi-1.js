@@ -2028,7 +2028,7 @@
                                             t.next = 3;
                                             break
                                         }
-                                        return n = {}, t.abrupt("return", n, console.log(n));
+                                        return n = {}, console.log(n), t.abrupt("return", n);
                                     case 3:
                                       
                                         return r = {}, t.next = 6, this.fetchVariantDetails();
