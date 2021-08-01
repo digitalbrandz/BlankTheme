@@ -22,11 +22,6 @@
    {% if option %}
    {% assign found_option = true %}
    {% assign option_index = forloop.index0 %}  
-   <style>
-      label[for="product-select-option-{{ option_index }}"] { display: none; }
-      #product-select-option-{{ option_index }} { display: none; }
-      #product-select-option-{{ option_index }} + .custom-style-select-box { display: none !important; }
-   </style>
    <script>
     
     var selectoroption =  document.querySelectorAll('.selector-wrapper');
