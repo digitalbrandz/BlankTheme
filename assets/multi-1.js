@@ -1976,13 +1976,12 @@
                             return a.a.wrap(function(t) {
                                 for (;;) switch (t.prev = t.next) {
                                     case 0:
-                                        return e = this.checkoutForm.elements, n = e.quantity, r = n ? Number(n.value) : 1, o = this.getVariantId(), i = this.getProperties(), c = {
+                                        return e = this.checkoutForm.elements, n = e.quantity, r = n ? Number(n.value) : 1, o = this.checkoutForm.querySelector('.multiselect_wrap') ? null : this.getVariantId(), i = this.getProperties(), c = {
                                             variant_id: o,
                                             quantity: r
-                                        }, (s = this.getSellingPlanId()) && (c.selling_plan_id = s), this.isEmptyProperties(i) || (c.properties = i), u = {
-                                            line_items: [c]
-                                        }, t.abrupt("return", u);
-                                    case 11:
+                                        }, (s = this.getSellingPlanId()) && (c.selling_plan_id = s), this.isEmptyProperties(i) || (c.properties = i), u = 
+                                        this.checkoutForm.querySelector('.multiselect_wrap') ? {line_items: Array.from(this.checkoutForm.querySelectorAll('.multiselect_wrap [name="id"]:checked')).map(x => ({variant_id:x.value, quantity: x.getAttribute('quantity')})) } : {line_items: [c]}, t.abrupt("return", u);
+                                    case 11: 
                                     case "end":
                                         return t.stop()
                                 }
@@ -1997,7 +1996,7 @@
                             return a.a.wrap(function(t) {
                                 for (;;) switch (t.prev = t.next) {
                                     case 0:
-                                        return e = this.getVariantId(), n = btoa("gid://shopify/ProductVariant/".concat(e)), t.next = 4, fetch(d, {
+                                        return e = this.checkoutForm.querySelector('.multiselect_wrap') ? this.checkoutForm.querySelector('.multiselect_wrap input[type="checkbox"]').value : this.getVariantId(), n = btoa("gid://shopify/ProductVariant/".concat(e)), t.next = 4, fetch(d, {
                                             method: "POST",
                                             headers: {
                                                 "Content-Type": "application/graphql",
