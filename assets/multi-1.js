@@ -2006,7 +2006,7 @@
                                             body: f(n)
                                         });
                                     case 4: 
-                                        console.log(t.sent);
+                                        console.log(r);
                                         return r = t.sent, t.next = 7, r.json();
                                     case 7:
                                         return o = t.sent, t.abrupt("return", o);
