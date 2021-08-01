@@ -2130,9 +2130,8 @@
                                     case 0:
                                         return t.next = 2, this.fetchCheckout();
                                     case 2:
-                                     console.log(this.fetchCheckout()); 
                                         return e = t.sent, n = e.line_items, t.abrupt("return", {
-                                            line_items: n
+                                          //  line_items: n
                                         });
                                     case 5:
                                     case "end":
