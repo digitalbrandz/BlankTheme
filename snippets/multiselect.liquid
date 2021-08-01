@@ -1,12 +1,4 @@
 
-{{ 'https://cdn.jsdelivr.net/gh/phillypro/Shopify-Multiselect/multiselect-11.min.js' | script_tag }}
-{% comment %}
-{{ 'https://cdn.jsdelivr.net/gh/phillypro/Shopify-Multiselect/multiselect-1.min.js' | script_tag }}
-{{ 'https://cdn.jsdelivr.net/gh/phillypro/Shopify-Multiselect/multiselect-5.min.js' | script_tag }}
-{{ 'https://cdn.jsdelivr.net/gh/phillypro/Shopify-Multiselect/multiselect-0.min.js' | script_tag }}
-{{ 'https://cdn.jsdelivr.net/gh/phillypro/Shopify-Multiselect/multiselect-3.min.js' | script_tag }}
-{% endcomment %}
-{{ 'https://cdn.jsdelivr.net/gh/phillypro/Shopify-Multiselect/multiselect-2.min.js' | script_tag }}
 {% if product.variants.size >= 1 %}
 <div id="Multiselect_{{ product.id }}" class="multiselect_wrap">
    {% for option in product.options %}
