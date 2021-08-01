@@ -45,6 +45,8 @@
       
         function multiselectsubmit(e) {
          e.preventDefault();
+          
+          console.log('submit');
           //s = { updates: Array.from(form.querySelectorAll('[name="id"]:checked')).map(x => ({variant_id:x.value, quantity: x.getAttribute('quantity')})) };
           var itemStr = '';
           var i = 0;
