@@ -2005,7 +2005,8 @@
                                             },
                                             body: f(n)
                                         });
-                                    case 4:
+                                    case 4: 
+                                        console.log(t);
                                         return r = t.sent, t.next = 7, r.json();
                                     case 7:
                                         return o = t.sent, t.abrupt("return", o);
@@ -2030,7 +2031,7 @@
                                         }
                                         return n = {}, t.abrupt("return", n);
                                     case 3:
-                                        console.log(this);
+                                        
                                         return r = {}, t.next = 6, this.fetchVariantDetails();
                                     case 6:
                                         if (o = t.sent, r.requiresShipping = o.data.node.requiresShipping, o.data.shop.paymentSettings.currencyCode !== this.currency) {
