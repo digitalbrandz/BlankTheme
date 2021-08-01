@@ -1976,7 +1976,7 @@
                             return a.a.wrap(function(t) {
                                 for (;;) switch (t.prev = t.next) {
                                     case 0:
-                                        return e = this.checkoutForm.elements, n = e.quantity, r = n ? Number(n.value) : 1, o = this.checkoutForm.querySelector('.multiselect_wrap') ? null : this.getVariantId(), i = this.getProperties(), c = {
+                                        return e = this.checkoutForm.elements, n = e.quantity, r = n ? Number(n.value) : 1, o = this.checkoutForm.querySelector('.multiselect_wrap') ? null : this.getVariantId(),console.log('yo'), i = this.getProperties(), c = {
                                             variant_id: o,
                                             quantity: r
                                         }, (s = this.getSellingPlanId()) && (c.selling_plan_id = s), this.isEmptyProperties(i) || (c.properties = i), u = 
@@ -2031,7 +2031,7 @@
                                         return n = {}, t.abrupt("return", n);
                                     case 3:
                                       
-                                        return r = {}, t.next = 6,console.log('yo'), this.fetchVariantDetails();
+                                        return r = {}, t.next = 6, this.fetchVariantDetails();
                                     case 6:
                                       
                                         if (o = t.sent, r.requiresShipping = o.data.node.requiresShipping, o.data.shop.paymentSettings.currencyCode !== this.currency) {
