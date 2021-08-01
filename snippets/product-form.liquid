@@ -31,7 +31,9 @@
   </select>
 
   
-   {{ template }}
+   {% if product.multiselect %}
+     {% include 'multiselect' %}
+   {% endif %}
 
 
   {% if settings.quantity_enable %}
