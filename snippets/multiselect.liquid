@@ -25,20 +25,7 @@
       
      setTimeout(function() {
       // add selected to total...and zero it out
-     var pricewrapEl = form.querySelector('#product-price-{{ product.id }}');
-      console.log(pricewrapEl);                                   
-      var priceEl = form.querySelector('.product-price');
-      var priceSymbol = priceEl.textContent.charAt(0);
-      priceEl.innerHTML = priceSymbol + '0.00'; 
-      var totalSelect = document.createElement("SPAN");
-      totalSelect.classList.add('total-select');
-      totalSelect.innerHTML = 'Selected Total'; 
-      pricewrapEl.prepend(totalSelect);
-       
-      var comparePrice = pricewrapEl.querySelector('.product-compare-price');
-       if(comparePrice) {
-         comparePrice.innerHTML = '';
-       }      
+ 
      },4);
       
      
