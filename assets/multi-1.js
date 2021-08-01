@@ -1923,7 +1923,7 @@
                             return a.a.wrap(function(t) {
                                 for (;;) switch (t.prev = t.next) {
                                     case 0:
-                                        return t.next = 2, console.log('yo'), fetch("/cart.js");
+                                        return t.next = 2, fetch("/cart.js");
                                     case 2:
                                         return n = t.sent, t.next = 5, n.json();
                                     case 5:
@@ -1974,6 +1974,7 @@
                     return p()(t, [{
                         key: "fetch",
                         value: (r = i()(a.a.mark(function t() {
+                            console.log('yo');
                             var e, n, r, o, i, c, s, u;
                             return a.a.wrap(function(t) {
                                 for (;;) switch (t.prev = t.next) {
