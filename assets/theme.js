@@ -1308,7 +1308,6 @@ lazySizesConfig.expFactor = 4;
 
                 theme.cart.addItemFromForm(data)
                     .then(function(product) {
-                   console.log('add');
                         this.success(product);
                     }.bind(this))
                     .catch(function(XMLHttpRequest) {
