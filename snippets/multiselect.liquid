@@ -160,7 +160,7 @@
                     
                     var priceSymbol = mspriceEl.textContent.charAt(0);
                     
-                    var totalSelectEl = form.querySelector('.product-price');
+                    var totalSelectEl = form.parentElement.querySelector('.product-price');
                     var totalSelect = parseFloat(totalSelectEl.textContent.substring(1));
                     var newTotal = (Number(msprice) + Number(totalSelect)).toFixed(2);
                     totalSelectEl.innerHTML = priceSymbol + newTotal;
