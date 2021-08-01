@@ -14,11 +14,6 @@
        
       
    </script>
-  {% style %}
-       #product-variants-{{ product.id }} { display: none !important; }
-       #shopify-section-Multiselect .multi-swatch .option-wrap .multi-swatch-element.active label, #shopify-section-Multiselect .multi-swatch .option-wrap .multi-swatch-element input[type='radio']:checked ~ label {border-color:{{ section.settings.selectedColor }};}
-       #shopify-section-Multiselect .multi-swatch .option-wrap .multi-swatch-element .quantity span { background: {{ section.settings.selectedColor }};}
-  {% endstyle %}
    {% endif %}
    {% assign found_option = false %}
    {% assign is_color = false %}
