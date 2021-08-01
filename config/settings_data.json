@@ -57,7 +57,7 @@
     "quick_shop_enable": false,
     "quick_shop_text": "Quick view",
     "product_grid_image_size": "square",
-    "product_hover_image": false,
+    "product_hover_image": true,
     "product_color_swatches": true,
     "collection_color_swatches": true,
     "swatch_style": "round",
