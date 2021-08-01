@@ -605,6 +605,12 @@
       },
       {
         "type": "checkbox",
+        "id": "multiselect",
+        "label": "Enable Multiselect",
+        "default": true
+      },
+      {
+        "type": "checkbox",
         "id": "product_zoom_enable",
         "label": "Enable image zoom"
       },
