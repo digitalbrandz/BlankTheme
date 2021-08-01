@@ -7,63 +7,6 @@
    <script>
       var multiselectwrap = document.querySelector('#Multiselect_{{ product.id }}');
       var form = multiselectwrap.closest('form');
-      var shopifyAjaxAddURL = '/cart/update.js';       
-      var shopifyCartURL = '/cart';
-      
-                                
-      // multiselectform();   
-      function multiselectform() {                                    
-      form.addEventListener('submit', multiselectsubmit);   
-      }
-      
-     setTimeout(function() {
-      // add selected to total...and zero it out
- 
-     },4);
-      
-     
-      
-        function multiselectsubmit(e) {
-         e.preventDefault();
-          
-          console.log('submit');
-          //s = { updates: Array.from(form.querySelectorAll('[name="id"]:checked')).map(x => ({variant_id:x.value, quantity: x.getAttribute('quantity')})) };
-          var itemStr = '';
-          var i = 0;
-          var matches = Array.from(form.querySelectorAll('[name="id"]:checked'));
-          var $len = matches.length;
-           matches.forEach(function(element) {
-           itemStr += 'updates[' + element.value +']='+ element.getAttribute('quantity');
-           if (i !== $len - 1) {
-            itemStr +='&'; 
-           }
-           i++;  
-          });
-         postAjax(shopifyAjaxAddURL, itemStr, function(data){ 
-            
-         //   console.log(data); 
-         window.location.href = shopifyCartURL;
-          });
-          
-          
-        };  
-      
-       function postAjax(url, data, success) {
-       var params = typeof data == 'string' ? data : Object.keys(data).map(
-               function(k){ return encodeURIComponent(k) + '=' + encodeURIComponent(data[k]) }
-           ).join('&');
-      
-       var xhr = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
-       xhr.open('POST', url);
-       xhr.onreadystatechange = function() {
-           if (xhr.readyState>3 && xhr.status==200) { success(xhr.responseText); }
-       };
-       xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
-       xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-       xhr.send(params);
-       return xhr;
-       }
-      
       
        var siblings = n => [...n.parentElement.children].filter(c=> c!=n && c.classList.contains('option-wrap'))
        var siblings2 = n => [...n.parentElement.children].filter(c=> c!=n && c.classList.contains('multi-swatch-element'))
