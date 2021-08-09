@@ -143,7 +143,7 @@
           "6cbc61f3-7c65-4997-a7ac-152b64093089": {
             "type": "css",
             "settings": {
-              "css": "header .site-nav__item a{\ntext-transform:uppercase;\nfont-family: 'Poppins', sans-serif !important;\nletter-spacing: 2px !important;\n}\n\n@media only screen and (min-width: 769px) {\n.site-header:not(.site-header--stuck) {\n    padding: 0px 0 20px;\n}\n}"
+              "css": "header .site-nav__item a,.mobile-nav__link{\ntext-transform:uppercase;\nfont-family: 'Poppins', sans-serif !important;\nletter-spacing: 2px !important;\n}\n\n@media only screen and (min-width: 769px) {\n.site-header:not(.site-header--stuck) {\n    padding: 0px 0 20px;\n}\n}"
             }
           }
         },
