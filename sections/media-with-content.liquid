@@ -171,7 +171,8 @@
       
       
       
-        <div class=" {% if block.settings.video_url == blank and block.settings.image == blank %} video-wrapper{% else %}  main{% endif %}" id="block-{{ block.id }}">
+        <div class=" {% if block.settings.video_url == blank and block.settings.image == blank %} video-wrapper{% else %}  main{% endif %}" data-aos-delay="{{ delay }}" {% if section.settings.layout == 'right' %} data-aos="fade-right"  {% else %}data-aos="fade-left" {% endif %} data-aos-duration="700"
+    data-aos-easing="ease-out-cubic"  id="block-{{ block.id }}">
   {% if block.settings.video_url == blank %}
     <iframe src="//www.youtube.com/embed/_9VUPq3SxOc?rel=0&showinfo=0&vq=720" width="850" height="480" frameborder="0" allowfullscreen></iframe>
   {% else %}
@@ -201,8 +202,7 @@
 
 </div>
          {% endif %}
-    <div data-aos="fade-up" data-aos-duration="700"
-    data-aos-easing="ease-out-cubic">
+    <div>
          <video playsinline="" autoplay="" preload="auto" loop="loop" muted="muted" onclick="event.preventDefault(); event.currentTarget.muted = false; event.currentTarget.previousElementSibling.style.opacity = 0;">
             <source src="{{ block.settings.mp4 }}" type="video/mp4">
          </video>
@@ -231,8 +231,7 @@
          </a>
          {% endif %}
     
-<div data-aos="fade-up" data-aos-duration="700"
-    data-aos-easing="ease-out-cubic">
+<div>
         <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.image.aspect_ratio }}%;">
             {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
             <img class="feature-row__image lazyload"
