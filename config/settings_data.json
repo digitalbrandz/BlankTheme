@@ -752,7 +752,7 @@
           "youtube_url": "https:\/\/www.youtube.com\/watch?v=xgT4HDqNnyg",
           "width": 49,
           "layout": "left",
-          "layout_mobile": "top",
+          "layout_mobile": "bottom",
           "css": "#shopify-section-1628484411465afcff{\npadding-top: 40px;\nbackground: rgb(255,255,255);\nbackground: linear-gradient(180deg, rgba(255,255,255,1) 70%, rgba(247,177,199,1) 70%, rgba(247,177,199,1) 100%);\n}"
         }
       },
