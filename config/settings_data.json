@@ -734,18 +734,8 @@
           "4d2a210c-0bb7-433f-ac58-de8bd3f95bf8": {
             "type": "Media",
             "settings": {
-              "video_url": "",
+              "video_url": "https:\/\/www.youtube.com\/watch?v=HPHbeSGVKJo",
               "mp4": "",
-              "layout": "center",
-              "topposition": 15,
-              "bottomposition": 15
-            }
-          },
-          "b006bd17-479b-435c-80ea-3cb12b5f449d": {
-            "type": "Text",
-            "settings": {
-              "text": "<p>yooo<\/p>",
-              "color": "#000000",
               "layout": "center",
               "topposition": 15,
               "bottomposition": 15
@@ -753,8 +743,7 @@
           }
         },
         "block_order": [
-          "4d2a210c-0bb7-433f-ac58-de8bd3f95bf8",
-          "b006bd17-479b-435c-80ea-3cb12b5f449d"
+          "4d2a210c-0bb7-433f-ac58-de8bd3f95bf8"
         ],
         "settings": {
           "image": "shopify:\/\/shop_images\/video_model.png",
