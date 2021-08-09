@@ -154,7 +154,7 @@
         "settings": {
           "main_menu_link_list": "main-menu",
           "main_menu_alignment": "left-center",
-          "header_style": "normal",
+          "header_style": "sticky",
           "sticky_index": true,
           "above_announcement": true,
           "full_width": false,
