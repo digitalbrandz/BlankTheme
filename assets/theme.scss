@@ -466,9 +466,9 @@ $z-index-loader: 4;
 
 // Font-face header styles
 
-$type_header_family: Cabin;
+$type_header_family: Volkhov;
 
-$type_header_fallback: sans-serif;
+$type_header_fallback: serif;
 
 $type_header_stack: #{"'" + $type_header_family + "', " + $type_header_fallback};
 
@@ -482,13 +482,13 @@ $type_header_text_center: true;
 
 $type_header_base_size: 40px;
 
-$type_header_spacing: 0.0em;
+$type_header_spacing: 0.025em;
 
 $type_header_capitalize: false;
 
 // Font-face base styles
 
-$type_base_family: "Trade Gothic";
+$type_base_family: Poppins;
 
 $type_base_fallback: sans-serif;
 
@@ -504,7 +504,7 @@ $type_base_spacing: 0.025em;
 
 $type_base_line_height: 1.6;
 
-$type_base_size: 17px;
+$type_base_size: 18px;
 
 $icon_weight: 3px;
 
