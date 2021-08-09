@@ -5071,6 +5071,7 @@ $color-blankstate-background: #e1e1e1;
 
   @include media-query($medium-up) {
     padding: 10px 0;
+    box-shadow: 1px 1px 20px #0000000a;
   }
 }
 
