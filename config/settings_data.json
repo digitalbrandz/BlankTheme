@@ -14,8 +14,8 @@
     "color_header_text": "#000000",
     "color_announcement": "#fdbec5",
     "color_announcement_text": "#000000",
-    "color_footer": "#000000",
-    "color_footer_text": "#ffffff",
+    "color_footer": "#ffffff",
+    "color_footer_text": "#000000",
     "color_drawer_background": "#ffffff",
     "color_drawer_text": "#000000",
     "color_drawer_border": "#e8e8e1",
@@ -26,13 +26,13 @@
     "color_image_overlay": "#000",
     "color_image_overlay_opacity": 10,
     "color_image_overlay_text_shadow": 20,
-    "type_header_font_family": "cabin_n6",
+    "type_header_font_family": "cabin_n4",
     "type_header_spacing": "0",
     "type_header_base_size": 40,
     "type_header_line_height": 1,
     "type_header_capitalize": false,
     "type_headers_align_text": true,
-    "type_base_font_family": "trade_gothic_n7",
+    "type_base_font_family": "trade_gothic_n4",
     "type_base_spacing": "25",
     "type_base_size": 17,
     "type_base_line_height": 1.6,
@@ -95,23 +95,23 @@
     "afterpay": false,
     "klarna": false,
     "sezzlemerchantid": "",
-    "social_facebook_link": "https:\/\/www.facebook.com\/after12fashions",
-    "social_twitter_link": "https:\/\/twitter.com\/fashions_12",
+    "social_facebook_link": "",
+    "social_twitter_link": "",
     "social_pinterest_link": "",
-    "social_instagram_link": "https:\/\/www.instagram.com\/after12fashions\/",
+    "social_instagram_link": "",
     "social_snapchat_link": "",
     "social_tumblr_link": "",
     "social_linkedin_link": "",
-    "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCvgjybdGFDXmnOKPQUuGfRg",
+    "social_youtube_link": "",
     "social_vimeo_link": "",
     "share_facebook": true,
     "share_twitter": true,
     "share_pinterest": true,
     "homepage_social_image": "shopify:\/\/shop_images\/AFTER_12_BANNER.jpg",
-    "favicon": "shopify:\/\/shop_images\/favicon_50b77461-4b40-4768-93f7-681a73de08aa.png",
+    "favicon": "shopify:\/\/shop_images\/favicon_eeab2ad2-af31-43b7-a539-265f04082d7d.png",
     "show_breadcrumbs": false,
     "search_results": "products",
-    "html": "<style>\n@font-face {\nfont-family: 'beautiful_heartregular';\nsrc:url('https:\/\/cdn.shopify.com\/s\/files\/1\/0586\/4760\/9552\/files\/beautiful_heart-webfont.woff2?v=1626770224') format('woff2'),        url('https:\/\/cdn.shopify.com\/s\/files\/1\/0586\/4760\/9552\/files\/beautiful_heart-webfont.woff?v=1626770224') format('woff');\n    font-weight: normal;\n    font-style: normal;\n}\n.section-header__title, .section-header h2 {  \nfont-family: 'beautiful_heartregular';\nfont-size: 45px;\ntext-transform: capitalize;\n}\n@media (max-width:700px) {\n.section-header__title {\n    font-size: 30px;\n}\n}\n<\/style>",
+    "html": "<link rel=\"preconnect\" href=\"https:\/\/fonts.googleapis.com\">\n<link rel=\"preconnect\" href=\"https:\/\/fonts.gstatic.com\" crossorigin=\"\">\n<link href=\"https:\/\/fonts.googleapis.com\/css2?family=Poppins:wght@500&amp;display=swap\" rel=\"stylesheet\">\n\n<style>\n@font-face {\n    font-family: 'vogueregular';\n    src: url('https:\/\/cdn.shopify.com\/s\/files\/1\/0584\/8809\/4906\/files\/vogue-webfont.woff2?v=1628244043') format('woff2'),\n         url('https:\/\/cdn.shopify.com\/s\/files\/1\/0584\/8809\/4906\/files\/vogue-webfont.woff?v=1628244043') format('woff');\n    font-weight: normal;\n    font-style: normal;\n\n}\n@font-face {\n    font-family: 'tex_gyre_adventorregular';\n    src: url('https:\/\/cdn.shopify.com\/s\/files\/1\/0584\/8809\/4906\/files\/texgyreadventor-regular-webfont.woff2?v=1628247320') format('woff2'),\n         url('https:\/\/cdn.shopify.com\/s\/files\/1\/0584\/8809\/4906\/files\/texgyreadventor-regular-webfont.woff?v=1628247320') format('woff');\n    font-weight: normal;\n    font-style: normal;\n\n}\n@font-face {\n    font-family: 'amalfi_coastregular';\n    src: url('https:\/\/cdn.shopify.com\/s\/files\/1\/0584\/8809\/4906\/files\/amalfi_coast-webfont.woff2?v=1628249618') format('woff2'),\n         url('https:\/\/cdn.shopify.com\/s\/files\/1\/0584\/8809\/4906\/files\/amalfi_coast-webfont.woff?v=1628249618') format('woff');\n    font-weight: normal;\n    font-style: normal;\n\n}\n@font-face {\n    font-family: 'be_vietnamregular';\n    src: url('https:\/\/cdn.shopify.com\/s\/files\/1\/0584\/8809\/4906\/files\/bevietnam-regular-webfont.woff2?v=1628252444') format('woff2'),\n         url('https:\/\/cdn.shopify.com\/s\/files\/1\/0584\/8809\/4906\/files\/bevietnam-regular-webfont.woff?v=1628252444') format('woff');\n    font-weight: normal;\n    font-style: normal;\n\n}\n@font-face {\n    font-family: 'be_vietnambold';\n    src: url('https:\/\/cdn.shopify.com\/s\/files\/1\/0584\/8809\/4906\/files\/bevietnam-bold-webfont.woff2?v=1628252505') format('woff2'),\n         url('https:\/\/cdn.shopify.com\/s\/files\/1\/0584\/8809\/4906\/files\/bevietnam-bold-webfont.woff?v=1628252505') format('woff');\n    font-weight: normal;\n    font-style: normal;\n\n}\n<\/style>",
     "checkout_header_image": "shopify:\/\/shop_images\/rev_1_slide_1_model1-min.png",
     "checkout_logo_image": "shopify:\/\/shop_images\/after_12_logo_ff8ea544-4d60-44cd-a55f-baa238dcecb6.jpg",
     "checkout_logo_position": "center",
@@ -134,18 +134,10 @@
           "1524770014057": {
             "type": "logo",
             "settings": {
-              "logo": "shopify:\/\/shop_images\/logo.png",
+              "logo": "shopify:\/\/shop_images\/logo_fc308e94-9f8d-4538-9f35-6e162bca2fd6.png",
               "logo-svg": "",
-              "desktop_logo_width": 200,
-              "mobile_logo_width": 100
-            }
-          },
-          "2fc235b8-07e9-402f-9b2e-adc3aa5f197c": {
-            "type": "announcement",
-            "settings": {
-              "text": "Free Shipping On All Orders $75+",
-              "link_text": "",
-              "link": ""
+              "desktop_logo_width": 100,
+              "mobile_logo_width": 80
             }
           },
           "6cbc61f3-7c65-4997-a7ac-152b64093089": {
@@ -157,28 +149,27 @@
         },
         "block_order": [
           "1524770014057",
-          "2fc235b8-07e9-402f-9b2e-adc3aa5f197c",
           "6cbc61f3-7c65-4997-a7ac-152b64093089"
         ],
         "settings": {
           "main_menu_link_list": "main-menu",
           "main_menu_alignment": "left-center",
-          "header_style": "sticky-hide",
-          "sticky_index": false,
+          "header_style": "normal",
+          "sticky_index": true,
           "above_announcement": true,
-          "full_width": true,
+          "full_width": false,
           "sticky_collection": false,
           "header_search_enable": true,
           "toolbar_menu": "",
-          "toolbar_social": true,
-          "toolbar_currencies": true,
+          "toolbar_social": false,
+          "toolbar_currencies": false,
           "announcement_compact": true
         }
       },
       "footer": {
         "type": "footer",
         "blocks": {
-          "1494301487049": {
+          "6b5cabbc-f089-4d3c-8edd-31f0ffe97c94": {
             "type": "menu",
             "settings": {
               "show_footer_title": false,
@@ -186,28 +177,28 @@
               "container_width": 36
             }
           },
-          "1494292487693": {
+          "da9c4af0-e672-405a-927d-0bfe66acfe11": {
             "type": "newsletter",
             "settings": {
               "show_footer_title": true,
-              "title": "Get Special offers",
-              "text": "<p>Sign up to get newsletter of our new arrivals, sales, events, etc. <\/p>",
+              "title": "Sign up and save",
+              "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
               "container_width": 41
             }
           },
-          "de1b44a9-1bf2-4885-9b59-0df5275b6625": {
+          "7f96fff4-d87b-494f-873a-19de182d4aa1": {
             "type": "logo_social",
             "settings": {
-              "logo": "shopify:\/\/shop_images\/black_logo.jpg",
+              "logo": "shopify:\/\/shop_images\/logo_fc308e94-9f8d-4538-9f35-6e162bca2fd6.png",
               "desktop_logo_height": 120,
               "container_width": 17
             }
           }
         },
         "block_order": [
-          "1494301487049",
-          "1494292487693",
-          "de1b44a9-1bf2-4885-9b59-0df5275b6625"
+          "6b5cabbc-f089-4d3c-8edd-31f0ffe97c94",
+          "da9c4af0-e672-405a-927d-0bfe66acfe11",
+          "7f96fff4-d87b-494f-873a-19de182d4aa1"
         ],
         "settings": {
           "show_payment_icons": true,
@@ -618,104 +609,19 @@
           "bubble_tag_background_color_2": "#e0023f"
         }
       },
-      "16104564252dfa4d65": {
-        "type": "Slider6",
-        "settings": {
-          "activate_slider": false,
-          "rev": "<!-- START shopkeratinstripextensions REVOLUTION SLIDER 6.5.4 --><p class=\"rs-p-wp-fix\"><\/p>\n\t\t\t<rs-module-wrap id=\"rev_slider_2_1_wrapper\" data-alias=\"shopkeratinstripextensions\" data-source=\"gallery\" style=\"visibility:hidden;background:#ffffff;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;\">\n\t\t\t\t<rs-module id=\"rev_slider_2_1\" style=\"\" data-version=\"6.5.4\">\n\t\t\t\t\t<rs-slides>\n\t\t\t\t\t\t<rs-slide data-key=\"rs-2\" data-title=\"Slide\" data-anim=\"ei:d;eo:d;r:0;t:fade;sl:7;\">\n\t\t\t\t\t\t\t<img src=\"\/\/localhost\/wordpress\/wp-content\/plugins\/revslider\/public\/assets\/assets\/dummy.png\" title=\"slider_back\" width=\"1903\" height=\"636\" class=\"rev-slidebg tp-rs-img rs-lazyload\" data-lazyload=\"\/\/localhost\/wordpress\/wp-content\/uploads\/2021\/07\/slider_back2.jpg\" data-no-retina=\"\">\n<!--\n\t\t\t\t\t\t\t--><rs-group id=\"slider-2-slide-2-layer-0\" data-type=\"group\" data-rsp_ch=\"on\" data-xy=\"x:r;xo:151px,10px,7px,4px;y:m;\" data-text=\"w:normal;s:20,10,7,4;l:0,13,9,6;\" data-dim=\"w:661px,462px,392px,279px;h:418px,292px,246px,175px;\" data-frame_0=\"x:0,0px,0px,0px;y:0,0px,0px,0px;o:1;\" data-frame_1=\"x:0,0px,0px,0px;y:0,0px,0px,0px;\" data-frame_999=\"o:0;st:w;sR:8700;sA:9000;\" style=\"z-index:11;\"><rs-bg-elem style=\"position:absolute; top:0px;left:0px;\"><\/rs-bg-elem>\n<!--\n\t\t\t\t\t\t\t\t--><rs-layer id=\"slider-2-slide-2-layer-1\" data-type=\"image\" data-rsp_ch=\"on\" data-text=\"w:normal;s:20,10,7,4;l:0,13,9,6;\" data-dim=\"w:661px,462px,392px,279px;h:254px,177px,150px,106px;\" data-frame_0=\"x:0,0,0,0px;y:-50,-26,-19,-12px;\" data-frame_1=\"x:0,0,0,0px;y:0,0,0,0px;st:600;sp:550;sR:600;\" data-frame_999=\"o:0;st:w;sR:7850;\" style=\"z-index:10;\"><rs-bg-elem style=\"position:absolute; top:0px;left:0px;\"><\/rs-bg-elem>\n<img src=\"\/\/localhost\/wordpress\/wp-content\/plugins\/revslider\/public\/assets\/assets\/dummy.png\" class=\"tp-rs-img rs-lazyload\" width=\"661\" height=\"254\" data-lazyload=\"\/\/localhost\/wordpress\/wp-content\/uploads\/2021\/07\/slider_text_one.png\" data-no-retina=\"\"> \n\t\t\t\t\t\t\t\t<\/rs-layer><!--\n\n\t\t\t\t\t\t\t\t--><rs-layer id=\"slider-2-slide-2-layer-2\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"x:c;y:m;yo:55px,38px,31px,22px;\" data-text=\"w:normal;s:20,10,7,4;l:0,13,9,6;\" data-dim=\"w:624px,436px,368px,262px;h:94px,66px,55px,38px;\" data-frame_0=\"x:175%;y:0,0,0,0px;o:1;\" data-frame_0_mask=\"u:t;x:-100%;y:0,0,0,0px;\" data-frame_1=\"x:0,0,0,0px;y:0,0,0,0px;e:power3.out;st:1140;sp:750;sR:1140;\" data-frame_1_mask=\"u:t;x:0,0,0,0px;y:0,0,0,0px;\" data-frame_999=\"o:0;st:w;sR:7110;\" style=\"z-index:9;\"><rs-bg-elem style=\"position:absolute; top:0px;left:0px;\"><\/rs-bg-elem>\n<img src=\"\/\/localhost\/wordpress\/wp-content\/plugins\/revslider\/public\/assets\/assets\/dummy.png\" class=\"tp-rs-img rs-lazyload\" width=\"624\" height=\"94\" data-lazyload=\"\/\/localhost\/wordpress\/wp-content\/uploads\/2021\/07\/slider_text_two.png\" data-no-retina=\"\"> \n\t\t\t\t\t\t\t\t<\/rs-layer><!--\n\n\t\t\t\t\t\t\t\t--><a id=\"slider-2-slide-2-layer-3\" class=\"rs-layer rev-btn\" href=\"\/collections\/all\" target=\"_self\" data-type=\"button\" data-color=\"#ff1ed7\" data-rsp_ch=\"on\" data-xy=\"x:c;y:b;\" data-text=\"w:normal;s:24,20,16,14;l:45,37,32,25;fw:700;a:center;\" data-dim=\"w:224px,180px,160px,130px;h:53px,45px,40px,32px;minh:0px,none,none,none;\" data-padding=\"r:20,14,12,8;l:20,14,12,8;\" data-border=\"bos:solid;boc:#000000;bow:4px,4px,4px,4px;\" data-frame_0=\"x:0,0,0,0px;y:50,26,19,12px;\" data-frame_1=\"x:0,0,0,0px;y:0,0,0,0px;st:1860;sp:550;sR:1860;\" data-frame_999=\"o:0;st:w;sR:6590;\" data-frame_hover=\"c:#fff;bgc:#000;boc:#000;bor:0px,0px,0px,0px;bos:solid;bow:4px,4px,4px,4px;\" style=\"z-index:8;background-color:rgba(255,255,255,1);font-family:Poppins;text-shadow:#00000065 2px 2px 3px\"><rs-bg-elem style=\"position:absolute; top:0px;left:0px;\"><\/rs-bg-elem>\nSHOP NOW \n\t\t\t\t\t\t\t\t<\/a><!--\n\t\t\t\t\t\t\t--><\/rs-group><!--\n-->\t\t\t\t\t\t<\/rs-slide>\n\t\t\t\t\t<\/rs-slides>\n\t\t\t\t<\/rs-module>\n\t\t\t\t<script type=\"text\/javascript\">\n\t\t\t\t\tsetREVStartSize({c: 'rev_slider_2_1',rl:[1240,1024,778,480],el:[642,450,350,350],gw:[1920,1024,778,480],gh:[642,450,350,350],type:'standard',justify:'',layout:'fullwidth',mh:\"0\"});\n\t\t\t\t\tvar\trevapi178,\n\t\t\t\t\t\ttpj;\n\t\t\t\t\tfunction revinit_revslider1781() {\n\t\t\t\t\tjQuery(function() {\n\t\t\t\t\t\ttpj = jQuery;\n\t\t\t\t\t\trevapi178 = tpj(\"#rev_slider_2_1\");\n\t\t\t\t\t\tif(revapi178==undefined || revapi178.revolution == undefined){\n\t\t\t\t\t\t\trevslider_showDoubleJqueryError(\"rev_slider_2_1\");\n\t\t\t\t\t\t}else{\n\t\t\t\t\t\t\trevapi178.revolution({\n\t\t\t\t\t\t\t\tsliderLayout:\"fullwidth\",\n\t\t\t\t\t\t\t\tvisibilityLevels:\"1240,1024,778,480\",\n\t\t\t\t\t\t\t\tgridwidth:\"1920,1024,778,480\",\n\t\t\t\t\t\t\t\tgridheight:\"642,450,350,350\",\n\t\t\t\t\t\t\t\tspinner:\"spinner4\",\n\t\t\t\t\t\t\t\tperspective:600,\n\t\t\t\t\t\t\t\tperspectiveType:\"global\",\n\t\t\t\t\t\t\t\teditorheight:\"642,450,350,350\",\n\t\t\t\t\t\t\t\tresponsiveLevels:\"1240,1024,778,480\",\n\t\t\t\t\t\t\t\tprogressBar:{disableProgressBar:true},\n\t\t\t\t\t\t\t\tnavigation: {\n\t\t\t\t\t\t\t\t\tonHoverStop:false\n\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\tfallbacks: {\n\t\t\t\t\t\t\t\t\tallowHTML5AutoPlayOnAndroid:true\n\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t});\n\t\t\t\t\t\t}\n\t\t\t\t\t\t\n\t\t\t\t\t});\n\t\t\t\t\t} \/\/ End of RevInitScript\n\t\t\t\tvar once_revslider1781 = false;\n\t\t\t\tif (document.readyState === \"loading\") {document.addEventListener('readystatechange',function() { if((document.readyState === \"interactive\" || document.readyState === \"complete\") && !once_revslider1781 ) { once_revslider1781 = true; revinit_revslider1781();}});} else {once_revslider1781 = true; revinit_revslider1781();}\n\t\t\t\t<\/script>\n\t\t\t\t<script>\n\t\t\t\t\tvar htmlDivCss = '\t#rev_slider_2_1_wrapper rs-loader.spinner4 div { background-color: #ffffff !important; } ';\n\t\t\t\t\tvar htmlDiv = document.getElementById('rs-plugin-settings-inline-css');\n\t\t\t\t\tif(htmlDiv) {\n\t\t\t\t\t\thtmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;\n\t\t\t\t\t}else{\n\t\t\t\t\t\tvar htmlDiv = document.createElement('div');\n\t\t\t\t\t\thtmlDiv.innerHTML = '<style>' + htmlDivCss + '<\/style>';\n\t\t\t\t\t\tdocument.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);\n\t\t\t\t\t}\n\t\t\t\t<\/script>\n\t\t\t<\/rs-module-wrap>\n\t\t\t<!-- END REVOLUTION SLIDER -->",
-          "wait_slider": true
-        }
-      },
       "Loader": {
         "type": "Loader",
         "settings": {
           "activate": true,
-          "brand_logo": "shopify:\/\/shop_images\/logo.png",
+          "brand_logo": "shopify:\/\/shop_images\/logo_fc308e94-9f8d-4538-9f35-6e162bca2fd6.png",
           "brand_logo_svg": "",
           "logo_width": 43,
           "mobile_logo_width": 49,
-          "animation": "zoomIn",
+          "animation": "hinge",
           "trace": false,
           "background_color": "#ffffff",
           "background_color_2": "#ffffff",
           "css": ""
-        }
-      },
-      "1627178775216d0f68": {
-        "type": "featured-collections",
-        "blocks": {
-          "a2190853-f206-4c0e-8fd1-fca35bb65b90": {
-            "type": "collection",
-            "settings": {
-              "collection": "straight-hair",
-              "title": "",
-              "focal_point": "center center"
-            }
-          },
-          "3c0b44e4-84e8-49de-8a6e-27ef09b6e710": {
-            "type": "collection",
-            "settings": {
-              "collection": "tight-curly",
-              "title": "",
-              "focal_point": "center center"
-            }
-          },
-          "509df597-e733-4fca-a2f8-6094b123a045": {
-            "type": "collection",
-            "settings": {
-              "collection": "naturally-curly",
-              "title": "",
-              "focal_point": "top center"
-            }
-          },
-          "88b62897-a6e1-4417-aac9-1b0a0682e66f": {
-            "type": "collection",
-            "settings": {
-              "collection": "kse-botanical-hair-care",
-              "title": "KSE Botanical",
-              "focal_point": "center center"
-            }
-          }
-        },
-        "block_order": [
-          "a2190853-f206-4c0e-8fd1-fca35bb65b90",
-          "3c0b44e4-84e8-49de-8a6e-27ef09b6e710",
-          "509df597-e733-4fca-a2f8-6094b123a045",
-          "88b62897-a6e1-4417-aac9-1b0a0682e66f"
-        ],
-        "settings": {
-          "title": "Our Collection",
-          "divider": false,
-          "per_row": 3,
-          "enable_gutter": true,
-          "css": "#shopify-section-1627178775216d0f68 .section-header__title {  \nfont-family: 'beautiful_heartregular';\nfont-size: 45px;\n}\n#shopify-section-1627178775216d0f68 \n.collection-item__title {\nfont-family: 'beautiful_heartregular';\n    text-shadow: 2px 2px 5px #7bb6c9, 0 0 25px #7bb6c9, 0 0 25px #7bb6c9, 0 0 25px #7bb6c9, 0 0 25px #7bb6c9;\ntop:auto;\nbottom: 0px;\nfont-size: 60px;\n}\n#shopify-section-1627178775216d0f68 .collection-item {\noverflow:visible;\n}\n@media (min-width:700px) {\n#shopify-section-1627178775216d0f68 .grid__item:nth-child(4) {\ndisplay:none;\n}\n}\n@media (max-width:1142px) {\n#shopify-section-1627178775216d0f68 \n.collection-item__title {\n    font-size: 35px;\n}\n}\n@media (max-width:700px) {\n#shopify-section-1627178775216d0f68 \n.collection-item__title {\n    font-size: 25px;\n}\n}"
-        }
-      },
-      "1627225792f544f839": {
-        "type": "featured-collection",
-        "settings": {
-          "title": "Our Top Sellers",
-          "home_featured_products": "frontpage",
-          "per_row": 3,
-          "rows": 1,
-          "mobile_scrollable": true,
-          "view_all": true,
-          "divider": false,
-          "css": "#shopify-section-1627225792f544f839 {    margin: 75px 0 0px;\n}"
-        }
-      },
-      "1627227995e9b13669": {
-        "type": "text-and-image",
-        "disabled": true,
-        "settings": {
-          "image_width": 500,
-          "subtitle": "Improved",
-          "title": "Image with text",
-          "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
-          "button_label": "Optional button",
-          "button_link": "",
-          "layout": "left",
-          "divider": false
         }
       },
       "about-us": {
@@ -724,21 +630,21 @@
           "71660100-1b92-427b-97a8-c235ef535861": {
             "type": "Section",
             "settings": {
-              "image": "shopify:\/\/shop_images\/model.png",
+              "image": "shopify:\/\/shop_images\/img_model_9dea5375-2c6d-4a0d-8099-edae3fa9ae1f.png",
               "mp4": "",
               "youtube_url": "",
               "width": 48,
               "layout": "right",
               "layout_mobile": "bottom",
-              "title": "AFTER 12 FASHION",
-              "font": "abril_fatface_n4",
+              "title": "King Rich Virgin Hair & Beauty",
+              "font": "futura_n6",
               "fontsize": 43,
-              "title_color": "#000000",
-              "content": "<p><br\/>After 12 Fashions is located in Metro Atlanta, GA. We are owned by a Woman of God. At After12 we pride ourselves on delivering the most fashionable clothing for our divas. And, we carry sizes for all and all generation of clothing styles. We keep all seasons in all year round. So, don't worry if its Winter and you want something for Summer. We keep the stock updated. After 12 Fashions is growing everyday as a company. We thank you for shopping with us. We love our customers. And, your happiness and confidence in our brand is important to us.<\/p>",
-              "background1": "#ffffff",
-              "background2": "#edd6d6",
-              "button_link": "shopify:\/\/pages\/contact-us",
-              "button_label": "Contact Us",
+              "title_color": "#ffffff",
+              "content": "<p>Sometimes we don’t give ourselves enough credit! At times we forget to acknowledge the small things not realizing that is what will get you where you are or where you are going.<\/p>",
+              "background1": "#dc50b8",
+              "background2": "#e6aed8",
+              "button_link": "shopify:\/\/collections\/all",
+              "button_label": "SHOP NOW",
               "button_color": "#ffffff",
               "button_background": "#000000"
             }
@@ -751,122 +657,153 @@
           "css": ""
         }
       },
-      "1627714217d686f9ae": {
+      "16284828323c22434d": {
+        "type": "Slider6",
+        "settings": {
+          "activate_slider": false,
+          "rev": "<!-- START shopkingrichvirginhairnew REVOLUTION SLIDER 6.2.22 --><p class=\"rs-p-wp-fix\"><\/p>\n\t\t\t<rs-module-wrap id=\"rev_slider_203_1_wrapper\" data-alias=\"shopkingrichvirginhairnew\" data-source=\"gallery\" style=\"background:#000000;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;\">\n\t\t\t\t<rs-module id=\"rev_slider_203_1\" style=\"\" data-version=\"6.2.22\">\n\t\t\t\t\t<rs-slides>\n\t\t\t\t\t\t<rs-slide data-key=\"rs-203\" data-title=\"Slide\" data-anim=\"ei:d;eo:d;s:550;r:0;t:fade;sl:0;\">\n\t\t\t\t\t\t\t<img src=\"\/\/localhost\/wordpress\/wp-content\/uploads\/2021\/08\/slider_back_new.jpg\" title=\"slider_back_new\" width=\"1903\" height=\"744\" class=\"rev-slidebg\" data-no-retina=\"\">\n<!--\n\t\t\t\t\t\t\t--><rs-group id=\"slider-203-slide-203-layer-1\" data-type=\"group\" data-rsp_ch=\"on\" data-xy=\"x:l,l,l,c;xo:180px,15px,11px,0;y:t,m,m,b;yo:228px,30px,0,-5px;\" data-text=\"w:normal;s:20,10,7,4;l:0,13,9,6;\" data-dim=\"w:539px,373px,320px,300px;h:337px,233px,205px,192px;\" data-frame_0=\"x:0,0px,0px,0px;y:0,0px,0px,0px;o:1;\" data-frame_1=\"x:0,0px,0px,0px;y:0,0px,0px,0px;\" data-frame_999=\"o:0;st:w;sR:8700;sA:9000;\" style=\"z-index:14;\"><!--\n\t\t\t\t\t\t\t\t--><rs-layer id=\"slider-203-slide-203-layer-2\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"xo:110px,79px,68px,62px;yo:35px,25px,20px,18px;\" data-text=\"w:normal;s:20,10,7,4;l:0,13,9,6;\" data-dim=\"w:243px,167px,143px,134px;h:78px,53px,45px,41px;\" data-frame_0=\"y:-50,-26,-19,-11;\" data-frame_1=\"st:1390;sp:550;\" data-frame_999=\"o:0;st:w;sR:7060;\" style=\"z-index:10;\"><img src=\"\/\/localhost\/wordpress\/wp-content\/uploads\/2021\/08\/slider_text_one_new.png\" width=\"243\" height=\"78\" data-no-retina=\"\"> \n\t\t\t\t\t\t\t\t<\/rs-layer><!--\n\n\t\t\t\t\t\t\t\t--><rs-layer id=\"slider-203-slide-203-layer-3\" data-type=\"image\" data-rsp_ch=\"on\" data-text=\"w:normal;s:20,10,7,4;l:0,13,9,6;\" data-dim=\"w:539px,373px,320px,300px;h:298px,206px,177px,165px;\" data-frame_0=\"x:-50,-26,-19,-11;\" data-frame_1=\"st:1930;sp:550;\" data-frame_999=\"o:0;st:w;sR:6520;\" style=\"z-index:11;\"><img src=\"\/\/localhost\/wordpress\/wp-content\/uploads\/2021\/08\/slider_text_two_new.png\" width=\"539\" height=\"298\" data-no-retina=\"\"> \n\t\t\t\t\t\t\t\t<\/rs-layer><!--\n\n\t\t\t\t\t\t\t\t--><rs-layer id=\"slider-203-slide-203-layer-4\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"xo:205px,147px,125px,116px;yo:215px,155px,133px,124px;\" data-text=\"w:normal;s:20,10,7,4;l:0,13,9,6;\" data-dim=\"w:220px,152px,131px,121px;h:27px,19px,15px,13px;\" data-frame_0=\"y:50,26,19,11;\" data-frame_1=\"st:2480;sp:550;\" data-frame_999=\"o:0;st:w;sR:5970;\" style=\"z-index:12;\"><img src=\"\/\/localhost\/wordpress\/wp-content\/uploads\/2021\/08\/slider_text_three_new.png\" width=\"220\" height=\"27\" data-no-retina=\"\"> \n\t\t\t\t\t\t\t\t<\/rs-layer><!--\n\n\t\t\t\t\t\t\t\t--><a id=\"slider-203-slide-203-layer-5\" class=\"rs-layer rev-btn\" href=\"\/collections\/all\" target=\"_self\" rel=\"nofollow\" data-type=\"button\" data-color=\"#000000\" data-rsp_ch=\"on\" data-xy=\"x:r,r,c,c;xo:170px,109px,-14px,-16px;y:b;yo:0,2px,0,10px;\" data-text=\"w:normal;s:22,18,16,16;l:64,45,40,37;ls:2px,2px,1px,1px;fw:500;a:center;\" data-dim=\"w:258px,185px,155px,145px;h:64px,45px,40px,37px;minh:0px,none,none,none;\" data-padding=\"r:20,15,12,10;l:20,15,12,10;\" data-frame_0=\"sX:0.9;sY:0.9;\" data-frame_1=\"st:3030;sp:600;\" data-frame_999=\"o:0;st:w;sR:5420;\" data-frame_hover=\"c:#fff;bgc:linear-gradient(270deg, rgba(221,36,175,1) 0%, rgba(221,36,175,1) 34%, rgba(221,36,175,1) 68%, rgba(221,36,175,1) 100%);bor:0px,0px,0px,0px;sp:200;e:power1.inOut;\" style=\"z-index:13;background:linear-gradient(270deg, rgba(183,134,40,1) 0%, rgba(192,158,40,1) 34%, rgba(255,240,191,1) 68%, rgba(198,147,32,1) 100%);font-family:Poppins;\">SHOP NOW \n\t\t\t\t\t\t\t\t<\/a><!--\n\n\t\t\t\t\t\t\t\t--><rs-layer id=\"slider-203-slide-203-layer-6\" data-type=\"shape\" data-rsp_ch=\"on\" data-xy=\"x:l,l,l,c;xo:50px,26px,19px,0;yo:50px,26px,19px,15px;\" data-text=\"w:normal;s:20,10,7,4;l:0,13,9,6;\" data-dim=\"w:300px,160px,121px,547px;h:180px,96px,72px,124px;\" data-vbility=\"f,f,f,t\" data-frame_1=\"st:1100;sp:400;sR:1100;\" data-frame_999=\"o:0;st:w;sR:7500;\" style=\"z-index:9;background-color:rgba(255,255,255,0.7);\"> \n\t\t\t\t\t\t\t\t<\/rs-layer><!--\n\t\t\t\t\t\t\t--><\/rs-group><!--\n\n\t\t\t\t\t\t\t--><rs-layer id=\"slider-203-slide-203-layer-0\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"x:r,r,r,c;xo:128px,-10px,-47px,0;y:b;yo:0,0,0,-7px;\" data-text=\"w:normal;s:20,10,7,4;l:0,13,9,6;\" data-dim=\"w:1078px,646px,502px,502px;h:751px,450px,350px,350px;\" data-frame_0=\"x:50,26,19,11;\" data-frame_1=\"st:550;sp:550;\" data-frame_999=\"o:0;st:w;sR:7900;\" style=\"z-index:8;\"><img src=\"\/\/localhost\/wordpress\/wp-content\/uploads\/2021\/08\/slider_model_new-1.png\" width=\"1068\" height=\"744\" data-no-retina=\"\"> \n\t\t\t\t\t\t\t<\/rs-layer><!--\n-->\t\t\t\t\t\t<\/rs-slide>\n\t\t\t\t\t<\/rs-slides>\n\t\t\t\t<\/rs-module>\n\t\t\t\t<script type=\"text\/javascript\">\n\t\t\t\t\tsetREVStartSize({c: 'rev_slider_203_1',rl:[1240,1024,778,480],el:[751,450,350,350],gw:[1920,1024,778,480],gh:[751,450,350,350],type:'standard',justify:'',layout:'fullwidth',mh:\"0\"});\n\t\t\t\t\tvar\trevapi203,\n\t\t\t\t\t\ttpj;\n\t\t\t\t\tfunction revinit_revslider2031() {\n\t\t\t\t\tjQuery(function() {\n\t\t\t\t\t\ttpj = jQuery;\n\t\t\t\t\t\trevapi203 = tpj(\"#rev_slider_203_1\");\n\t\t\t\t\t\tif(revapi203==undefined || revapi203.revolution == undefined){\n\t\t\t\t\t\t\trevslider_showDoubleJqueryError(\"rev_slider_203_1\");\n\t\t\t\t\t\t}else{\n\t\t\t\t\t\t\trevapi203.revolution({\n\t\t\t\t\t\t\t\tsliderLayout:\"fullwidth\",\n\t\t\t\t\t\t\t\tvisibilityLevels:\"1240,1024,778,480\",\n\t\t\t\t\t\t\t\tgridwidth:\"1920,1024,778,480\",\n\t\t\t\t\t\t\t\tgridheight:\"751,450,350,350\",\n\t\t\t\t\t\t\t\tspinner:\"spinner4\",\n\t\t\t\t\t\t\t\tperspective:600,\n\t\t\t\t\t\t\t\tperspectiveType:\"global\",\n\t\t\t\t\t\t\t\teditorheight:\"751,450,350,350\",\n\t\t\t\t\t\t\t\tresponsiveLevels:\"1240,1024,778,480\",\n\t\t\t\t\t\t\t\tprogressBar:{disableProgressBar:true},\n\t\t\t\t\t\t\t\tnavigation: {\n\t\t\t\t\t\t\t\t\tonHoverStop:false\n\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\tfallbacks: {\n\t\t\t\t\t\t\t\t\tallowHTML5AutoPlayOnAndroid:true\n\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t});\n\t\t\t\t\t\t}\n\t\t\t\t\t\t\n\t\t\t\t\t});\n\t\t\t\t\t} \/\/ End of RevInitScript\n\t\t\t\tvar once_revslider2031 = false;\n\t\t\t\tif (document.readyState === \"loading\") {document.addEventListener('readystatechange',function() { if((document.readyState === \"interactive\" || document.readyState === \"complete\") && !once_revslider2031 ) { once_revslider2031 = true; revinit_revslider2031();}});} else {once_revslider2031 = true; revinit_revslider2031();}\n\t\t\t\t<\/script>\n\t\t\t\t<script>\n\t\t\t\t\tvar htmlDivCss = '\t#rev_slider_203_1_wrapper rs-loader.spinner4 div { background-color: #ffffff !important; } ';\n\t\t\t\t\tvar htmlDiv = document.getElementById('rs-plugin-settings-inline-css');\n\t\t\t\t\tif(htmlDiv) {\n\t\t\t\t\t\thtmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;\n\t\t\t\t\t}else{\n\t\t\t\t\t\tvar htmlDiv = document.createElement('div');\n\t\t\t\t\t\thtmlDiv.innerHTML = '<style>' + htmlDivCss + '<\/style>';\n\t\t\t\t\t\tdocument.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);\n\t\t\t\t\t}\n\t\t\t\t<\/script>\n\t\t\t<\/rs-module-wrap>\n\t\t\t<!-- END REVOLUTION SLIDER -->",
+          "wait_slider": true
+        }
+      },
+      "16284838822e2131e2": {
+        "type": "featured-collection",
+        "settings": {
+          "title": "<span class=\"first\">TOP<\/span> SELLERS",
+          "home_featured_products": "frontpage",
+          "per_row": 3,
+          "rows": 1,
+          "mobile_scrollable": true,
+          "view_all": true,
+          "divider": false,
+          "css": "#shopify-section-16284838822e2131e2 .section-header__title .first{\npadding: 0;\ncolor: #dd24af;\n}\n#shopify-section-16284838822e2131e2 .section-header__title{\nfont-family: 'vogueregular';\nletter-spacing: 1px;\nfont-size: 38px;\n}"
+        }
+      },
+      "1628484223e3ac5efb": {
         "type": "media-with-content",
         "blocks": {
-          "dfeccf78-4d5c-4746-baab-18cc5f5bf607": {
-            "type": "Image",
+          "eeee46f7-5aa7-41d9-b358-065189486201": {
+            "type": "HTML",
             "settings": {
-              "image": "shopify:\/\/shop_images\/img_text.png",
-              "link": "",
-              "width": 100,
-              "layout": "center",
-              "topposition": 15,
+              "html": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0584\/8809\/4906\/files\/img_text.png?v=1628241167\">",
+              "topposition": 0,
               "bottomposition": 0
             }
           },
-          "c01aa5d8-7348-499e-aee0-7a9adae8fd09": {
+          "fae62242-308c-4fd8-a61f-58c334c4a8ea": {
             "type": "Text",
             "settings": {
-              "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud j<\/p>",
-              "color": "#ffffff",
+              "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation<\/p>",
+              "color": "#000000",
               "layout": "center",
-              "topposition": 8,
-              "bottomposition": 15
+              "topposition": 0,
+              "bottomposition": 0
             }
           },
-          "55760aa0-8058-4dec-ad03-bc69ca9920a7": {
-            "type": "Image",
+          "6960161a-9fad-4a02-a7d5-67521b5d26ca": {
+            "type": "Button",
             "settings": {
-              "image": "shopify:\/\/shop_images\/wholesale-button.png",
-              "link": "shopify:\/\/pages\/wholesale",
-              "width": 51,
+              "link": "shopify:\/\/collections\/all",
+              "label": "SHOP NOW",
+              "color": "#000000",
+              "background": "rgba(0,0,0,0)",
               "layout": "center",
-              "topposition": 19,
-              "bottomposition": 15
+              "topposition": 0,
+              "bottomposition": 0
             }
           }
         },
         "block_order": [
-          "dfeccf78-4d5c-4746-baab-18cc5f5bf607",
-          "c01aa5d8-7348-499e-aee0-7a9adae8fd09",
-          "55760aa0-8058-4dec-ad03-bc69ca9920a7"
+          "eeee46f7-5aa7-41d9-b358-065189486201",
+          "fae62242-308c-4fd8-a61f-58c334c4a8ea",
+          "6960161a-9fad-4a02-a7d5-67521b5d26ca"
         ],
         "settings": {
+          "image": "shopify:\/\/shop_images\/img_model_9dea5375-2c6d-4a0d-8099-edae3fa9ae1f.png",
           "mp4": "",
           "youtube_url": "",
-          "width": 50,
-          "layout": "left",
-          "layout_mobile": "top",
-          "background": "shopify:\/\/shop_images\/img_back.jpg",
-          "css": "#shopify-section-1627714217d686f9ae .feature-row__item.main {\nvisibility:hidden;\n}\n@media (max-width:800px) {\n#shopify-section-1627714217d686f9ae {\n    background-position: 16% top;\n}\n}"
+          "width": 70,
+          "layout": "right",
+          "layout_mobile": "bottom",
+          "background": "shopify:\/\/shop_images\/img_back_dd95f39e-ac24-4210-90fb-46c51fd8d3ba.jpg",
+          "css": "#shopify-section-1628484223e3ac5efb{\noverflow: visible;\n}\n#shopify-section-1628484223e3ac5efb #block-fae62242-308c-4fd8-a61f-58c334c4a8ea{\nmax-width: 90%;\nmargin: -30px 0 50px auto;\n}\n#shopify-section-1628484223e3ac5efb .rte&gt;p:last-child{\nfont-family: 'tex_gyre_adventorregular';\nline-height: 1.5;\nfont-weight: 400;\nfont-size: 16px;\n}\n#shopify-section-1628484223e3ac5efb #block-6960161a-9fad-4a02-a7d5-67521b5d26ca &gt; *{\nfont-family: 'Poppins', sans-serif;\nletter-spacing: 2px;\nborder-radius: 0;\n  background-image: linear-gradient(to left, #b78628, #c09e28, #fff0bf, #c69320);\npadding: 12px 45px;\nfont-size: 18px;\nmargin: 0;\n}\n#shopify-section-1628484223e3ac5efb .feature-row .feature-row__item.main{\nmargin-bottom: -5.5%;\n}\n#shopify-section-1628484223e3ac5efb .feature-row__text--right{\n    max-width: 700px;\n    margin: 0 auto;\n}\n\n\n@media only screen and (max-width: 960px) {\n#shopify-section-1628484223e3ac5efb .feature-row__text--right{\nmargin: 30px auto 10px;\n}\n#shopify-section-1628484223e3ac5efb #block-fae62242-308c-4fd8-a61f-58c334c4a8ea{\nmargin: -20px 0 20px auto;\n}\n#shopify-section-1628484223e3ac5efb .rte&gt;p:last-child{\nfont-size: 14px;\n}\n#shopify-section-1628484223e3ac5efb #block-6960161a-9fad-4a02-a7d5-67521b5d26ca &gt; *{\nfont-size: 16px;\npadding: 11px 35px;\n}\n}"
         }
       },
-      "1627715001cc1fb0d5": {
+      "1628484411465afcff": {
         "type": "media-with-content",
         "blocks": {
-          "e5e23856-807d-4e01-bb76-43a6447b27bf": {
+          "f50d68a6-3f44-4f12-a7bc-d469d19f4c2c": {
             "type": "Image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/img_two_text.png",
+              "image": "shopify:\/\/shop_images\/video_model.png",
               "link": "",
               "width": 100,
               "layout": "center",
-              "topposition": 15,
-              "bottomposition": 15
-            }
-          },
-          "4ea46e19-c5c1-41db-9164-df8be3ecfc30": {
-            "type": "Image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/shop-now.png",
-              "link": "shopify:\/\/collections\/kse-botanical-hair-care",
-              "width": 37,
-              "layout": "center",
-              "topposition": 15,
-              "bottomposition": 15
+              "topposition": 0,
+              "bottomposition": 0
             }
           }
         },
         "block_order": [
-          "e5e23856-807d-4e01-bb76-43a6447b27bf",
-          "4ea46e19-c5c1-41db-9164-df8be3ecfc30"
+          "f50d68a6-3f44-4f12-a7bc-d469d19f4c2c"
         ],
         "settings": {
           "mp4": "",
-          "youtube_url": "",
-          "width": 47,
+          "youtube_url": "https:\/\/www.youtube.com\/watch?v=xgT4HDqNnyg",
+          "width": 50,
           "layout": "right",
           "layout_mobile": "top",
-          "background": "shopify:\/\/shop_images\/keratin.jpg",
-          "css": "#shopify-section-1627715001cc1fb0d5 .feature-row .feature-row__item.main {\nvisibility:hidden;\n}\n#shopify-section-1627715001cc1fb0d5 {\nbackground:none;\npadding: 0px 45px;\n}\n#shopify-section-1627715001cc1fb0d5 .page-width {\n    max-width: 1600px;\n    overflow: hidden;\n    background-size: 100% auto;\n    background-position: left 27%;\n    background-repeat: no-repeat;\n    background-image: url(\/\/cdn.shopify.com\/s\/files\/1\/0586\/4760\/9552\/files\/keratin_1024x1024.jpg?v=1627715247);\n}\n@media (max-width:800px) {\n#shopify-section-1627715001cc1fb0d5 {\n    padding: 0px 0px;\n}\n#shopify-section-1627715001cc1fb0d5 .page-width {\nbackground-position:63% 0;\nbackground-size: cover;\n}\n}"
+          "background": "shopify:\/\/shop_images\/video_back_0c6706d5-1515-43cf-9e45-687832b3515a.jpg",
+          "css": "#shopify-section-1628484411465afcff{\npadding-top: 40px;\n}"
         }
       },
-      "16277246135d9d88c9": {
-        "type": "featured-video",
+      "162849998037cf4442": {
+        "type": "featured-collections",
+        "blocks": {
+          "162849998037cf4442-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "wigs",
+              "title": "",
+              "focal_point": "80% 50%"
+            }
+          },
+          "162849998037cf4442-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "lashes",
+              "title": "",
+              "focal_point": "80% 50%"
+            }
+          },
+          "162849998037cf4442-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "beauty",
+              "title": "",
+              "focal_point": "80% 50%"
+            }
+          }
+        },
+        "block_order": [
+          "162849998037cf4442-0",
+          "162849998037cf4442-1",
+          "162849998037cf4442-2"
+        ],
         "settings": {
-          "title": "Hands on Training",
+          "title": "",
           "divider": false,
-          "video_url": "https:\/\/www.youtube.com\/watch?v=HPHbeSGVKJo",
-          "mp4": "",
-          "image": "shopify:\/\/shop_images\/poster.jpg",
-          "link": "shopify:\/\/pages\/contact",
-          "label": "Click here",
-          "button_color": "#ffffff",
-          "button_background": "#000000",
-          "background": "shopify:\/\/shop_images\/video-background.jpg",
-          "css": ""
+          "per_row": 3,
+          "enable_gutter": true,
+          "css": "#shopify-section-162849998037cf4442 .collection-item__title span{\nfont-family: 'vogueregular';\nletter-spacing: 3px;\nbackground: #dd24af;\npadding: 15px 20px 12px;\n}\n\n@media screen and (min-width: 769px) {\n.collection-item__title {\n    font-size: 28px;\n   padding: 15px 25px 12px;\n}\n}"
         }
       }
     },
     "content_for_index": [
-      "16104564252dfa4d65",
-      "1627178775216d0f68",
-      "1627225792f544f839",
-      "1627227995e9b13669",
-      "1627715001cc1fb0d5",
-      "1627714217d686f9ae",
-      "16277246135d9d88c9"
+      "16284828323c22434d",
+      "162849998037cf4442",
+      "16284838822e2131e2",
+      "1628484223e3ac5efb",
+      "1628484411465afcff"
     ]
   },
   "presets": {
