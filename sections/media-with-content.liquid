@@ -172,7 +172,7 @@
       
       <div data-aos-delay="{{ delay }}" {% if section.settings.layout == 'right' %} data-aos="fade-right"  {% else %}data-aos="fade-left" {% endif %} data-aos-duration="700"
     data-aos-easing="ease-out-cubic"  id="block-{{ block.id }}">
-        <div class=" {% if block.settings.video_url == blank and block.settings.image == blank %} video-wrapper{% else %}  main{% endif %}" >
+        <div class=" {% if block.settings.image == blank %} video-wrapper{% else %}  main{% endif %}" >
   {% if block.settings.video_url == blank %}
     <iframe src="//www.youtube.com/embed/_9VUPq3SxOc?rel=0&showinfo=0&vq=720" width="850" height="480" frameborder="0" allowfullscreen></iframe>
   {% else %}
