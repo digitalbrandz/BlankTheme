@@ -761,7 +761,7 @@
           "mp4": "",
           "youtube_url": "https:\/\/www.youtube.com\/watch?v=xgT4HDqNnyg",
           "width": 50,
-          "layout": "right",
+          "layout": "left",
           "layout_mobile": "top",
           "background": "shopify:\/\/shop_images\/video_back_0c6706d5-1515-43cf-9e45-687832b3515a.jpg",
           "css": "#shopify-section-1628484411465afcff{\npadding-top: 40px;\n}"
