@@ -34,10 +34,10 @@
     "type_headers_align_text": true,
     "type_base_font_family": "poppins_n4",
     "type_base_spacing": "25",
-    "type_base_size": 18,
-    "type_base_line_height": 1.6,
+    "type_base_size": 16,
+    "type_base_line_height": 1.5,
     "type_body_align_text": true,
-    "type_navigation_style": "heading",
+    "type_navigation_style": "body",
     "type_navigation_size": 16,
     "type_product_style": "body",
     "type_collection_font": "heading",
@@ -143,7 +143,7 @@
           "6cbc61f3-7c65-4997-a7ac-152b64093089": {
             "type": "css",
             "settings": {
-              "css": "header .site-nav__item a,.mobile-nav__link{\ntext-transform:uppercase;\nfont-family: 'Poppins', sans-serif !important;\nletter-spacing: 2px !important;\n}\n\n@media only screen and (min-width: 769px) {\n.site-header:not(.site-header--stuck) {\n    padding: 0px 0 20px;\n}\n}"
+              "css": "header .site-nav__item a,.mobile-nav__link{\ntext-transform:uppercase;\nletter-spacing: 2px !important;\nfont-weight:500 !important;\n}\n\n@media only screen and (min-width: 769px) {\n.site-header:not(.site-header--stuck) {\n    padding: 0px 0 20px;\n}\n}"
             }
           }
         },
