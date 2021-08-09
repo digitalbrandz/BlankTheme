@@ -733,6 +733,7 @@
         "blocks": {
           "f50d68a6-3f44-4f12-a7bc-d469d19f4c2c": {
             "type": "Image",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/video_model.png",
               "link": "",
@@ -741,12 +742,24 @@
               "topposition": 0,
               "bottomposition": 0
             }
+          },
+          "4d2a210c-0bb7-433f-ac58-de8bd3f95bf8": {
+            "type": "Media",
+            "settings": {
+              "video_url": "",
+              "mp4": "",
+              "layout": "center",
+              "topposition": 15,
+              "bottomposition": 15
+            }
           }
         },
         "block_order": [
-          "f50d68a6-3f44-4f12-a7bc-d469d19f4c2c"
+          "f50d68a6-3f44-4f12-a7bc-d469d19f4c2c",
+          "4d2a210c-0bb7-433f-ac58-de8bd3f95bf8"
         ],
         "settings": {
+          "image": "shopify:\/\/shop_images\/video_model.png",
           "mp4": "",
           "youtube_url": "https:\/\/www.youtube.com\/watch?v=xgT4HDqNnyg",
           "width": 50,
