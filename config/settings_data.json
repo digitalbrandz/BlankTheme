@@ -181,8 +181,8 @@
             "type": "newsletter",
             "settings": {
               "show_footer_title": true,
-              "title": "Sign up and save",
-              "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
+              "title": "GET SPECIAL OFFERS",
+              "text": "<p>Sign up to get newsletter of our new arrivals, sales, events, etc.<\/p>",
               "container_width": 41
             }
           },
