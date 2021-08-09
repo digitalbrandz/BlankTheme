@@ -171,8 +171,8 @@
       
       
       
-        <div class=" {% if block.settings.video_url == blank and block.settings.image == blank %} video-wrapper{% else %}  main{% endif %}">
-  {% if section.settings.video_url == blank %}
+        <div class=" {% if block.settings.video_url == blank and block.settings.image == blank %} video-wrapper{% else %}  main{% endif %}" id="block-{{ block.id }}">
+  {% if block.settings.video_url == blank %}
     <iframe src="//www.youtube.com/embed/_9VUPq3SxOc?rel=0&showinfo=0&vq=720" width="850" height="480" frameborder="0" allowfullscreen></iframe>
   {% else %}
     {% if block.settings.video_url.type == "youtube" %}
