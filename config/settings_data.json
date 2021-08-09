@@ -736,6 +736,7 @@
             "settings": {
               "video_url": "https:\/\/www.youtube.com\/watch?v=HPHbeSGVKJo",
               "mp4": "",
+              "image": "shopify:\/\/shop_images\/video.jpg",
               "layout": "center",
               "topposition": 15,
               "bottomposition": 15
