@@ -142,7 +142,7 @@
           "6cbc61f3-7c65-4997-a7ac-152b64093089": {
             "type": "css",
             "settings": {
-              "css": "header .site-nav__item a,.mobile-nav__link{\ntext-transform:uppercase;\nletter-spacing: 2px !important;\nfont-weight:500 !important;\n}\n\n@media only screen and (min-width: 769px) {\n.site-header:not(.site-header--stuck) {\n    padding: 0px 0 20px;\n}\n}"
+              "css": "header .site-nav__item a,.mobile-nav__link{\ntext-transform:uppercase;\nletter-spacing: 2px !important;\nfont-weight:500 !important;\n}\n\n@media only screen and (min-width: 769px) {\n.site-header:not(.site-header--stuck) {\n    padding: 0px 0 20px;\n}\n}\n\n.header-item--icons .js-drawer-open-cart {\n    background: #0003;\nborder-radius:100%;\n}"
             }
           }
         },
