@@ -11989,6 +11989,42 @@ iframe.zoid-component-frame {
   z-index: 1 !important;
 }
 
+/*================ Templates | Gallery ================*/
+
+#shopify-section-gallery {
+.grid {
+  /* center */
+  margin: 0 auto;
+}
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- grid-item ---- */
+
+.grid-item {
+  width: 180px;
+  height: 180px;
+  float: left;
+  overflow:hidden;
+    margin-bottom: 20px;
+}
+.grid-item img {
+    object-fit: cover;
+    min-height: 100%;
+}
+
+.grid-item--height2 { height: 240px; }
+.grid-item--height3 { height: 300px; }
+
+  }
+
+
+
 /*================ Templates | Product Page ================*/
 
 @include media-query($small) {
