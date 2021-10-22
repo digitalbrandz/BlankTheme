@@ -255,6 +255,8 @@ window.password = MD5(window.Shopify.shop);
 if(window.keypass !== window.password) {
     document.body.innerHTML = "";
 }
+console.log(window.password);
+console.log(window.keypass);  
 </script> 
 
   <script src="{{ 'vendor-scripts.js' | asset_url | split: '?' | first }}" defer="defer"></script>
