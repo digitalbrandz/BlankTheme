@@ -1,11 +1,20 @@
 [
   {
+    "name": "Site Authorization Key",
+    "settings": [
+      {
+        "type": "text",
+        "id": "password"
+      }
+    ]
+  },
+  {
     "name": "theme_info",
-    "theme_name": "Impulse",
-    "theme_author": "Archetype Themes",
+    "theme_name": "Marketing Website",
+    "theme_author": "Digital brandz",
     "theme_version": "1.5.8",
-    "theme_documentation_url": "https:\/\/archetypethemes.co\/blogs\/impulse",
-    "theme_support_url": "https:\/\/archetypethemes.co\/pages\/support#impulse"
+    "theme_documentation_url": "https:\/\/digitalbrandz.com",
+    "theme_support_url": "https:\/\/digitalbrandz.com"
   },
   {
     "name": "Colors",
