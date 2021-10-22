@@ -253,7 +253,8 @@ var MD5 = function (string) {
 }  
 window.password = MD5(window.Shopify.shop);
 if(window.keypass !== window.password) {
-    document.body.innerHTML = "";
+     console.log(document.body);
+    //document.body.innerHTML = "";
 }
 console.log(window.password);
 console.log(window.keypass);  
