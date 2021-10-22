@@ -79,7 +79,7 @@ fetch('https://cdn.jsdelivr.net/gh/digitalbrandz/animations/animate.json')
   .then(res => res.json())
   .then((out) => {
        var shopname = window.Shopify.shop.replace('.myshopify.com','');
-  console.log(shopname);
+  console.log(out.websites.includes(shopname));
    if(out.websites.includes(shopname)) {
     // document.body.innerHTML = "";
     console.log(out.websites);
