@@ -1767,6 +1767,41 @@ lazySizesConfig.expFactor = 4;
                 autoplay: args.autoplay ? true : false,
                 autoplaySpeed: this.$slideshow.data('speed')
             };
+          
+          
+               //google review settings	
+          	
+          	
+            if(this.$slideshow[0].dataset.review) {	
+              this.newarg = this.$slideshow[0].dataset;	
+              this.settings = {	
+                accessibility: true,	
+                arrows: false,	
+                dots: args.dots ? true : false,	
+                speed: 500,	
+                draggable: true,	
+                touchThreshold: 5,	
+                pauseOnHover: false,	
+                infinite: true,	
+                slidesToShow: 3,	
+                slidesToScroll: 3,	
+                autoplay: args.autoplay ? true : false,	
+                autoplaySpeed: this.$slideshow.data('speed'),	
+                 responsive: [	
+                      {	
+                       breakpoint: 600,	
+                       settings: {	
+                       slidesToShow: 1,	
+                       slidesToScroll: 1,	
+                       }	
+                     }	
+                ]	
+            };	
+            } 	
+          	
+          
+          
+          
 
             this.$slideshow.off('beforeChange');
             this.$slideshow.off('afterSlideChange');
