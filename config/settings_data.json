@@ -1070,6 +1070,13 @@
               "title": "Custom Rugs Package",
               "answer": "<p><strong>PP Bag for inner package and Woven bag for outer package<\/strong><\/p>"
             }
+          },
+          "acf3af40-9659-4317-ae72-0784737f50a5": {
+            "type": "Faq",
+            "settings": {
+              "title": "Custom Rugs Mock ups",
+              "answer": "<p>Versatile S&R offers two complimentary mock-ups. It is HIGHLY ADVISED that customers are ready to make a purchase when requesting a mock-up. Additional edits after complimentary mock-ups are $25 each round. Once approved, no additional changes can be made, no exceptions.<\/p>"
+            }
           }
         },
         "block_order": [
@@ -1094,7 +1101,8 @@
           "2ad23673-bb96-494d-bcfe-d649e1e01109",
           "0a0d4f70-ce7b-44b6-af69-13e29dac0407",
           "492aab89-f579-41ec-b4bf-3708c671ba01",
-          "3215826b-229c-4c09-aed3-c9f208dff289"
+          "3215826b-229c-4c09-aed3-c9f208dff289",
+          "acf3af40-9659-4317-ae72-0784737f50a5"
         ],
         "settings": {
           "button_background_color": "#2C3E50",
