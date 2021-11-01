@@ -1035,6 +1035,13 @@
               "title": "Return Policy",
               "answer": "<p><br\/>Versatile Signz does not accept cancellations or returns after payment is made, as we use a 3rd party fulfillment provider. Therefore, unwanted or incorrect orders cannot be canceled. All sales are final once placed through the site. <\/p><p><\/p><p><br\/>If your sign arrives damaged or defective, please contact us at <span style=\"text-decoration:underline\">versatilesignzllc@gmail.com<\/span> and include both a video and photo for diagnosis within 3 days. Returns must be made within 7 days of delivery.<\/p><p><\/p><p><br\/>To be eligible for a return, your item must be in the same condition that you received it. To complete your return, we require a receipt or proof of purchase. <\/p>"
             }
+          },
+          "2ffd899c-d628-4a0d-8fcc-5e61998f3598": {
+            "type": "Faq",
+            "settings": {
+              "title": "Exchanges",
+              "answer": "<p>We only replace items if they are defective or damaged. No exchanges under any circumstances.<br\/><\/p>"
+            }
           }
         },
         "block_order": [
@@ -1054,7 +1061,8 @@
           "554f2784-338b-40f6-aab4-c3e880cac091",
           "c2244ca9-1a4b-4c5d-a71a-f450544a7a48",
           "89baff3e-27e5-4878-8624-c2f2fd848c47",
-          "f7b6afaf-d55f-4072-8834-7e24ff82ef5e"
+          "f7b6afaf-d55f-4072-8834-7e24ff82ef5e",
+          "2ffd899c-d628-4a0d-8fcc-5e61998f3598"
         ],
         "settings": {
           "button_background_color": "#2C3E50",
