@@ -1063,6 +1063,13 @@
               "title": "What are VSR rugs made of?",
               "answer": "<p><strong>Versatile Rugz are made with acrylic material <\/strong><\/p>"
             }
+          },
+          "3215826b-229c-4c09-aed3-c9f208dff289": {
+            "type": "Faq",
+            "settings": {
+              "title": "Custom Rugs Package",
+              "answer": "<p><strong>PP Bag for inner package and Woven bag for outer package<\/strong><\/p>"
+            }
           }
         },
         "block_order": [
@@ -1086,7 +1093,8 @@
           "2ffd899c-d628-4a0d-8fcc-5e61998f3598",
           "2ad23673-bb96-494d-bcfe-d649e1e01109",
           "0a0d4f70-ce7b-44b6-af69-13e29dac0407",
-          "492aab89-f579-41ec-b4bf-3708c671ba01"
+          "492aab89-f579-41ec-b4bf-3708c671ba01",
+          "3215826b-229c-4c09-aed3-c9f208dff289"
         ],
         "settings": {
           "button_background_color": "#2C3E50",
