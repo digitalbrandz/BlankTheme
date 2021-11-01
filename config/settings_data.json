@@ -1000,6 +1000,13 @@
               "title": "What if I want my Logo made?",
               "answer": "<p>Yes, Versatile Signz is able to make custom logos, icons and images. We can recreate most logos and designs. Please fill out an inquiry form and a representative will contact you about your customizable neon light sign. Once mock-ups are approved, no changes can be made. It is very important to send clear instructions and pictures if applicable when it comes to your logo. <br\/><\/p>"
             }
+          },
+          "6735a7e6-e898-4267-b364-590ef1e9a025": {
+            "type": "Faq",
+            "settings": {
+              "title": "Where do you Ship?",
+              "answer": "<p>We ship worldwide!<\/p>"
+            }
           }
         },
         "block_order": [
@@ -1014,7 +1021,8 @@
           "50d9d206-f6f1-46f7-99aa-0cba07110793",
           "5f9286b2-5926-45d2-b51c-3a7babdc0d85",
           "ab1a1c75-a347-4f9c-adbe-6cec7c1344d5",
-          "c059bbd1-3ad5-42bd-9d9c-e662cfb85b8c"
+          "c059bbd1-3ad5-42bd-9d9c-e662cfb85b8c",
+          "6735a7e6-e898-4267-b364-590ef1e9a025"
         ],
         "settings": {
           "button_background_color": "#2C3E50",
