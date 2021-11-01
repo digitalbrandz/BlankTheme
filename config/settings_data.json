@@ -1,6 +1,5 @@
 {
   "current": {
-    "password": "30d200dcb07a6a194e44e6064749e4e7",
     "color_body_bg": "#000000",
     "color_body_text": "#ffffff",
     "color_price": "#1c1d1d",
@@ -640,19 +639,42 @@
               "title": "Versatile SIGNZ",
               "font": "futura_n6",
               "fontsize": 43,
-              "title_color": "#ffffff",
-              "content": "<p>Sometimes we don’t give ourselves enough credit! At times we forget to acknowledge the small things not realizing that is what will get you where you are or where you are going.<\/p>",
+              "title_color": "#ef18b8",
+              "content": "<p><br\/>Versatile Signz is a black-owned custom neon light and rug service provider. We are known for quality signs and rugs at affordable prices. Established in 2021, we were inspired to create a company that put a smile on people's faces through our custom creations. Here at Versatile Signz we love to help our customers bring their vision to life.<\/p><p><\/p><p><br\/>When it comes to customizing rugs and neon signs, we are the number one choice. We have created products for dozens of celebrities and have become a well-known brand throughout the industry.  Versatile Signz is here every step of the way to create your perfect sign or rug. Count on our team to deliver a sensational ordering experience. Our versatility and quick turnaround time is unmatched.<br\/><br\/><br\/><br\/><\/p><p><br\/><br\/><\/p>",
               "background1": "#151515",
               "background2": "#151515",
-              "button_link": "shopify:\/\/collections\/all",
+              "button_link": "",
               "button_label": "SHOP NOW",
               "button_color": "#000000",
               "button_background": "#ff5bc7"
             }
+          },
+          "834b4933-b71f-4436-8ec9-0679b9d3a774": {
+            "type": "Section",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_1481.jpg",
+              "mp4": "",
+              "youtube_url": "",
+              "width": 50,
+              "layout": "left",
+              "layout_mobile": "top",
+              "title": "Why Versatile Signz?",
+              "font": "work_sans_n6",
+              "fontsize": 40,
+              "title_color": "#9e18ef",
+              "content": "<p><br\/>Versatile Signz goal is to create a platform where customers can express themselves through neon lights and rugs. We bring your vision to life as a custom service provider. Each customized piece is handcrafted with precision. We specialize in customizable products that tell your story and we don't look at our customers as consumers, you’re family and we take care of family!<br\/><br\/><\/p>",
+              "background1": "#000000",
+              "background2": "#000000",
+              "button_link": "shopify:\/\/collections\/all",
+              "button_label": "Shop Now",
+              "button_color": "#ffffff",
+              "button_background": "#1e18ef"
+            }
           }
         },
         "block_order": [
-          "71660100-1b92-427b-97a8-c235ef535861"
+          "71660100-1b92-427b-97a8-c235ef535861",
+          "834b4933-b71f-4436-8ec9-0679b9d3a774"
         ],
         "settings": {
           "css": ""
@@ -758,6 +780,66 @@
           "divider": false
         }
       },
+      "1634534145cbaa40f0": {
+        "type": "advanced-content",
+        "blocks": {
+          "c865fb8b-55b2-443f-b13b-ba80be249d98": {
+            "type": "html",
+            "settings": {
+              "code": "<h2 class=\"insta_title\">FOLLOW US ON INSTAGRAM<\/h2>",
+              "width": "100%",
+              "alignment": "top-middle"
+            }
+          },
+          "1634534145cbaa40f0-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/insta_one.png",
+              "link": "",
+              "width": "25%",
+              "alignment": "top-middle"
+            }
+          },
+          "d0fe6bf2-94dc-4ef5-a441-0168bbea7cd2": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/insta_two.png",
+              "link": "",
+              "width": "25%",
+              "alignment": "top-middle"
+            }
+          },
+          "8a1fa4dd-ef31-456f-ac0a-8add01b843e2": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/insta_three.png",
+              "link": "",
+              "width": "25%",
+              "alignment": "top-middle"
+            }
+          },
+          "11a5e387-4412-4cef-bf39-6d5aa67bc492": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/insta_four.png",
+              "link": "",
+              "width": "25%",
+              "alignment": "top-middle"
+            }
+          }
+        },
+        "block_order": [
+          "c865fb8b-55b2-443f-b13b-ba80be249d98",
+          "1634534145cbaa40f0-0",
+          "d0fe6bf2-94dc-4ef5-a441-0168bbea7cd2",
+          "8a1fa4dd-ef31-456f-ac0a-8add01b843e2",
+          "11a5e387-4412-4cef-bf39-6d5aa67bc492"
+        ],
+        "settings": {
+          "full_width": true,
+          "space_around": false
+        }
+      },
       "1634534817b324c0ad": {
         "type": "logo-list",
         "blocks": {
@@ -837,7 +919,8 @@
       "1634534817b324c0ad",
       "16345335383006189e",
       "16345336747c2ce2d4",
-      "1634533818311f83bc"
+      "1634533818311f83bc",
+      "1634534145cbaa40f0"
     ]
   },
   "presets": {
