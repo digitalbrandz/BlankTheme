@@ -986,6 +986,20 @@
               "title": "Packing & Delivery?",
               "answer": "<p>LED Neon signs are packed individually with air bubble film and honeycomb paperboard. <br\/><\/p>"
             }
+          },
+          "ab1a1c75-a347-4f9c-adbe-6cec7c1344d5": {
+            "type": "Faq",
+            "settings": {
+              "title": "What Backgrounds Can I Choose From?",
+              "answer": "<p>Customers can pick from two different 5mm Acrylic board Shapes. Cut to shape (Neon sign would be cut to the shape of the design) <strong>OR <\/strong>Cut to square (Neon sign would be cut to a square). Add On - your sign can have a different background color (Transparent, Black or silver). ($100 additional cost) <\/p>"
+            }
+          },
+          "c059bbd1-3ad5-42bd-9d9c-e662cfb85b8c": {
+            "type": "Faq",
+            "settings": {
+              "title": "What if I want my Logo made?",
+              "answer": "<p>Yes, Versatile Signz is able to make custom logos, icons and images. We can recreate most logos and designs. Please fill out an inquiry form and a representative will contact you about your customizable neon light sign. Once mock-ups are approved, no changes can be made. It is very important to send clear instructions and pictures if applicable when it comes to your logo. <br\/><\/p>"
+            }
           }
         },
         "block_order": [
@@ -998,7 +1012,9 @@
           "4d0edc15-22bd-4be0-b171-5cf8c51766cc",
           "893621d7-9ca0-4047-ba26-8820ee91dda7",
           "50d9d206-f6f1-46f7-99aa-0cba07110793",
-          "5f9286b2-5926-45d2-b51c-3a7babdc0d85"
+          "5f9286b2-5926-45d2-b51c-3a7babdc0d85",
+          "ab1a1c75-a347-4f9c-adbe-6cec7c1344d5",
+          "c059bbd1-3ad5-42bd-9d9c-e662cfb85b8c"
         ],
         "settings": {
           "button_background_color": "#2C3E50",
