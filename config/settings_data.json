@@ -965,6 +965,13 @@
               "title": "Custom Logos",
               "answer": "<p>Custom Logos start at $499. Custom Logo cost varies depending on sign size and design complexity. The more detailed and complex the neon light sign is, the higher the cost. Please contact us at <a href=\"mailto:versatilesignzllc@gmail.com\"><span style=\"text-decoration:underline\">versatilesignzllc@gmail.com<\/span><\/a> for more information. <br\/><br\/><\/p>"
             }
+          },
+          "893621d7-9ca0-4047-ba26-8820ee91dda7": {
+            "type": "Faq",
+            "settings": {
+              "title": "Import Fees\/Duties",
+              "answer": "<p>This is standard procedure for any item bought online and is entirely out of our hands – some orders won’t be subject to import fees, but for those that are, please be aware that these fees are the responsibility of the customer and are not covered by Versatile Signz.<\/p><p><\/p>"
+            }
           }
         },
         "block_order": [
@@ -974,7 +981,8 @@
           "af33c559-32ee-44b0-847b-85fc26ae6f2a",
           "e2ab01bb-5a9f-4574-9fe7-e8cf04cb2e48",
           "44db6aaf-c09d-480c-80d9-a17b0b674f07",
-          "4d0edc15-22bd-4be0-b171-5cf8c51766cc"
+          "4d0edc15-22bd-4be0-b171-5cf8c51766cc",
+          "893621d7-9ca0-4047-ba26-8820ee91dda7"
         ],
         "settings": {
           "button_background_color": "#2C3E50",
