@@ -979,6 +979,13 @@
               "title": "Fragile Items Warning",
               "answer": "<p>We use high quality 10 PVC acrylic sheet for back types, it is classified as fragile and should be handled with care. We implement a dedicated effort, ensuring the safe delivery of our neon signs. In case you receive a damaged acrylic or neon strip please email us at <a href=\"mailto:versatilesignzllc@gmail.com\"><span style=\"text-decoration:underline\">versatilesignzllc@gmail.com<\/span><\/a> with photos of the damage within 3 days of delivery. Damaged items can be returned within 7 working days of receiving the shipment.  <br\/><\/p>"
             }
+          },
+          "5f9286b2-5926-45d2-b51c-3a7babdc0d85": {
+            "type": "Faq",
+            "settings": {
+              "title": "Packing & Delivery?",
+              "answer": "<p>LED Neon signs are packed individually with air bubble film and honeycomb paperboard. <br\/><\/p>"
+            }
           }
         },
         "block_order": [
@@ -990,7 +997,8 @@
           "44db6aaf-c09d-480c-80d9-a17b0b674f07",
           "4d0edc15-22bd-4be0-b171-5cf8c51766cc",
           "893621d7-9ca0-4047-ba26-8820ee91dda7",
-          "50d9d206-f6f1-46f7-99aa-0cba07110793"
+          "50d9d206-f6f1-46f7-99aa-0cba07110793",
+          "5f9286b2-5926-45d2-b51c-3a7babdc0d85"
         ],
         "settings": {
           "button_background_color": "#2C3E50",
