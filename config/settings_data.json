@@ -958,6 +958,13 @@
               "title": "Mock-ups",
               "answer": "<p><br\/>Versatile Signz offers two complimentary mock-ups. It is HIGHLY ADVISED that customers are ready to make a purchase when requesting a mock-up. Additional edits after complimentary mock-ups are $25 each round. Once approved, no additional changes can be made, no exceptions.<br\/><br\/><\/p>"
             }
+          },
+          "4d0edc15-22bd-4be0-b171-5cf8c51766cc": {
+            "type": "Faq",
+            "settings": {
+              "title": "Custom Logos",
+              "answer": "<p>Custom Logos start at $499. Custom Logo cost varies depending on sign size and design complexity. The more detailed and complex the neon light sign is, the higher the cost. Please contact us at <a href=\"mailto:versatilesignzllc@gmail.com\"><span style=\"text-decoration:underline\">versatilesignzllc@gmail.com<\/span><\/a> for more information. <br\/><br\/><\/p>"
+            }
           }
         },
         "block_order": [
@@ -966,7 +973,8 @@
           "d9c49775-f695-44d8-9c1c-a901333cd04b",
           "af33c559-32ee-44b0-847b-85fc26ae6f2a",
           "e2ab01bb-5a9f-4574-9fe7-e8cf04cb2e48",
-          "44db6aaf-c09d-480c-80d9-a17b0b674f07"
+          "44db6aaf-c09d-480c-80d9-a17b0b674f07",
+          "4d0edc15-22bd-4be0-b171-5cf8c51766cc"
         ],
         "settings": {
           "button_background_color": "#2C3E50",
