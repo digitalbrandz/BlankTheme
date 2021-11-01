@@ -913,6 +913,41 @@
         ],
         "settings": {
         }
+      },
+      "FAQ": {
+        "type": "FAQ",
+        "blocks": {
+          "8ff849ed-cca7-4795-8ba9-0b417aad1c00": {
+            "type": "Faq",
+            "settings": {
+              "title": "How do you power the LED neon signs?",
+              "answer": "<p>\\All of our signs connect directly into a standard power socket (with a plug that’s specific to the country you’re shipping to) and a 12V transformer.<\/p>"
+            }
+          },
+          "8a9b7e27-034d-46fb-841c-3e9111203354": {
+            "type": "Faq",
+            "settings": {
+              "title": "What Colors Do You Offer?",
+              "answer": "<p>Blue, Light Blue, Golden-Yellow, Yellow, Purple, Red, Cold-White, Warm-White, Orange, Green, Pink <\/p>"
+            }
+          },
+          "d9c49775-f695-44d8-9c1c-a901333cd04b": {
+            "type": "Faq",
+            "settings": {
+              "title": "",
+              "answer": ""
+            }
+          }
+        },
+        "block_order": [
+          "8ff849ed-cca7-4795-8ba9-0b417aad1c00",
+          "8a9b7e27-034d-46fb-841c-3e9111203354",
+          "d9c49775-f695-44d8-9c1c-a901333cd04b"
+        ],
+        "settings": {
+          "button_background_color": "#2C3E50",
+          "color": "#FFFFFF"
+        }
       }
     },
     "content_for_index": [
