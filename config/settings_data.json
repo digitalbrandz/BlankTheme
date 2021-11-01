@@ -1056,6 +1056,13 @@
               "title": "Custom Rug Sizes",
               "answer": "<p><strong>* Please understand the sizes above are recommended sizes. Every logo or image has its own unique details, that may require specific sizes. If unique sizes are required, a representative will let you know. <\/strong><\/p>"
             }
+          },
+          "492aab89-f579-41ec-b4bf-3708c671ba01": {
+            "type": "Faq",
+            "settings": {
+              "title": "What are VSR rugs made of?",
+              "answer": "<p><strong>Versatile Rugz are made with acrylic material <\/strong><\/p>"
+            }
           }
         },
         "block_order": [
@@ -1078,7 +1085,8 @@
           "f7b6afaf-d55f-4072-8834-7e24ff82ef5e",
           "2ffd899c-d628-4a0d-8fcc-5e61998f3598",
           "2ad23673-bb96-494d-bcfe-d649e1e01109",
-          "0a0d4f70-ce7b-44b6-af69-13e29dac0407"
+          "0a0d4f70-ce7b-44b6-af69-13e29dac0407",
+          "492aab89-f579-41ec-b4bf-3708c671ba01"
         ],
         "settings": {
           "button_background_color": "#2C3E50",
