@@ -1049,6 +1049,13 @@
               "title": "What colors can you choose from for custom rugs?",
               "answer": "<p>Blue, Yellow, Purple, Red, White, Orange, Green, Black, Grey and Brown <\/p>"
             }
+          },
+          "0a0d4f70-ce7b-44b6-af69-13e29dac0407": {
+            "type": "Faq",
+            "settings": {
+              "title": "Custom Rug Sizes",
+              "answer": "<p><strong>* Please understand the sizes above are recommended sizes. Every logo or image has its own unique details, that may require specific sizes. If unique sizes are required, a representative will let you know. <\/strong><\/p>"
+            }
           }
         },
         "block_order": [
@@ -1070,7 +1077,8 @@
           "89baff3e-27e5-4878-8624-c2f2fd848c47",
           "f7b6afaf-d55f-4072-8834-7e24ff82ef5e",
           "2ffd899c-d628-4a0d-8fcc-5e61998f3598",
-          "2ad23673-bb96-494d-bcfe-d649e1e01109"
+          "2ad23673-bb96-494d-bcfe-d649e1e01109",
+          "0a0d4f70-ce7b-44b6-af69-13e29dac0407"
         ],
         "settings": {
           "button_background_color": "#2C3E50",
