@@ -1042,6 +1042,13 @@
               "title": "Exchanges",
               "answer": "<p>We only replace items if they are defective or damaged. No exchanges under any circumstances.<br\/><\/p>"
             }
+          },
+          "2ad23673-bb96-494d-bcfe-d649e1e01109": {
+            "type": "Faq",
+            "settings": {
+              "title": "What colors can you choose from for custom rugs?",
+              "answer": "<p>Blue, Yellow, Purple, Red, White, Orange, Green, Black, Grey and Brown <\/p>"
+            }
           }
         },
         "block_order": [
@@ -1062,7 +1069,8 @@
           "c2244ca9-1a4b-4c5d-a71a-f450544a7a48",
           "89baff3e-27e5-4878-8624-c2f2fd848c47",
           "f7b6afaf-d55f-4072-8834-7e24ff82ef5e",
-          "2ffd899c-d628-4a0d-8fcc-5e61998f3598"
+          "2ffd899c-d628-4a0d-8fcc-5e61998f3598",
+          "2ad23673-bb96-494d-bcfe-d649e1e01109"
         ],
         "settings": {
           "button_background_color": "#2C3E50",
