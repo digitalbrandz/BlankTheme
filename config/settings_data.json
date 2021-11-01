@@ -1007,6 +1007,13 @@
               "title": "Where do you Ship?",
               "answer": "<p>We ship worldwide!<\/p>"
             }
+          },
+          "554f2784-338b-40f6-aab4-c3e880cac091": {
+            "type": "Faq",
+            "settings": {
+              "title": "Can you use LED Neon Sign Signs outdoors?",
+              "answer": "<p>Yes, we can produce outdoor signs. At checkout, please ask for a waterproof sign. <\/p>"
+            }
           }
         },
         "block_order": [
@@ -1022,7 +1029,8 @@
           "5f9286b2-5926-45d2-b51c-3a7babdc0d85",
           "ab1a1c75-a347-4f9c-adbe-6cec7c1344d5",
           "c059bbd1-3ad5-42bd-9d9c-e662cfb85b8c",
-          "6735a7e6-e898-4267-b364-590ef1e9a025"
+          "6735a7e6-e898-4267-b364-590ef1e9a025",
+          "554f2784-338b-40f6-aab4-c3e880cac091"
         ],
         "settings": {
           "button_background_color": "#2C3E50",
