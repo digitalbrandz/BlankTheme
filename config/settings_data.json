@@ -1077,6 +1077,13 @@
               "title": "Custom Rugs Mock ups",
               "answer": "<p>Versatile S&R offers two complimentary mock-ups. It is HIGHLY ADVISED that customers are ready to make a purchase when requesting a mock-up. Additional edits after complimentary mock-ups are $25 each round. Once approved, no additional changes can be made, no exceptions.<\/p>"
             }
+          },
+          "0ef38a50-c50f-48a6-bb1f-9b7ea4662fb3": {
+            "type": "Faq",
+            "settings": {
+              "title": "Custom Rugs Shipping",
+              "answer": "<p>Versatile Signz does all orders first come first served. We do not rush production as your rug is important to us.  Please also be aware that many shipping carriers are experiencing delays due to COVID-19, and regardless of the shipping service we use, they may be subject to some delays out of our hands. We will always do our best to ensure the fastest possible production and delivery. Updates on packages will be given. Once payment is made, allow 2-3 weeks  for production and 2-3 for shipping. Customized rugs are a longer process than our neon signs based on the details required to ensure top quality. Please note that during certain times throughout the year, shipping arrival may vary. A tracking Number and picture of your rug will be emailed once the sign is completed.<br\/><\/p>"
+            }
           }
         },
         "block_order": [
@@ -1102,7 +1109,8 @@
           "0a0d4f70-ce7b-44b6-af69-13e29dac0407",
           "492aab89-f579-41ec-b4bf-3708c671ba01",
           "3215826b-229c-4c09-aed3-c9f208dff289",
-          "acf3af40-9659-4317-ae72-0784737f50a5"
+          "acf3af40-9659-4317-ae72-0784737f50a5",
+          "0ef38a50-c50f-48a6-bb1f-9b7ea4662fb3"
         ],
         "settings": {
           "button_background_color": "#2C3E50",
