@@ -1021,6 +1021,13 @@
               "title": "What does the warranty cover?",
               "answer": "<p>We offer a 12 month guarantee on materials and workmanship on all of our neon signs. However, this does not extend to any damage that may occur as a result of drops or damage to your sign. If your light goes out, contact us at versatilesignzllc@gmail.com<\/p>"
             }
+          },
+          "89baff3e-27e5-4878-8624-c2f2fd848c47": {
+            "type": "Faq",
+            "settings": {
+              "title": "What comes with your sign?",
+              "answer": "<p>Power supply, Accessories for installation, Dimmer <\/p>"
+            }
           }
         },
         "block_order": [
@@ -1038,7 +1045,8 @@
           "c059bbd1-3ad5-42bd-9d9c-e662cfb85b8c",
           "6735a7e6-e898-4267-b364-590ef1e9a025",
           "554f2784-338b-40f6-aab4-c3e880cac091",
-          "c2244ca9-1a4b-4c5d-a71a-f450544a7a48"
+          "c2244ca9-1a4b-4c5d-a71a-f450544a7a48",
+          "89baff3e-27e5-4878-8624-c2f2fd848c47"
         ],
         "settings": {
           "button_background_color": "#2C3E50",
