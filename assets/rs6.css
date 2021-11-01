@@ -120,11 +120,11 @@ rs-sbg-px { pointer-events: none }
 .rtl {	direction: rtl;}
 @font-face {
   font-family: 'revicons';
-  src: url('//cdn.shopify.com/s/files/1/0604/1370/6468/t/8/assets/revicons.eot?1315');
-  src: url('//cdn.shopify.com/s/files/1/0604/1370/6468/t/8/assets/revicons.eot?1315#iefix') format('embedded-opentype'),
-       url('//cdn.shopify.com/s/files/1/0604/1370/6468/t/8/assets/revicons.woff?1315') format('woff'),
-       url('//cdn.shopify.com/s/files/1/0604/1370/6468/t/8/assets/revicons.ttf?1315') format('truetype'),
-       url('//cdn.shopify.com/s/files/1/0604/1370/6468/t/8/assets/revicons.svg?1315') format('svg');
+  src: url('//cdn.shopify.com/s/files/1/0604/1370/6468/t/8/assets/revicons.eot?1317');
+  src: url('//cdn.shopify.com/s/files/1/0604/1370/6468/t/8/assets/revicons.eot?1317#iefix') format('embedded-opentype'),
+       url('//cdn.shopify.com/s/files/1/0604/1370/6468/t/8/assets/revicons.woff?1317') format('woff'),
+       url('//cdn.shopify.com/s/files/1/0604/1370/6468/t/8/assets/revicons.ttf?1317') format('truetype'),
+       url('//cdn.shopify.com/s/files/1/0604/1370/6468/t/8/assets/revicons.svg?1317') format('svg');
   font-weight: normal;
   font-style: normal;
 }
