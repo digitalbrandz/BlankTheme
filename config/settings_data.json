@@ -937,12 +937,20 @@
               "title": "What about Sizing?",
               "answer": "<p>We Offer 30 in, 40 in, 50 in, and 60 in signz<\/p><p><\/p><p><br\/>These sizes are based on the horizontal dimensions of the sign. Customized images or logo neon light sizes may vary. It is important to know, the more detailed the image or logo, the higher the cost will be. Please contact us at<a href=\"http:\/\/versatilegmail.com\/\"> <\/a><span style=\"text-decoration:underline\">versatilesignzllc@gmail.com<\/span> to discuss dimensions.<strong> <\/strong><br\/><br\/><\/p>"
             }
+          },
+          "af33c559-32ee-44b0-847b-85fc26ae6f2a": {
+            "type": "Faq",
+            "settings": {
+              "title": "Shipping?",
+              "answer": "<p><br\/>All Versatile Signz orders are made to order. We do not rush production as your neon light sign is important to us. We will always do our best to ensure the fastest possible production and delivery. Updates on packages will be given as soon as available. Once payment is made, allow 3-5 days for production and 7-10 days for shipping. A tracking number and picture of your neon light sign will be emailed once the sign is completed.<\/p><p><br\/><em><strong>Please be aware that many shipping carriers are experiencing delays due to COVID-19, and regardless of the shipping service we use, they may be subject to some delays out of our hands.<\/strong><\/em><br\/><br\/><br\/><br\/><\/p>"
+            }
           }
         },
         "block_order": [
           "8ff849ed-cca7-4795-8ba9-0b417aad1c00",
           "8a9b7e27-034d-46fb-841c-3e9111203354",
-          "d9c49775-f695-44d8-9c1c-a901333cd04b"
+          "d9c49775-f695-44d8-9c1c-a901333cd04b",
+          "af33c559-32ee-44b0-847b-85fc26ae6f2a"
         ],
         "settings": {
           "button_background_color": "#2C3E50",
