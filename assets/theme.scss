@@ -314,19 +314,19 @@ $grid-breakpoints: (
 
 // Button colors
 
-$colorBtnPrimary: #ff5bc7;
+$colorBtnPrimary: #613110;
 
-$colorBtnPrimaryText: #000000;
+$colorBtnPrimaryText: #fff;
 
-$colorCartDot: #ff5bc7;
+$colorCartDot: #f4c7a9;
 
 // Text link colors
 
-$colorLink: #ffffff;
+$colorLink: #000000;
 
 // Text colors
 
-$colorTextBody: #ffffff;
+$colorTextBody: #000000;
 
 $colorPrice: #1c1d1d;
 
@@ -334,15 +334,15 @@ $colorTextSavings: #000000;
 
 // Backgrounds
 
-$colorBody: #000000;
+$colorBody: #ffffff;
 
-$colorInputBg: #000000;
+$colorInputBg: #ffffff;
 
 // Footer
 
-$colorFooter: #000000;
+$colorFooter: #ffffff;
 
-$colorFooterText: #ffffff;
+$colorFooterText: #000000;
 
 // Border colors
 
@@ -350,9 +350,9 @@ $colorBorder: #e8e8e1;
 
 // Nav and dropdown link background
 
-$colorNav: #000000;
+$colorNav: #faf8f7;
 
-$colorNavText: #ababab;
+$colorNavText: #8c5845;
 
 $colorAnnouncement: #fdbec5;
 
@@ -398,7 +398,7 @@ $slideshow-text-dark: #000;
 
 // Modal
 
-$colorModalBg: #000000;
+$colorModalBg: #ffffff;
 
 $colorModalText: #fff;
 
@@ -414,9 +414,9 @@ $colorSmallImageBg: #fff;
 
 $colorLargeImageBg: #0f0f0f;
 
-$colorGridOverlay: #000000;
+$colorGridOverlay: rgba(0,0,0,0);
 
-$colorGridOverlayOpacity: 0.1;
+$colorGridOverlayOpacity: 0.0;
 
 // Button style
 
@@ -472,7 +472,7 @@ $type_header_fallback: sans-serif;
 
 $type_header_stack: #{"'" + $type_header_family + "', " + $type_header_fallback};
 
-$type_header_weight: 500;
+$type_header_weight: 600;
 
 // Non font-face header styles
 
@@ -482,19 +482,19 @@ $type_header_text_center: true;
 
 $type_header_base_size: 40px;
 
-$type_header_spacing: 0.025em;
+$type_header_spacing: 0.0em;
 
 $type_header_capitalize: false;
 
 // Font-face base styles
 
-$type_base_family: Montserrat;
+$type_base_family: Futura;
 
 $type_base_fallback: sans-serif;
 
 $type_base_stack: #{"'" + $type_base_family + "', " + $type_base_fallback};
 
-$type_base_weight: 400;
+$type_base_weight: 500;
 
 // Non font-face base styles
 
@@ -565,15 +565,15 @@ $drawerCartFooterHeight: 130px;
 
 // default, overwritten by JS
 
-$colorDrawers: #000000;
+$colorDrawers: #faf8f7;
 
-$colorDrawerBorder: #ffffff;
+$colorDrawerBorder: #8c5845;
 
-$colorDrawerText: #ffffff;
+$colorDrawerText: #8c5845;
 
-$colorDrawerButton: #ff5bc7;
+$colorDrawerButton: #613110;
 
-$colorDrawerButtonText: #000000;
+$colorDrawerButtonText: #ffffff;
 
 $fixedHeightLimit: 600px;
 
@@ -2430,7 +2430,7 @@ select {
           appearance: none;
   background-position: right center;
   background: {
-    image: url(//cdn.shopify.com/s/files/1/0604/1370/6468/t/8/assets/ico-select.svg);
+    image: url(//cdn.shopify.com/s/files/1/0598/4223/2473/t/3/assets/ico-select.svg);
     repeat: no-repeat;
     position: right 10px center;
     color: transparent;
@@ -6484,13 +6484,13 @@ $color-blankstate-background: #e1e1e1;
   background-color: transparent;
   border: none;
   width: auto;
-  background-image: url(//cdn.shopify.com/s/files/1/0604/1370/6468/t/8/assets/ico-select.svg);
+  background-image: url(//cdn.shopify.com/s/files/1/0598/4223/2473/t/3/assets/ico-select.svg);
   background-size: 12px;
   font-style: normal;
 
   .toolbar__item & {
     color: $colorNavText;
-    background-image: url(//cdn.shopify.com/s/files/1/0604/1370/6468/t/8/assets/ico-select-menu.svg);
+    background-image: url(//cdn.shopify.com/s/files/1/0598/4223/2473/t/3/assets/ico-select-menu.svg);
 
     @include media-query($medium-up) {
       @include baseSmallFontStack;
@@ -6499,7 +6499,7 @@ $color-blankstate-background: #e1e1e1;
 
   .is-light & {
     color: $colorStickyNavLinks;
-    background-image: url(//cdn.shopify.com/s/files/1/0604/1370/6468/t/8/assets/ico-select-white.svg);
+    background-image: url(//cdn.shopify.com/s/files/1/0598/4223/2473/t/3/assets/ico-select-white.svg);
   }
 
   &:hover,
@@ -6509,18 +6509,18 @@ $color-blankstate-background: #e1e1e1;
 
   .header-item & {
     color: $colorNavText;
-    background-image: url(//cdn.shopify.com/s/files/1/0604/1370/6468/t/8/assets/ico-select-menu.svg);
+    background-image: url(//cdn.shopify.com/s/files/1/0598/4223/2473/t/3/assets/ico-select-menu.svg);
   }
 
   .is-light .header-item & {
     color: $colorStickyNavLinks;
-    background-image: url(//cdn.shopify.com/s/files/1/0604/1370/6468/t/8/assets/ico-select-white.svg);
+    background-image: url(//cdn.shopify.com/s/files/1/0598/4223/2473/t/3/assets/ico-select-white.svg);
   }
 
   .currency-picker--drawer & {
     padding-top: 5px;
     padding-bottom: 5px;
-    background-image: url(//cdn.shopify.com/s/files/1/0604/1370/6468/t/8/assets/ico-select-drawer.svg);
+    background-image: url(//cdn.shopify.com/s/files/1/0598/4223/2473/t/3/assets/ico-select-drawer.svg);
     border: 1px solid $colorDrawerBorder;
   }
 }
@@ -9357,7 +9357,7 @@ $collectionHeroSmall: 250px;
 
 .grid--collection.unload {
   min-height: 180px;
-  background: transparent url(//cdn.shopify.com/s/files/1/0604/1370/6468/t/8/assets/ajax-loader.gif) center 150px no-repeat;
+  background: transparent url(//cdn.shopify.com/s/files/1/0598/4223/2473/t/3/assets/ajax-loader.gif) center 150px no-repeat;
 
   .grid__item {
     opacity: 0;
@@ -12113,114 +12113,7 @@ iframe.zoid-component-frame {
 
   }
 
-/*================ Templates | FAQ ================*/
 
-$midnight: #2c3e50;
-$clouds: #ecf0f1;
-
-.section-faq {
-h1 {
-  margin: 0;
-  line-height: 2;
-  text-align: center;
-}
-h2 {
-  margin: 0 0 .5em;
-  font-weight: normal;
-}
-input {
-  position: absolute;
-  opacity: 0;
-  z-index: -1;
-}
-// Layout
-.row {
-  display:flex;
-  .col {
-    flex:1;
-    &:last-child {
-      margin-left: 1em;
-    }
-  }
-}
-  
-/* Accordion styles */
-.tabs {
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 4px 4px -2px rgba(0,0,0,0.5);
-}
-
-.tab {
-  width: 100%;
-  color: white;
-  overflow: hidden;
-  .tab-label {
-    display: flex;
-    justify-content: space-between;
-    padding: 1em;
-    background: $midnight;
-    font-weight: bold;
-    cursor: pointer;
-    margin-bottom:0px;
-    border-bottom: 1px solid #ffffff1a;
-    /* Icon */
-    &:hover {
-  //    background: darken($midnight, 10%);
-    }
-    &::after {
-      content: "\276F";
-      width: 1em;
-      height: 1em;
-      text-align: center;
-      transition: all .35s;
-    }
-  }
-  .tab-content {
-    max-height: 0;
-    padding: 0 1em;
-    color: #000;
-    background: white;
-    transition: all .35s;
-    a {
-     color:#000;
-    }
-  }
-  .tab-close {
-    display: flex;
-    justify-content: flex-end;
-    padding: 1em;
-    font-size: 0.75em;
-    background: $midnight;
-    cursor: pointer;
-    &:hover {
-  //    background: darken($midnight, 10%);
-    }
-  }
-  &:last-child {
-    & .tab-label {
-        border-bottom:none;
-    }
-  }
-}  
-  
-// :checked
-input:checked {
-  + .tab-label {
-  //  background: darken($midnight, 10%);
-    &::after {
-      transform: rotate(90deg);
-    }
-  }
-  ~ .tab-content {
-    max-height: 100vh;
-    padding: 1em;
-  }
-}
-  
-  
-  
-}
 
 /*================ Templates | Product Page ================*/
 
@@ -12670,6 +12563,115 @@ input:checked {
 
 .add-to-cart[disabled] + .shopify-payment-button {
   display: none;
+}
+
+/*================ Templates | FAQ ================*/
+
+$midnight: #2c3e50;
+$clouds: #ecf0f1;
+
+.section-faq {
+h1 {
+  margin: 0;
+  line-height: 2;
+  text-align: center;
+}
+h2 {
+  margin: 0 0 .5em;
+  font-weight: normal;
+}
+input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+// Layout
+.row {
+  display:flex;
+  .col {
+    flex:1;
+    &:last-child {
+      margin-left: 1em;
+    }
+  }
+}
+  
+/* Accordion styles */
+.tabs {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 4px -2px rgba(0,0,0,0.5);
+}
+
+.tab {
+  width: 100%;
+  color: white;
+  overflow: hidden;
+  .tab-label {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background: $midnight;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom:0px;
+    border-bottom: 1px solid #ffffff1a;
+    /* Icon */
+    &:hover {
+  //    background: darken($midnight, 10%);
+    }
+    &::after {
+      content: "\276F";
+      width: 1em;
+      height: 1em;
+      text-align: center;
+      transition: all .35s;
+    }
+  }
+  .tab-content {
+    max-height: 0;
+    padding: 0 1em;
+    color: #000;
+    background: white;
+    transition: all .35s;
+    a {
+     color:#000;
+    }
+  }
+  .tab-close {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+    font-size: 0.75em;
+    background: $midnight;
+    cursor: pointer;
+    &:hover {
+  //    background: darken($midnight, 10%);
+    }
+  }
+  &:last-child {
+    & .tab-label {
+        border-bottom:none;
+    }
+  }
+}  
+  
+// :checked
+input:checked {
+  + .tab-label {
+  //  background: darken($midnight, 10%);
+    &::after {
+      transform: rotate(90deg);
+    }
+  }
+  ~ .tab-content {
+    max-height: 100vh;
+    padding: 1em;
+  }
+}
+  
+  
+  
 }
 
 /*================ Templates | Theme Blog ================*/
