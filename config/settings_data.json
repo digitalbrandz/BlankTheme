@@ -1,44 +1,43 @@
 {
   "current": {
-    "password": "30d200dcb07a6a194e44e6064749e4e7",
-    "color_body_bg": "#000000",
-    "color_body_text": "#ffffff",
+    "color_body_bg": "#ffffff",
+    "color_body_text": "#000000",
     "color_price": "#1c1d1d",
     "color_savings_text": "#000000",
     "color_borders": "#e8e8e1",
-    "color_button": "#ff5bc7",
-    "color_button_text": "#000000",
-    "color_cart_dot": "#ff5bc7",
+    "color_button": "#613110",
+    "color_button_text": "#fff",
+    "color_cart_dot": "#f4c7a9",
     "color_small_image_bg": "#fff",
     "color_large_image_bg": "#0f0f0f",
-    "color_header": "#000000",
-    "color_header_text": "#ababab",
+    "color_header": "#faf8f7",
+    "color_header_text": "#8c5845",
     "color_announcement": "#fdbec5",
     "color_announcement_text": "#000000",
-    "color_footer": "#000000",
-    "color_footer_text": "#ffffff",
-    "color_drawer_background": "#000000",
-    "color_drawer_text": "#ffffff",
-    "color_drawer_border": "#ffffff",
-    "color_drawer_button": "#ff5bc7",
-    "color_drawer_button_text": "#000000",
-    "color_modal_overlays": "#000000",
+    "color_footer": "#ffffff",
+    "color_footer_text": "#000000",
+    "color_drawer_background": "#faf8f7",
+    "color_drawer_text": "#8c5845",
+    "color_drawer_border": "#8c5845",
+    "color_drawer_button": "#613110",
+    "color_drawer_button_text": "#ffffff",
+    "color_modal_overlays": "#ffffff",
     "color_image_text": "#fff",
     "color_image_overlay": "#000",
     "color_image_overlay_opacity": 10,
     "color_image_overlay_text_shadow": 20,
-    "type_header_font_family": "montserrat_n5",
-    "type_header_spacing": "25",
+    "type_header_font_family": "montserrat_n6",
+    "type_header_spacing": "0",
     "type_header_base_size": 40,
     "type_header_line_height": 1,
     "type_header_capitalize": false,
     "type_headers_align_text": true,
-    "type_base_font_family": "montserrat_n4",
+    "type_base_font_family": "futura_n5",
     "type_base_spacing": "25",
     "type_base_size": 16,
     "type_base_line_height": 1.5,
     "type_body_align_text": true,
-    "type_navigation_style": "heading",
+    "type_navigation_style": "body",
     "type_navigation_size": 16,
     "type_product_style": "body",
     "type_collection_font": "heading",
@@ -79,9 +78,9 @@
     "collection_grid_style": "overlaid",
     "collection_grid_shape": "square",
     "collection_grid_image": "collection",
-    "collection_grid_text_align": "center",
-    "collection_grid_tint": "#000000",
-    "collection_grid_opacity": 10,
+    "collection_grid_text_align": "bottom-center",
+    "collection_grid_tint": "rgba(0,0,0,0)",
+    "collection_grid_opacity": 0,
     "collection_grid_gutter": true,
     "cart_type": "drawer",
     "cart_additional_buttons": true,
@@ -103,16 +102,16 @@
     "social_snapchat_link": "",
     "social_tumblr_link": "",
     "social_linkedin_link": "",
-    "social_youtube_link": "",
+    "social_youtube_link": "#",
     "social_vimeo_link": "",
     "share_facebook": true,
     "share_twitter": true,
     "share_pinterest": true,
     "homepage_social_image": "shopify:\/\/shop_images\/AFTER_12_BANNER.jpg",
-    "favicon": "shopify:\/\/shop_images\/favicon_two.png",
+    "favicon": "shopify:\/\/shop_images\/favicon.png",
     "show_breadcrumbs": false,
     "search_results": "products",
-    "html": "<link href=\"https:\/\/fonts.googleapis.com\/css2?family=Roboto:wght@500&amp;display=swap\" rel=\"stylesheet\">\n<style>\n@font-face {\n    font-family: 'passagerregular';\n    src: url('https:\/\/cdn.shopify.com\/s\/files\/1\/0604\/1370\/6468\/files\/passager-webfont.woff2?v=1634537259') format('woff2'),\n         url('https:\/\/cdn.shopify.com\/s\/files\/1\/0604\/1370\/6468\/files\/passager-webfont.woff?v=1634537259') format('woff');\n    font-weight: normal;\n    font-style: normal;\n\n}\n\n\/* logo list *\/\n#shopify-section-1634534817b324c0ad \n.section-header__title{\n    font-family: 'passagerregular';\n    font-weight: normal;\n    font-size: 30px;\n    letter-spacing: 2px;\n}\n#shopify-section-1634534817b324c0ad {\n    margin: 0;\n    padding:60px 0 75px;\n    background: #000000;\n}\n#shopify-section-1634534817b324c0ad .logo-bar{\n margin: 0;\n}\n#shopify-section-1634534817b324c0ad  .logo-bar__item{\n    position: relative;\n    width: 20%;\n    flex: unset;\n    padding: 0px 30px;\n    margin: 0; \n}\n#shopify-section-1634534817b324c0ad  .logo-bar__item .logo_img{\n        max-width: 120px;\n    margin: 0 auto;\n    min-height: 125px;\n    display: -webkit-box; \ndisplay: -moz-box;\ndisplay: -ms-flexbox;\ndisplay: -webkit-flex; \ndisplay: flex;\n    align-items: center;\n}\n\n#shopify-section-1634534817b324c0ad  .logo-bar__item:after{\ncontent: \"\";\n    background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0604\/1370\/6468\/files\/logo_arrow.png?v=1634551042);\n    background-size: contain;\n    background-repeat: no-repeat;\n   width: 30px;\n    height: 40px;\n    position: absolute;\n    top: 50%;\n    right: -15px;\n transform: translateY(-50%);\n}\n#shopify-section-1634534817b324c0ad .logo-bar .logo-bar__item:last-child:after{\n    display: none;\n}\n#shopify-section-1634534817b324c0ad .logo-bar__item .logo_text{\n        margin-top: 10px;\n}\n#shopify-section-1634534817b324c0ad .logo-bar__item p{\n    font-size: 14px;\n    font-weight: 500;\n    margin: 0;\n}\n\n@media (max-width: 959px) {\n#shopify-section-1634534817b324c0ad {\n    padding: 25px 0 35px;\n}\n#shopify-section-1634534817b324c0ad \n.section-header__title{\n    font-size: 26px;\n}\n#shopify-section-1634534817b324c0ad .logo-bar__item p{\n    font-size: 12px;\n}\n#shopify-section-1634534817b324c0ad .logo-bar__item .logo_img{\n    max-width: 100px;\n}\n}\n\n@media (max-width: 600px){\n#shopify-section-1634534817b324c0ad .section-header{\n    margin-bottom: 20px;\n}\n#shopify-section-1634534817b324c0ad .logo-bar__item{\n    padding: 0px 6px;\n}\n#shopify-section-1634534817b324c0ad .logo-bar__item .logo_img {\n    max-width: 50px;\n    min-height: 55px;\n}\n#shopify-section-1634534817b324c0ad .logo-bar__item p {\n    font-size: 10px;\n}\n#shopify-section-1634534817b324c0ad .logo-bar__item:after{\nwidth: 12px;\n    height: 15px;\n    right: -10px;\n}\n\n}\n\n\/* Testimonials *\/\n#shopify-section-1634533818311f83bc{\n    background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0604\/1370\/6468\/files\/review_back.jpg?v=1634540117);\n    background-size: cover;\n    margin: 0;\n    padding: 50px 0;\n}\n#shopify-section-1634533818311f83bc .testimonials-wrapper{\n    max-width: 1200px;\n    margin: 0 auto;\n}\n#shopify-section-1634533818311f83bc \n .testimonials-slider__text cite {\n    font-style: italic;\n    font-size: 15px;\n    color: #939393;\n}\n#shopify-section-1634533818311f83bc\n.testimonials-slider__text{\n    background: #000000;\n    padding: 50px 30px;\n}\n#shopify-section-1634533818311f83bc .slick-track .slick-slide:nth-child(3n + 1)\n.testimonials-slider__text{\nborder: 4px solid #ff5cc9;\n}\n#shopify-section-1634533818311f83bc .slick-track .slick-slide:nth-child(3n + 2)\n.testimonials-slider__text{\nborder: 4px solid #6ec7ff;\n}\n#shopify-section-1634533818311f83bc .slick-track .slick-slide:nth-child(3n + 3)\n.testimonials-slider__text{\nborder: 4px solid #d3ff29;\n}\n#shopify-section-1634533818311f83bc\n.testimonials-slider {\n    margin-bottom: 0px;\n}\n@media(max-width: 1200px){\n#shopify-section-1634533818311f83bc .testimonials-slider__text{\n    padding: 30px 15px;\n}\n}\n@media (max-width: 768px) {\n\n#shopify-section-1634533818311f83bc{\n    padding: 25px 0;\n}\n#shopify-section-1634533818311f83bc .testimonials-slider__text cite{\nfont-size: 13px;\n}\n}\n\n\/* Instagram *\/\n#shopify-section-1634534145cbaa40f0{\nbackground: #9c82e6;\n}\n#shopify-section-1634534145cbaa40f0\n.custom-content{\n    margin: 0px;\n}\n#shopify-section-1634534145cbaa40f0\n.custom-content .custom__item{\n    padding-left: 0px;\n    margin: 0;\n}\n#shopify-section-1634534145cbaa40f0\n.custom__item-inner{\n    display: block;\n}\n#shopify-section-1634534145cbaa40f0\n.custom-content\n.insta_title{\nfont-family: 'passagerregular';\n font-weight: normal;\ncolor: #000000;\ntext-align: center;\nfont-size: 24px;\nletter-spacing: 2px;\nmargin-top: 25px;\n}\n\n@media (max-width: 1200px){\n#shopify-section-1634534817b324c0ad .logo-bar__item{\n    width: 25%;\n}\n}\n\n@media (max-width: 768px) {\n#shopify-section-1634534145cbaa40f0\n.custom-content\n.insta_title{\nfont-size: 22px;\n}\n}\n<\/style>",
+    "html": "<link href=\"https:\/\/fonts.googleapis.com\/css2?family=Open+Sans:wght@500&amp;display=swap\" rel=\"stylesheet\">\n<link href=\"https:\/\/fonts.googleapis.com\/css2?family=Montserrat:wght@700&amp;display=swap\" rel=\"stylesheet\">\n\n<style>\n@font-face {\n    font-family: 'bebas_neue_proSexpandedBdIt';\n    src: url('https:\/\/cdn.shopify.com\/s\/files\/1\/0598\/4223\/2473\/files\/bebasneuepro-semiexpbolditalic-webfont.woff2?v=1632822359') format('woff2'),\n         url('https:\/\/cdn.shopify.com\/s\/files\/1\/0598\/4223\/2473\/files\/bebasneuepro-semiexpbolditalic-webfont.woff?v=1632822359') format('woff');\n    font-weight: normal;\n    font-style: normal;\n\n}\n@font-face {\n    font-family: 'metropolisbold';\n    src: url('https:\/\/cdn.shopify.com\/s\/files\/1\/0598\/4223\/2473\/files\/metropolis-bold-webfont.woff2?v=1632833618') format('woff2'),\n         url('https:\/\/cdn.shopify.com\/s\/files\/1\/0598\/4223\/2473\/files\/metropolis-bold-webfont.woff?v=1632833618') format('woff');\n    font-weight: normal;\n    font-style: normal;\n\n}\n@font-face {\n    font-family: 'TeXGyreAdventor';\n    src: url('https:\/\/cdn.shopify.com\/s\/files\/1\/0598\/4223\/2473\/files\/TeXGyreAdventor-Regular.woff2?v=1632851105') format('woff2'),\n        url('https:\/\/cdn.shopify.com\/s\/files\/1\/0598\/4223\/2473\/files\/TeXGyreAdventor-Regular.woff?v=1632851104') format('woff');\n    font-weight: normal;\n    font-style: normal;\n    font-display: swap;\n}\n@font-face {\n    font-family: 'Metropolis Extra';\n    src: url('https:\/\/cdn.shopify.com\/s\/files\/1\/0598\/4223\/2473\/files\/Metropolis-ExtraBold.woff2?v=1632851288') format('woff2'),\n        url('https:\/\/cdn.shopify.com\/s\/files\/1\/0598\/4223\/2473\/files\/Metropolis-ExtraBold.woff?v=1632851288') format('woff');\n    font-weight: 800;\n    font-style: normal;\n    font-display: swap;\n}\n@font-face {\n    font-family: 'bebas_neue_proSexpandedXBd';\n    src: url('https:\/\/cdn.shopify.com\/s\/files\/1\/0598\/4223\/2473\/files\/bebasneuepro-semiexpxbold-webfont.woff2?v=1632889509') format('woff2'),\n         url('https:\/\/cdn.shopify.com\/s\/files\/1\/0598\/4223\/2473\/files\/bebasneuepro-semiexpxbold-webfont.woff?v=1632889509') format('woff');\n    font-weight: normal;\n    font-style: normal;\n\n}\n\n<\/style>",
     "checkout_header_image": "shopify:\/\/shop_images\/rev_1_slide_1_model1-min.png",
     "checkout_logo_image": "shopify:\/\/shop_images\/after_12_logo_ff8ea544-4d60-44cd-a55f-baa238dcecb6.jpg",
     "checkout_logo_position": "center",
@@ -137,14 +136,14 @@
             "settings": {
               "logo": "shopify:\/\/shop_images\/logo.png",
               "logo-svg": "",
-              "desktop_logo_width": 170,
-              "mobile_logo_width": 130
+              "desktop_logo_width": 90,
+              "mobile_logo_width": 70
             }
           },
           "6cbc61f3-7c65-4997-a7ac-152b64093089": {
             "type": "css",
             "settings": {
-              "css": "header .site-nav__item a,.mobile-nav__link,.currency-input{\ntext-transform:uppercase;\nletter-spacing: 2px !important;\nfont-size: 14px !important;\n}\n.site-nav__link--underline:after{\nborder-bottom: 1px solid #ababab;\n}\n.header-item .currency-input{\nbackground-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0604\/1370\/6468\/files\/ico-select-menu.png?v=1634622081);\n}\n\n\n@media only screen and (min-width: 769px) {\n.site-header:not(.site-header--stuck) {\n    padding: 0px 0px 0px;\n}\n}"
+              "css": "header .site-nav__item a,.mobile-nav__link{\ntext-transform:uppercase;\nletter-spacing: 2px !important;\n}\n\n@media only screen and (min-width: 769px) {\n.site-header:not(.site-header--stuck) {\n    padding: 0px 0px;\n}\n}"
             }
           }
         },
@@ -154,13 +153,13 @@
         ],
         "settings": {
           "main_menu_link_list": "main-menu",
-          "main_menu_alignment": "center-split",
+          "main_menu_alignment": "left-center",
           "header_style": "sticky",
           "sticky_index": false,
-          "above_announcement": false,
+          "above_announcement": true,
           "full_width": false,
           "sticky_collection": false,
-          "header_search_enable": true,
+          "header_search_enable": false,
           "toolbar_menu": "",
           "toolbar_social": false,
           "toolbar_currencies": false,
@@ -191,7 +190,7 @@
             "type": "logo_social",
             "settings": {
               "logo": "shopify:\/\/shop_images\/logo.png",
-              "desktop_logo_height": 100,
+              "desktop_logo_height": 120,
               "container_width": 17
             }
           }
@@ -205,7 +204,7 @@
           "show_payment_icons": true,
           "show_copyright": true,
           "copyright_text": "ALL RIGHTS RESERVED.",
-          "css": ".footer__logo img {\nmax-width:100%;\nwidth:auto;\nheight:auto;\n}\n.site-footer__linklist a{\nfont-family: 'Roboto', sans-serif;\nfont-weight: 500;\ntext-transform: uppercase;\nletter-spacing: 3px;\ncolor: #848484;\n}\n.footer__collapsible{\nfont-family: 'Roboto', sans-serif;\nfont-weight: 500;\ntext-transform: uppercase;\nletter-spacing: 2px;\n}\n.footer__title{\nfont-family: 'passagerregular';\nfont-weight: normal;\nletter-spacing: 2px;\nfont-size: 18px;\n}\n.site-footer{\nborder-top: none;\n}\n\n@media (max-width: 768px) {\n.footer__title{\nfont-size: 16px;\n}\n}"
+          "css": ".footer__logo img {\nmax-width:100%;\nwidth:auto;\nheight:auto;\n}\n#shopify-section-footer .site-footer__linklist a, #shopify-section-footer .footer__collapsible{\ncolor: #1f1e1d;\n    font-family: 'Open Sans', sans-serif;\n    font-weight: normal;\n    text-transform: uppercase;\n}\n#shopify-section-footer .footer__title{\n    color: #1f1e1d;\n    font-family: 'Open Sans', sans-serif;\n    font-weight: normal;\n    font-size: 16px;\n    letter-spacing: 2px;\n}\n@media(max-width:768px){\n#shopify-section-footer .footer__title{\n  font-size: 15px;\n}\n}"
         }
       },
       "Video-Lookbook": {
@@ -620,8 +619,8 @@
           "mobile_logo_width": 90,
           "animation": "fadeInUp",
           "trace": false,
-          "background_color": "#000000",
-          "background_color_2": "#000000",
+          "background_color": "#faf8f7",
+          "background_color_2": "#faf8f7",
           "css": ""
         }
       },
@@ -634,80 +633,162 @@
               "image": "shopify:\/\/shop_images\/img_model.png",
               "mp4": "",
               "youtube_url": "",
-              "width": 48,
+              "width": 60,
               "layout": "right",
               "layout_mobile": "bottom",
-              "title": "Versatile SIGNZ",
-              "font": "futura_n6",
-              "fontsize": 43,
-              "title_color": "#ef18b8",
-              "content": "<p><br\/>Versatile Signz is a black-owned custom neon light and rug service provider. We are known for quality signs and rugs at affordable prices. Established in 2021, we were inspired to create a company that put a smile on people's faces through our custom creations. Here at Versatile Signz we love to help our customers bring their vision to life.<\/p><p><\/p><p><br\/>When it comes to customizing rugs and neon signs, we are the number one choice. We have created products for dozens of celebrities and have become a well-known brand throughout the industry.  Versatile Signz is here every step of the way to create your perfect sign or rug. Count on our team to deliver a sensational ordering experience. Our versatility and quick turnaround time is unmatched.<br\/><br\/><br\/><br\/><\/p><p><br\/><br\/><\/p>",
-              "background1": "#151515",
-              "background2": "#151515",
-              "button_link": "",
-              "button_label": "SHOP NOW",
-              "button_color": "#000000",
-              "button_background": "#ff5bc7"
-            }
-          },
-          "834b4933-b71f-4436-8ec9-0679b9d3a774": {
-            "type": "Section",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/IMG_1481.jpg",
-              "mp4": "",
-              "youtube_url": "",
-              "width": 50,
-              "layout": "left",
-              "layout_mobile": "top",
-              "title": "Why Versatile Signz?",
-              "font": "work_sans_n6",
-              "fontsize": 40,
-              "title_color": "#9e18ef",
-              "content": "<p><br\/>Versatile Signz goal is to create a platform where customers can express themselves through neon lights and rugs. We bring your vision to life as a custom service provider. Each customized piece is handcrafted with precision. We specialize in customizable products that tell your story and we don't look at our customers as consumers, you’re family and we take care of family!<br\/><br\/><\/p>",
-              "background1": "#000000",
-              "background2": "#000000",
+              "title": "HOUSE OF SNATCH",
+              "font": "montserrat_n6",
+              "fontsize": 42,
+              "title_color": "#ffffff",
+              "content": "<p>Sometimes we don’t give ourselves enough credit! At times we forget to acknowledge the small things not realizing that is what will get you where you are or where you are going.<\/p>",
+              "background1": "#b17c6a",
+              "background2": "#edbea3",
               "button_link": "shopify:\/\/collections\/all",
-              "button_label": "Shop Now",
+              "button_label": "SHOP NOW",
               "button_color": "#ffffff",
-              "button_background": "#1e18ef"
+              "button_background": "#613110"
             }
           }
         },
         "block_order": [
-          "71660100-1b92-427b-97a8-c235ef535861",
-          "834b4933-b71f-4436-8ec9-0679b9d3a774"
+          "71660100-1b92-427b-97a8-c235ef535861"
         ],
         "settings": {
           "css": ""
         }
       },
-      "16345335383006189e": {
+      "16328181149432e982": {
+        "type": "featured-collections",
+        "blocks": {
+          "16328181149432e982-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "shapewear",
+              "title": "SHAPEWEAR",
+              "focal_point": "center center"
+            }
+          },
+          "16328181149432e982-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "slim-essentials",
+              "title": "SLIM<br>ESSENTIALS",
+              "focal_point": "center center"
+            }
+          },
+          "16328181149432e982-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "workout-accessories",
+              "title": "WORKOUT<br>ACCESSORIES",
+              "focal_point": "center center"
+            }
+          }
+        },
+        "block_order": [
+          "16328181149432e982-0",
+          "16328181149432e982-1",
+          "16328181149432e982-2"
+        ],
+        "settings": {
+          "title": "OUR COLLECTIONS",
+          "divider": false,
+          "per_row": 3,
+          "enable_gutter": true,
+          "css": "#shopify-section-16328181149432e982{\n    margin-top: 0;\n    padding-top:50px;\n    background: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0598\/4223\/2473\/files\/coll_back.jpg?v=1632813231);\n    background-repeat: no-repeat;\n    background-size: cover;\n}\n#shopify-section-16328181149432e982 .section-header{\n    margin: 0;\n}\n#shopify-section-16328181149432e982\n.section-header__title{\ncolor: #8c5845;\nfont-size: 28px;\n}\n#shopify-section-16328181149432e982\n.collection-image--square{\npadding-bottom: 120%;\n}\n#shopify-section-16328181149432e982\n.image-wrap{\n    background: transparent;\n}\n#shopify-section-16328181149432e982\n.collection-item{\nmargin-bottom: 0;\n}\n#shopify-section-16328181149432e982\n.collection-item__title{\nfont-family: 'bebas_neue_proSexpandedBdIt';\nfont-weight: normal;\nbackground: -webkit-linear-gradient(right, #8c5845, #d9a491, #f4c7a9);\n-webkit-background-clip: text;\n-webkit-text-stroke: 4px transparent;\nfont-size: 68px;\nbottom:9%;\n text-shadow: 4px 4px 8px #00000035;\nline-height: 0.9;\n}\n\n\n\n@media (max-width: 768px) {\n#shopify-section-16328181149432e982{\npadding-top: 25px;\n}\n#shopify-section-16328181149432e982 .collection-item__title{\n    font-size: 32px;\n}\n#shopify-section-16328181149432e982\n.section-header__title{\nfont-size: 24px;\n}\n#shopify-section-16328181149432e982 .collection-item{\n    margin-top: 10px;\n}\n}\n@media (min-width: 501px) and (max-width: 959px) {\n#shopify-section-16328181149432e982 .collection-item__title{\n    font-size: 40px;\n}\n}\n@media (min-width: 960px) and (max-width: 1170px) {\n#shopify-section-16328181149432e982 .collection-item__title{\n    font-size: 52px;\n}\n}"
+        }
+      },
+      "1632818146fdc64bd4": {
+        "type": "featured-collection",
+        "settings": {
+          "title": "TOP SELLERS",
+          "home_featured_products": "top-seller",
+          "per_row": 3,
+          "rows": 1,
+          "mobile_scrollable": true,
+          "view_all": true,
+          "divider": false,
+          "css": "#shopify-section-1632818146fdc64bd4 .section-header__title{\nfont-family: 'metropolisbold';\nfont-weight: normal;\nfont-size: 28px;\n}\n\n@media(max-width:768px){\n#shopify-section-1632818146fdc64bd4 .section-header__title{\n    font-size: 24px;\n}\n}"
+        }
+      },
+      "163281860504a15d21": {
         "type": "media-with-content",
         "blocks": {
-          "7076ca7b-cba7-4f8a-91d1-57e1df46ff03": {
+          "fc94dcb7-ec3b-4697-943b-f67232a098ac": {
             "type": "Text",
             "settings": {
-              "text": "<p>WHY VERSATILE SIGNZ?<\/p>",
-              "color": "#ff884d",
-              "layout": "left",
+              "text": "<p>WATCH MY <strong>WAIST<\/strong><\/p>",
+              "color": "#ffffff",
+              "layout": "center",
+              "topposition": 15,
+              "bottomposition": 15
+            }
+          },
+          "025bddf5-f677-4ae7-b6f9-91a43161ba15": {
+            "type": "Button",
+            "settings": {
+              "link": "https:\/\/www.youtube.com\/watch?v=xgT4HDqNnyg",
+              "label": "",
+              "color": "rgba(0,0,0,0)",
+              "background": "rgba(0,0,0,0)",
+              "layout": "center",
+              "topposition": 15,
+              "bottomposition": 15
+            }
+          }
+        },
+        "block_order": [
+          "fc94dcb7-ec3b-4697-943b-f67232a098ac",
+          "025bddf5-f677-4ae7-b6f9-91a43161ba15"
+        ],
+        "settings": {
+          "mp4": "",
+          "youtube_url": "",
+          "width": 50,
+          "layout": "left",
+          "layout_mobile": "top",
+          "background": "shopify:\/\/shop_images\/video_back.jpg",
+          "css": "#shopify-section-163281860504a15d21{\n    padding: 75px 0;\n    height: 650px;\n    position: relative;\n    background-position: top;\n}\n#shopify-section-163281860504a15d21 .feature-row .feature-row__item.main{\n    display: none;\n}\n#shopify-section-163281860504a15d21 \n.feature-row__text--left{\npadding: 0;\n}\n#shopify-section-163281860504a15d21 \n.rte &gt; p:last-child\n{\n    font-family: 'bebas_neue_proSexpandedXBd';\n    font-weight: normal;\n    font-size: 80px;\n    letter-spacing: 3px;\n}\n#shopify-section-163281860504a15d21  .featured-row__subtext p strong{\n    font-family: 'bebas_neue_proSexpandedBdIt';\n    font-weight: normal;\n    background: -webkit-linear-gradient(right, #8c5845, #d9a491, #f4c7a9);\n    -webkit-background-clip: text;\n    -webkit-text-stroke: 4px transparent;\n    font-size: 80px;\n    text-shadow: 4px 4px 8px #00000035;\n} \n#shopify-section-163281860504a15d21 .feature-row__text .btn{\n    background: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0598\/4223\/2473\/files\/video_icon_02567a34-d9ef-4a0f-bb38-c4ae54475be8.png?v=1632890062\");\n    background-repeat: no-repeat;\n    background-size: contain;\n    padding: 55px;\nmargin: 0;\n}\n#shopify-section-163281860504a15d21 .feature-row__item{\n    position: unset;\n}\n#block-025bddf5-f677-4ae7-b6f9-91a43161ba15{\n    position: absolute;\n    top: 63%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    margin: 0;\n}\n #block-fc94dcb7-ec3b-4697-943b-f67232a098ac{\n    position: absolute;\n    left: 50%;\n     top: 45%;\n    transform: translate(-50%, -50%);\n    margin: 0;\nwidth: 100%;\n}\n\n\n@media(max-width:768px){\n#shopify-section-163281860504a15d21{\nheight: 310px;\n    background-position: top;\n}\n#shopify-section-163281860504a15d21 .rte &gt; p:last-child{\n    font-size: 52px;\n}\n#shopify-section-163281860504a15d21 .featured-row__subtext p strong{\n    font-size: 52px;\n}\n#shopify-section-163281860504a15d21 .feature-row__text .btn{\n    padding: 25px;\n}\n#block-fc94dcb7-ec3b-4697-943b-f67232a098ac{\n    top: 45%;\n    transform: translate(-50%, -50%);\n}\n}"
+        }
+      },
+      "16328183860576239b": {
+        "type": "media-with-content",
+        "blocks": {
+          "f4ec7c9c-f52d-4492-b61f-8de10ad07130": {
+            "type": "HTML",
+            "settings": {
+              "html": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0598\/4223\/2473\/files\/img_text.png?v=1632813231\">",
               "topposition": 0,
               "bottomposition": 0
             }
           },
-          "b255a65b-31c5-4190-8928-2f826a9148f1": {
+          "b1425a50-3e77-4242-a1c8-3e7b0fd25f4c": {
             "type": "Text",
             "settings": {
-              "text": "<p>Versatile Signz is a small owned business known for quality signs and low prices. You can count on our team to deliver a sensational ordering experience. We guarantee superior service.<\/p>",
+              "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown....READ MORE <\/p>",
               "color": "#ffffff",
-              "layout": "left",
+              "layout": "center",
               "topposition": 20,
+              "bottomposition": 30
+            }
+          },
+          "a01dea93-d777-4625-9f72-77f7fccb6fe8": {
+            "type": "Button",
+            "settings": {
+              "link": "shopify:\/\/collections\/all",
+              "label": "SHOP NOW",
+              "color": "#ffffff",
+              "background": "#613110",
+              "layout": "center",
+              "topposition": 0,
               "bottomposition": 0
             }
           }
         },
         "block_order": [
-          "7076ca7b-cba7-4f8a-91d1-57e1df46ff03",
-          "b255a65b-31c5-4190-8928-2f826a9148f1"
+          "f4ec7c9c-f52d-4492-b61f-8de10ad07130",
+          "b1425a50-3e77-4242-a1c8-3e7b0fd25f4c",
+          "a01dea93-d777-4625-9f72-77f7fccb6fe8"
         ],
         "settings": {
           "image": "shopify:\/\/shop_images\/img_model.png",
@@ -717,414 +798,24 @@
           "layout": "right",
           "layout_mobile": "bottom",
           "background": "shopify:\/\/shop_images\/img_back.jpg",
-          "css": "#shopify-section-16345335383006189e{\n    padding: 75px 0;\n}\n#shopify-section-16345335383006189e .feature-row__text--right{\npadding: 0;\n    max-width: 440px;\n    margin: 0 auto;\n}\n#shopify-section-16345335383006189e\n#block-7076ca7b-cba7-4f8a-91d1-57e1df46ff03 .featured-row__subtext{\nfont-family: 'passagerregular';\nfont-weight: normal;\n    font-size: 30px;\n    letter-spacing: 2px;\n}\n#shopify-section-16345335383006189e\n#block-b255a65b-31c5-4190-8928-2f826a9148f1 .featured-row__subtext{\nfont-size: 20px;\n}\n\n@media (max-width: 960px) {\n#shopify-section-16345335383006189e{\n    padding: 25px 0;\n}\n#shopify-section-16345335383006189e .feature-row__text--right{\n    margin: 5px auto 20px;\n}\n#shopify-section-16345335383006189e\n#block-7076ca7b-cba7-4f8a-91d1-57e1df46ff03 .featured-row__subtext{\n    font-size: 26px;\n}\n#shopify-section-16345335383006189e\n#block-b255a65b-31c5-4190-8928-2f826a9148f1 .featured-row__subtext{\n    font-size: 16px;\n}\n#shopify-section-16345335383006189e\n#block-b255a65b-31c5-4190-8928-2f826a9148f1{\n    margin-top: 10px;\n}\n}"
+          "css": "#shopify-section-16328183860576239b\n.page-width{\n    max-width: 100%;\n    padding: 0;\n}\n#shopify-section-16328183860576239b .feature-row{\n    margin: 0;\n}\n#shopify-section-16328183860576239b\n.feature-row__text--right{\n    max-width: 600px;\n    margin: 0 auto;\n    padding: 0 20px;\n}\n#shopify-section-16328183860576239b\n.rte &gt; p:last-child{\n font-family: 'TeXGyreAdventor';\nfont-weight: normal;\n    font-size: 16px;\n\n}\n#shopify-section-16328183860576239b\n#block-a01dea93-d777-4625-9f72-77f7fccb6fe8 &gt; *{\n    margin: 0;\nfont-family: 'Metropolis Extra';\n font-weight: 800;\n    letter-spacing: 3px;\n    padding: 10px 40px 8px;\n    font-size: 16px;\nborder-radius: 6px;\n}\n\n@media (max-width: 959px) {\n#shopify-section-16328183860576239b .feature-row__text--right{\nmargin: 30px auto 10px;\n}\n#shopify-section-16328183860576239b \n#block-b1425a50-3e77-4242-a1c8-3e7b0fd25f4c{\n    margin-top: 5px;\n    margin-bottom: 15px;\n}\n#shopify-section-16328183860576239b\n#block-a01dea93-d777-4625-9f72-77f7fccb6fe8 &gt; *{\n    letter-spacing: 2px;\n    padding: 8px 30px 6px;\n    font-size: 14px;\n}\n#shopify-section-16328183860576239b\n.rte &gt; p:last-child{\n    font-size: 14px;\n}\n}"
         }
       },
-      "16345336747c2ce2d4": {
-        "type": "featured-video",
-        "settings": {
-          "title": "CELEBRITY CLIENTS",
-          "divider": false,
-          "video_url": "https:\/\/www.youtube.com\/watch?v=xgT4HDqNnyg",
-          "mp4": "",
-          "image": "shopify:\/\/shop_images\/video_poster.png",
-          "link": "",
-          "label": "",
-          "button_color": "#ffffff",
-          "button_background": "#000000",
-          "background": "shopify:\/\/shop_images\/video_back.png",
-          "css": "#shopify-section-16345336747c2ce2d4\n.section-header h2{\nfont-family: 'passagerregular';\nfont-weight: normal;\ncolor: #ff5cc9;\nletter-spacing: 2px;\nfont-size: 30px;\n}\n#shopify-section-16345336747c2ce2d4\n.image-wrap{\nbackground: transparent;\n}\n\n@media (max-width: 959px) {\n#shopify-section-16345336747c2ce2d4\n.section-header h2{\nfont-size: 26px;\n}\n}"
-        }
-      },
-      "1634533818311f83bc": {
-        "type": "testimonials",
-        "blocks": {
-          "1634533818311f83bc-0": {
-            "type": "testimonial",
-            "settings": {
-              "testimonial": "<p><strong>TOP QUALITY, BEAUTIFUL SIGNS<br\/><\/strong><br\/>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.”<\/p>",
-              "author": "John Doe"
-            }
-          },
-          "1634533818311f83bc-1": {
-            "type": "testimonial",
-            "settings": {
-              "testimonial": "<p><strong>JUST AMAZING!!<br\/><br\/><\/strong>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.”<\/p>",
-              "author": "Jane Rodes"
-            }
-          },
-          "1634533818311f83bc-2": {
-            "type": "testimonial",
-            "settings": {
-              "testimonial": "<p><strong>EASY AND FAST<br\/><\/strong><br\/>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.”<\/p>",
-              "author": "Tom Waters"
-            }
-          },
-          "ecdfb918-f8fe-4c58-91b9-443d2bf8dd4c": {
-            "type": "testimonial",
-            "settings": {
-              "testimonial": "<p><strong>EASY AND FAST<br\/><\/strong><br\/>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.”<\/p>",
-              "author": "Tom Waters"
-            }
-          }
-        },
-        "block_order": [
-          "1634533818311f83bc-0",
-          "1634533818311f83bc-1",
-          "1634533818311f83bc-2",
-          "ecdfb918-f8fe-4c58-91b9-443d2bf8dd4c"
-        ],
-        "settings": {
-          "title": "",
-          "align_text": "center",
-          "round_images": false,
-          "divider": false
-        }
-      },
-      "1634534145cbaa40f0": {
-        "type": "advanced-content",
-        "blocks": {
-          "c865fb8b-55b2-443f-b13b-ba80be249d98": {
-            "type": "html",
-            "settings": {
-              "code": "<h2 class=\"insta_title\">FOLLOW US ON INSTAGRAM<\/h2>",
-              "width": "100%",
-              "alignment": "top-middle"
-            }
-          },
-          "1634534145cbaa40f0-0": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/insta_one.png",
-              "link": "",
-              "width": "25%",
-              "alignment": "top-middle"
-            }
-          },
-          "d0fe6bf2-94dc-4ef5-a441-0168bbea7cd2": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/insta_two.png",
-              "link": "",
-              "width": "25%",
-              "alignment": "top-middle"
-            }
-          },
-          "8a1fa4dd-ef31-456f-ac0a-8add01b843e2": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/insta_three.png",
-              "link": "",
-              "width": "25%",
-              "alignment": "top-middle"
-            }
-          },
-          "11a5e387-4412-4cef-bf39-6d5aa67bc492": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/insta_four.png",
-              "link": "",
-              "width": "25%",
-              "alignment": "top-middle"
-            }
-          }
-        },
-        "block_order": [
-          "c865fb8b-55b2-443f-b13b-ba80be249d98",
-          "1634534145cbaa40f0-0",
-          "d0fe6bf2-94dc-4ef5-a441-0168bbea7cd2",
-          "8a1fa4dd-ef31-456f-ac0a-8add01b843e2",
-          "11a5e387-4412-4cef-bf39-6d5aa67bc492"
-        ],
-        "settings": {
-          "full_width": true,
-          "space_around": false
-        }
-      },
-      "1634534817b324c0ad": {
-        "type": "logo-list",
-        "blocks": {
-          "1634534817b324c0ad-0": {
-            "type": "logo_image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/logo_one_d4a450d0-6bbf-44e7-b392-6c852c5aa020.png",
-              "link": ""
-            }
-          },
-          "1634534817b324c0ad-1": {
-            "type": "logo_image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/logo_two_edd50437-3979-4650-b14a-740472b2e62b.png",
-              "link": ""
-            }
-          },
-          "1634534817b324c0ad-2": {
-            "type": "logo_image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/logo_three_0c2371ed-3c06-48d4-870c-70feef159e90.png",
-              "link": ""
-            }
-          },
-          "1634534817b324c0ad-3": {
-            "type": "logo_image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/logo_four_5f3eccdb-cdf2-4c0b-bdeb-7b12c6e72e54.png",
-              "link": ""
-            }
-          }
-        },
-        "block_order": [
-          "1634534817b324c0ad-0",
-          "1634534817b324c0ad-1",
-          "1634534817b324c0ad-2",
-          "1634534817b324c0ad-3"
-        ],
-        "settings": {
-          "title": "4 STEP PROCESS",
-          "logo_opacity": 100,
-          "divider": false
-        }
-      },
-      "16345530311143f847": {
+      "16328977411b56d3a5": {
         "type": "Slider6",
         "settings": {
           "activate_slider": false,
-          "rev": "<!-- START shopversatilesignz REVOLUTION SLIDER 6.2.22 --><p class=\"rs-p-wp-fix\"><\/p>\n\t\t\t<rs-module-wrap id=\"rev_slider_232_1_wrapper\" data-alias=\"shopversatilesignz\" data-source=\"gallery\" style=\"background:#000000;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;\">\n\t\t\t\t<rs-module id=\"rev_slider_232_1\" style=\"\" data-version=\"6.2.22\">\n\t\t\t\t\t<rs-slides>\n\t\t\t\t\t\t<rs-slide data-key=\"rs-240\" data-title=\"Slide\" data-anim=\"ei:d;eo:d;s:550;r:0;t:fade;sl:0;\">\n\t\t\t\t\t\t\t<img src=\"\/\/localhost\/wordpress\/wp-content\/uploads\/2021\/10\/slider_back.jpg\" title=\"slider_back\" width=\"1903\" height=\"841\" class=\"rev-slidebg\" data-no-retina>\n<!--\n\t\t\t\t\t\t\t--><rs-group id=\"slider-232-slide-240-layer-0\" data-type=\"group\" data-rsp_ch=\"on\" data-xy=\"x:c;y:b;yo:115px,51px,38px,10px;\" data-text=\"w:normal;s:20,10,7,4;l:0,13,9,6;\" data-dim=\"w:1186px,739px,673px,461px;h:198px,123px,112px,79px;\" data-frame_0=\"x:0,0px,0px,0px;y:0,0px,0px,0px;o:1;\" data-frame_1=\"x:0,0px,0px,0px;y:0,0px,0px,0px;\" data-frame_999=\"o:0;st:w;sA:9000;\" style=\"z-index:12;\"><!--\n\t\t\t\t\t\t\t\t--><rs-layer id=\"slider-232-slide-240-layer-1\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"x:c;\" data-text=\"w:normal;s:20,10,7,4;l:0,13,9,6;\" data-dim=\"w:1186px,739px,673px,461px;h:69px,42px,37px,24px;\" data-frame_0=\"x:0,0,0,0px;y:-50,-26,-19,-11px;\" data-frame_1=\"x:0,0,0,0px;y:0,0,0,0px;st:550;sp:550;\" data-frame_999=\"o:0;st:w;\" style=\"z-index:11;\"><img src=\"\/\/localhost\/wordpress\/wp-content\/uploads\/2021\/10\/slider_text.png\" width=\"1186\" height=\"69\" data-no-retina> \n\t\t\t\t\t\t\t\t<\/rs-layer><!--\n\n\t\t\t\t\t\t\t\t--><rs-layer id=\"slider-232-slide-240-layer-2\" class=\"rev-btn\" data-type=\"button\" data-color=\"#000000\" data-rsp_ch=\"on\" data-xy=\"xo:81px,50px,44px,30px;y:b;\" data-text=\"w:normal;s:18,13,12,10;l:64,38,34,31;ls:1px,0px,0px,0px;fw:500;a:center;\" data-dim=\"w:264px,164px,149px,120px;h:68px,42px,38px,35px;minh:0px,none,none,none;\" data-border=\"bos:solid;boc:#d3ff29;bow:2px,2px,2px,2px;bor:4px,4px,4px,4px;\" data-frame_0=\"x:-50,-26,-19,-11px;y:0,0,0,0px;\" data-frame_1=\"x:0,0,0,0px;y:0,0,0,0px;st:1100;sp:550;\" data-frame_999=\"o:0;st:w;\" data-frame_hover=\"c:#fff;bgc:rgba(0,0,0,0.6);boc:#d3ff29;bor:4px,4px,4px,4px;bos:solid;bow:2px,2px,2px,2px;sp:100;e:power1.inOut;bri:120%;\" style=\"z-index:10;background-color:#d3ff29;font-family:Montserrat;\">CREATE YOUR OWN \n\t\t\t\t\t\t\t\t<\/rs-layer><!--\n\n\t\t\t\t\t\t\t\t--><a id=\"slider-232-slide-240-layer-3\" class=\"rs-layer rev-btn\" href=\"\/collections\/all\" target=\"_self\" rel=\"nofollow\" data-type=\"button\" data-rsp_ch=\"on\" data-xy=\"xo:463px,288px,262px,179px;y:b;\" data-text=\"w:normal;s:20,14,12,10;l:64,38,34,31;ls:1px,1px,0px,0px;fw:500;a:center;\" data-dim=\"w:264px,164px,149px,120px;h:68px,42px,38px,35px;minh:0px,none,none,none;\" data-padding=\"r:25,15,13,9;l:25,15,13,9;\" data-border=\"bos:solid;boc:#ff5bc7;bow:2px,2px,2px,2px;bor:4px,4px,4px,4px;\" data-frame_0=\"x:0,0,0,0px;y:50,26,19,11px;\" data-frame_1=\"x:0,0,0,0px;y:0,0,0,0px;st:1650;sp:550;\" data-frame_999=\"o:0;st:w;\" data-frame_hover=\"c:#000;bgc:#ff5bc7;boc:#ff5bc7;bor:4px,4px,4px,4px;bos:solid;bow:2px,2px,2px,2px;e:power1.inOut;\" style=\"z-index:9;background-color:rgba(0,0,0,0.6);font-family:Montserrat;\">SHOP ALL \n\t\t\t\t\t\t\t\t<\/a><!--\n\n\t\t\t\t\t\t\t\t--><rs-layer id=\"slider-232-slide-240-layer-5\" class=\"rev-btn\" data-type=\"button\" data-rsp_ch=\"on\" data-xy=\"xo:845px,527px,480px,328px;y:b;\" data-text=\"w:normal;s:20,14,12,10;l:64,38,34,31;ls:1px,1px,0px,0px;fw:500;a:center;\" data-dim=\"w:264px,164px,149px,120px;h:68px,42px,38px,35px;minh:0px,none,none,none;\" data-padding=\"r:25,15,13,9;l:25,15,13,9;\" data-border=\"bos:solid;boc:#64b5f6;bow:2px,2px,2px,2px;bor:4px,4px,4px,4px;\" data-frame_0=\"x:50,26,19,11px;y:0,0,0,0px;\" data-frame_1=\"x:0,0,0,0px;y:0,0,0,0px;st:2200;sp:550;\" data-frame_999=\"o:0;st:w;\" data-frame_hover=\"c:#000;bgc:#64b5f6;boc:#64b5f6;bor:4px,4px,4px,4px;bos:solid;bow:2px,2px,2px,2px;e:power1.inOut;\" style=\"z-index:8;background-color:rgba(0,0,0,0.6);font-family:Montserrat;\">GET A QUOTE \n\t\t\t\t\t\t\t\t<\/rs-layer><!--\n\t\t\t\t\t\t\t--><\/rs-group><!--\n-->\t\t\t\t\t\t<\/rs-slide>\n\t\t\t\t\t<\/rs-slides>\n\t\t\t\t<\/rs-module>\n\t\t\t\t<script type=\"text\/javascript\">\n\t\t\t\t\tsetREVStartSize({c: 'rev_slider_232_1',rl:[1240,1024,778,480],el:[849,450,450,250],gw:[1920,1024,778,480],gh:[849,450,450,250],type:'standard',justify:'',layout:'fullwidth',mh:\"0\"});\n\t\t\t\t\tvar\trevapi232,\n\t\t\t\t\t\ttpj;\n\t\t\t\t\tfunction revinit_revslider2321() {\n\t\t\t\t\tjQuery(function() {\n\t\t\t\t\t\ttpj = jQuery;\n\t\t\t\t\t\trevapi232 = tpj(\"#rev_slider_232_1\");\n\t\t\t\t\t\tif(revapi232==undefined || revapi232.revolution == undefined){\n\t\t\t\t\t\t\trevslider_showDoubleJqueryError(\"rev_slider_232_1\");\n\t\t\t\t\t\t}else{\n\t\t\t\t\t\t\trevapi232.revolution({\n\t\t\t\t\t\t\t\tsliderLayout:\"fullwidth\",\n\t\t\t\t\t\t\t\tvisibilityLevels:\"1240,1024,778,480\",\n\t\t\t\t\t\t\t\tgridwidth:\"1920,1024,778,480\",\n\t\t\t\t\t\t\t\tgridheight:\"849,450,450,250\",\n\t\t\t\t\t\t\t\tspinner:\"spinner4\",\n\t\t\t\t\t\t\t\tperspective:600,\n\t\t\t\t\t\t\t\tperspectiveType:\"global\",\n\t\t\t\t\t\t\t\teditorheight:\"849,450,450,250\",\n\t\t\t\t\t\t\t\tresponsiveLevels:\"1240,1024,778,480\",\n\t\t\t\t\t\t\t\tprogressBar:{disableProgressBar:true},\n\t\t\t\t\t\t\t\tnavigation: {\n\t\t\t\t\t\t\t\t\tonHoverStop:false\n\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\tfallbacks: {\n\t\t\t\t\t\t\t\t\tallowHTML5AutoPlayOnAndroid:true\n\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t});\n\t\t\t\t\t\t}\n\t\t\t\t\t\t\n\t\t\t\t\t});\n\t\t\t\t\t} \/\/ End of RevInitScript\n\t\t\t\tvar once_revslider2321 = false;\n\t\t\t\tif (document.readyState === \"loading\") {document.addEventListener('readystatechange',function() { if((document.readyState === \"interactive\" || document.readyState === \"complete\") && !once_revslider2321 ) { once_revslider2321 = true; revinit_revslider2321();}});} else {once_revslider2321 = true; revinit_revslider2321();}\n\t\t\t\t<\/script>\n\t\t\t\t<script>\n\t\t\t\t\tvar htmlDivCss = '\t#rev_slider_232_1_wrapper rs-loader.spinner4 div { background-color: #ffffff !important; } ';\n\t\t\t\t\tvar htmlDiv = document.getElementById('rs-plugin-settings-inline-css');\n\t\t\t\t\tif(htmlDiv) {\n\t\t\t\t\t\thtmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;\n\t\t\t\t\t}else{\n\t\t\t\t\t\tvar htmlDiv = document.createElement('div');\n\t\t\t\t\t\thtmlDiv.innerHTML = '<style>' + htmlDivCss + '<\/style>';\n\t\t\t\t\t\tdocument.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);\n\t\t\t\t\t}\n\t\t\t\t<\/script>\n\t\t\t<\/rs-module-wrap>\n\t\t\t<!-- END REVOLUTION SLIDER -->",
+          "rev": "<!-- START House of Snatch REVOLUTION SLIDER 6.2.22 --><p class=\"rs-p-wp-fix\"><\/p>\n\t\t\t<rs-module-wrap id=\"rev_slider_231_1_wrapper\" data-alias=\"House-of-Snatch\" data-source=\"gallery\" style=\"background:#f6ceb4;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;\">\n\t\t\t\t<rs-module id=\"rev_slider_231_1\" style=\"\" data-version=\"6.2.22\">\n\t\t\t\t\t<rs-slides>\n\t\t\t\t\t\t<rs-slide data-key=\"rs-239\" data-title=\"Slide\" data-anim=\"ei:d;eo:d;s:550;r:0;t:fade;sl:0;\">\n\t\t\t\t\t\t\t<img src=\"\/\/localhost\/wordpress\/wp-content\/uploads\/2021\/09\/BACKGROUND.png\" title=\"BACKGROUND\" width=\"1903\" height=\"636\" class=\"rev-slidebg\" data-no-retina=\"\">\n<!--\n\t\t\t\t\t\t\t--><rs-group id=\"slider-231-slide-239-layer-0\" data-type=\"group\" data-rsp_ch=\"on\" data-xy=\"x:l,c,c,c;xo:373px,7px,5px,-3px;y:b;yo:0,0,-2px,-3px;\" data-text=\"w:normal;s:20,10,7,4;l:0,13,9,6;\" data-dim=\"w:1191px,858px,671px,460px;h:249px,181px,141px,96px;\" data-frame_0=\"x:0,0px,0px,0px;y:0,0px,0px,0px;o:1;\" data-frame_1=\"x:0,0px,0px,0px;y:0,0px,0px,0px;\" data-frame_999=\"o:0;st:w;sR:8700;sA:9000;\" style=\"z-index:12;\"><!--\n\t\t\t\t\t\t\t\t--><rs-layer id=\"slider-231-slide-239-layer-1\" data-type=\"image\" data-rsp_ch=\"on\" data-text=\"w:normal;s:20,10,7,4;l:0,13,9,6;\" data-dim=\"w:1191px,874px,684px,470px;h:110px,80px,62px,42px;\" data-frame_0=\"y:-100%;\" data-frame_0_mask=\"u:t;\" data-frame_1=\"st:1100;sp:800;sR:1100;\" data-frame_1_mask=\"u:t;\" data-frame_999=\"o:0;st:w;sR:7100;\" style=\"z-index:9;\"><img src=\"\/\/localhost\/wordpress\/wp-content\/uploads\/2021\/09\/slider_text_one-4.png\" width=\"1191\" height=\"110\" data-no-retina=\"\"> \n\t\t\t\t\t\t\t\t<\/rs-layer><!--\n\n\t\t\t\t\t\t\t\t--><rs-layer id=\"slider-231-slide-239-layer-2\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"xo:71px,51px,39px,30px;yo:7px,4px,3px,2px;\" data-text=\"w:normal;s:20,10,7,4;l:0,13,9,6;\" data-dim=\"w:309px,225px,175px,119px;h:91px,67px,52px,36px;\" data-frame_0=\"sX:0.9;sY:0.9;\" data-frame_1=\"st:1900;sp:600;sR:1900;\" data-frame_999=\"o:0;st:w;sR:6500;\" style=\"z-index:10;\"><img src=\"\/\/localhost\/wordpress\/wp-content\/uploads\/2021\/09\/slider_text_two-5.png\" width=\"309\" height=\"91\" data-no-retina=\"\"> \n\t\t\t\t\t\t\t\t<\/rs-layer><!--\n\n\t\t\t\t\t\t\t\t--><a id=\"slider-231-slide-239-layer-3\" class=\"rs-layer rev-btn\" href=\"\/collections\/all\" target=\"_self\" rel=\"nofollow\" data-type=\"button\" data-color=\"#fff8fb\" data-rsp_ch=\"on\" data-xy=\"x:l,l,l,c;xo:453px,331px,259px,0;y:b;yo:-1px,-1px,-1px,1px;\" data-text=\"w:normal;s:16,13,12,12;l:41,30,30,29;ls:3px,3px,2px,2px;fw:700;a:center;\" data-dim=\"w:231px,169px,132px,144px;h:39px,30px,30px,29px;minh:0px,none,none,none;\" data-padding=\"r:20,16,12,8;l:20,16,12,8;\" data-border=\"bor:10px,10px,0px,0px;\" data-frame_0=\"o:1;\" data-frame_0_chars=\"x:105%;o:1;rY:45deg;rZ:90deg;\" data-frame_0_mask=\"u:t;\" data-frame_1=\"st:2500;sp:900;\" data-frame_1_chars=\"e:power4.inOut;d:10;rZ:0deg;\" data-frame_1_mask=\"u:t;\" data-frame_999=\"o:0;st:w;sR:4890;\" data-frame_hover=\"c:#fff;bgc:#613110;bor:10px,10px,0px,0px;sp:200;e:power1.inOut;\" style=\"z-index:11;background-color:#d9a491;font-family:Montserrat;\">SHOP NOW \n\t\t\t\t\t\t\t\t<\/a><!--\n\t\t\t\t\t\t\t--><\/rs-group><!--\n\n\t\t\t\t\t\t\t--><rs-layer id=\"slider-231-slide-239-layer-4\" data-type=\"image\" data-rsp_ch=\"on\" data-xy=\"x:l,c,c,c;xo:400px,0,0,0;y:b;\" data-text=\"w:normal;s:20,10,7,4;l:0,13,9,6;\" data-dim=\"w:1125px,796px,619px,616px;h:636px,450px,350px,348px;\" data-frame_0=\"y:50;\" data-frame_1=\"st:550;sp:550;sR:550;\" data-frame_999=\"o:0;st:w;sR:7900;\" style=\"z-index:5;\"><img src=\"\/\/localhost\/wordpress\/wp-content\/uploads\/2021\/09\/slider_model-7.png\" width=\"1125\" height=\"636\" data-no-retina=\"\"> \n\t\t\t\t\t\t\t<\/rs-layer><!--\n-->\t\t\t\t\t\t<\/rs-slide>\n\t\t\t\t\t<\/rs-slides>\n\t\t\t\t<\/rs-module>\n\t\t\t\t<script type=\"text\/javascript\">\n\t\t\t\t\tsetREVStartSize({c: 'rev_slider_231_1',rl:[1240,1024,778,480],el:[642,450,350,350],gw:[1920,1024,778,480],gh:[642,450,350,350],type:'standard',justify:'',layout:'fullwidth',mh:\"0\"});\n\t\t\t\t\tvar\trevapi231,\n\t\t\t\t\t\ttpj;\n\t\t\t\t\tfunction revinit_revslider2311() {\n\t\t\t\t\tjQuery(function() {\n\t\t\t\t\t\ttpj = jQuery;\n\t\t\t\t\t\trevapi231 = tpj(\"#rev_slider_231_1\");\n\t\t\t\t\t\tif(revapi231==undefined || revapi231.revolution == undefined){\n\t\t\t\t\t\t\trevslider_showDoubleJqueryError(\"rev_slider_231_1\");\n\t\t\t\t\t\t}else{\n\t\t\t\t\t\t\trevapi231.revolution({\n\t\t\t\t\t\t\t\tsliderLayout:\"fullwidth\",\n\t\t\t\t\t\t\t\tvisibilityLevels:\"1240,1024,778,480\",\n\t\t\t\t\t\t\t\tgridwidth:\"1920,1024,778,480\",\n\t\t\t\t\t\t\t\tgridheight:\"642,450,350,350\",\n\t\t\t\t\t\t\t\tspinner:\"spinner4\",\n\t\t\t\t\t\t\t\tperspective:600,\n\t\t\t\t\t\t\t\tperspectiveType:\"global\",\n\t\t\t\t\t\t\t\teditorheight:\"642,450,350,350\",\n\t\t\t\t\t\t\t\tresponsiveLevels:\"1240,1024,778,480\",\n\t\t\t\t\t\t\t\tprogressBar:{disableProgressBar:true},\n\t\t\t\t\t\t\t\tnavigation: {\n\t\t\t\t\t\t\t\t\tonHoverStop:false\n\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\tfallbacks: {\n\t\t\t\t\t\t\t\t\tallowHTML5AutoPlayOnAndroid:true\n\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t});\n\t\t\t\t\t\t}\n\t\t\t\t\t\t\n\t\t\t\t\t});\n\t\t\t\t\t} \/\/ End of RevInitScript\n\t\t\t\tvar once_revslider2311 = false;\n\t\t\t\tif (document.readyState === \"loading\") {document.addEventListener('readystatechange',function() { if((document.readyState === \"interactive\" || document.readyState === \"complete\") && !once_revslider2311 ) { once_revslider2311 = true; revinit_revslider2311();}});} else {once_revslider2311 = true; revinit_revslider2311();}\n\t\t\t\t<\/script>\n\t\t\t\t<script>\n\t\t\t\t\tvar htmlDivCss = '\t#rev_slider_231_1_wrapper rs-loader.spinner4 div { background-color: #7c4f3f !important; } ';\n\t\t\t\t\tvar htmlDiv = document.getElementById('rs-plugin-settings-inline-css');\n\t\t\t\t\tif(htmlDiv) {\n\t\t\t\t\t\thtmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;\n\t\t\t\t\t}else{\n\t\t\t\t\t\tvar htmlDiv = document.createElement('div');\n\t\t\t\t\t\thtmlDiv.innerHTML = '<style>' + htmlDivCss + '<\/style>';\n\t\t\t\t\t\tdocument.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);\n\t\t\t\t\t}\n\t\t\t\t<\/script>\n\t\t\t<\/rs-module-wrap>\n\t\t\t<!-- END REVOLUTION SLIDER -->",
           "wait_slider": true
-        }
-      },
-      "gallery": {
-        "type": "gallery",
-        "blocks": {
-          "eaffa132-265b-4d03-ad3f-c7ec2838184b": {
-            "type": "Gallery",
-            "settings": {
-              "page": "gallery",
-              "image1": "shopify:\/\/shop_images\/slider_back.jpg",
-              "image2": "shopify:\/\/shop_images\/img_model.png",
-              "image3": "shopify:\/\/shop_images\/video_poster.png",
-              "image4": "shopify:\/\/shop_images\/insta_three.png",
-              "image5": "shopify:\/\/shop_images\/insta_two.png"
-            }
-          }
-        },
-        "block_order": [
-          "eaffa132-265b-4d03-ad3f-c7ec2838184b"
-        ],
-        "settings": {
-        }
-      },
-      "FAQ": {
-        "type": "FAQ",
-        "blocks": {
-          "8ff849ed-cca7-4795-8ba9-0b417aad1c00": {
-            "type": "Faq",
-            "settings": {
-              "title": "How do you power the LED neon signs?",
-              "answer": "<p>\\All of our signs connect directly into a standard power socket (with a plug that’s specific to the country you’re shipping to) and a 12V transformer.<\/p>"
-            }
-          },
-          "8a9b7e27-034d-46fb-841c-3e9111203354": {
-            "type": "Faq",
-            "settings": {
-              "title": "What Colors Do You Offer?",
-              "answer": "<p>Blue, Light Blue, Golden-Yellow, Yellow, Purple, Red, Cold-White, Warm-White, Orange, Green, Pink <\/p>"
-            }
-          },
-          "d9c49775-f695-44d8-9c1c-a901333cd04b": {
-            "type": "Faq",
-            "settings": {
-              "title": "What about Sizing?",
-              "answer": "<p>We Offer 30 in, 40 in, 50 in, and 60 in signz<\/p><p><\/p><p><br\/>These sizes are based on the horizontal dimensions of the sign. Customized images or logo neon light sizes may vary. It is important to know, the more detailed the image or logo, the higher the cost will be. Please contact us at<a href=\"http:\/\/versatilegmail.com\/\"> <\/a><span style=\"text-decoration:underline\">versatilesignzllc@gmail.com<\/span> to discuss dimensions.<strong> <\/strong><br\/><br\/><\/p>"
-            }
-          },
-          "af33c559-32ee-44b0-847b-85fc26ae6f2a": {
-            "type": "Faq",
-            "settings": {
-              "title": "Shipping?",
-              "answer": "<p><br\/>All Versatile Signz orders are made to order. We do not rush production as your neon light sign is important to us. We will always do our best to ensure the fastest possible production and delivery. Updates on packages will be given as soon as available. Once payment is made, allow 3-5 days for production and 7-10 days for shipping. A tracking number and picture of your neon light sign will be emailed once the sign is completed.<\/p><p><br\/><em><strong>Please be aware that many shipping carriers are experiencing delays due to COVID-19, and regardless of the shipping service we use, they may be subject to some delays out of our hands.<\/strong><\/em><br\/><br\/><br\/><br\/><\/p>"
-            }
-          },
-          "e2ab01bb-5a9f-4574-9fe7-e8cf04cb2e48": {
-            "type": "Faq",
-            "settings": {
-              "title": "Why does my sign need to be Cut? Will this affect my sign?",
-              "answer": "<p>For certain signs, they will need to be cut into two pieces for shipment purposes, this is to avoid any damage during transport. This won't affect the overall appearance of your LED neon sign; when a sign needs to be cut in two we will contact you with more information on setup. <br\/><\/p>"
-            }
-          },
-          "44db6aaf-c09d-480c-80d9-a17b0b674f07": {
-            "type": "Faq",
-            "settings": {
-              "title": "Mock-ups",
-              "answer": "<p><br\/>Versatile Signz offers two complimentary mock-ups. It is HIGHLY ADVISED that customers are ready to make a purchase when requesting a mock-up. Additional edits after complimentary mock-ups are $25 each round. Once approved, no additional changes can be made, no exceptions.<br\/><br\/><\/p>"
-            }
-          },
-          "4d0edc15-22bd-4be0-b171-5cf8c51766cc": {
-            "type": "Faq",
-            "settings": {
-              "title": "Custom Logos",
-              "answer": "<p>Custom Logos start at $499. Custom Logo cost varies depending on sign size and design complexity. The more detailed and complex the neon light sign is, the higher the cost. Please contact us at <a href=\"mailto:versatilesignzllc@gmail.com\"><span style=\"text-decoration:underline\">versatilesignzllc@gmail.com<\/span><\/a> for more information. <br\/><br\/><\/p>"
-            }
-          },
-          "893621d7-9ca0-4047-ba26-8820ee91dda7": {
-            "type": "Faq",
-            "settings": {
-              "title": "Import Fees\/Duties",
-              "answer": "<p>This is standard procedure for any item bought online and is entirely out of our hands – some orders won’t be subject to import fees, but for those that are, please be aware that these fees are the responsibility of the customer and are not covered by Versatile Signz.<\/p><p><\/p>"
-            }
-          },
-          "50d9d206-f6f1-46f7-99aa-0cba07110793": {
-            "type": "Faq",
-            "settings": {
-              "title": "Fragile Items Warning",
-              "answer": "<p>We use high quality 10 PVC acrylic sheet for back types, it is classified as fragile and should be handled with care. We implement a dedicated effort, ensuring the safe delivery of our neon signs. In case you receive a damaged acrylic or neon strip please email us at <a href=\"mailto:versatilesignzllc@gmail.com\"><span style=\"text-decoration:underline\">versatilesignzllc@gmail.com<\/span><\/a> with photos of the damage within 3 days of delivery. Damaged items can be returned within 7 working days of receiving the shipment.  <br\/><\/p>"
-            }
-          },
-          "5f9286b2-5926-45d2-b51c-3a7babdc0d85": {
-            "type": "Faq",
-            "settings": {
-              "title": "Packing & Delivery?",
-              "answer": "<p>LED Neon signs are packed individually with air bubble film and honeycomb paperboard. <br\/><\/p>"
-            }
-          },
-          "ab1a1c75-a347-4f9c-adbe-6cec7c1344d5": {
-            "type": "Faq",
-            "settings": {
-              "title": "What Backgrounds Can I Choose From?",
-              "answer": "<p>Customers can pick from two different 5mm Acrylic board Shapes. Cut to shape (Neon sign would be cut to the shape of the design) <strong>OR <\/strong>Cut to square (Neon sign would be cut to a square). Add On - your sign can have a different background color (Transparent, Black or silver). ($100 additional cost) <\/p>"
-            }
-          },
-          "c059bbd1-3ad5-42bd-9d9c-e662cfb85b8c": {
-            "type": "Faq",
-            "settings": {
-              "title": "What if I want my Logo made?",
-              "answer": "<p>Yes, Versatile Signz is able to make custom logos, icons and images. We can recreate most logos and designs. Please fill out an inquiry form and a representative will contact you about your customizable neon light sign. Once mock-ups are approved, no changes can be made. It is very important to send clear instructions and pictures if applicable when it comes to your logo. <br\/><\/p>"
-            }
-          },
-          "6735a7e6-e898-4267-b364-590ef1e9a025": {
-            "type": "Faq",
-            "settings": {
-              "title": "Where do you Ship?",
-              "answer": "<p>We ship worldwide!<\/p>"
-            }
-          },
-          "554f2784-338b-40f6-aab4-c3e880cac091": {
-            "type": "Faq",
-            "settings": {
-              "title": "Can you use LED Neon Sign Signs outdoors?",
-              "answer": "<p>Yes, we can produce outdoor signs. At checkout, please ask for a waterproof sign. <\/p>"
-            }
-          },
-          "c2244ca9-1a4b-4c5d-a71a-f450544a7a48": {
-            "type": "Faq",
-            "settings": {
-              "title": "What does the warranty cover?",
-              "answer": "<p>We offer a 12 month guarantee on materials and workmanship on all of our neon signs. However, this does not extend to any damage that may occur as a result of drops or damage to your sign. If your light goes out, contact us at versatilesignzllc@gmail.com<\/p>"
-            }
-          },
-          "89baff3e-27e5-4878-8624-c2f2fd848c47": {
-            "type": "Faq",
-            "settings": {
-              "title": "What comes with your sign?",
-              "answer": "<p>Power supply, Accessories for installation, Dimmer <\/p>"
-            }
-          },
-          "f7b6afaf-d55f-4072-8834-7e24ff82ef5e": {
-            "type": "Faq",
-            "settings": {
-              "title": "Return Policy",
-              "answer": "<p><br\/>Versatile Signz does not accept cancellations or returns after payment is made, as we use a 3rd party fulfillment provider. Therefore, unwanted or incorrect orders cannot be canceled. All sales are final once placed through the site. <\/p><p><\/p><p><br\/>If your sign arrives damaged or defective, please contact us at <span style=\"text-decoration:underline\">versatilesignzllc@gmail.com<\/span> and include both a video and photo for diagnosis within 3 days. Returns must be made within 7 days of delivery.<\/p><p><\/p><p><br\/>To be eligible for a return, your item must be in the same condition that you received it. To complete your return, we require a receipt or proof of purchase. <\/p>"
-            }
-          },
-          "2ffd899c-d628-4a0d-8fcc-5e61998f3598": {
-            "type": "Faq",
-            "settings": {
-              "title": "Exchanges",
-              "answer": "<p>We only replace items if they are defective or damaged. No exchanges under any circumstances.<br\/><\/p>"
-            }
-          },
-          "2ad23673-bb96-494d-bcfe-d649e1e01109": {
-            "type": "Faq",
-            "settings": {
-              "title": "What colors can you choose from for custom rugs?",
-              "answer": "<p>Blue, Yellow, Purple, Red, White, Orange, Green, Black, Grey and Brown <\/p>"
-            }
-          },
-          "0a0d4f70-ce7b-44b6-af69-13e29dac0407": {
-            "type": "Faq",
-            "settings": {
-              "title": "Custom Rug Sizes",
-              "answer": "<p><strong>* Please understand the sizes above are recommended sizes. Every logo or image has its own unique details, that may require specific sizes. If unique sizes are required, a representative will let you know. <\/strong><\/p>"
-            }
-          },
-          "492aab89-f579-41ec-b4bf-3708c671ba01": {
-            "type": "Faq",
-            "settings": {
-              "title": "What are VSR rugs made of?",
-              "answer": "<p><strong>Versatile Rugz are made with acrylic material <\/strong><\/p>"
-            }
-          },
-          "3215826b-229c-4c09-aed3-c9f208dff289": {
-            "type": "Faq",
-            "settings": {
-              "title": "Custom Rugs Package",
-              "answer": "<p><strong>PP Bag for inner package and Woven bag for outer package<\/strong><\/p>"
-            }
-          },
-          "acf3af40-9659-4317-ae72-0784737f50a5": {
-            "type": "Faq",
-            "settings": {
-              "title": "Custom Rugs Mock ups",
-              "answer": "<p>Versatile S&R offers two complimentary mock-ups. It is HIGHLY ADVISED that customers are ready to make a purchase when requesting a mock-up. Additional edits after complimentary mock-ups are $25 each round. Once approved, no additional changes can be made, no exceptions.<\/p>"
-            }
-          },
-          "0ef38a50-c50f-48a6-bb1f-9b7ea4662fb3": {
-            "type": "Faq",
-            "settings": {
-              "title": "Custom Rugs Shipping",
-              "answer": "<p>Versatile Signz does all orders first come first served. We do not rush production as your rug is important to us.  Please also be aware that many shipping carriers are experiencing delays due to COVID-19, and regardless of the shipping service we use, they may be subject to some delays out of our hands. We will always do our best to ensure the fastest possible production and delivery. Updates on packages will be given. Once payment is made, allow 2-3 weeks  for production and 2-3 for shipping. Customized rugs are a longer process than our neon signs based on the details required to ensure top quality. Please note that during certain times throughout the year, shipping arrival may vary. A tracking Number and picture of your rug will be emailed once the sign is completed.<br\/><\/p>"
-            }
-          }
-        },
-        "block_order": [
-          "8ff849ed-cca7-4795-8ba9-0b417aad1c00",
-          "8a9b7e27-034d-46fb-841c-3e9111203354",
-          "d9c49775-f695-44d8-9c1c-a901333cd04b",
-          "af33c559-32ee-44b0-847b-85fc26ae6f2a",
-          "e2ab01bb-5a9f-4574-9fe7-e8cf04cb2e48",
-          "44db6aaf-c09d-480c-80d9-a17b0b674f07",
-          "4d0edc15-22bd-4be0-b171-5cf8c51766cc",
-          "893621d7-9ca0-4047-ba26-8820ee91dda7",
-          "50d9d206-f6f1-46f7-99aa-0cba07110793",
-          "5f9286b2-5926-45d2-b51c-3a7babdc0d85",
-          "ab1a1c75-a347-4f9c-adbe-6cec7c1344d5",
-          "c059bbd1-3ad5-42bd-9d9c-e662cfb85b8c",
-          "6735a7e6-e898-4267-b364-590ef1e9a025",
-          "554f2784-338b-40f6-aab4-c3e880cac091",
-          "c2244ca9-1a4b-4c5d-a71a-f450544a7a48",
-          "89baff3e-27e5-4878-8624-c2f2fd848c47",
-          "f7b6afaf-d55f-4072-8834-7e24ff82ef5e",
-          "2ffd899c-d628-4a0d-8fcc-5e61998f3598",
-          "2ad23673-bb96-494d-bcfe-d649e1e01109",
-          "0a0d4f70-ce7b-44b6-af69-13e29dac0407",
-          "492aab89-f579-41ec-b4bf-3708c671ba01",
-          "3215826b-229c-4c09-aed3-c9f208dff289",
-          "acf3af40-9659-4317-ae72-0784737f50a5",
-          "0ef38a50-c50f-48a6-bb1f-9b7ea4662fb3"
-        ],
-        "settings": {
-          "button_background_color": "#2C3E50",
-          "color": "#FFFFFF"
         }
       }
     },
     "content_for_index": [
-      "16345530311143f847",
-      "1634534817b324c0ad",
-      "16345335383006189e",
-      "16345336747c2ce2d4",
-      "1634533818311f83bc",
-      "1634534145cbaa40f0"
+      "16328977411b56d3a5",
+      "16328181149432e982",
+      "1632818146fdc64bd4",
+      "16328183860576239b",
+      "163281860504a15d21"
     ]
   },
   "presets": {
