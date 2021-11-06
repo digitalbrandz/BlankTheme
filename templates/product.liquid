@@ -2,7 +2,7 @@
 {% section 'google-product-reviews' %}
 {% endcapture %}
 {% assign google_product_reviews_cap = google_product_reviews_cap | replace: 'class="shopify-section"', 'class="shopify-section-nested"' %}
-
+{% assign google_product_reviews_cap = google_product_reviews_cap | replace: 'data-shopify-editor-section="{"id":"google-product-reviews","type":"google-product-reviews","disabled":false}"', '' %}
 
 {% capture 'product_template_cap' %}
 {% section 'product-template' %}
