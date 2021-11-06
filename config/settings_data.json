@@ -814,6 +814,21 @@
       },
       "google-product-reviews": {
         "type": "google-product-reviews",
+        "blocks": {
+          "94e247da-9528-47cd-81a7-b0a5543d09ee": {
+            "type": "Review",
+            "settings": {
+              "google_pic": "shopify:\/\/shop_images\/206755985_1446529692390784_4770227713015867293_n.jpg",
+              "google_name": "Soleboy",
+              "google_caption": "The best company i ever worked with besides working with myself",
+              "google_date": "2 weeks ago",
+              "google_rating": "5"
+            }
+          }
+        },
+        "block_order": [
+          "94e247da-9528-47cd-81a7-b0a5543d09ee"
+        ],
         "settings": {
         }
       }
