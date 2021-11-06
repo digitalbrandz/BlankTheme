@@ -6,9 +6,12 @@
 {% capture 'product_template_cap' %}
 {% section 'product-template' %}
 {% endcapture %}
+{% assign product_template_cap = product_template_cap | replace: 'class="shopify-section"', 'class="shopify-section-nested"' %}
 
 
 {% assign product_template_content = product_template_cap | replace: "%%GOOGLE-REVIEWS%%", google_product_reviews_cap %}
+{% assign product_template_content = product_template_content | replace: 'class="shopify-section"', 'class="shopify-section-nested"' %}
+
 
 {{product_template_content}}
 
