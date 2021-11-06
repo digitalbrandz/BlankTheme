@@ -8826,13 +8826,17 @@ $z-index-hero-text: 4;
     .right {
      padding-left: 20px;
      .heading .name {
+       @include (min-width:700px) {
        font-size: 66%;
+       }
      }
     .google-stars {
      line-height: 1;
      display: block; 
      svg {
+         @include (min-width:700px) {
        height: 0.6em;
+         }
      } 
     } 
     }
