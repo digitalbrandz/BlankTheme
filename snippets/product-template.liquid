@@ -165,8 +165,16 @@
             {% else %}
               <div id="ProductFormHolder-{{ section_id }}" class="product-form-holder" data-url="{{ product.url }}"></div>
             {% endunless %}
-
+            
+            
+ 
+            
             {% unless description_style == 'full' %}
+            
+            {% if google %}
+               %%GOOGLE-REVIEWS%%
+            {% endif %}
+            
               <div class="product-single__description rte">
                 {{ product.description }}
               </div>
