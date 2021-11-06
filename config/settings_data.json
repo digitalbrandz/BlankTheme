@@ -824,10 +824,21 @@
               "google_date": "2 weeks ago",
               "google_rating": "5"
             }
+          },
+          "aeffff35-96b1-455f-9622-4b365611d13b": {
+            "type": "Review",
+            "settings": {
+              "google_pic": "shopify:\/\/shop_images\/66220507_665804900561571_163278786689761280_n.jpg",
+              "google_name": "Her Hair Company",
+              "google_caption": "Love the design you did for us and  our site is alot more easy to use now. We definitely kicked it up a notch on marketing",
+              "google_date": "9 months ago",
+              "google_rating": "5"
+            }
           }
         },
         "block_order": [
-          "94e247da-9528-47cd-81a7-b0a5543d09ee"
+          "94e247da-9528-47cd-81a7-b0a5543d09ee",
+          "aeffff35-96b1-455f-9622-4b365611d13b"
         ],
         "settings": {
         }
