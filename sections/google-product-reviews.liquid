@@ -18,7 +18,7 @@
 {% for block in section.blocks %}
  {% case block.type %}
   {% when 'Review' %}  
-
+  {% if product.handle == block.settings.google_product %}
 <div class="review">  
  <div class="review-inner">
    <div class="review-inner2">
@@ -108,6 +108,7 @@
    </div>
 </div>  
   </div>
+      {% endif %}
 {% endcase %}
 {% endfor %}
   </div>
@@ -123,6 +124,11 @@
      "type": "Review",
      "name": "Review",
      "settings" : [
+      {
+       "id": "google_product",
+       "type": "product",
+       "label": "Product"
+      },
       {
        "id": "google_pic",
        "type": "image_picker",
