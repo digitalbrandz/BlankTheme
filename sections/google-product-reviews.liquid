@@ -1,3 +1,14 @@
+ {% assign i = 0 %}
+{% for block in section.blocks %}
+ {% case block.type %}
+  {% when 'Review' %}  
+  {% if product.handle == block.settings.google_product %}
+ {% assign i = i | plus: 1 %}
+      {% endif %}
+{% endcase %}
+{% endfor %}
+
+{% unless i == 0 %}
 <div class="google-reviews page-width"
    data-section-id="{{ section.id }}"
   data-section-type="slideshow-section"
@@ -113,7 +124,7 @@
 {% endfor %}
   </div>
 </div>  
-
+{% endunless %}
 
 {% schema %}
   {
