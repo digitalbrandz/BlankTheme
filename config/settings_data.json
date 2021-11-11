@@ -168,13 +168,25 @@
               "review_date": "10\/25\/2021",
               "review_rating": "5"
             }
+          },
+          "0667334f-d3b4-4680-b943-d24e59ba5125": {
+            "type": "Review",
+            "settings": {
+              "review_product": "business-in-a-box-theme",
+              "review_pic": "shopify:\/\/shop_images\/V1my1swArs_mid.jpg",
+              "review_name": "Shalitha S.",
+              "review_caption": "This review was collected from a verified customer who purchased this item.",
+              "review_date": "10\/24\/2021",
+              "review_rating": "5"
+            }
           }
         },
         "block_order": [
           "30485958-6848-4c47-af19-49473d38495e",
           "36c24373-477b-4141-9f0b-ae335cdbb0ab",
           "0434d1f2-a90d-4682-a439-14bb8e5649cc",
-          "0344b8dc-211f-41f1-a308-73b117879b3f"
+          "0344b8dc-211f-41f1-a308-73b117879b3f",
+          "0667334f-d3b4-4680-b943-d24e59ba5125"
         ],
         "settings": {
         }
