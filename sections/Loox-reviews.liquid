@@ -2,6 +2,65 @@
   {
     "name": "Loox Reviews",
     "settings": [],
+  "blocks": [
+    {
+     "type": "Review",
+     "name": "Review",
+     "settings" : [
+      {
+       "id": "google_pic",
+       "type": "image_picker",
+       "label": "Image"
+      },
+      {
+        "id": "google_name",
+        "type": "text",
+        "label": "Name"
+      },
+      {
+        "id": "google_caption",
+        "type": "textarea",
+        "label": "Caption"
+      },
+      {
+        "id": "google_date",
+        "type": "text",
+        "label": "how many days\/weeks\/months ago"
+      },
+      {
+        "type": "select",
+        "id": "google_rating",
+        "options": [
+          {
+            "value": "none",
+            "label": "None"
+          },
+          {
+            "value": "1",
+            "label": "1"
+          },
+          {
+            "value": "2",
+            "label": "2"
+          },
+          {
+            "value": "3",
+            "label": "3"
+          },
+          {
+            "value": "4",
+            "label": "4"
+          },
+          {
+            "value": "5",
+            "label": "5"
+          }
+        ],
+        "label": "Rating"
+      }
+     ]
+  }
+ ],
  "presets": [
     {
       "name": "Loox Reviews",
