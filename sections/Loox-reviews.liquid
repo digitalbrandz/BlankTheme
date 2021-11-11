@@ -11,7 +11,46 @@
         </div>
        </div>
     </div>
+    
+    <div class="loox-dropdown reviews-dist" style="display:none;">
+    
+    </div>
+    
+    
   </div>
+  
+  <div id="grid-loox">
+    {% for block in section.blocks %}
+     {% case block.type %}
+       {% when 'Review' %}  
+       <div class="grid-item-wrap {% unless block.settings.review_pic == blank %}has-img{% endunless %}">
+         <div data-id="{{ block.id }}" class="grid-item clearfix">
+           {% unless block.settings.review_pic == blank %}
+           <div class="item-img box">
+            <img src="{{ block.settings.review_pic | img_url: 'medium' }}" />
+           </div>
+           {% endunless %}
+           <div class="main">
+             <div class="box">
+             
+             </div>
+             <div class="block product-box clearfix">
+               
+             <img src="{{ product.featured_image | img_url: 'medium' }}" />  
+             <div class="name name-with-img">
+               {% assign product = all_products[block.settings.review_product] %}
+               {{ product.title }}
+             </div>  
+             </div>
+           </div>
+         </div>
+       </div>
+    {% endcase %}
+  {% endfor %}
+  </div>
+  
+  
+  
 </div>
 
 
