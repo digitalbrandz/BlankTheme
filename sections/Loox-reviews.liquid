@@ -4,7 +4,7 @@
       <div data-panel="dist" class="summary-content b">
         <div data-panel="dist" class="summary-text">
           {% assign review_count =  block.settings.review_count | plus: section.blocks.size %}
-          <span data-panel="dist">{{ review_count }} Reviews</span>
+          <span data-panel="dist">{{ review_count }} {{ section.blocks.size  }} Reviews</span>
           <button data-panel="dist" class="header-chevron">
             <svg data-panel="dist" width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg" class="chevron-open"><path data-panel="dist" d="M7.11098 5.15691L2.16098 0.206909L0.746979 1.62091L7.11098 7.98491L13.475 1.62091L12.061 0.206911L7.11098 5.15691Z" fill="black"></path></svg>
             <svg data-panel="dist" width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg" class="chevron-closed chevron-hide"><path data-panel="dist" d="M6.88902 3.03498L11.839 7.98499L13.253 6.57099L6.88902 0.206985L0.525021 6.57098L1.93902 7.98498L6.88902 3.03498Z" fill="black"></path></svg>
