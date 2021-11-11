@@ -115,9 +115,9 @@
                
              </div>
              <div class="block product-box clearfix">
+            {% assign product = all_products[block.settings.review_product] %}    
              <img src="{{ product.featured_image | img_url: 'medium' }}" />  
              <div class="name name-with-img">
-               {% assign product = all_products[block.settings.review_product] %}
                {{ product.title }}
              </div>  
              </div>
