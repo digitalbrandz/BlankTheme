@@ -12,7 +12,7 @@
           "animation": "zoomIn",
           "trace": false,
           "background_color": "#ffffff",
-          "background_color_2": "#D9DBEB",
+          "background_color_2": "#d9dbeb",
           "css": ""
         }
       },
@@ -121,10 +121,31 @@
           "button_link": "",
           "enable_button": false
         }
+      },
+      "16366679244d74aeaa": {
+        "type": "Loox-reviews",
+        "blocks": {
+          "30485958-6848-4c47-af19-49473d38495e": {
+            "type": "Review",
+            "settings": {
+              "review_product": "business-in-a-box-theme",
+              "review_pic": "shopify:\/\/shop_images\/NJxArFMPi_mid.jpg",
+              "review_name": "niko b.",
+              "review_caption": "This review was collected from a verified customer who purchased this item.",
+              "review_date": "11\/8\/2021",
+              "review_rating": "5"
+            }
+          }
+        },
+        "block_order": [
+          "30485958-6848-4c47-af19-49473d38495e"
+        ],
+        "settings": {
+        }
       }
     },
     "content_for_index": [
-
+      "16366679244d74aeaa"
     ]
   }
 }
