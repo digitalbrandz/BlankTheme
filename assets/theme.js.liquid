@@ -4419,7 +4419,7 @@ lazySizesConfig.expFactor = 4;
       LooxReviewsSection.prototype = $.extend({}, LooxReviewsSection.prototype, {
         init: function() {
           if ( typeof(window[this.slideshow_init]) !== 'undefined' ) window[this.slideshow_init]();        
-          console.log($(this));
+          console.log(this.container);
           $(this).find('.grid-loox').masonry({
            itemSelector: '.grid-item-wrap'
           });
