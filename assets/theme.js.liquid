@@ -4417,8 +4417,9 @@ lazySizesConfig.expFactor = 4;
       }
       LooxSection.prototype = $.extend({}, LooxSection.prototype, {
         init: function() {
-          if ( typeof(window[this.masonry_init]) !== 'undefined' ) window[this.masonry_init]();
+          //if ( typeof(window[this.masonry_init]) !== 'undefined' ) window[this.masonry_init]();
           //console.log(this.slideshow_init);
+          console.log(window);
         }
       });
 	  //
