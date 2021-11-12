@@ -65,7 +65,7 @@ class="looxReviews-dbz">
     {% for block in section.blocks %}
      {% case block.type %}
        {% when 'Review' %}  
-       <div data-fancybox class="grid-item-wrap {% unless block.settings.review_pic == blank %}has-img{% endunless %}">
+       <div class="grid-item-wrap {% unless block.settings.review_pic == blank %}has-img{% endunless %}">
          <div data-id="{{ block.id }}" class="grid-item clearfix">
            {% unless block.settings.review_pic == blank %}
            <div class="item-img box">
