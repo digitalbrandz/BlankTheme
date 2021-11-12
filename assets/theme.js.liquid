@@ -4406,7 +4406,25 @@ lazySizesConfig.expFactor = 4;
   
   
   
+    theme.looxreviews = {};
 
+    theme.LooxReviewsSection = (function() {
+      function LooxReviewsSection(container) {
+        var $container = this.$container = $(container);
+        var $section = $container.parent();
+        var sectionId = $container.attr('data-section-id');
+        var slideshow_init = this.slideshow_init = $container.attr('data-init');
+        this.init();
+      }
+      LooxReviewsSection.prototype = $.extend({}, LooxReviewsSection.prototype, {
+        init: function() {
+          if ( typeof(window[this.slideshow_init]) !== 'undefined' ) window[this.slideshow_init]();
+          //console.log(this.slideshow_init);
+        }
+      });
+	  //
+      return LooxReviewsSection;
+    })();
   
   
   
@@ -5691,6 +5709,7 @@ lazySizesConfig.expFactor = 4;
         sections.register('header-section', theme.HeaderSection);
         sections.register('slideshow-section', theme.SlideshowSection);
         sections.register('revslider-section', theme.RevSliderSection);
+        sections.register('looxreviews-section', theme.LooxReviewsSection);
         sections.register('slider-section', theme.SliderSection);
         sections.register('video-section', theme.VideoSection);
         sections.register('background-image', theme.BackgroundImage);
