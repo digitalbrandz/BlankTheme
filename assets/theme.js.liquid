@@ -4413,20 +4413,9 @@ lazySizesConfig.expFactor = 4;
         var $container = this.$container = $(container);
         var $section = $container.parent();
         var sectionId = $container.attr('data-section-id');
-        var masonry_init = this.masonry_init = $container.attr('data-init');
         console.log($container);
-        this.init();
+
       }
-      LooxSection.prototype = $.extend({}, LooxSection.prototype, {
-        init: function() {
-           console.log('yo');
-          //if ( typeof(window[this.masonry_init]) !== 'undefined' ) window[this.masonry_init]();
-          //console.log(this.slideshow_init);
-       
-        }
-      });
-	  //
-      return LooxSection;
     })();
   
   
