@@ -4423,10 +4423,11 @@ lazySizesConfig.expFactor = 4;
           thegrid.masonry({
            itemSelector: '.grid-item-wrap'
           });
-          console.log(window);
+          setTimeout(function() {
           Fancybox.bind(thegrid.find('action'), {
             infinite: false,
           });
+          },300);
           
         }
       });
