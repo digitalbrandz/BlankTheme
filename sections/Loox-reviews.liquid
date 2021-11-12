@@ -121,7 +121,7 @@ class="looxReviews-dbz">
              </div>
              <div class="block product-box clearfix">
             {% assign product = all_products[block.settings.review_product] %}    
-             <img src="{{ product.featured_image | img_url: 'medium' }}" />  
+             <img src="{{ product.featured_image | img_url: 'medium' | class: 'action' }}" />  
              <div class="name name-with-img">
                {{ product.title }}
              </div>  
