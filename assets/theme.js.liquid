@@ -4431,8 +4431,13 @@ lazySizesConfig.expFactor = 4;
   },
 ]);
           Fancybox.bind(thegrid.find('.action'), {
-            infinite: false,
-          });
+  Html: {
+  tpl: `<video class="fancybox__html5video" playsinline controls controlsList="nodownload" poster="{{poster}}">
+      <source src="{{src}}" type="{{format}}" />
+      Sorry, your browser doesn\'t support embedded videos, <a href="{{src}}">download</a> and watch with your favorite video player!
+    </video>`,
+  },
+});
           
         }
       });
