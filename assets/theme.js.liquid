@@ -4424,9 +4424,10 @@ lazySizesConfig.expFactor = 4;
            itemSelector: '.grid-item-wrap'
           });
  
-          Fancybox.bind(thegrid.find('.action'), {
-            infinite: false,
-          });
+          Fancybox.bind(thegrid.find('.action'),  {
+    src: "<p>Lorem ipsum dolor sit amet.</p>",
+    type: "html",
+  });
           
         }
       });
