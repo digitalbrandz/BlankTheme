@@ -2441,37 +2441,6 @@ lazySizesConfig.expFactor = 4;
         return parallax;
     })();
   
-  
-  
-   theme.looxSections = {};
-
-    theme.Loox = (function() {
-     
-
-        function loox(el, args) {
-            console.log('yo');
-            this.$container = $(el);
-            this.namespace = args.namespace;
-
-            if (!this.$container.length) {
-                return;
-            }
-
-            if (args.desktopOnly) {
-                this.desktopInit();
-            } else {
-                this.init(this.$container, args)
-            }
-        }
-
-        loox.prototype = $.extend({}, loox.prototype, {
-            init: function() {
-             console.log('loox');
-            }
-        });
-
-        return loox;
-    })();
 
 
     theme.collectionTemplate = (function() {
