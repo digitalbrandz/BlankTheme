@@ -1,4 +1,3 @@
-{% if section.settings.hidestories == true %}
 {% style %}
 
 
@@ -39,7 +38,6 @@ background-color:{{ section.settings.background_color }};
    background-position:{% if block.settings.imageposition != '' %}{{ block.settings.imageposition }}{% else %}0{% endif %}% 0%
    }
    {% endfor %}
-
 {% endstyle %}
 <div   
   data-section-id="{{ section.id }}"
@@ -915,7 +913,6 @@ function playimg(imgEl, mySwiper) {
   
 
 </script> 
-{% endif %}
 {% schema %}
   {
     "name": "Stories",
