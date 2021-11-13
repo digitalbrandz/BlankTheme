@@ -197,9 +197,47 @@
           "average_rating": "3",
           "review_count": 20
         }
+      },
+      "16368362705b0fcf79": {
+        "type": "Stories",
+        "blocks": {
+          "a41a119c-89c0-482e-8ad3-380f7b68f8b4": {
+            "type": "Image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/keke-palmer.png",
+              "imageposition": 0,
+              "title": "Keke",
+              "tag": "",
+              "img1swipe": "",
+              "img2swipe": "",
+              "img3swipe": "",
+              "img4swipe": "",
+              "img5swipe": "",
+              "img6swipe": "",
+              "img7swipe": "",
+              "img8swipe": "",
+              "img9swipe": "",
+              "img10swipe": ""
+            }
+          }
+        },
+        "block_order": [
+          "a41a119c-89c0-482e-8ad3-380f7b68f8b4"
+        ],
+        "settings": {
+          "hidestories": true,
+          "demo": true,
+          "background_color": "#ffffff",
+          "font_color": "#000000",
+          "bubble_background_color": "#bf43a6",
+          "bubble_background_color_2": "#f5ae5f",
+          "bubble_tag_background_color": "#cf0168",
+          "bubble_tag_background_color_2": "#e0023f"
+        }
       }
     },
     "content_for_index": [
+      "16368362705b0fcf79",
       "16366679244d74aeaa"
     ]
   }
