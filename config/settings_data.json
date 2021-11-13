@@ -1,6 +1,6 @@
 {
   "current": {
-    "password": "687e47bebd5201799179e5e36c3e93fa",
+    "password": "0dc8855dc41bd1c54d9982fe3ededeca",
     "sections": {
       "Loader": {
         "type": "Loader",
@@ -133,7 +133,8 @@
               "review_name": "niko b.",
               "review_caption": "This review was collected from a verified customer who purchased this item.",
               "review_date": "11\/8\/2021",
-              "review_rating": "5"
+              "review_rating": "5",
+              "verified": true
             }
           },
           "36c24373-477b-4141-9f0b-ae335cdbb0ab": {
@@ -144,7 +145,8 @@
               "review_name": "Stephanie C.",
               "review_caption": "Love the taste. And it's beneficial",
               "review_date": "11\/3\/2021",
-              "review_rating": "5"
+              "review_rating": "5",
+              "verified": true
             }
           },
           "0434d1f2-a90d-4682-a439-14bb8e5649cc": {
@@ -155,7 +157,8 @@
               "review_name": "Mekala H.",
               "review_caption": "Made 3 jars worth and put moringa powder in for iron boost as I am healing my anemia during these cold months. Already feel the difference b\/t this & the first one I got which was from a different brand on Etsy(fake). Thank you forever!",
               "review_date": "11\/1\/2021",
-              "review_rating": "5"
+              "review_rating": "5",
+              "verified": true
             }
           },
           "0344b8dc-211f-41f1-a308-73b117879b3f": {
@@ -166,7 +169,8 @@
               "review_name": "Rashawn C.",
               "review_caption": "Taste amazing! Feeling great!",
               "review_date": "10\/25\/2021",
-              "review_rating": "5"
+              "review_rating": "5",
+              "verified": true
             }
           },
           "0667334f-d3b4-4680-b943-d24e59ba5125": {
@@ -177,7 +181,8 @@
               "review_name": "Shalitha S.",
               "review_caption": "This review was collected from a verified customer who purchased this item.",
               "review_date": "10\/24\/2021",
-              "review_rating": "5"
+              "review_rating": "5",
+              "verified": true
             }
           }
         },
