@@ -202,34 +202,10 @@ background-color:{{ section.settings.background_color }};
 </div>
 <script>
 
-var callbackStories = function(){
-  if(!window.Hammer) {
-   // add script
-    var script = document.createElement("script");
-    script.type = "text/javascript";   
-    script.src = 'https://cdnjs.cloudflare.com/ajax/libs/hammer.js/{{ settings.hammerjsversion }}/hammer.min.js';
-    document.getElementsByTagName("head")[0].appendChild(script);   
-  }
-};
 
-if (
-    document.readyState === "complete" ||
-    (document.readyState !== "loading" && !document.documentElement.doScroll)
-) {
-  callbackStories();
-} else {
-  document.addEventListener("DOMContentLoaded", callbackStories);
-}  
-  
-  
-function deferStories(methodStories) {
-    if (window.jQuery && window.Hammer && window.Swiper) {
-        methodStories();
-    } else {
-        setTimeout(function() { deferStories(methodStories) }, 50);
-    }
-}
-deferStories(function () {
+
+
+
   
 var stringToHTML = function (str) {
 		var parser = new DOMParser();
@@ -933,7 +909,7 @@ function playimg(imgEl, mySwiper) {
 }  
   
   
-});
+
 </script> 
 {% endif %}
 {% schema %}
