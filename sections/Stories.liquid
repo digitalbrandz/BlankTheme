@@ -41,7 +41,11 @@ background-color:{{ section.settings.background_color }};
    {% endfor %}
 
 {% endstyle %}
-<div class="stories-wrap">
+<div   
+  data-section-id="{{ section.id }}"
+  data-section-type="stories-section"
+  data-init="StoriesSection_init_{{ section.id }}"
+  class="stories-wrap">
   <div class="swiper-container">
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
