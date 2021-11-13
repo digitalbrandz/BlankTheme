@@ -1805,47 +1805,5 @@ z-index: 2;
 
 {% endstylesheet %}
 
-{% javascript %}
-$(document).one("shopify:section:select",'#shopify-section-Stories',function(e){
-
-
-var myElement = $('#shopify-section-Stories');
-var topPos = myElement[0].offsetTop;
-
-if($(window).width() < 600) { 
-$('#index').animate({ scrollTop: topPos });     
-}else{
-$('body').animate({ scrollTop: topPos }); 
-}    
-
-$(document).one("shopify:section:deselect",'#shopify-section-Stories',function(e){                           
-      
-                           
-$(document).one("shopify:section:select",'#shopify-section-Stories',function(e){
-var myElement = $('#shopify-section-Stories');
-var topPos = myElement[0].offsetTop;
-
-if($(window).width() < 600) { 
-$('#index').animate({ scrollTop: topPos });    
-}else{
-$('body').animate({ scrollTop: topPos });  
-}    
-});                       
-                           
-                           
-                           
-});
-});  
-$(document).on("shopify:section:select",'#shopify-section-Stories',function(e){
-story();
-setTimeout(function() { 
-scrollswiper(); 
-},200);  
-$('body').addClass('editing editstories');
-$(document).one("shopify:section:deselect",function(e){
-$('body').removeClass('editstories');
-})
-
-});   
-              
+{% javascript %} 
 {% endjavascript %}                                    
