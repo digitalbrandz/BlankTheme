@@ -9306,6 +9306,10 @@ max-width: 1080px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  @media (max-width:620px) {
+    align-items: normal;
+    justify-content: normal;  
+  }
 }
 #loox_quickview {
     position: relative;
@@ -9331,6 +9335,7 @@ max-width: 1080px;
       min-width: 400px;
       }
       .grid-item {
+        overflow:hidden;
        @media (min-width: 620px) {  
     max-height: 584px;
     max-width: 813px;
@@ -9363,6 +9368,9 @@ max-width: 1080px;
     max-height: 100%;
     object-fit: cover;
     opacity: 0;
+                  display: block;
+                  margin: 0 auto;
+    position: relative;
               &.fadeIn {
               opacity: 1;
     -webkit-transition: opacity 0.2s ease-in;
@@ -9381,6 +9389,11 @@ max-width: 1080px;
           }
         }
         .main {
+          @media (max-width: 620px) {
+         -webkit-border-radius: 0px;
+   		 -moz-border-radius: 0px;
+          border-radius: 0px;
+          }
           @media (min-width: 620px) {
               min-width: 375px;
           }
@@ -9624,6 +9637,7 @@ max-width: 1080px;
     opacity:0;
   }
 }
+
 
 
 /*================ Video Lookbook section ================*/
