@@ -669,7 +669,8 @@
       {
         "type": "checkbox",
         "id": "product_color_swatches",
-        "label": "Enable color swatches on product page"
+        "label": "Enable color swatches on product page",
+        "default": true
       },
       {
         "type": "checkbox",
