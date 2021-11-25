@@ -4406,7 +4406,7 @@ lazySizesConfig.expFactor = 4;
   
   
   
-    theme.looxreviews = {};
+       theme.looxreviews = {};
 
     theme.LooxReviewsSection = (function() {
       function LooxReviewsSection(container) {
@@ -4568,13 +4568,20 @@ ${review.rating < 5 ? `<span class="star" data-origin="star_o" data-color="#ccc"
           var container = document.getElementById('loox_quickview');
 
           if (e.target.closest('#close-btn') || !container.contains(e.target)) {
+            if(window.innerWidth > 617) {
            container.classList.add('out');
            "webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend".split(" ").map(animEndEventName => container.addEventListener(animEndEventName, removeLooxOverlay));  
+            }else{
+             removeLooxOverlay();
+            }
             document.body.style = 'block';
+           
           }  
          }
           function removeLooxOverlay(e) {
-          "webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend".split(" ").map(animEndEventName => e.currentTarget.removeEventListener(animEndEventName, removeLooxOverlay));    
+          if(window.innerWidth > 617) {  
+          "webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend".split(" ").map(animEndEventName => e.currentTarget.removeEventListener(animEndEventName, removeLooxOverlay));  
+          }
           var containerWrap = document.getElementById('looxOverlay_quickview');  
           containerWrap.remove();
           document.removeEventListener('click', closeLightbox);
