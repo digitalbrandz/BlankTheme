@@ -90,7 +90,8 @@ class="looxReviews-dbz">
                 </td>
                 <td>
                  <div class="loox-progress">
-                   <div class="loox-progress-value" style="width: {{ 100 | divided_by: review_count | times: fiveCount }}%;"></div>
+                   {% assign review_count_float = review_count | times: 1.00 %}
+                   <div class="loox-progress-value" style="width: {{ 100 | divided_by: review_count_float | times: fiveCount }}%;"></div>
                  </div>
                 </td>
                 <td class="reviews-num">
@@ -111,7 +112,7 @@ class="looxReviews-dbz">
                 </td>
                 <td>
                  <div class="loox-progress">
-                   <div class="loox-progress-value" style="width: {{ 100 | divided_by: review_count | times: fourCount }}%;"></div>
+                   <div class="loox-progress-value" style="width: {{ 100 | divided_by: review_count_float | times: fourCount }}%;"></div>
                  </div>
                 </td>
                 <td class="reviews-num">
