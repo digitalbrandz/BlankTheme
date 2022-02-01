@@ -19,20 +19,37 @@
 {% if section.settings.divider %}<div class="section--divider">{% endif %}
 
 <div class="page-width">
+  
+  <!-- Title -->
+  
   {% if section.settings.title != blank %}
     <div class="section-header">
       <h2>{{ section.settings.title }}</h2>
     </div>
   {% endif %}
+  
+  <!-- END Title -->
+  
+  
+  
+  
   <div class=" {% if section.settings.video_url == blank and section.settings.image == blank %} video-wrapper{% else %}  main{% endif %}">
-  {% if section.settings.video_url == blank %}
-    <iframe src="//www.youtube.com/embed/_9VUPq3SxOc?rel=0&showinfo=0&vq=720" width="850" height="480" frameborder="0" allowfullscreen></iframe>
-  {% else %}
-    {% if section.settings.video_url.type == "youtube" %}
-    {% if section.settings.mp4 != blank %}
-      
     
+    
+  {% if section.settings.video_url == blank %}
+    
+    <iframe src="//www.youtube.com/embed/_9VUPq3SxOc?rel=0&showinfo=0&vq=720" width="850" height="480" frameborder="0" allowfullscreen></iframe>
+    
+  {% else %}
+    
+    
+    {% if section.settings.video_url.type == "youtube" %}
+    
+    
+    {% if section.settings.mp4 != blank %}
+
   {% if section.settings.video_url != blank %}
+    not blank
 <a data-fancybox href="{{ section.settings.video_url }}">
 <svg width="191pt" height="237pt" viewBox="0 0 191 237" version="1.1" xmlns="http://www.w3.org/2000/svg">
 <g id="#ffffffff">
@@ -41,6 +58,7 @@
 </svg>
          </a>
          {% else %}
+    its blank
 <div class="mute">
 <span>Tap for sound 
 <svg width="671pt" height="670pt" viewBox="0 0 671 670" version="1.1" xmlns="http://www.w3.org/2000/svg">
