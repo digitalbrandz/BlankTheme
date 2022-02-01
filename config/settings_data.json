@@ -121,24 +121,10 @@
           "button_link": "",
           "enable_button": false
         }
-      },
-      "1643742335b2a3e52b": {
-        "type": "featured-video",
-        "settings": {
-          "title": "",
-          "divider": false,
-          "video_url": "",
-          "mp4": "https:\/\/cdn.shopify.com\/s\/files\/1\/0622\/4805\/9121\/files\/So_Unique_hair_promo_video.mp4?v=1643458476",
-          "link": "",
-          "label": "Click Here",
-          "button_color": "#ffffff",
-          "button_background": "#000000",
-          "css": ""
-        }
       }
     },
     "content_for_index": [
-      "1643742335b2a3e52b"
+
     ]
   }
 }
