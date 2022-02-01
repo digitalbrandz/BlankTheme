@@ -69,7 +69,7 @@
 {% if section.settings.mp4 != blank %}  
 <div data-aos="fade-up" data-aos-duration="700"
     data-aos-easing="ease-out-cubic">
-         <video playsinline="" autoplay="" preload="auto" loop="loop" muted="muted" onclick="event.preventDefault(); event.currentTarget.muted = false; event.currentTarget.previousElementSibling.style.opacity = 0;">
+         <video playsinline="" autoplay="" preload="auto" loop="loop" muted="muted" onclick="event.preventDefault(); event.currentTarget.muted = false; event.currentTarget.parentElement.previousElementSibling.style.opacity = 0;">
             <source src="{{ section.settings.mp4 }}" type="video/mp4">
          </video>
 </div>  
