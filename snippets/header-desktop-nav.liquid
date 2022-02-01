@@ -26,7 +26,7 @@
 
       <a href="{{ link.url }}" class="site-nav__link site-nav__link--underline{% if has_dropdown %} site-nav__link--has-dropdown{% endif %}">
         {{ link.title }}
-              {% if has_sub_dropdown %}
+              {% if is_megamenu %}
                   {% include 'icon-chevron-down' %}
                 {% endif %}
       </a>
