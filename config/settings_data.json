@@ -121,10 +121,23 @@
           "button_link": "",
           "enable_button": false
         }
+      },
+      "1643742335b2a3e52b": {
+        "type": "featured-video",
+        "settings": {
+          "title": "",
+          "divider": false,
+          "mp4": "",
+          "link": "",
+          "label": "Click Here",
+          "button_color": "#ffffff",
+          "button_background": "#000000",
+          "css": ""
+        }
       }
     },
     "content_for_index": [
-
+      "1643742335b2a3e52b"
     ]
   }
 }
