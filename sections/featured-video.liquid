@@ -32,33 +32,27 @@
   
   
   
+<div class=" {% if section.settings.video_url == blank and section.settings.image == blank %} video-wrapper{% else %}  main{% endif %}">
   
-  <div class=" {% if section.settings.video_url == blank and section.settings.image == blank %} video-wrapper{% else %}  main{% endif %}">
     
-    
-  {% if section.settings.video_url == blank and section.settings.mp4 == blank %}
-    
-    <iframe src="//www.youtube.com/embed/_9VUPq3SxOc?rel=0&showinfo=0&vq=720" width="850" height="480" frameborder="0" allowfullscreen></iframe>
-    
-  {% else %}
-    
-    
-    {% if section.settings.video_url.type == "youtube" %}
-    
-    
-    {% if section.settings.mp4 != blank %}
-
-  {% if section.settings.video_url != blank %}
-    not blank
+  
+{% if section.settings.video_url == blank and section.settings.mp4 == blank %}
+        <iframe src="//www.youtube.com/embed/_9VUPq3SxOc?rel=0&showinfo=0&vq=720" width="850" height="480" frameborder="0" allowfullscreen></iframe>
+{% endif %}
+  
+  
+{% if section.settings.mp4 != blank and section.settings.video_url != blank %}  
 <a data-fancybox href="{{ section.settings.video_url }}">
 <svg width="191pt" height="237pt" viewBox="0 0 191 237" version="1.1" xmlns="http://www.w3.org/2000/svg">
 <g id="#ffffffff">
 <path fill="#ffffff" opacity="1.00" d=" M 0.00 17.29 C 3.39 11.70 5.92 5.56 9.93 0.37 C 14.29 1.91 18.13 4.53 22.18 6.70 C 73.89 35.35 125.62 63.98 177.35 92.60 C 184.64 96.80 190.00 104.52 190.60 113.01 C 191.28 119.32 189.82 125.85 186.18 131.09 C 182.75 136.45 176.84 139.25 171.85 142.87 C 129.49 171.52 87.05 200.07 44.72 228.78 C 40.61 231.52 36.57 234.67 31.68 235.89 C 25.12 237.48 17.79 236.74 12.07 232.97 C 6.12 229.52 2.33 223.60 0.00 217.28 L 0.00 74.20 C 7.19 74.04 14.42 73.65 21.60 74.28 C 21.82 119.19 21.65 164.12 21.67 209.04 C 21.72 211.20 21.97 213.38 22.71 215.42 C 25.48 216.49 27.96 214.54 30.14 213.11 C 74.05 183.32 118.06 153.68 162.02 123.97 C 164.73 122.12 167.75 119.61 167.58 115.99 C 167.43 111.91 163.65 109.45 160.45 107.65 C 106.98 78.02 53.55 48.31 0.00 18.82 L 0.00 17.29 Z" />
 </g>
 </svg>
-         </a>
-         {% else %}
-    its blank
+</a>    
+{% endif %}
+  
+  
+{% if section.settings.mp4 != blank and section.settings.video_url == blank %}    
 <div class="mute">
 <span>Tap for sound 
 <svg width="671pt" height="670pt" viewBox="0 0 671 670" version="1.1" xmlns="http://www.w3.org/2000/svg">
@@ -68,40 +62,28 @@
 </g>
 </svg>
 </span>
-
-
-</div>
-         {% endif %}
-    <div data-aos="fade-up" data-aos-duration="700"
+</div>  
+{% endif %}
+  
+  
+{% if section.settings.mp4 != blank %}  
+<div data-aos="fade-up" data-aos-duration="700"
     data-aos-easing="ease-out-cubic">
          <video playsinline="" autoplay="" preload="auto" loop="loop" muted="muted" onclick="event.preventDefault(); event.currentTarget.muted = false; event.currentTarget.previousElementSibling.style.opacity = 0;">
             <source src="{{ section.settings.mp4 }}" type="video/mp4">
          </video>
-      </div>
-    </div>
-  </div>
-   
-    
-    
-    {% else %}
-    {% if section.settings.image != blank %}
-     
-
-
-
-
-
-    {% if section.settings.video_url.type == "youtube" %}
+</div>  
+{% endif %}  
   
+  
+{% if section.settings.mp4 == blank and section.settings.image != blank %}
 <a data-fancybox href="{{ section.settings.video_url }}">
 <svg width="191pt" height="237pt" viewBox="0 0 191 237" version="1.1" xmlns="http://www.w3.org/2000/svg">
 <g id="#ffffffff">
 <path fill="#ffffff" opacity="1.00" d=" M 0.00 17.29 C 3.39 11.70 5.92 5.56 9.93 0.37 C 14.29 1.91 18.13 4.53 22.18 6.70 C 73.89 35.35 125.62 63.98 177.35 92.60 C 184.64 96.80 190.00 104.52 190.60 113.01 C 191.28 119.32 189.82 125.85 186.18 131.09 C 182.75 136.45 176.84 139.25 171.85 142.87 C 129.49 171.52 87.05 200.07 44.72 228.78 C 40.61 231.52 36.57 234.67 31.68 235.89 C 25.12 237.48 17.79 236.74 12.07 232.97 C 6.12 229.52 2.33 223.60 0.00 217.28 L 0.00 74.20 C 7.19 74.04 14.42 73.65 21.60 74.28 C 21.82 119.19 21.65 164.12 21.67 209.04 C 21.72 211.20 21.97 213.38 22.71 215.42 C 25.48 216.49 27.96 214.54 30.14 213.11 C 74.05 183.32 118.06 153.68 162.02 123.97 C 164.73 122.12 167.75 119.61 167.58 115.99 C 167.43 111.91 163.65 109.45 160.45 107.65 C 106.98 78.02 53.55 48.31 0.00 18.82 L 0.00 17.29 Z" />
 </g>
 </svg>
-         </a>
-         {% endif %}
-    
+</a>   
 <div data-aos="fade-up" data-aos-duration="700"
     data-aos-easing="ease-out-cubic">
         <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: section.settings.image.aspect_ratio }}%;">
@@ -113,36 +95,40 @@
                 data-sizes="auto"
                 alt="{{ section.settings.image.alt }}">
           </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-    {% else %}
-      <iframe src="//www.youtube.com/embed/{{ section.settings.video_url.id }}?rel=0&showinfo=0&vq=720" width="850" height="480" frameborder="0" allowfullscreen></iframe>
-     {% endif %}
-     {% endif %}
-    {% endif %}
-    {% if section.settings.video_url.type == "vimeo" %}
-      <iframe src="//player.vimeo.com/video/{{ section.settings.video_url.id }}?color={{ settings.color_button | remove: "#" }}&byline=0&portrait=0&badge=0" width="850" height="480" frameborder="0" allowfullscreen></iframe>
-    {% endif %}
-  {% endif %}
-  </div>
-
+</div>  
+{% endif %}  
+  
+  
+  
+{% if section.settings.mp4 == blank and section.settings.image == blank and section.settings.video_url.type == "youtube" %}  
+<iframe src="//www.youtube.com/embed/{{ section.settings.video_url.id }}?rel=0&showinfo=0&vq=720" width="850" height="480" frameborder="0" allowfullscreen></iframe>
+{% endif %}    
+  
+{% if section.settings.mp4 == blank and section.settings.image == blank and section.settings.video_url.type == "vimeo" %}
+<iframe src="//player.vimeo.com/video/{{ section.settings.video_url.id }}?color={{ settings.color_button | remove: "#" }}&byline=0&portrait=0&badge=0" width="850" height="480" frameborder="0" allowfullscreen></iframe>
+{% endif %}  
+  
+  
 {% if section.settings.link != blank %}
   <div class="button-wrap" data-aos="fade-up" data-aos-duration="700"
     data-aos-easing="ease-out-cubic">
       <a class="btn" href="{{ section.settings.link }}" >{{ section.settings.label }}</a>
  </div>  
-{% endif %}
+{% endif %}  
+  
+</div>  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
-</div>
 
 {% if section.settings.divider %}</div>{% endif %}
 
