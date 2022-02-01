@@ -26,8 +26,9 @@
 
       <a href="{{ link.url }}" class="site-nav__link site-nav__link--underline{% if has_dropdown %} site-nav__link--has-dropdown{% endif %}">
         {{ link.title }}
-        
-            {% include 'icon-chevron-down' %}
+              {% if has_sub_dropdown %}
+                  {% include 'icon-chevron-down' %}
+                {% endif %}
       </a>
       {% if is_megamenu %}
         {%- assign previous_column_type = '' -%}
