@@ -60,6 +60,7 @@
 <div class="page-width">
   {% capture image_layout %}
    {% unless section.settings.mp4 != blank %}
+    mp4 is not empty
     <div class="feature-row__item main"   {% if section.settings.layout == 'right' %} data-aos="fade-left" {% else %}data-aos="fade-right" {% endif %} data-aos-duration="700"
     data-aos-easing="ease-out-cubic">
       <div style="margin: 0 auto; max-width: {{ section.settings.image_width }}px;">
@@ -83,7 +84,7 @@
       </div>
     </div>
    {% else %}
-  mp4 is not empty
+  mp4 is empty
     <div style="margin: 0 auto;">
     <div class="feature-row__item main"   {% if section.settings.layout == 'right' %} data-aos="fade-left" {% else %}data-aos="fade-right" {% endif %} data-aos-duration="700"
     data-aos-easing="ease-out-cubic">  
