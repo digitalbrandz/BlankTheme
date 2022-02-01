@@ -61,9 +61,11 @@
   {% capture image_layout %}
    {% unless section.settings.mp4 != blank %}
     
+    {% include 'media-with-content-with-mp4' %}
   
    {% else %}
   
+   {% include 'media-with-content-no-mp4' %}
     
   {% endunless %}
  {% endcapture %}
