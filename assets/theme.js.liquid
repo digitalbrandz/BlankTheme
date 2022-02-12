@@ -4857,18 +4857,7 @@ popup.querySelector('.close').addEventListener('click', closepopup );
     
     
  
-function stopBodyScrolling (bool) {
-    if (bool === true) {
-        document.body.addEventListener("touchmove", freezeVp, false);
-        popup.addEventListener("touchmove", freezeVp, false);
-    } else {
-        document.body.removeEventListener("touchmove", freezeVp, false);
-        popup.addEventListener("touchmove", freezeVp, false);
-    }
-}
-var freezeVp = function(e) {
-    e.preventDefault();
-};
+
 function updateProgress(event) {
   var media = event.target;
   var mediaID = media.id;
@@ -4995,7 +4984,20 @@ function convertimagestomp4(mySwiper) {
           
           
           
-          }          
+          }    
+          
+function stopBodyScrolling (bool) {
+    if (bool === true) {
+        document.body.addEventListener("touchmove", freezeVp, false);
+        popup.addEventListener("touchmove", freezeVp, false);
+    } else {
+        document.body.removeEventListener("touchmove", freezeVp, false);
+        popup.addEventListener("touchmove", freezeVp, false);
+    }
+}
+var freezeVp = function(e) {
+    e.preventDefault();
+};          
 function closepopup() {
 
       var videos = popup.querySelectorAll('video');
