@@ -5003,6 +5003,7 @@ function closepopup() {
       var videos = popup.querySelectorAll('video');
   [].forEach.call(videos, function(video) {
   video.pause();
+    console.log('pause');
 });
      popup.classList.add('transitout');
      popup.classList.remove('transition');
