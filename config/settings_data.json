@@ -121,10 +121,57 @@
           "button_link": "",
           "enable_button": false
         }
+      },
+      "164468498789984ab5": {
+        "type": "Stories",
+        "blocks": {
+          "a3a163e6-ad02-43aa-ad56-7fe0cad8645f": {
+            "type": "Video",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/keke-palmer.png",
+              "imageposition": 0,
+              "title": "Demo",
+              "tag": "",
+              "mp41": "https:\/\/test-videos.co.uk\/vids\/bigbuckbunny\/mp4\/h264\/360\/Big_Buck_Bunny_360_10s_1MB.mp4",
+              "mp41swipe": "",
+              "mp42": "",
+              "mp42swipe": "",
+              "mp43": "",
+              "mp43swipe": "",
+              "mp44": "",
+              "mp44swipe": "",
+              "mp45": "",
+              "mp45swipe": "",
+              "mp46": "",
+              "mp46swipe": "",
+              "mp47": "",
+              "mp47swipe": "",
+              "mp48": "",
+              "mp48swipe": "",
+              "mp49": "",
+              "mp49swipe": "",
+              "mp410": "",
+              "mp410swipe": ""
+            }
+          }
+        },
+        "block_order": [
+          "a3a163e6-ad02-43aa-ad56-7fe0cad8645f"
+        ],
+        "settings": {
+          "hidestories": true,
+          "demo": true,
+          "background_color": "#ffffff",
+          "font_color": "#000000",
+          "bubble_background_color": "#bf43a6",
+          "bubble_background_color_2": "#f5ae5f",
+          "bubble_tag_background_color": "#cf0168",
+          "bubble_tag_background_color_2": "#e0023f"
+        }
       }
     },
     "content_for_index": [
-
+      "164468498789984ab5"
     ]
   }
 }
