@@ -4606,7 +4606,7 @@ ${review.rating < 5 ? `<span class="star" data-origin="star_o" data-color="#ccc"
       StoriesSection.prototype = $.extend({}, StoriesSection.prototype, {
         init: function() {
           if ( typeof(window[this.stories_init]) !== 'undefined' ) window[this.stories_init]();    
-          addPopup(); 
+          let popup = addPopup();
           let mySwiper = create_swiper();
           setup_swiper_rules(mySwiper);
           createStories();
@@ -4838,6 +4838,7 @@ ${review.rating < 5 ? `<span class="star" data-origin="star_o" data-color="#ccc"
 		$('#popup').find('.close').off('click').on('click', function () {
 			closepopup();
 		});
+    
 function closepopup() {
       var popup =  document.querySelector('#popup');
       var videos = popup.querySelectorAll('video');
@@ -5115,7 +5116,8 @@ function create_swiper() {
  popup.id = 'popup';     
  popup.classList.add('popup');
  popup.innerHTML = markup;           
- document.body.prepend(popup);            
+ document.body.prepend(popup);    
+           return popup;
           }
          
           
