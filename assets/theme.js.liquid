@@ -4836,7 +4836,6 @@ ${review.rating < 5 ? `<span class="star" data-origin="star_o" data-color="#ccc"
 
 // close popup  
 popup.querySelector('.close').addEventListener('click', closepopup );
-dragPopup();    
     
     
     
@@ -4856,78 +4855,7 @@ dragPopup();
 })(jQuery);
     
     
-function dragPopup() {
-           var sliderEl =  document.querySelector('#popup .popup-inner'); 
-          if(!sliderEl.hammer) {
-            var mc = new Hammer(sliderEl);
-            sliderEl.hammer = mc;
-            var wrap = $(sliderEl).closest('.popup-inner');
-            var overlay = wrap.siblings('#popup-overlay');
-            var popup = wrap.parent('#popup');
-     
-           
-            mc.on("panleft panright panup pandown press", function(e) {
-           
-             // find current slide and check for swipe attribute
-             var theSwiper = popup.find('.swiper-container')[0].swiper;
-             var currentslide = $(theSwiper.slides[theSwiper.activeIndex]);
-             
-              var controlheight = window.innerHeight / 2;
-              var percentage = 100 / 1 * e.deltaY / window.innerHeight; // NEW: our % calc
-              var halfpercentage = percentage / 2;
-              var absnumber = 100 - halfpercentage;
-              var absnumberdec = absnumber.toFixed(1) / 100;
-              overlay.get(0).style.opacity = absnumberdec;
-              if(halfpercentage > 0) {
-              wrap.get(0).style.transform = 'translateY(' + halfpercentage + '%)'; // NEW: our CSS transform
-              }
-              if (e.isFinal) { // NEW: this only runs on event end
-                console.log(percentage);
-                if (percentage > 30) {
-                
-                   closepopup();
-                   popup.addClass('is-animating');
-                  wrap.get(0).style.transform = 'translateY(0%)';
-                  overlay.get(0).style.opacity = 1;
-                  popup.get(0).timer = setTimeout( function() {
-                        popup.removeClass('is-animating');
-                        wrap.find('.swiper-wrapper').empty();
-                  }, 300 ); 
-                } else if (percentage < -30) {
-
-                  // if has swipe attribute
-                  if(currentslide.attr('swipe')) {
-                  // swiped up
-                   closepopup();
-                   popup.addClass('is-animating');
-                  wrap.get(0).style.transform = 'translateY(0%)';
-                  overlay.get(0).style.opacity = 1;
-                  
-                 
-                    $( ":mobile-pagecontainer" ).pagecontainer( "change", currentslide.attr('swipe'), {  showLoadMsg: false, reload: true, });
-                
-
-                  popup.get(0).timer = setTimeout( function() {
-                        popup.removeClass('is-animating');
-                        wrap.find('.swiper-wrapper').empty();
-                  }, 300 ); 
-                    }
-                  
-                  
-                }else{
-                  popup.addClass('is-animating');
-                  wrap.get(0).style.transform = 'translateY(0%)';
-                  overlay.get(0).style.opacity = 1;
-                  popup.get(0).timer = setTimeout( function() {
-                        popup.removeClass('is-animating');
-                  }, 300 ); 
-                }
-              }
-          
-            }); 
-            }  
-  
-}      
+    
 function closepopup() {
 
       var videos = popup.querySelectorAll('video');
@@ -5206,6 +5134,78 @@ function create_swiper() {
  popup.classList.add('popup');
  popup.innerHTML = markup;           
  document.body.prepend(popup);    
+function dragPopup() {
+           var sliderEl =  document.querySelector('#popup .popup-inner'); 
+          if(!sliderEl.hammer) {
+            var mc = new Hammer(sliderEl);
+            sliderEl.hammer = mc;
+            var wrap = $(sliderEl).closest('.popup-inner');
+            var overlay = wrap.siblings('#popup-overlay');
+            var popup = wrap.parent('#popup');
+     
+           
+            mc.on("panleft panright panup pandown press", function(e) {
+           
+             // find current slide and check for swipe attribute
+             var theSwiper = popup.find('.swiper-container')[0].swiper;
+             var currentslide = $(theSwiper.slides[theSwiper.activeIndex]);
+             
+              var controlheight = window.innerHeight / 2;
+              var percentage = 100 / 1 * e.deltaY / window.innerHeight; // NEW: our % calc
+              var halfpercentage = percentage / 2;
+              var absnumber = 100 - halfpercentage;
+              var absnumberdec = absnumber.toFixed(1) / 100;
+              overlay.get(0).style.opacity = absnumberdec;
+              if(halfpercentage > 0) {
+              wrap.get(0).style.transform = 'translateY(' + halfpercentage + '%)'; // NEW: our CSS transform
+              }
+              if (e.isFinal) { // NEW: this only runs on event end
+                console.log(percentage);
+                if (percentage > 30) {
+                
+                   closepopup();
+                   popup.addClass('is-animating');
+                  wrap.get(0).style.transform = 'translateY(0%)';
+                  overlay.get(0).style.opacity = 1;
+                  popup.get(0).timer = setTimeout( function() {
+                        popup.removeClass('is-animating');
+                        wrap.find('.swiper-wrapper').empty();
+                  }, 300 ); 
+                } else if (percentage < -30) {
+
+                  // if has swipe attribute
+                  if(currentslide.attr('swipe')) {
+                  // swiped up
+                   closepopup();
+                   popup.addClass('is-animating');
+                  wrap.get(0).style.transform = 'translateY(0%)';
+                  overlay.get(0).style.opacity = 1;
+                  
+                 
+                   // $( ":mobile-pagecontainer" ).pagecontainer( "change", currentslide.attr('swipe'), {  showLoadMsg: false, reload: true, });
+                
+
+                  popup.get(0).timer = setTimeout( function() {
+                        popup.removeClass('is-animating');
+                        wrap.find('.swiper-wrapper').empty();
+                  }, 300 ); 
+                    }
+                  
+                  
+                }else{
+                  popup.addClass('is-animating');
+                  wrap.get(0).style.transform = 'translateY(0%)';
+                  overlay.get(0).style.opacity = 1;
+                  popup.get(0).timer = setTimeout( function() {
+                        popup.removeClass('is-animating');
+                  }, 300 ); 
+                }
+              }
+          
+            }); 
+            }  
+}              
+ dragPopup();               
            return popup;
           }
          
