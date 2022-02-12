@@ -4607,9 +4607,9 @@ ${review.rating < 5 ? `<span class="star" data-origin="star_o" data-color="#ccc"
         init: function() {
           if ( typeof(window[this.stories_init]) !== 'undefined' ) window[this.stories_init]();    
           addPopup(); 
-          init_swiper();
+          create_swiper();
           
-function init_swiper() {
+function create_swiper() {
 	var container = document.querySelector('#popup .swiper-container');
 	// shoutouts swiper
 	var mySwiper = new Swiper(container, {
