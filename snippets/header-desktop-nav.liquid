@@ -79,7 +79,7 @@
                   {% endif %}
 
                   {% for grandchildlink in childlink.links %}
-                    <div>test
+                    <div>
                       <a href="{{ grandchildlink.url }}" class="site-nav__dropdown-link">
                         {{grandchildlink.title}}
                       </a>
@@ -100,7 +100,7 @@
 
             <li class="{% if has_sub_dropdown %} site-nav__deep-dropdown-trigger{% endif %}">
               <a href="{{ childlink.url }}" class="site-nav__dropdown-link site-nav__dropdown-link--second-level {% if has_sub_dropdown %} site-nav__dropdown-link--has-children{% endif %}">
-                {{ childlink.title | escape }}
+                {{ childlink.title | escape }} test
                 {% if has_sub_dropdown %}
                   {% include 'icon-chevron-down' %}
                 {% endif %}
