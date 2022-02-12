@@ -4607,7 +4607,27 @@ ${review.rating < 5 ? `<span class="star" data-origin="star_o" data-color="#ccc"
         init: function() {
           if ( typeof(window[this.stories_init]) !== 'undefined' ) window[this.stories_init]();    
           addPopup(); 
+          init_swiper();
           
+function init_swiper() {
+	var container = document.querySelector('#popup .swiper-container');
+	// shoutouts swiper
+	var mySwiper = new Swiper(container, {
+		speed: 0,
+		slidesPerView: 1, // or 'auto'
+		// spaceBetween: 10,
+		effect: 'slide', // 'cube', 'fade', 'coverflow',
+		preventClicks: true,
+		slideToClickedSlide: false,
+		grabCursor: true,
+        observer: true,
+        navigation: {
+          nextEl: '#NavRight',
+          prevEl: '#NavLeft'
+        },
+      init: false,
+	})
+}
           function addPopup() {      
     const markup =  `<div class="popup-inner">
 		<div class="close" aria-hidden="true">
