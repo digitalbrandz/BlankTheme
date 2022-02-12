@@ -13328,10 +13328,10 @@ iframe.zoid-component-frame {
     z-index: 9;
     position: relative;
       font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
-   @include bp(phabletup) {
+   @media (min-width: 1022px) {
       display:none;
   }
-  @include bp(phablet) {
+  @media (max-width: 1022px) {
  position:static;
 }
   & + * {
@@ -13340,12 +13340,12 @@ iframe.zoid-component-frame {
   }
   & .stories-wrap {
         padding: 12px 0 12px 0px;
-    @include bp(mobile) {
+    @media (max-width: 600px) {
        margin-bottom:-30px;
        overflow-y:hidden;
       }
     & .swiper-wrapper {
-     @include bp(mobile) {
+     @media (max-width: 600px) {
        overflow-x: scroll;
        overflow-y: hidden;
         -webkit-overflow-scrolling: touch;  
@@ -13401,7 +13401,9 @@ iframe.zoid-component-frame {
       height:100%;
        background-repeat: no-repeat;
     background-size: cover;     
-       @include transition(filter,0.3s)
+    -webkit-transition: filter 0.3s ease;
+    -moz-transition: filter 0.3s ease;
+    transition: filter 0.3s ease;
 	}
     }
       & .tag {
