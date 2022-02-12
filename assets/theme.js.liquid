@@ -4847,15 +4847,6 @@ function stopBodyScrolling (bool) {
         document.querySelector('#popup').addEventListener("touchmove", freezeVp, false);
     }
 }
-function stopBodyScrolling2 (bool) {
-    if (bool === true) {
-        $('.ui-page')[0].addEventListener("touchmove", freezeVp, false);
-        $('#popup')[0].addEventListener("touchmove", freezeVp, false);
-    } else {
-        $('.ui-page')[0].removeEventListener("touchmove", freezeVp, false);
-        $('#popup')[0].addEventListener("touchmove", freezeVp, false);
-    }
-}
 var freezeVp = function(e) {
     e.preventDefault();
 };
