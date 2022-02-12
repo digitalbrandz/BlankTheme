@@ -4839,7 +4839,82 @@ ${review.rating < 5 ? `<span class="star" data-origin="star_o" data-color="#ccc"
 			closepopup();
 		});
 
-function getViewport() {
+function updateProgress(event) {
+  var media = event.target;
+  var mediaID = media.id;
+   var progressBarID = mediaID.replace('media-','progress-bar-'); 
+  var progressBar = document.querySelector('#'+ progressBarID + ' .progressbar');
+  // Calculate current progress
+if(media.nodeName == 'IMG') {
+  var value = (100 / media.endtimer) * media.time;
+}else{
+  var value = (100 / media.duration) * media.currentTime;
+  }  
+  // Update the slider value
+  progressBar.style.width = value + '%';
+}  
+function playvideo(videoEl, mySwiper) {
+  // activate progress bar
+  videoEl.removeEventListener('timeupdate', updateProgress, false);
+  videoEl.addEventListener('timeupdate', updateProgress, false);
+  
+  // remove done
+  var videoid = videoEl.id;
+  var progressbarid = videoid.replace('media-','progress-bar-');
+  var progressbar = $('#' + progressbarid);
+  progressbar.removeClass('done');
+  //play video
+  videoEl.muted= false;
+  videoEl.play();
+  // check for next video then play next video muted then rewind
+  var nextslide = $(videoEl).parent('.swiper-slide').next();
+  if(nextslide.length) {
+    $(videoEl).off('ended').one('ended',function(){
+    //trigger next slide on ended
+     mySwiper.slideNext();  
+      
+   });
+    var nextvideo = nextslide.find('video').get(0);
+    // mute and play
+    nextvideo.muted= true;
+    nextvideo.oncanplay = (event) => {
+      // pause rewind unmute
+      nextvideo.muted= false;
+     // nextvideo.currentTime = 0;
+    };
+    // stop when playable then rewind and wait
+    
+  }else{
+     $(videoEl).off('ended').one('ended',function(){
+     // close popup
+     closepopup();
+    });
+  }
+}
+function convertimagestomp4(mySwiper) {
+
+
+  $(mySwiper.$wrapperEl[0]).find('img').each(function() {
+    var img = $(this)[0];
+    img.endtimer = 5;
+    img.time = 0;
+    img.updateTime = function() {
+      if (img.time < img.endtimer) {
+      img.time = img.time + 0.250;
+         $(img).trigger('timeupdate');
+        if(img.time == img.endtimer) {
+         $(img).trigger('ended');
+        }
+      }else{
+       clearInterval(img.timer)
+      }
+    };
+   
+  });
+
+}
+    
+    function getViewport() {
 
  var viewPortWidth;
  var viewPortHeight;
