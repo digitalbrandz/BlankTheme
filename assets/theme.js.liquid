@@ -4606,7 +4606,7 @@ ${review.rating < 5 ? `<span class="star" data-origin="star_o" data-color="#ccc"
       StoriesSection.prototype = $.extend({}, StoriesSection.prototype, {
         init: function() {
           if ( typeof(window[this.stories_init]) !== 'undefined' ) window[this.stories_init]();    
-         
+          console.log('test');
           console.log(this.$container);
           
         }
