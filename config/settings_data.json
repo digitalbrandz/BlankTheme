@@ -121,57 +121,10 @@
           "button_link": "",
           "enable_button": false
         }
-      },
-      "164468498789984ab5": {
-        "type": "Stories",
-        "blocks": {
-          "a3a163e6-ad02-43aa-ad56-7fe0cad8645f": {
-            "type": "Video",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/keke-palmer.png",
-              "imageposition": 0,
-              "title": "Demo",
-              "tag": "",
-              "mp41": "https:\/\/cdn.shopify.com\/s\/files\/1\/1964\/8787\/files\/purpleombre-min.mp4?20786",
-              "mp41swipe": "",
-              "mp42": "https:\/\/cdn.shopify.com\/s\/files\/1\/1461\/9680\/files\/peakmill-plum-red-wig-min.mp4?12522",
-              "mp42swipe": "",
-              "mp43": "https:\/\/cdn.shopify.com\/s\/files\/1\/1461\/9680\/files\/ravenelysebob-min.mp4?13641",
-              "mp43swipe": "",
-              "mp44": "https:\/\/cdn.shopify.com\/s\/files\/1\/1964\/8787\/files\/minkbrazilianbodywave-min_e7be6bad-60c2-4e79-9488-90c3076ddc73.mp4?3520427235687471638",
-              "mp44swipe": "",
-              "mp45": "https:\/\/cdn.shopify.com\/s\/files\/1\/1461\/9680\/files\/princessbodywave-min.mp4?13784",
-              "mp45swipe": "",
-              "mp46": "",
-              "mp46swipe": "",
-              "mp47": "",
-              "mp47swipe": "",
-              "mp48": "",
-              "mp48swipe": "",
-              "mp49": "",
-              "mp49swipe": "",
-              "mp410": "",
-              "mp410swipe": ""
-            }
-          }
-        },
-        "block_order": [
-          "a3a163e6-ad02-43aa-ad56-7fe0cad8645f"
-        ],
-        "settings": {
-          "hidestories": true,
-          "demo": false,
-          "background_color": "#ffffff",
-          "font_color": "#000000",
-          "bubble_background_color": "#bf43a6",
-          "bubble_background_color_2": "#f5ae5f",
-          "bubble_tag_background_color": "#cf0168",
-          "bubble_tag_background_color_2": "#e0023f"
-        }
       }
     },
     "content_for_index": [
-      "164468498789984ab5"
+
     ]
   }
 }
