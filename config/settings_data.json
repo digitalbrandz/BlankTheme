@@ -160,7 +160,7 @@
         ],
         "settings": {
           "hidestories": true,
-          "demo": true,
+          "demo": false,
           "background_color": "#ffffff",
           "font_color": "#000000",
           "bubble_background_color": "#bf43a6",
