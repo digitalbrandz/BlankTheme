@@ -4609,9 +4609,243 @@ ${review.rating < 5 ? `<span class="star" data-origin="star_o" data-color="#ccc"
           addPopup(); 
           let mySwiper = create_swiper();
           setup_swiper_rules(mySwiper);
+          createStories();
+          
+          
+          function createStories() {
+          
+    function addEventListenerList(list, event, fn) {
+    for (var i = 0, len = list.length; i < len; i++) {
+        list[i].addEventListener(event, fn, false);
+    }
+    }
+          
+    var stories = document.querySelectorAll('.story.video, .story.image');    
+    addEventListenerList(stories, 'click', handleStories);       
+          
+  function handleStories(event) {
+  var currentStoryEl = event.currentTarget;
+  var $this = $(currentStoryEl);
+  // its loading add the fader
+  currentStoryEl.classList.add('fade');
+  var isvideo = currentStoryEl.classList.contains('video');
+  var isimage = currentStoryEl.classList.contains('image');   
+  // get storyEl original position to launch popup window from
+  var storywidth = currentStoryEl.querySelector('.gradient').offsetWidth / 2;
+  var storyheight = currentStoryEl.querySelector('.gradient').offsetHeight / 2;
+  // calculations i forgot what i did exactly 
+    if (getCoords(currentStoryEl).left < getViewport()[0] / 2) {
+			var toRight = false;
+			var width = getViewport()[0] / 2 - getCoords(currentStoryEl).left;
+			var width = width - storywidth;
+		} else {
+			var toRight = true;
+			var width = getCoords(currentStoryEl).left - getViewport()[0] / 2;
+			var width = width + storywidth;
+	}
+   // setting important variables
+  		var height = getViewport()[1] / 2 - getCoords(currentStoryEl).top;
+		var height = height - storyheight;
+    
+		var popupEl = document.querySelector('#popup');  
+    
+    // throw popup into position
+		if (!toRight) {    
+          popupEl.style.cssText = "transform:-" + width + "px,-" + height + "px) scale(0.1); opacity:0;";
+		} else {
+          popupEl.style.cssText = "transform:" + width + "px,-" + height + "px) scale(0.1); opacity:0;";
+		}
+        popupEl.classList.add('active');
+    
+    
+    	//get bubble stuff
+		var bubbleImage = currentStoryEl.querySelector('.img');
+		var bubbleImageBackground = getComputedStyle(bubbleImage).backgroundImage;
+		var bubbleImagePosition = getComputedStyle(bubbleImage).backgroundPosition;
+		var bubbleTitle = currentStoryEl.querySelector('.title').innerHTML;
+		var storyprofile = popupEl.querySelector('.story-profile');
+		//place bubble stuff
+		var storyProfileImage = storyprofile.querySelector('.story-profile-pic div');
+		storyProfileImage.style.backgroundImage = bubbleImageBackground;
+		storyProfileImage.style.backgroundPosition = bubbleImagePosition;
+		var storyProfileContent = storyprofile.querySelector('.story-profile-content');
+		storyProfileContent.innerHTML = bubbleTitle;
+    
+    
+    		// create array of media files
+			var mediaArrayJoin = currentStoryEl.getAttribute('media').split('|').filter(function (el) {
+				return el != '';
+			});
+			// convert array to object
+			var mediaArray = [];
+			mediaArrayJoin.forEach(function (value, index) {
+               
+				var mediaSingleArray = value.split('::').filter(function (el) {
+					return el != '';
+				})
+				var mediaObject = {};
+				$.each(mediaSingleArray, function (index, value) {
+					if (index == 0) {
+						mediaObject['media'] = value;
+					} else {
+						mediaObject['swipe'] = value;
+					}
+				});
+				mediaArray.push(mediaObject);
+			});
+
+
+    
+        // create slides
+		var slides = '';
+		mediaArray.forEach(function (value, index) {
+         slides += '<div class="swiper-slide'+ (value.swipe ? ' swipe' : '') +'" '+ (value.swipe ? ' swipe="'+ value.swipe +'"' : '') +'>'+ (isvideo ? '<video id="media-'+ index +'" preload="auto" playsinline=""><source src="' : '<img id="media-'+ index +'" src="') + value.media + (isvideo ? '" type="video/mp4"></video>' : '" />') + '</div>';
+		});
+
+    	// create progress bars
+		var count = mediaArray.length;
+		var progressbars = '';
+		for (var i = 0; i < count; i++) {
+			progressbars += '<div id="progress-bar-' + i + '" class="progress-backround"><div class="progressbar"></div></div>';
+		}
+      
+        popupEl.querySelector('.swiper-wrapper').innerHTML = slides;
+		popupEl.querySelector('#progress-bars-wrap').innerHTML = progressbars;
+		window.storyactive = true;
+		// update swiper start at 0 
+		var mySwiper = popupEl.querySelector('.swiper-container').swiper;
+		mySwiper.update();
+		mySwiper.slideTo(0);
+    
+ if (isvideo) {
+
+			jQuery('#popup').find('video').each(function (index, ev) {
+
+				//open popup and remove fade 
+				if (index == 0) {
+					$(this).on('canplay', function () {
+						currentStoryEl.classList.remove('fade');
+						$('#popup').addClass('transition');
+					})
+				}
+
+
+				this.oncanplay = (event) => {
+					var promise = this.play();
+					if (promise !== undefined) {
+						promise.then(_ => {
+							// Autoplay started!
+							if (index !== 0) {
+								this.pause();
+							} else {
+								//  alert('played');
+							}
+						}).catch(error => {
+							// Autoplay was prevented.
+							// Show a "Play" button so that user can start playback.
+							// alert(error);
+						});
+					}
+				}
+
+			});
+
+			// play first video
+			var firstvideo = document.querySelector('#popup video');
+			playvideo(firstvideo, mySwiper);
+
+			jQuery('#popup').find('video').each(function (index, value) {
+				if (index == 0) {
+					var videoEl = $(this).get(0);
+					videoEl.addEventListener('timeupdate', updateProgress, false);
+					videoEl.play();
+				}
+			});
+
+		} else if (isimage) {
+			// play first video
+			convertimagestomp4(mySwiper);
+			var firstimg = document.querySelector('#popup img');
+			playimg(firstimg, mySwiper);
+		}
+
+
+		// open popup
+		setTimeout(function () {
+
+			if (isimage) {
+				$this.removeClass('fade');
+				$('#popup').addClass('transition');
+			}
+
+			//lock scrolling
+			$('#body').addClass('popup-open');
+			$('#popup video, #popup img')[0].ontouchend = (e) => {
+				e.preventDefault();
+			};
+			var vpH = window.innerHeight;
+			document.documentElement.style.height = vpH.toString() + "px";
+			stopBodyScrolling(true);
+
+			mySwiper.update();
+
+
+			//look for swipe
+			var currentslide = $(mySwiper.slides[mySwiper.activeIndex]);
+			var popup = currentslide.closest('.popup');
+			// look for swipe and add or remove class   
+			if (currentslide.attr('swipe')) {
+				popup.addClass('swipe');
+			} else {
+				popup.removeClass('swipe');
+			}
+
+		}, 0);
+
+
+		
+		// pause videos when holding down
+		 jQuery('#popup').find( ".control" ).off("touchstart").on( "touchstart", function( event ) { 
+		  event.preventDefault();
+		  var currentseconds = new Date().getTime() / 1000; console.log(currentseconds);
+		   
+		  var currentslide = $(mySwiper.slides[mySwiper.activeIndex]);
+		  console.log(currentslide)
+		  var video = currentslide.find('video').get(0);
+		   if(video) {
+		   video.pause();
+		   }
+		   
+		   
+		   $(this).off("touchend").on("touchend", function() {
+		     var newseconds = new Date().getTime() / 1000; console.log(newseconds);
+		     var difference = newseconds - currentseconds;
+		     console.log(difference);
+		     if(difference < 0.3) {
+		       $(this).trigger('click');
+		     }else{
+		      if(video) {
+		        video.play();
+		      }
+		     }
+		   }); 
+		 });
+		
+ 
+
+
+		// close popup  
+		$('#popup').find('.close').off('click').on('click', function () {
+			closepopup();
+		});
+
+	}       
           
           
           
+          
+          
+          }          
 function setup_swiper_rules(mySwiper) {
   mySwiper.on('init', function () {
    var currentslide = $(mySwiper.slides[mySwiper.activeIndex]);
