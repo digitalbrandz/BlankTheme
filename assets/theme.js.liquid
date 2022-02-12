@@ -4840,7 +4840,7 @@ ${review.rating < 5 ? `<span class="star" data-origin="star_o" data-color="#ccc"
 		});
     
 function closepopup() {
-      var popup =  document.querySelector('#popup');
+
       var videos = popup.querySelectorAll('video');
   [].forEach.call(videos, function(video) {
   video.pause();
@@ -4858,10 +4858,10 @@ function closepopup() {
 function stopBodyScrolling (bool) {
     if (bool === true) {
         document.body.addEventListener("touchmove", freezeVp, false);
-        document.querySelector('#popup').addEventListener("touchmove", freezeVp, false);
+        popup.addEventListener("touchmove", freezeVp, false);
     } else {
         document.body.removeEventListener("touchmove", freezeVp, false);
-        document.querySelector('#popup').addEventListener("touchmove", freezeVp, false);
+        popup.addEventListener("touchmove", freezeVp, false);
     }
 }
 var freezeVp = function(e) {
