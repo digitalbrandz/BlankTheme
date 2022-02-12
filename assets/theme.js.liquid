@@ -5011,7 +5011,7 @@ function closepopup() {
          popup.classList.remove('active')
     document.body.classList.add('popup-open');
        stopBodyScrolling(false); 
-       mySwiper.slideTo(0,0,false);
+       mySwiper.setProgress(0,0);
        }, 300);
 }             
 function setup_swiper_rules(mySwiper) {
