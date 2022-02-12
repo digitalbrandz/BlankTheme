@@ -4606,7 +4606,8 @@ ${review.rating < 5 ? `<span class="star" data-origin="star_o" data-color="#ccc"
       StoriesSection.prototype = $.extend({}, StoriesSection.prototype, {
         init: function() {
           if ( typeof(window[this.stories_init]) !== 'undefined' ) window[this.stories_init]();    
-
+          addPopup(); 
+          
           function addPopup() {      
     const markup =  `<div class="popup-inner">
 		<div class="close" aria-hidden="true">
@@ -4655,7 +4656,7 @@ ${review.rating < 5 ? `<span class="star" data-origin="star_o" data-color="#ccc"
  popup.innerHTML = markup;           
  document.body.prepend(popup);            
           }
-          addPopup();
+         
           
         }
       });
