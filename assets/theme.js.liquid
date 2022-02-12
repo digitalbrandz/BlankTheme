@@ -4616,6 +4616,57 @@ function setup_swiper_rules(mySwiper) {
   mySwiper.on('init', function () {
    var currentslide = $(mySwiper.slides[mySwiper.activeIndex]);
   });
+  mySwiper.on('slideChange', function (event) {
+    var currentslide = $(mySwiper.slides[mySwiper.activeIndex]);
+    var nextvideo = currentslide.find('video').get(0);
+  if(nextvideo) { 
+  // pause other videos 
+  currentslide.siblings().find('video').each(function() {
+   var video = $(this).get(0);
+   video.currentTime = 0; 
+   video.pause();
+   video.muted = true;
+  });
+
+   // fill previous bar
+  currentslide.prevAll().find('video').each(function() {
+     var videoid = $(this).attr('id');
+     var progressbarid = videoid.replace('media-','progress-bar-');
+     var progressbarwrap = $('#' + progressbarid);
+     progressbarwrap.addClass('done');
+  });
+    // play video
+    playvideo(nextvideo,mySwiper);
+}
+// image rules  
+ var nextimg = currentslide.find('img').get(0); 
+   if(nextimg) { 
+   // pause other videos 
+   currentslide.siblings().find('img').each(function() {
+   var img = $(this).get(0);
+   $(img).imgPause();   
+   img.time = 0; 
+   $(img).trigger('timeupdate');
+  });
+   // fill previous bar
+  currentslide.prevAll().find('img').each(function() {
+     var imgid = $(this).attr('id');
+     var progressbarid = imgid.replace('media-','progress-bar-');
+     var progressbarwrap = $('#' + progressbarid);
+     progressbarwrap.addClass('done');
+  });
+    // play video
+    playimg(nextimg,mySwiper);
+   var popup = currentslide.closest('.popup');
+ // look for swipe and add or remove class   
+    if(currentslide.attr('swipe')) {
+      popup.addClass('swipe');
+    }else{
+      popup.removeClass('swipe');
+    }    
+} 
+}); 
+  
 }
 function create_swiper() {
 	var container = document.querySelector('#popup .swiper-container');
