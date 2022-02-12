@@ -4838,7 +4838,27 @@ ${review.rating < 5 ? `<span class="star" data-origin="star_o" data-color="#ccc"
 		$('#popup').find('.close').off('click').on('click', function () {
 			closepopup();
 		});
-
+function stopBodyScrolling (bool) {
+    if (bool === true) {
+        document.body.addEventListener("touchmove", freezeVp, false);
+        document.querySelector('#popup').addEventListener("touchmove", freezeVp, false);
+    } else {
+        document.body.removeEventListener("touchmove", freezeVp, false);
+        document.querySelector('#popup').addEventListener("touchmove", freezeVp, false);
+    }
+}
+function stopBodyScrolling2 (bool) {
+    if (bool === true) {
+        $('.ui-page')[0].addEventListener("touchmove", freezeVp, false);
+        $('#popup')[0].addEventListener("touchmove", freezeVp, false);
+    } else {
+        $('.ui-page')[0].removeEventListener("touchmove", freezeVp, false);
+        $('#popup')[0].addEventListener("touchmove", freezeVp, false);
+    }
+}
+var freezeVp = function(e) {
+    e.preventDefault();
+};
 function updateProgress(event) {
   var media = event.target;
   var mediaID = media.id;
