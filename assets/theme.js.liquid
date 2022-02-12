@@ -4607,8 +4607,16 @@ ${review.rating < 5 ? `<span class="star" data-origin="star_o" data-color="#ccc"
         init: function() {
           if ( typeof(window[this.stories_init]) !== 'undefined' ) window[this.stories_init]();    
           addPopup(); 
-          create_swiper();
+          let mySwiper = create_swiper();
+          setup_swiper_rules(mySwiper);
           
+          
+          
+function setup_swiper_rules(mySwiper) {
+  mySwiper.on('init', function () {
+   var currentslide = $(mySwiper.slides[mySwiper.activeIndex]);
+  });
+}
 function create_swiper() {
 	var container = document.querySelector('#popup .swiper-container');
 	// shoutouts swiper
@@ -4627,6 +4635,7 @@ function create_swiper() {
         },
       init: false,
 	})
+    return mySwiper;
 }
           function addPopup() {      
     const markup =  `<div class="popup-inner">
