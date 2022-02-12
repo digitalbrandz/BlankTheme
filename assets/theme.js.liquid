@@ -5184,9 +5184,8 @@ function dragPopup() {
                   wrap.get(0).style.transform = 'translateY(0%)';
                   overlay.get(0).style.opacity = 1;
                   
-                 
-                   // $( ":mobile-pagecontainer" ).pagecontainer( "change", currentslide.attr('swipe'), {  showLoadMsg: false, reload: true, });
-                
+                  window.location.href =  currentslide.attr('swipe');
+                  
 
                   popup.get(0).timer = setTimeout( function() {
                         popup.removeClass('is-animating');
