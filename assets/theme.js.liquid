@@ -4835,9 +4835,7 @@ ${review.rating < 5 ? `<span class="star" data-origin="star_o" data-color="#ccc"
 
 
 		// close popup  
-		$('#popup').find('.close').off('click').on('click', function () {
-			closepopup();
-		});
+		popup.querySelector('.close').addEventListener('click', closepopup );
     
 function closepopup() {
 
