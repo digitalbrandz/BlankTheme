@@ -4651,7 +4651,11 @@ ${review.rating < 5 ? `<span class="star" data-origin="star_o" data-color="#ccc"
 	</div>
 	<div id="popup-overlay"> </div>
 </div>`;
- document.body.prepend(markup);            
+ let popup = document.createElement("div");           
+ popup.id = 'popup';     
+ popup.classList.add('popup');
+ popup.innerHTML = markup;           
+ document.body.prepend(popup);            
           }
           addPopup();
           
