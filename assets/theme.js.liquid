@@ -4836,7 +4836,24 @@ ${review.rating < 5 ? `<span class="star" data-origin="star_o" data-color="#ccc"
 
 // close popup  
 popup.querySelector('.close').addEventListener('click', closepopup );
+dragPopup();    
     
+    
+    
+//popup drag
+(function($) {
+    $.fn.imgPause = function() {
+
+        // show loading
+        var $this = $(this);
+
+
+        $this.each(function() {
+            var img = this;
+            img.timer = clearInterval(img.timer);
+        })
+    }
+})(jQuery);
     
     
 function dragPopup() {
