@@ -19,7 +19,7 @@
 {% endif %}
 
 <div class="grid__item {{ grid_item_width }}">
-  <a href="{{ collection.url }}" class="collection-item collection-item--{{ settings.collection_grid_style }}" data-aos="row-of-{{ per_row }}">
+  <a href="{% unless block.settings.replaced_link %}{{ collection.url }}{% else %}{{ block.settings.replaced_link }}{% endunless %}" class="collection-item collection-item--{{ settings.collection_grid_style }}" data-aos="row-of-{{ per_row }}">
 
     {% if settings.collection_grid_image == 'collection' and collection.image %}
       {%- assign collection_image = collection.image -%}
