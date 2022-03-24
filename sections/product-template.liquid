@@ -4,6 +4,7 @@
   image_container_width: section.settings.image_size,
   section_id: product.id,
   google: section.settings.google_enable,
+  yotpo: section.settings.yotpo_enable,
   social: section.settings.social_enable,
   thumbnail_position: section.settings.thumbnail_position
 %}
@@ -125,6 +126,12 @@
         "type": "checkbox",
         "id": "google_enable",
         "label": "Show Google Reviews",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "yotpo_enable",
+        "label": "Show Yotpo Reviews",
         "default": false
       },
       {
