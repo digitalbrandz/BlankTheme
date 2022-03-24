@@ -129,6 +129,23 @@
       },
       "yotpo": {
         "type": "yotpo",
+        "blocks": {
+          "43e6de8b-9497-4b78-8ef7-df0ce0e1fb9e": {
+            "type": "Review",
+            "settings": {
+              "product": "amazing-face-cleanser",
+              "name": "Mike",
+              "subject": "I love this cleanser",
+              "review": "this is the dopest fucking cleanser lol",
+              "date": "",
+              "rating": 5,
+              "reply": ""
+            }
+          }
+        },
+        "block_order": [
+          "43e6de8b-9497-4b78-8ef7-df0ce0e1fb9e"
+        ],
         "settings": {
           "reply_name": ""
         }
