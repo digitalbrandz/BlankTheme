@@ -175,9 +175,7 @@
                %%GOOGLE-REVIEWS%%
             {% endif %}
             
-            {% if yotpo %}
-               %%YOTPO-REVIEWS%%
-            {% endif %}
+
             
               <div class="product-single__description rte">
                 {{ product.description }}
@@ -203,6 +201,10 @@
         <div class="product-single__description-full rte">
           {{ product.description }}
         </div>
+      
+                  {% if yotpo %}
+               %%YOTPO-REVIEWS%%
+            {% endif %}
 
         {% include 'product-additional-content', section_id: section_id %}
       {% endif %}
