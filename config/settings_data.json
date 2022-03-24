@@ -121,6 +121,33 @@
           "button_link": "",
           "enable_button": false
         }
+      },
+      "google-product-reviews": {
+        "type": "google-product-reviews",
+        "settings": {
+        }
+      },
+      "yotpo": {
+        "type": "yotpo",
+        "settings": {
+          "reply_name": ""
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "image_position": "left",
+          "image_size": "medium",
+          "thumbnail_position": "beside",
+          "description_style": "default",
+          "social_enable": true,
+          "google_enable": false,
+          "yotpo_enable": true,
+          "related_enable": true,
+          "related_count": 5,
+          "recently_viewed_enable": true,
+          "recent_count": 5
+        }
       }
     },
     "content_for_index": [
