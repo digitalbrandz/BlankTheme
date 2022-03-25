@@ -159,7 +159,7 @@
           "description_style": "default",
           "social_enable": true,
           "google_enable": false,
-          "yotpo_enable": true,
+          "yotpo_enable": false,
           "related_enable": true,
           "related_count": 5,
           "recently_viewed_enable": true,
