@@ -202,12 +202,14 @@
           {{ product.description }}
         </div>
       
-            {% if yotpo %}
-               %%YOTPO-REVIEWS%%
-            {% endif %}
+  
 
         {% include 'product-additional-content', section_id: section_id %}
       {% endif %}
+      
+                {% if yotpo %}
+               %%YOTPO-REVIEWS%%
+            {% endif %}
     </div>
   </div>
 </div>
