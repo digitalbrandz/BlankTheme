@@ -461,7 +461,12 @@ stroke-opacity: 0;
 {{ section.settings.css }}
 {% endif %}   
 {% endstyle %}   
-<div class="text-center">
+<div
+  data-section-id="{{ section.id }}"
+  data-section-type="loader-section"
+  data-init="Loader_init_{{ section.id }}"     
+     
+     class="text-center">
           {% if section.settings.brand_logo_svg != '' %}
            {% if section.settings.trace %}
             {% assign svg = section.settings.brand_logo_svg | split: '<svg' %}  
