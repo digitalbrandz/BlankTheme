@@ -6528,6 +6528,7 @@ function dragPopup() {
         theme.init();
 
         window.sections = new theme.Sections();
+        sections.register('loader-section', theme.LoaderSection);
         sections.register('header-section', theme.HeaderSection);
         sections.register('slideshow-section', theme.SlideshowSection);
         sections.register('revslider-section', theme.RevSliderSection);
