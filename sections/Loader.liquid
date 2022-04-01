@@ -491,26 +491,8 @@ stroke-opacity: 0;
 
 {% if section.settings.trace %}
 <script>
-var callbackTrace = function(){
-  // Handler when the DOM is fully loaded
-  if(!window.Walkway) {
-   // add script
-    var script = document.createElement("script");
-    script.type = "text/javascript";   
-    script.src = 'https://cdn.jsdelivr.net/gh/ConnorAtherton/walkway/walkway.min.js';
-    document.getElementsByTagName("head")[0].appendChild(script);   
-  }
-};
 
-if (
-    document.readyState === "complete" ||
-    (document.readyState !== "loading" && !document.documentElement.doScroll)
-) {
-  callbackCollection();
-} else {
-  document.addEventListener("DOMContentLoaded", callbackTrace);
-}
-  
+
 function deferTrace(methodTrace) {
     if (window.Walkway) {
         methodTrace();
