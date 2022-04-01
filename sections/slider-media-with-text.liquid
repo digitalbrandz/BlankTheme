@@ -150,8 +150,11 @@ background-image:url({{ section.settings.background_image | img_url: '1024x1024'
             {% endunless %}
             {% endif %}
           </div>
-          <div class="text padding">
-            {{ block.settings.title }}
+          <div class="text padding feature-row__text--left">
+            <div class="title">
+              {{ block.settings.title }}
+            </div>
+            {{ block.settings.text }}
           </div>
         </div>
       </div>
@@ -295,6 +298,11 @@ background-image:url({{ section.settings.background_image | img_url: '1024x1024'
 },
 {
        "id": "title",
+       "type": "text",
+       "label": "title"
+},
+{
+       "id": "text",
        "type": "textarea",
        "label": "Text"
 }
