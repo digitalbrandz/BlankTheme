@@ -489,34 +489,6 @@ stroke-opacity: 0;
 </div>
 
 
-{% if section.settings.trace %}
-<script>
-
-//optional for loader tracing 
-var svgEl = document.querySelector('#shopify-section-Loader svg');  
-svgEl.classList.add('start');
-console.log(svgEl);
-  
-// Overwriting defaults
-var svg = new Walkway({
-  selector: '#shopify-section-Loader svg',
-  duration: '2000',
-  // can pass in a function or a string like 'easeOutQuint'
-  easing: function (t) {
-    return t * t;
-  }
-});
-
-svg.draw(function() {
-  svgEl.classList.add('fill');
-    window.draw = true; 
-});  
-  
-  
-  
-
-</script>
-{% endif %}
 <script>
   let loaded = sessionStorage.getItem('loaded');
   if(loaded) {
