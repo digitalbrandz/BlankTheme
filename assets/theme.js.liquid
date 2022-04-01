@@ -4424,7 +4424,7 @@ lazySizesConfig.expFactor = 4;
       LoaderSection.prototype = $.extend({}, LoaderSection.prototype, {
         init: function() {
           if ( typeof(window[this.loader_init]) !== 'undefined' ) window[this.loader_init]();
-          console.log(this.loader_init);
+          console.log(this.$container);
         }
       });
 	  //
