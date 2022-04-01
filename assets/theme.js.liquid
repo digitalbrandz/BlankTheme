@@ -4411,7 +4411,25 @@ lazySizesConfig.expFactor = 4;
     })();
   
   
-  
+    theme.loaders = {};
+
+    theme.LoaderSection = (function() {
+      function LoaderSection(container) {
+        var $container = this.$container = $(container);
+        var $section = $container.parent();
+        var sectionId = $container.attr('data-section-id');
+        var loader_init = this.loader_init = $container.attr('data-init');
+        this.init();
+      }
+      LoaderSection.prototype = $.extend({}, LoaderSection.prototype, {
+        init: function() {
+          if ( typeof(window[this.loader_init]) !== 'undefined' ) window[this.loader_init]();
+          console.log(this.loader_init);
+        }
+      });
+	  //
+      return LoaderSection;
+    })();
   
   
   
