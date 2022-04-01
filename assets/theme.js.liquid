@@ -4424,7 +4424,28 @@ lazySizesConfig.expFactor = 4;
       LoaderSection.prototype = $.extend({}, LoaderSection.prototype, {
         init: function() {
           if ( typeof(window[this.loader_init]) !== 'undefined' ) window[this.loader_init]();
-          console.log(this.$container);
+
+          
+var svgEl = this.$container.querySelector('#shopify-section-Loader svg');  
+svgEl.classList.add('start');
+console.log(svgEl);
+  
+// Overwriting defaults
+var svg = new Walkway({
+  selector: '#shopify-section-Loader svg',
+  duration: '2000',
+  // can pass in a function or a string like 'easeOutQuint'
+  easing: function (t) {
+    return t * t;
+  }
+});
+
+svg.draw(function() {
+  svgEl.classList.add('fill');
+    window.draw = true; 
+});  
+  
+          
         }
       });
 	  //
