@@ -4427,6 +4427,7 @@ lazySizesConfig.expFactor = 4;
 
           
 var svgEl = $(this.$container).find('svg')[0];  
+          if(svgEl && svgEl.classList.contains('trace')) {          
 console.log(svgEl);          
 svgEl.classList.add('start');
 console.log(svgEl);
@@ -4446,7 +4447,7 @@ svg.draw(function() {
     window.draw = true; 
 });  
   
-          
+          }
         }
       });
 	  //
