@@ -96,7 +96,9 @@ background-image:url({{ section.settings.background_image | img_url: '1024x1024'
           {% if section.settings.style == 'bars' %}
             data-dots="true"
             data-bars="true"
-          {% endif %}>    
+          {% endif %}
+         data-slidetext="true"
+       >    
       {% for block in section.blocks %}
       {% case block.type %}    
       {% when 'Slide' %}  
