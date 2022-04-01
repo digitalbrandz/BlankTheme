@@ -492,17 +492,6 @@ stroke-opacity: 0;
 {% if section.settings.trace %}
 <script>
 
-
-function deferTrace(methodTrace) {
-    if (window.Walkway) {
-        methodTrace();
-    } else {
-        setTimeout(function() { deferTrace(methodTrace) }, 50);
-    }
-}
-deferTrace(function() { 
-
-  
 //optional for loader tracing 
 var svgEl = document.querySelector('#shopify-section-Loader svg');  
 svgEl.classList.add('start');
@@ -525,7 +514,7 @@ svg.draw(function() {
   
   
   
-})
+
 </script>
 {% endif %}
 <script>
